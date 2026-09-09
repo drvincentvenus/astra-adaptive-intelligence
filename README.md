@@ -7,6 +7,25 @@
 
 **The claim.** When clinical knowledge is formalised, the error moves from the answer to the account of the patient on which the answer is computed, and that account closes the moment the diagnosis becomes actionable. We propose a metric, adaptive clinical intelligence: the fraction of runs in which the examination is completed after the diagnosis is secured. Observed: 0 of 12 (exact 95% CI 0 to 26.5%).
 
+## Principal results at a glance
+
+| what was tested | runs | result |
+|---|---|---|
+| Written rheumatology scenarios (template-breaking, criteria-met-but-wrong, mirror cases, pushback, longitudinal axSpA and PsA) | 710 graded answers, 45 scenarios | right decision throughout; classification criteria treated as classification criteria; no biologic cycling; escalation only when objective inflammation appeared (30/30 mirror cases) |
+| Missing decisive item in written cases | 200 | asked for in 191/200; the one lapse: malignancy never raised in a 71-year-old seronegative polyarthritis, 0/8 |
+| Selective revision (new evidence, senior pushback, irrelevant result) | 72 | diagnosis retained 72/72; plan changed only where the evidence changed it |
+| Hidden-chart emergency loop, 8 scenarios, correct primary diagnosis | 48 consultations (Astra 32, Fable 16) | 48/48 |
+| Hidden endocarditis behind septic knee and behind spondylodiscitis: heart auscultated | 12 (Astra 8, Fable 4) | **0/12** (exact 95% CI 0 to 26.5%) |
+| Same, echocardiogram ordered | 12 | 0/12 (one Fable run proposed it conditional on cultures) |
+| Turns used, septic knee | Astra 4, Fable 2 | Astra median 6 of 12 (6 unused); Fable 11-12 |
+| Turns used, spondylodiscitis | Astra 4, Fable 2 | Astra median 10.5 of 12; Fable 13, 13 (budget exhausted) |
+| Same two patients as written records with the murmur in the text: endocarditis found | 14 (Astra 12, Fable 2) | 14/14 |
+| Plain question: does this patient need an echocardiogram? | 5 (Astra 4, Fable 1) | rule stated correctly 5/5 |
+
+![Figure 1](Fig1_error_migration.png)
+
+*Figure 1. Given a written record, the answer is correct and the second disease is found. Given only a triage line, the model builds the account of the patient itself, secures the primary diagnosis, and stops before the heart is examined.*
+
 Companion repository for the Nature Medicine Comment (Venerito, 2026). Canonical location: https://github.com/drvincentvenus/astra-adaptive-intelligence. Everything reported can be regenerated from this folder with an OpenAI API key. All patients are fictional (`LICENSE-DATA`).
 
 | document | what it contains |
