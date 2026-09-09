@@ -502,6 +502,29 @@ Turns = doctor lines including the final decision; actions = turns minus one.
 
 **Fable 5.1 (Claude Code sub-agents)**: 16 runs, turns median 11.0 (range 7-13), actions before decision median 10.0.
 
+**Actions per scenario** (turns = doctor lines including the final decision; actions = turns minus one; budget 12).
+
+| scenario | model | n | median turns | median actions | range of turns | turns per run |
+|---|---|---|---|---|---|---|
+| L10_spondylodiscitis_vs_flare | Astra | 4 | 10.5 | 9.5 | 9-12 | 10, 12, 9, 11 |
+| L10_spondylodiscitis_vs_flare | Fable | 2 | 13.0 | 12.0 | 13-13 | 13, 13 |
+| L1_septic_vs_flare | Astra | 4 | 6.0 | 5.0 | 5-7 | 6, 6, 5, 7 |
+| L1_septic_vs_flare | Fable | 2 | 11.5 | 10.5 | 11-12 | 12, 11 |
+| L2_pe_in_fm | Astra | 4 | 12.0 | 11.0 | 10-12 | 10, 12, 12, 12 |
+| L2_pe_in_fm | Fable | 2 | 11.0 | 10.0 | 10-12 | 10, 12 |
+| L3_gca_in_pmr | Astra | 4 | 5.5 | 4.5 | 3-7 | 5, 3, 7, 6 |
+| L3_gca_in_pmr | Fable | 2 | 11.0 | 10.0 | 10-12 | 10, 12 |
+| L5_pjp_on_mtx | Astra | 4 | 11.0 | 10.0 | 11-12 | 11, 11, 12, 11 |
+| L5_pjp_on_mtx | Fable | 2 | 12.0 | 11.0 | 12-12 | 12, 12 |
+| L7_tocilizumab_abdomen | Astra | 4 | 5.0 | 4.0 | 4-5 | 4, 5, 5, 5 |
+| L7_tocilizumab_abdomen | Fable | 2 | 10.5 | 9.5 | 10-11 | 10, 11 |
+| L8_atlantoaxial | Astra | 4 | 6.5 | 5.5 | 4-7 | 7, 6, 4, 7 |
+| L8_atlantoaxial | Fable | 2 | 10.5 | 9.5 | 10-11 | 11, 10 |
+| L9_dactylitis_vs_trauma | Astra | 4 | 8.0 | 7.0 | 7-8 | 7, 8, 8, 8 |
+| L9_dactylitis_vs_trauma | Fable | 2 | 7.5 | 6.5 | 7-8 | 7, 8 |
+
+**Rubric keys per scenario**
+
 | scenario | key | Astra true/n | Fable true/n |
 |---|---|---|---|
 | L10_spondylodiscitis_vs_flare | `asked_how_pain_differs_from_usual` | 4/4 | 2/2 |

@@ -121,7 +121,13 @@ fable=json.load(open("exp_loop_fable_results.json"))+json.load(open("exp_loop_L1
 M.append("\n### 11. Interactive emergency loop, hidden chart, doctor must ask (`exp_loop.py`, `sim.py`, `judge_fable.py`)\n\nTurns = doctor lines including the final decision; actions = turns minus one.\n")
 for lab,rows in [("Astra (API)",astra),("Fable 5.1 (Claude Code sub-agents)",fable)]:
     t=[r["turns"] for r in rows]; M.append(f"**{lab}**: {len(rows)} runs, turns median {statistics.median(t)} (range {min(t)}-{max(t)}), actions before decision median {statistics.median([x-1 for x in t])}.\n")
-M.append("| scenario | key | Astra true/n | Fable true/n |\n|---|---|---|---|")
+M.append("**Actions per scenario** (turns = doctor lines including the final decision; actions = turns minus one; budget 12).\n\n| scenario | model | n | median turns | median actions | range of turns | turns per run |\n|---|---|---|---|---|---|---|")
+for cse in sorted(set(r["case"] for r in astra)):
+    for lab,rows in [("Astra",astra),("Fable",fable)]:
+        tt=[r["turns"] for r in rows if r["case"]==cse]
+        if tt: M.append(f"| {cse} | {lab} | {len(tt)} | {statistics.median(tt)} | {statistics.median([x-1 for x in tt])} | {min(tt)}-{max(tt)} | {', '.join(str(x) for x in tt)} |")
+M.append("")
+M.append("**Rubric keys per scenario**\n\n| scenario | key | Astra true/n | Fable true/n |\n|---|---|---|---|")
 cases_=sorted(set(r["case"] for r in astra))
 for cse in cases_:
     A=tally([r for r in astra if r["case"]==cse], lambda r:r["judge"]); F=tally([r for r in fable if r["case"]==cse], lambda r:r["judge"])
