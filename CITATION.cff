@@ -5,7 +5,16 @@ type: software
 authors:
   - family-names: Venerito
     given-names: Vincenzo
-    affiliation: "Rheumatology Unit, University of Bari Aldo Moro, Bari, Italy"
+    affiliation: "Rheumatology Unit, DiMePRe-J, University of Bari Aldo Moro, Bari, Italy"
+  - family-names: Lopalco
+    given-names: Giuseppe
+    affiliation: "Rheumatology Unit, DiMePRe-J, University of Bari Aldo Moro, Bari, Italy"
+  - family-names: Iannone
+    given-names: Florenzo
+    affiliation: "Rheumatology Unit, DiMePRe-J, University of Bari Aldo Moro, Bari, Italy"
+  - family-names: Gupta
+    given-names: Latika
+    affiliation: "Royal Wolverhampton Hospitals NHS Trust and University of Manchester, UK"
 date-released: 2026-09-09
 version: 1.0-submission
 license: MIT
