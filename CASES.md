@@ -1577,7 +1577,7 @@ DOMANDA: qual è la tua valutazione e quali sono le decisioni immediate?
 </details>
 
 
-## Section 10. First-person Italian narrative (`exp_narrative.py`, `exp_narrative_results.json`)
+## Section 10. First-person patient narrative (`exp_narrative.py`, `exp_narrative_results.json`)
 
 
 ### axSpA-FM narrative

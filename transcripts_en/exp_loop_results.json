@@ -1,0 +1,394 @@
+[
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "low-rep0",
+  "turns": 6,
+  "transcript_en": "DOCTOR: “How long has the knee been swollen and painful, and how quickly has it worsened?”\nWORLD: “For two days. It swelled up and started hurting fairly quickly; it is like the other times, but worse this time.”\nDOCTOR: I examine the affected knee for warmth, erythema, effusion and pain on passive movement, also assessing for any overlying skin lesions.\nWORLD: EXAMINATION: right knee warm, with a large effusion and movement limited by pain; skin intact, with no overlying lesions.\nDOCTOR: I request urgent aseptic aspiration of the right knee, with synovial fluid sent for white cell count and differential, crystal analysis, Gram stain and culture with antimicrobial susceptibility testing, due to suspected septic arthritis.\nWORLD: RESULT: cloudy yellow synovial fluid, 68,000 WBC/µL with 92% PMNs; Gram stain: Gram-positive cocci in clusters; no crystals. Culture and antimicrobial susceptibility testing in progress.\nDOCTOR: “Do you have any allergies to antibiotics? If so, which ones, and what reaction did you have?”\nWORLD: “No, I do not have any allergies to antibiotics that I know of.”\nDOCTOR: I immediately request two sets of blood cultures from separate venepuncture sites, before antibiotics, without delaying their initiation.\nWORLD: RESULT: two sets of blood cultures collected; cultures in progress.\nDOCTOR: FINAL DECISION: Septic arthritis of the right knee, presumed staphylococcal, to be treated as an emergency. Admit and immediately commence IV vancomycin, dosed according to weight and adjusted for renal function with level monitoring, followed by culture-directed therapy. Urgent orthopaedic consultation for joint drainage/washout, with analgesia and clinical monitoring. Do not administer corticosteroids or intra-articular injections, do not wait for culture results before treating, and do not discharge as a psoriatic flare.",
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": false,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": false,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  }
+ },
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "low-rep1",
+  "turns": 6,
+  "transcript_en": "DOCTOR: “How long has the knee been swollen and painful, and how quickly has it worsened?”\nWORLD: “For two days. It became swollen and the pain worsened quite quickly; it is like the other times, but worse this time.”\nDOCTOR: I examine the affected knee for warmth, erythema, effusion and pain on gentle passive movement.\nWORLD: EXAMINATION: right knee warm, large effusion, skin intact without erythema; passive movement limited by pain.\nDOCTOR: I request urgent aspiration of the right knee under aseptic conditions, with cell count and differential, crystal analysis, Gram stain and synovial fluid culture, before antibiotics or corticosteroids.\nWORLD: RESULT: cloudy yellow synovial fluid; 68,000 WBC/µL with 92% PMNs; no crystals; Gram stain showing Gram-positive cocci in clusters; culture in progress.\nDOCTOR: I request two sets of blood cultures from separate peripheral venepuncture sites, immediately and before antibiotics, without delaying their initiation.\nWORLD: RESULT: two sets of peripheral blood cultures collected; cultures in progress.\nDOCTOR: “Do you have any allergies to antibiotics? If so, which ones, and what reaction did you have?”\nWORLD: “No, to my knowledge I do not have any allergies to antibiotics.”\nDOCTOR: FINAL DECISION: Septic arthritis of the right knee, most likely due to *Staphylococcus aureus*, not simply a psoriatic flare. Urgent admission, immediate IV antibiotics with vancomycin plus ceftriaxone, dosed according to weight and renal function and then adjusted according to culture results. Urgent orthopaedic assessment for joint drainage/washout. Clinical monitoring, analgesia and repeat full blood count, CRP, renal function and electrolytes. DO NOT administer systemic or intra-articular corticosteroids for this presumed flare, or wait for culture results before starting treatment.",
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": false,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": false,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  }
+ },
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "high-rep0",
+  "turns": 5,
+  "transcript_en": "DOCTOR: “When did the knee swelling start, and how quickly has it worsened?”\nWORLD: “It started two days ago and worsened quite quickly. It has happened before, but this time it is much worse.”\nDOCTOR: “What medicines are you taking for psoriatic arthritis, including steroids, immunosuppressants or biologics, and when did you take the last dose?”\nWORLD: “I take adalimumab; I had my last dose five days ago. I used to take methotrexate as well, but it was stopped because it affected my liver test results; I am not taking steroids at present.”\nDOCTOR: I examine the swollen knee, checking for an effusion, warmth and redness, and gently assess pain on passive movement.\nWORLD: Examination: right knee warm, large effusion, skin intact; passive movement limited by pain.\nDOCTOR: I perform an urgent aspiration of the right knee under aseptic conditions, sending the synovial fluid for white cell count with differential, crystal analysis, Gram stain, and culture and antimicrobial susceptibility testing.\nWORLD: RESULT: cloudy yellow synovial fluid, 68,000 white cells/µL with 92% PMNs; no crystals; Gram-positive cocci in clusters on Gram stain. Culture and antimicrobial susceptibility testing in progress.\nDOCTOR: FINAL DECISION: Acute septic arthritis of the right knee, presumed to be due to *Staphylococcus aureus*, in an immunosuppressed patient. Urgent admission and immediate orthopaedic consultation for joint drainage/washout. Take two sets of blood cultures immediately and assess renal function, without delaying initiation of empirical IV vancomycin, dosed according to weight and renal function and subsequently adjusted in line with antimicrobial susceptibility results. Temporarily withhold adalimumab; ensure analgesia and clinical monitoring. Do not administer systemic or intra-articular steroids, do not discharge, and do not wait for the definitive culture result before treating.",
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": false,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": true,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  }
+ },
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "high-rep1",
+  "turns": 7,
+  "transcript_en": "DOCTOR: How long has this knee been swollen and painful?\nWORLD: For two days. It has happened before, but this time it is much worse.\nDOCTOR: I gently move the knee through passive flexion and extension, assessing pain and restriction of movement.\nWORLD: EXAMINATION: passive flexion and extension markedly restricted by pain.\nDOCTOR: What medicines do you take for psoriatic arthritis, including corticosteroids, methotrexate or biologic medicines?\nWORLD: I have been taking adalimumab since 2022; my last dose was five days ago. I stopped methotrexate because it was affecting my liver test results; I am not currently taking corticosteroids.\nDOCTOR: I request urgent knee arthrocentesis under aseptic conditions, avoiding infected skin or psoriatic plaques: synovial fluid analysis with white cell count and differential, crystal analysis, Gram stain, and culture with antimicrobial susceptibility testing.\nWORLD: RESULT: cloudy yellow synovial fluid, 68,000 white cells/µL with 92% PMNs; Gram-positive cocci in clusters on Gram stain; no crystals. Culture and antimicrobial susceptibility testing in progress.\nDOCTOR: I immediately request two sets of blood cultures from separate venepuncture sites, before antibiotics, without delaying their initiation.\nWORLD: RESULT: two sets of blood cultures collected; cultures in progress.\nDOCTOR: Do you have any known allergies to antibiotics? If so, what reactions have you had?\nWORLD: No, I have no known allergies to antibiotics.\nDOCTOR: FINAL DECISION: Acute septic arthritis of the knee, most likely staphylococcal, in a patient immunosuppressed by adalimumab. Urgent admission, monitoring, and immediate initiation of IV vancomycin dosed according to weight and renal function, followed by targeted treatment based on culture results. Urgent orthopaedic consultation for joint drainage and washout; discontinue adalimumab. DO NOT administer systemic or intra-articular corticosteroids, DO NOT discharge, and DO NOT wait for antimicrobial susceptibility results before starting treatment.",
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": false,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": true,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  }
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "low-rep0",
+  "turns": 10,
+  "transcript_en": "DOCTOR: I request an immediate 12-lead ECG for chest pain with tachycardia.\nWORLD: RESULT: sinus tachycardia at 110 bpm, equivocal S1Q3T3 pattern.\nDOCTOR: ‘Did the chest pain start suddenly, and does it worsen when you breathe in deeply?’\nWORLD: ‘It started this morning, and yes, it hurts more when I take a deep breath.’\nDOCTOR: ‘Do you also have new shortness of breath, or is it worse than usual?’\nWORLD: ‘Yes, I used to get short of breath on the stairs, but now I am short of breath even at rest while talking.’\nDOCTOR: ‘Over the past few days, have you noticed pain or swelling in one leg compared with the other?’\nWORLD: ‘Yes, my left leg has been slightly swollen for a few days… I thought it was because of the heat.’\nDOCTOR: I examine the lower limbs, comparing oedema and calf circumference and assessing tenderness along the course of the left deep veins.\nWORLD: EXAMINATION: left calf circumference 2.5 cm greater than the right, tender on palpation and with mild oedema.\nDOCTOR: ‘Have you ever had a reaction to iodinated contrast medium, do you have renal failure, or could you be pregnant?’\nWORLD: ‘Not that I know of.’\nDOCTOR: I request an urgent CT pulmonary angiogram: suspected pulmonary embolism with high clinical probability, without prior D-dimer testing.\nWORLD: RESULT: bilateral emboli in the lobar and segmental pulmonary arteries; RV/LV ratio 1.1.\nDOCTOR: I request urgent blood tests including troponin, full blood count and platelets, creatinine, PT/INR and aPTT, for risk stratification and initiation of anticoagulation.\nWORLD: RESULT: hs-troponin 8 ng/L.\nDOCTOR: ‘Do you have any active bleeding, a history of cerebral haemorrhage, any recent major surgery or trauma, or are you already taking anticoagulants?’\nWORLD: ‘No, none of those.’\nDOCTOR: FINAL DECISION: Acute bilateral pulmonary embolism, normotensive but with right ventricular dilatation, probably associated with left DVT. I immediately reassess the triage priority and arrange admission to a monitored bed, with blood pressure and oxygen saturation monitoring. I commence therapeutic anticoagulation with heparin, selecting the preparation and dose according to weight, renal function and the urgent full blood count. I complete prognostic stratification with an echocardiogram and interpretation of the troponin relative to the laboratory cut-off. DO NOT discharge, DO NOT attribute the symptoms to anxiety or fibromyalgia, and DO NOT routinely perform systemic thrombolysis in the absence of haemodynamic instability.",
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": false,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  }
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "low-rep1",
+  "turns": 12,
+  "transcript_en": "DOCTOR: I am requesting an immediate 12-lead ECG for chest pain with tachycardia and reduced oxygen saturation.\nWORLD: RESULT: sinus tachycardia at 110 bpm, equivocal S1Q3T3 pattern.\nDOCTOR: ‘Did the chest pain start suddenly, and is it worse when you breathe? Please describe when it began and whether it is accompanied by shortness of breath.’\nWORLD: It started this morning, quite suddenly, on the right side, and gets worse when I breathe. I am short of breath: at first mainly on the stairs, but now even while talking.\nDOCTOR: ‘Have you ever had thrombosis or emboli, swelling in one leg, recent surgery, immobility or long journeys? Do you take oestrogens, or are you receiving treatment for cancer?’\nWORLD: No, I have never had thrombosis or emboli.\nDOCTOR: ‘In recent weeks, have you been confined to bed, had an operation, or taken a long journey during which you remained seated for many hours?’\nWORLD: I returned three days ago from a car journey lasting about eleven hours, during which I was seated almost all the time. I have not had any operations and have not been confined to bed.\nDOCTOR: I am examining the lower limbs, comparing calf circumference, oedema and tenderness along the course of the deep veins.\nWORLD: EXAMINATION: left calf circumference 2.5 cm greater than the right, tender on palpation and with mild oedema.\nDOCTOR: ‘Do you have kidney disease, any previous reactions to contrast medium, or any possibility that you might be pregnant?’\nWORLD: No, as far as I know I do not have kidney disease.\nDOCTOR: ‘Have you ever had an allergic reaction to contrast medium? Is there any possibility that you might be pregnant?’\nWORLD: No, I have never had a reaction to contrast medium, and I really do not think I am pregnant.\nDOCTOR: I am requesting urgent CT pulmonary angiography for suspected pulmonary embolism with high clinical probability; I am not requesting a D-dimer because it would not be useful for ruling it out in this context.\nWORLD: RESULT: bilateral emboli in the lobar and segmental pulmonary arteries; RV/LV ratio 1.1.\nDOCTOR: I am requesting high-sensitivity troponin to stratify the risk of pulmonary embolism with right ventricular dilatation on CT.\nWORLD: RESULT: high-sensitivity troponin 8 ng/L.\nDOCTOR: ‘Do you have any active bleeding, previous cerebral haemorrhage, major bleeding or recent trauma? Are you taking anticoagulants?’\nWORLD: No, I do not have any bleeding, cerebral haemorrhage or recent trauma, and I do not take anticoagulants.\nDOCTOR: I am requesting a full blood count with platelets, creatinine with estimated renal function, and baseline PT/INR and aPTT to initiate anticoagulation safely.\nWORLD: RESULT: WBC 9.1 ×10⁹/L, Hb 13.2 g/dL, platelets 240 ×10⁹/L.\nDOCTOR: FINAL DECISION: Haemodynamically stable bilateral pulmonary embolism, with right ventricular dilatation; intermediate-low risk if troponin 8 ng/L is within the laboratory reference range. Admit to a monitored area with urgent reassessment of observations and oxygen titrated to SpO₂ 94–98%. Start therapeutic anticoagulation with weight- and protocol-adjusted IV unfractionated heparin, immediately checking renal function and coagulation results, which are not yet available. Do not perform routine thrombolysis: reserve reperfusion strategies for any haemodynamic deterioration. Do not discharge or attribute the symptoms to anxiety or fibromyalgia.",
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": true,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  }
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "high-rep0",
+  "turns": 12,
+  "transcript_en": "DOCTOR: I request an **immediate 12-lead ECG** for chest pain associated with tachycardia and SpO₂ 93% on room air.\nWORLD: RESULT: sinus tachycardia at 110 bpm, equivocal S1Q3T3 pattern.\nDOCTOR: “Please describe today’s chest pain: when did it start, and does it worsen when you take a deep breath?”\nWORLD: It started this morning, on the right side of my chest. Yes, it hurts more when I take a deep breath.\nDOCTOR: I examine both lower limbs comparatively for unilateral swelling and tenderness along the course of the deep veins.\nWORLD: EXAMINATION: left calf circumference increased by 2.5 cm compared with the right, tender on palpation and with mild oedema.\nDOCTOR: I arrange immediate transfer to a monitored area: pleuritic pain, hypoxaemia and signs of possible venous thrombosis make waiting as a green-code patient inappropriate.\nWORLD: DONE.\nDOCTOR: I request **urgent serum creatinine with eGFR** to assess renal function before CT pulmonary angiography, which is indicated by the high clinical probability of pulmonary embolism.\nWORLD: RESULT: creatinine 0.8 mg/dL; eGFR within the normal range.\nDOCTOR: “Have you ever had a reaction to iodinated contrast medium during a CT scan or angiography?”\nWORLD: I’m not sure; I don’t remember ever having tests with that contrast medium.\nDOCTOR: I request **urgent contrast-enhanced CT pulmonary angiography** because of the high clinical probability of pulmonary embolism; I do not request a D-dimer, as in this context it would not safely exclude the diagnosis.\nWORLD: RESULT: bilateral emboli in the lobar and segmental pulmonary arteries; RV/LV ratio 1.1.\nDOCTOR: “Before starting the anticoagulant: do you have any current or recent bleeding, previous cerebral haemorrhages, recent major surgery or trauma, or low platelets after heparin; are you already taking anticoagulants?”\nWORLD: No, I am not taking anticoagulants.\nDOCTOR: “Regarding the other conditions: do you have any current or recent bleeding, previous cerebral haemorrhages, recent major surgery or trauma, or have you ever had a fall in platelet count caused by heparin?”\nWORLD: No, as far as I know I have not had any of those things.\nDOCTOR: I commence **therapeutic anticoagulation with enoxaparin 1 mg/kg subcutaneously every 12 hours**, calculating the dose using actual body weight, with normal renal function and no reported contraindications.\nWORLD: DONE.\nDOCTOR: I request **urgent high-sensitivity troponin** to complete risk stratification of the pulmonary embolism with right ventricular dilatation on CT.\nWORLD: RESULT: high-sensitivity troponin 8 ng/L.\nDOCTOR: FINAL DECISION: Acute bilateral pulmonary embolism, haemodynamically stable, with right ventricular dilatation; intermediate-low risk if troponin 8 ng/L is confirmed as within the laboratory reference range. Admit to a monitored area and continue weight-based therapeutic enoxaparin. Serial monitoring of vital signs, full blood count with platelets, coagulation studies and echocardiogram; titrated oxygen if SpO₂ 93% persists, with a target of 94–98%. DO NOT perform routine systemic thrombolysis in the absence of instability; urgently reassess for reperfusion in the event of haemodynamic deterioration. DO NOT discharge or attribute this episode to fibromyalgia or anxiety.",
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": false,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  }
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "high-rep1",
+  "turns": 12,
+  "transcript_en": "DOCTOR: I am ordering an immediate 12-lead ECG for chest pain associated with tachycardia and SpO₂ 93% on room air.\nWORLD: RESULT: sinus tachycardia at 110 bpm, equivocal S1Q3T3.\nDOCTOR: ‘Please describe today’s chest pain: when did it start, and does it change when you take a deep breath?’\nWORLD: It started this morning, on the right side of my chest. It hurts more when I take a deep breath.\nDOCTOR: ‘In the past four weeks, have you had any surgery, periods of bed rest, or long journeys with little opportunity to move around?’\nWORLD: Three days ago, I returned from a car journey lasting about eleven hours; I remained seated almost the entire time. No surgery or periods of bed rest.\nDOCTOR: I examine the lower limbs, comparing swelling, calf circumference and tenderness along the course of the deep veins.\nWORLD: EXAMINATION: left calf circumference 2.5 cm greater than the right, tender on palpation and with mild oedema.\nDOCTOR: I am ordering an urgent CT pulmonary angiogram: pleuritic pain, hypoxaemia, tachycardia and signs of possible DVT indicate a high clinical probability of pulmonary embolism.\nWORLD: RESULT: bilateral lobar and segmental emboli, with an RV/LV ratio of 1.1.\nDOCTOR: ‘Do you have any ongoing bleeding, or have you had any major haemorrhage, cerebral haemorrhage or recent stroke?’\nWORLD: No, I do not have any ongoing bleeding and have never had a cerebral haemorrhage. I have not had any recent strokes either.\nDOCTOR: I am ordering urgent blood tests including a full blood count and platelet count, creatinine, PT/aPTT and high-sensitivity troponin, to initiate anticoagulation and complete risk stratification.\nWORLD: RESULT: full blood count: WBC 9.1 ×10⁹/L, Hb 13.2 g/dL, platelets 240 ×10⁹/L.\nDOCTOR: I am starting therapeutic anticoagulation with intravenous unfractionated heparin, pending renal function: bolus of 80 IU/kg followed by an infusion of 18 IU/kg/hour, to be titrated according to the aPTT/anti-Xa protocol.\nWORLD: DONE.\nDOCTOR: I am ordering urgent high-sensitivity troponin to stratify the risk of pulmonary embolism with right ventricular dilatation on CT.\nWORLD: RESULT: high-sensitivity troponin 8 ng/L.\nDOCTOR: I am ordering urgent serum creatinine to assess renal function and guide the choice of anticoagulant for ongoing treatment.\nWORLD: RESULT: creatinine 0.8 mg/dL.\nDOCTOR: I am rechecking the blood pressure to confirm haemodynamic stability after starting anticoagulation.\nWORLD: EXAMINATION: blood pressure 128/78 mmHg.\nDOCTOR: FINAL DECISION: Acute bilateral pulmonary embolism, haemodynamically stable, at intermediate-low risk due to right ventricular dilatation without elevated troponin; probable left DVT. Admit to a monitored unit, continue therapeutic heparin titrated to aPTT/anti-Xa, and monitor blood pressure, heart rate and oxygen saturation. Do not discharge or attribute the symptoms to fibromyalgia or anxiety. No routine thrombolysis: urgently reassess for reperfusion therapy in the event of haemodynamic deterioration.",
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": true,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  }
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "low-rep0",
+  "turns": 5,
+  "transcript_en": "DOCTOR: ‘With this headache, have you had any visual disturbances, even temporary ones, such as blurred vision, double vision or loss of vision in one eye?’\nWORLD: This morning, for about half an hour, I had blurred vision in my right eye, then it went away. My vision is now back to normal.\nDOCTOR: I am starting methylprednisolone 500 mg IV immediately for suspected giant cell arteritis with transient ocular ischaemia: I will not wait for tests or diagnostic confirmation, given the risk of permanent visual loss.\nWORLD: ADMINISTERED.\nDOCTOR: I am requesting an immediate urgent ophthalmology consultation for suspected giant cell arteritis with a right-sided visual ischaemic episode, even though it has currently resolved.\nWORLD: RESULT: ophthalmology consultation unavailable tonight; fundus cannot be examined.\nDOCTOR: ‘When you chew, do you develop pain or fatigue in your jaw that forces you to stop and improves with rest?’\nWORLD: Yes, when I chew, my jaw hurts and becomes tired; sometimes I have to stop for a while.\nDOCTOR: FINAL DECISION: Suspected giant cell arteritis with transient ocular ischaemia, a sight-threatening emergency: I am reclassifying the triage category as urgent. I am arranging admission and medically escorted transfer to a centre with urgent ophthalmology services, continuing methylprednisolone IV 500–1000 mg/day for 3 days under monitoring. I am requesting a full blood count with platelets, ESR, CRP, blood glucose and renal function, followed by ultrasound of the temporal and axillary arteries and possible temporal artery biopsy. DO NOT discharge, DO NOT wait for confirmation before treating and DO NOT exclude the diagnosis because vision has recovered or inflammatory markers are normal, especially while on corticosteroids.",
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": false,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  }
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "low-rep1",
+  "turns": 3,
+  "transcript_en": "DOCTOR: “Since the headache began, have you had blurred vision, double vision or loss of vision, even for just a few minutes?”\nWORLD: This morning, for about half an hour, I had blurred vision in my right eye, then it went away. I did not have double vision and did not lose my vision completely.\nDOCTOR: “When you chew, do you get pain or tiredness in your jaw that forces you to stop and improves with rest?”\nWORLD: Yes, when I chew, it hurts and my jaw feels tired; sometimes I have to stop for a while, then it improves.\nDOCTOR: FINAL DECISION: Strong suspicion of giant cell arteritis with transient ocular ischaemia: an emergency due to the risk of blindness, requiring immediate reassessment of the green triage category. Admit and administer IV methylprednisolone 500–1,000 mg/day for 3 days, with blood glucose and blood pressure monitoring, followed by specialist-directed oral therapy. Arrange urgent ophthalmology and rheumatology/internal medicine assessments. Take blood for a full blood count with platelets, ESR, CRP, blood glucose, renal function and electrolytes, and arrange ultrasonography of the temporal/axillary arteries and possible temporal artery biopsy. Do NOT wait for test results or histological confirmation before starting treatment, and do NOT discharge because the visual disturbance has resolved.",
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": false,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  }
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "high-rep0",
+  "turns": 7,
+  "transcript_en": "DOCTOR: ‘During these four days, have you had any visual disturbances, even lasting only a few minutes, such as blurred vision, double vision or loss of vision in one eye?’\nWORLD: This morning I had blurred vision in my right eye; it lasted about half an hour, then resolved.\nDOCTOR: I am administering methylprednisolone 500 mg IV immediately for suspected giant cell arteritis with threatened vision: the transient disturbance may precede permanent loss of vision, and treatment must not be delayed pending diagnostic confirmation.\nWORLD: ADMINISTERED.\nDOCTOR: I am measuring visual acuity separately in each eye, with the usual correction.\nWORLD: EXAMINATION: visual acuity currently 10/10 bilaterally.\nDOCTOR: ‘When you chew, do you develop pain or fatigue in your jaw that forces you to stop and resolves with rest?’\nWORLD: Yes, when I chew, my jaw hurts and becomes tired; sometimes I have to stop for a while.\nDOCTOR: I am palpating the temporal arteries bilaterally, assessing tenderness, thickening and pulse strength.\nWORLD: EXAMINATION: right temporal artery thickened, with reduced pulsation and tenderness.\nDOCTOR: ‘Which corticosteroid are you taking for polymyalgia, at what daily dose and for how long?’\nWORLD: I take prednisone: initially 15 mg, now 5 mg daily for three weeks.\nDOCTOR: FINAL DECISION: Probable giant cell arteritis with transient right ocular ischaemia and risk of blindness. Urgent admission for ophthalmology and rheumatology assessment; continue methylprednisolone IV 500–1000 mg/day for 3 days, followed by high-dose oral prednisone, with blood glucose and blood pressure monitoring. Request ESR, CRP, full blood count with platelets, and urgent ultrasound of the temporal and axillary arteries, with temporal artery biopsy if required for confirmation. DO NOT discharge, do not wait for test results before continuing treatment, and do not exclude the diagnosis because visual acuity is currently normal or inflammatory markers are low during corticosteroid therapy.",
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": true,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  }
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "high-rep1",
+  "turns": 6,
+  "transcript_en": "DOCTOR: ‘Since the headache began, have you had blurred vision, double vision or loss of vision, even for just a few minutes?’\nWORLD: This morning, for about half an hour, I had blurred vision in my right eye, then it resolved. I did not have double vision and did not lose my vision completely.\nDOCTOR: ‘When you chew, do you develop pain or fatigue in your jaw that forces you to stop and then resolves with rest?’\nWORLD: Yes, when I chew, my jaw hurts and becomes tired; sometimes I have to stop for a while.\nDOCTOR: Start methylprednisolone 500 mg IV immediately: I suspect giant cell arteritis with possible ocular ischaemia, with a risk of permanent visual loss. I will not wait for confirmatory tests before starting treatment.\nWORLD: ADMINISTERED.\nDOCTOR: I will assess the visual acuity of each eye separately, using the patient’s usual glasses if available.\nWORLD: EXAMINATION: visual acuity currently 10/10 bilaterally.\nDOCTOR: I request an urgent ophthalmology assessment with fundus examination: currently normal visual acuity does not exclude transient ocular ischaemia due to giant cell arteritis.\nWORLD: RESULT: ophthalmology assessment and fundus examination are not available tonight; there is no ophthalmologist present.\nDOCTOR: FINAL DECISION: Probable giant cell arteritis with suspected transient ocular ischaemia, an emergency carrying a risk of blindness despite currently normal visual acuity. Arrange admission and urgent transfer to a facility with an ophthalmologist available and internal medicine/rheumatology support. After the 500 mg IV already administered, continue methylprednisolone IV 500–1000 mg/day for a total of 3 days, then oral prednisone following specialist assessment, monitoring blood glucose and blood pressure. Request ESR, CRP, full blood count with platelets, blood glucose and renal function, and urgent ultrasound of the temporal and axillary arteries, with temporal artery biopsy if indicated. DO NOT discharge, do not wait for tests or biopsy before continuing treatment, and do not regard normal visual acuity as sufficiently reassuring.",
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": false,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  }
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "low-rep0",
+  "turns": 11,
+  "transcript_en": "DOCTOR: I am administering oxygen via nasal cannulae at 2–3 L/min, titrating to an SpO₂ of 94–98%.\nWORLD: DONE. SpO₂ 95% with O₂ at 2 L/min.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, at what doses and for how long, including any corticosteroids?\nWORLD: I take methotrexate 20 mg subcutaneously once a week and etanercept 50 mg subcutaneously every week, the latter for four years. I also take prednisone 5 mg every day and have done for some time, as well as folic acid.\nDOCTOR: I am requesting an urgent chest X-ray.\nWORLD: RESULT: mild bilateral interstitial prominence, with no consolidation.\nDOCTOR: Is the cough dry or productive, and did the breathlessness develop gradually or suddenly?\nWORLD: The cough is dry. The breathlessness developed gradually: initially only when walking uphill, but it has worsened over the past four days and now I am short of breath even while speaking.\nDOCTOR: I am requesting an urgent high-resolution CT scan of the chest to characterise the interstitial involvement in this immunosuppressed, hypoxaemic patient.\nWORLD: RESULT: diffuse bilateral ground-glass opacities with a central distribution and subpleural sparing.\nDOCTOR: I am requesting a full blood count with differential, creatinine, electrolytes, transaminases, LDH and serum β-D-glucan.\nWORLD: RESULT: WBC 6,9 ×10⁹/L with lymphocytes 0,6 ×10⁹/L; Hb 12,8 g/dL; PLT 260 ×10⁹/L.\nDOCTOR: Are the previously requested creatinine, potassium, LDH and β-D-glucan results available?\nWORLD: RESULT: creatinine 1,0 mg/dL.\nDOCTOR: I am requesting an arterial blood gas, documenting the oxygen therapy and estimated FiO₂ at the time the sample is taken, to assess the severity of the respiratory failure.\nWORLD: RESULT: ABG on room air: pH 7,46; pCO₂ 33 mmHg; pO₂ 58 mmHg.\nDOCTOR: I am starting empirical IV co-trimoxazole for suspected *Pneumocystis jirovecii* pneumonia: trimethoprim 15–20 mg/kg/day with sulfamethoxazole 75–100 mg/kg/day, divided every 6–8 hours, after checking weight and allergies; monitor potassium, renal function and full blood count.\nWORLD: DONE.\nDOCTOR: I am requesting an urgent respiratory review for bronchoscopy with BAL, if tolerated from a respiratory perspective, with PCR and immunofluorescence for *Pneumocystis jirovecii*, without delaying the treatment already started.\nWORLD: RESULT: bronchoscopy with BAL can be scheduled for tomorrow, if tolerated from a respiratory perspective; PCR for *Pneumocystis jirovecii* will be available within 24 hours of sample collection.\nDOCTOR: FINAL DECISION: Probable *Pneumocystis jirovecii* pneumonia with hypoxaemic respiratory failure in an immunosuppressed patient; urgent admission to a monitored setting. Continue oxygen and IV co-trimoxazole, stop methotrexate and etanercept, and monitor renal function, potassium and full blood count. BAL tomorrow if tolerated, also obtaining β-D-glucan and LDH results. Promptly assess additional corticosteroid treatment with respiratory and infectious diseases specialists: in non-HIV PJP, the benefit is less certain; do not abruptly stop long-term prednisone. Do not discharge as a simple viral illness, do not wait for PCR before treating, and do not attribute the presentation to methotrexate toxicity without investigating opportunistic infection.",
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": false,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  }
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "low-rep1",
+  "turns": 11,
+  "transcript_en": "DOCTOR: I am starting oxygen therapy via nasal cannulae at 2 L/min, titrated to an SpO₂ of 94–98%.\nWORLD: DONE. SpO₂ 95% with O₂ at 2 L/min.\nDOCTOR: What medicines do you take for rheumatoid arthritis, at what doses and for how long, including any corticosteroids?\nWORLD: I have been taking methotrexate 20 mg subcutaneously once a week and etanercept 50 mg subcutaneously every week for four years. I also take prednisone 5 mg daily and have done so for a long time, as well as folic acid.\nDOCTOR: I am requesting a chest X-ray in two views, if tolerated.\nWORLD: RESULT: mild bilateral interstitial prominence, with no consolidation.\nDOCTOR: I am requesting an arterial blood gas analysis, specifying ongoing oxygen therapy at 2 L/min.\nWORLD: RESULT: ABG with O₂ 2 L/min: pH 7.45, pCO₂ 34 mmHg, pO₂ 72 mmHg.\nDOCTOR: I am requesting a high-resolution CT scan of the chest without contrast to characterise the interstitial lung disease in the presence of hypoxaemia and immunosuppression.\nWORLD: RESULT: diffuse bilateral centrally distributed ground-glass opacities, with subpleural sparing.\nDOCTOR: I am requesting urgent blood tests: full blood count with differential, creatinine, electrolytes, transaminases and LDH.\nWORLD: RESULT: WBC 6.9×10⁹/L (lymphocytes 0.6×10⁹/L), Hb 12.8 g/dL, PLT 260×10⁹/L; creatinine 1.0 mg/dL; Na 139 mmol/L, K 4.2 mmol/L; AST 26 U/L, ALT 24 U/L; LDH 480 U/L.\nDOCTOR: I am requesting urgent testing for *Pneumocystis jirovecii* by PCR and immunofluorescence on induced sputum, with collection in a monitored setting if tolerated from a respiratory perspective.\nWORLD: RESULT: PCR for *Pneumocystis jirovecii* on induced sputum negative; immunofluorescence negative.\nDOCTOR: Do you have any drug allergies, particularly to co-trimoxazole (Bactrim) or other sulfonamides, and what reactions have you had?\nWORLD: I have no known drug allergies, as far as I am aware; I have never had any reactions to Bactrim or sulfonamides.\nDOCTOR: I am starting empirical IV co-trimoxazole for suspected pneumocystosis: a weight-based daily dose of trimethoprim 15–20 mg/kg/day with sulfamethoxazole 75–100 mg/kg/day, divided every 6–8 hours and adjusted for renal function, without waiting for further confirmation.\nWORLD: DONE.\nDOCTOR: I am requesting bronchoscopy with bronchoalveolar lavage, subject to assessment of respiratory safety, for PCR and immunofluorescence for *P. jirovecii* and microbiological testing for other opportunistic infections: a negative induced sample does not exclude pneumocystosis.\nWORLD: RESULT: bronchoscopy with BAL can be scheduled for tomorrow; PCR for *Pneumocystis jirovecii* will be available within 24 hours of sampling.\nDOCTOR: FINAL DECISION: Probable *Pneumocystis jirovecii* pneumonia with hypoxaemic respiratory failure; alternatives are methotrexate pneumonitis and rheumatoid arthritis-associated interstitial lung disease. Admit to a monitored unit, continue oxygen and IV co-trimoxazole with monitoring of full blood count, creatinine and potassium. Stop methotrexate and etanercept, while continuing the usual prednisone without abrupt withdrawal. Confirm BAL tomorrow if stable, with earlier reassessment and respiratory support if the patient deteriorates. DO NOT discharge, do not exclude pneumocystosis because of the negative sputum result, and do not automatically increase corticosteroids: in a non-HIV patient, the indication must be assessed with the specialists.",
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": false,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  }
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "high-rep0",
+  "turns": 12,
+  "transcript_en": "DOCTOR: I am starting oxygen therapy via nasal cannulae at 2 L/min, titrating the flow to an SpO₂ of 94–98%.\nWORLD: PERFORMED. SpO₂ 95% with O₂ at 2 L/min.\nDOCTOR: What medicines do you take for arthritis and any other conditions, at what doses and for how long, including any corticosteroids?\nWORLD: I take methotrexate 20 mg subcutaneously once a week, etanercept 50 mg subcutaneously a week for four years, prednisone 5 mg every day and folic acid. I have been taking methotrexate and corticosteroids for a long time, but I do not remember exactly how long.\nDOCTOR: Is the cough dry or productive, and over the three weeks how have the breathlessness and any fever changed?\nWORLD: The cough is dry. For three weeks I have been breathless, especially when walking uphill, but over the last four days it has worsened and now I am short of breath even at rest while speaking; in the evening I have a slight fever, around 37.5–38.\nDOCTOR: I am auscultating both lung fields, comparing the apices and bases, looking for crackles, wheeze or reduced breath sounds.\nWORLD: EXAMINATION: fine bibasal crackles.\nDOCTOR: I am requesting a non-contrast high-resolution chest CT to characterise the lung involvement in this immunosuppressed, hypoxaemic patient.\nWORLD: RESULT: diffuse bilateral centrally distributed ground-glass opacities, with subpleural sparing.\nDOCTOR: I am requesting an arterial blood gas while maintaining oxygen therapy, documenting the O₂ flow rate at the time the sample is taken, to quantify the respiratory failure.\nWORLD: RESULT: ABG with O₂ 2 L/min: pH 7.45, pCO₂ 34 mmHg, pO₂ 72 mmHg.\nDOCTOR: I am requesting serum β-D-glucan to assess the suspicion of *Pneumocystis jirovecii* pneumonia in this immunosuppressed patient.\nWORLD: RESULT: serum β-D-glucan 380 pg/mL, positive.\nDOCTOR: Have you ever had any allergic reactions to co-trimoxazole (Bactrim), sulfonamides or any other medicines?\nWORLD: I am not aware of any allergies or reactions to Bactrim, sulfonamides or any other medicines.\nDOCTOR: I am requesting an urgent serum creatinine measurement to adjust the antimicrobial treatment dose according to renal function.\nWORLD: RESULT: creatinine 1.0 mg/dL.\nDOCTOR: I am starting IV co-trimoxazole immediately, without waiting for microbiological confirmation: 15 mg/kg/day of the trimethoprim component, divided every 8 hours, with the dose calculated according to weight and adjusted for renal function.\nWORLD: PERFORMED.\nDOCTOR: I am requesting bronchoscopy with bronchoalveolar lavage (BAL) to test for *Pneumocystis jirovecii* by PCR and immunofluorescence, with monitoring and appropriate respiratory support.\nWORLD: RESULT: bronchoscopy with BAL can be scheduled for tomorrow; PCR for *Pneumocystis jirovecii* available within 24 hours of sample collection.\nDOCTOR: FINAL DECISION: Probable *Pneumocystis jirovecii* pneumonia with hypoxaemic respiratory failure in an immunosuppressed patient, to be confirmed by BAL. Admission to a monitored bed, oxygen therapy targeting SpO₂ 94–98%, and continuation of the IV co-trimoxazole already started, without waiting for the microbiological result. Stop methotrexate and etanercept, while monitoring full blood count, creatinine and potassium. Do not stop long-term prednisone abruptly; consider additional corticosteroids with a respiratory physician/infectious diseases specialist, as the indication is not automatic in a non-HIV patient. Do not discharge the patient or dismiss the presentation as a viral infection or methotrexate toxicity to be treated with corticosteroids alone.",
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": false,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  }
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "high-rep1",
+  "turns": 11,
+  "transcript_en": "DOCTOR: I am starting oxygen therapy via nasal cannulae at 2 L/min, titrating the flow to achieve an SpO₂ of 94–98%.\nWORLD: DONE. SpO₂ 95% with O₂ at 2 L/min.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, at what doses and for how long, including any corticosteroids?\nWORLD: I take methotrexate 20 mg subcutaneously once a week and etanercept 50 mg subcutaneously every week, the latter for about four years. I also take prednisone 5 mg every day and have done so for some time, as well as folic acid.\nDOCTOR: I am performing bilateral lung auscultation, looking for crackles, wheeze or reduced vesicular breath sounds.\nWORLD: EXAMINATION: fine bibasal crackles.\nDOCTOR: I am requesting a chest X-ray to assess pulmonary infiltrates in this hypoxaemic and immunosuppressed patient.\nWORLD: RESULT: mild bilateral interstitial accentuation, without consolidation.\nDOCTOR: I am requesting a non-contrast high-resolution chest CT to characterise the interstitial involvement in this immunosuppressed and hypoxaemic patient.\nWORLD: RESULT: diffuse bilateral centrally distributed ground-glass opacities, with subpleural sparing.\nDOCTOR: I am requesting an arterial blood gas analysis while maintaining oxygen at 2 L/min and documenting the current support, to quantify the respiratory failure.\nWORLD: RESULT: arterial blood gas on O₂ 2 L/min: pH 7,44, pCO₂ 35 mmHg, pO₂ 76 mmHg.\nDOCTOR: Have you ever had any allergies or significant reactions to co-trimoxazole (Bactrim), sulphonamides or other antibiotics?\nWORLD: I am not sure; I do not recall any significant reactions.\nDOCTOR: I am requesting an urgent renal profile with creatinine and electrolytes, including potassium, to initiate antimicrobial treatment safely.\nWORLD: RESULT: creatinine 1,0 mg/dL; potassium 4,2 mmol/L, sodium 139 mmol/L.\nDOCTOR: I am requesting testing for **Pneumocystis jirovecii by PCR on induced sputum**, to investigate the suspected opportunistic pneumonia.\nWORLD: RESULT: PCR for Pneumocystis jirovecii on induced sputum negative.\nDOCTOR: I am requesting bronchoscopy with bronchoalveolar lavage (BAL) to test for **Pneumocystis jirovecii by PCR and immunofluorescence**: a negative induced sputum result does not exclude infection in this patient.\nWORLD: RESULT: bronchoscopy with BAL can be scheduled for tomorrow; the PCR result for Pneumocystis jirovecii will be available within 24 hours of sample collection.\nDOCTOR: FINAL DECISION: Probable **Pneumocystis jirovecii pneumonia with hypoxaemic respiratory failure**; the main alternative is methotrexate pneumonitis. Admit for respiratory monitoring, oxygen to maintain SpO₂ 94–98%, infectious diseases/respiratory assessment and confirmation by BAL. Start **intravenous co-trimoxazole without waiting for BAL**, with trimethoprim 15–20 mg/kg/day divided into 3–4 doses, adjusted for weight and renal function. I am stopping methotrexate and etanercept, continuing the usual prednisone for now, and monitoring full blood count, creatinine and potassium. **Do not discharge with a diagnosis of viral infection, do not exclude PJP because of the negative sputum PCR, and do not automatically increase the steroids**: any additional corticosteroid treatment requires specialist assessment according to severity and diagnosis.",
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": false,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  }
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "low-rep0",
+  "turns": 4,
+  "transcript_en": "DOCTOR: I am palpating the abdomen, starting away from the painful area, to localise the tenderness and check for involuntary guarding or rigidity.\nWORLD: Examination: abdomen soft, tender in the left iliac fossa with mild guarding; equivocal rebound tenderness.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, including steroids, biologics and anti-inflammatories, and when did you take the last dose?\nWORLD: I have an injection once a week for arthritis, the one that begins with “t”, I think tocilizumab, and I take 4 mg of prednisone every day. I do not take anti-inflammatories; I cannot remember exactly when I had the last injection.\nDOCTOR: I am requesting an urgent contrast-enhanced CT scan of the abdomen and pelvis, noting left iliac fossa pain with guarding and tocilizumab therapy: suspected complicated diverticulitis/perforation, which may occur even with little or no fever and only mildly raised inflammatory markers.\nWORLD: RESULT: sigmoid diverticulitis with contained perforation, a 3.5 cm pericolic abscess and extraluminal air bubbles.\nDOCTOR: FINAL DECISION: Sigmoid diverticulitis complicated by contained perforation and a 3.5 cm pericolic abscess in an immunosuppressed patient. Admit for urgent surgical assessment, keep nil by mouth, establish intravenous access, monitor and administer broad-spectrum IV antibiotics covering Gram-negative organisms and anaerobes, after checking allergies and renal function. Discuss percutaneous drainage with the surgeon and interventional radiologist; surgery if there is clinical deterioration, peritonitis or failure of conservative treatment. Temporarily withhold tocilizumab, without abruptly stopping long-term prednisone. Do NOT discharge or reassure on the basis of “good” blood test results or absence of fever, as these may be masked by tocilizumab; no colonoscopy during the acute phase.",
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  }
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "low-rep1",
+  "turns": 5,
+  "transcript_en": "DOCTOR: Please indicate where you feel the pain and tell me how it started and how it has changed over these two days.\nWORLD: It hurts here in the lower left and a little in the centre, above the pubic bone. It started two days ago, has been continuous, and has worsened progressively since then.\nDOCTOR: I am performing gentle abdominal palpation, assessing for tenderness, involuntary guarding and signs of peritoneal irritation, particularly in the left iliac fossa and suprapubic region.\nWORLD: EXAMINATION: abdomen soft but tender in the left iliac fossa, with mild guarding; equivocal rebound tenderness.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, including steroids, biologics and anti-inflammatories, and when did you take the last dose?\nWORLD: For three years I have been having a weekly injection for arthritis, the one beginning with “t”; I think it is tocilizumab. I also take 4 mg of prednisone every day; I do not take anti-inflammatories.\nDOCTOR: I am requesting an urgent CT scan of the abdomen and pelvis with intravenous contrast for suspected complicated diverticulitis or perforation: tocilizumab may suppress fever and inflammatory markers, so “good” test results are not reassuring.\nWORLD: RESULT: sigmoid diverticulitis with a contained perforation, a 3.5 cm pericolic abscess and bubbles of extraluminal air.\nDOCTOR: FINAL DECISION: Sigmoid diverticulitis complicated by a contained perforation and a 3.5 cm pericolic abscess in an immunosuppressed patient. Urgent admission with immediate surgical and interventional radiology assessment for possible drainage. Nil by mouth, intravenous access, IV antibiotics covering Gram-negative organisms and anaerobes, and monitoring of clinical condition and vital signs. Withhold tocilizumab without abruptly stopping chronic prednisone. Do not discharge or wait on the basis of absent fever or normal inflammatory markers; do not perform colonoscopy during the acute phase.",
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  }
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "high-rep0",
+  "turns": 5,
+  "transcript_en": "DOCTOR: Point with one finger to where the pain is most severe.\nWORLD: Here, in the lower left, and a little in the centre above the pubic bone as well.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, including steroids and biological therapies?\nWORLD: I have an injection once a week, the arthritis one that begins with “t”; I think it is tocilizumab. And I take prednisone, 4 milligrams every day.\nDOCTOR: I gently palpate the abdomen, particularly the left iliac fossa and suprapubic region, checking for tenderness and involuntary guarding.\nWORLD: EXAMINATION: abdomen soft but tender in the left iliac fossa, with mild guarding.\nDOCTOR: I request an urgent CT scan of the abdomen and pelvis with intravenous contrast for suspected complicated diverticulitis: tocilizumab and prednisone can blunt fever and the inflammatory response even in the presence of perforation.\nWORLD: RESULT: sigmoid diverticulitis with contained perforation, a 3.5 cm pericolic abscess and pockets of extraluminal air.\nDOCTOR: FINAL DECISION: Sigmoid diverticulitis complicated by contained perforation and a 3.5 cm pericolic abscess in an immunosuppressed patient. Urgent admission, immediate surgical assessment, nil by mouth, intravenous access, IV antibiotics covering Gram-negative organisms and anaerobes, analgesia and close clinical monitoring. Discuss abscess drainage with interventional radiology, taking into account its size, accessibility and the immunosuppression; surgery if the patient deteriorates or the infection cannot be controlled. Withhold tocilizumab, without abruptly stopping long-term prednisone. Do not discharge or wait on the basis of a reassuring appearance or “good” test results: tocilizumab can suppress fever and CRP; no colonoscopy during the acute phase.",
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  }
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "high-rep1",
+  "turns": 5,
+  "transcript_en": "DOCTOR: Please point to where you feel the pain and tell me how it started and how it has changed over these two days.\nWORLD: It hurts here in the lower left, and a little in the centre below my abdomen as well. It started two days ago; it was constant but more bearable, then it got worse and now it is more severe.\nDOCTOR: Which medicines do you take for rheumatoid arthritis, including injections or infusions and steroids, and when did you take the most recent doses?\nWORLD: I have an injection once a week for the arthritis, the one beginning with “t”, I think tocilizumab, and I take prednisone 4 mg every day. I cannot remember exactly when I had the last injection.\nDOCTOR: I am performing gentle palpation of the abdomen, starting away from the painful area, to locate the tenderness and check for involuntary muscle guarding or rigidity.\nWORLD: EXAMINATION: abdomen soft, tender in the left iliac fossa with mild guarding; no rigidity.\nDOCTOR: I am requesting an urgent contrast-enhanced CT scan of the abdomen and pelvis for suspected complicated diverticulitis or perforation: with tocilizumab, fever and inflammatory markers may be only mildly elevated even in the presence of a serious complication.\nWORLD: RESULT: sigmoid diverticulitis with a contained perforation, a 3.5 cm pericolic abscess and extraluminal air bubbles.\nDOCTOR: FINAL DECISION: Sigmoid diverticulitis complicated by a contained perforation and a 3.5 cm pericolic abscess in an immunosuppressed patient. Urgent admission, monitoring and surgical assessment with interventional radiology input to consider abscess drainage; urgent surgery if there is deterioration or generalised peritonitis. Nil by mouth, intravenous access, analgesia, intravenous fluids as required and intravenous antibiotics covering Gram-negative organisms and anaerobes, after checking allergies and renal function. I am temporarily withholding tocilizumab, without abruptly stopping long-term prednisone. **Do not discharge or wait on the basis of “good test results”**: tocilizumab may blunt fever and CRP; no colonoscopy during the acute phase.",
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  }
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "low-rep0",
+  "turns": 7,
+  "transcript_en": "DOCTOR: I am immediately instituting cervical stabilisation in the tolerated neutral position, without forcing alignment: no walking or neck movement, with manual stabilisation and supports appropriate to the patient’s usual posture.\nWORLD: DONE.\nDOCTOR: After the fall, did you experience, even for a few moments, tingling, loss of sensation or weakness in your arms or legs?\nWORLD: I have a little tingling in my hands, but they are always a little numb.\nDOCTOR: I am performing a neurological examination of all four limbs, comparing strength and sensation and distinguishing, as far as possible, limitations due to joint deformities.\nWORLD: EXAMINATION: strength 4/5 in the upper limbs; sensation normal.\nDOCTOR: I am requesting an urgent non-contrast CT scan of the cervical spine, including the craniocervical junction, with multiplanar reconstructions, for suspected traumatic injury or instability in the context of rheumatoid arthritis.\nWORLD: RESULT: anterior atlantoaxial subluxation with an atlantodental interval of 9 mm, erosion of the odontoid process of the axis and early basilar impression; no fractures are identified.\nDOCTOR: I am requesting an immediate neurosurgical/spinal consultation for severe C1–C2 instability in the context of rheumatoid arthritis, with an atlantodental interval of 9 mm, basilar impression and possible motor deficit in the upper limbs.\nWORLD: CONSULTATION REQUESTED: the neurosurgeon/spinal surgeon is contacted for immediate assessment.\nDOCTOR: I am requesting an urgent MRI scan of the craniocervical junction and cervical spine to assess spinal cord compression or injury and ligamentous injuries, maintaining stabilisation during transfer and the examination.\nWORLD: RESULT: retro-odontoid pannus with spinal cord compression at C1–C2 and intramedullary T2 hyperintensity.\nDOCTOR: FINAL DECISION: Severe rheumatoid atlantoaxial instability, symptomatic following trauma, with spinal cord compression and injury at C1–C2. I am maintaining cervical stabilisation in the tolerated position and arranging urgent admission under neurosurgical/spinal care for decompression and stabilisation, with transfer to a specialist centre if necessary. Close neurological and cardiorespiratory monitoring. DO NOT mobilise the neck, force alignment, perform dynamic radiographs or non-specialist traction; no discharge or routine high-dose corticosteroids.",
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": true,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  }
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "low-rep1",
+  "turns": 6,
+  "transcript_en": "DOCTOR: I am arranging immediate cervical stabilisation in the tolerated neutral position, without forcing alignment, avoiding neck movement and any further walking.\nWORLD: PERFORMED.\nDOCTOR: I am performing a neurological examination of all four limbs, assessing strength and sensation without moving the neck.\nWORLD: EXAMINATION: strength 4/5 in the upper limbs, 5/5 in the lower limbs.\nDOCTOR: I am requesting an urgent non-contrast CT scan of the cervical spine, with multiplanar reconstructions and careful assessment of the cranio-cervical junction and C1–C2.\nWORLD: RESULT: anterior atlanto-axial subluxation with an atlanto-dental interval of 9 mm, erosion of the odontoid process and early basilar impression; no fractures detected.\nDOCTOR: I am requesting an immediate neurosurgical/spinal consultation for severe atlanto-axial instability in rheumatoid arthritis, with an upper-limb motor deficit and suspected spinal cord compression.\nWORLD: PERFORMED.\nDOCTOR: I am requesting an urgent MRI scan of the cranio-cervical junction and cervical spine to assess spinal cord compression, ligamentous injury and retro-odontoid pannus, maintaining stabilisation during transfer.\nWORLD: RESULT: retro-odontoid pannus with spinal cord compression at C1–C2 and intramedullary T2 hyperintensity.\nDOCTOR: FINAL DECISION: Atlanto-axial instability due to rheumatoid arthritis, with compressive pannus at C1–C2 and myelopathy, symptomatic following trauma. I am maintaining cervical stabilisation in the tolerated position, with neurological and cardiorespiratory monitoring. Urgent admission to a neurosurgical/spinal centre and immediate assessment for surgical decompression and stabilisation are required. DO NOT mobilise or manipulate the neck, perform dynamic radiographs, apply non-specialist traction or discharge as a simple whiplash injury.",
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": false,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  }
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "high-rep0",
+  "turns": 4,
+  "transcript_en": "DOCTOR: I immediately stabilise the cervical spine manually in the usual, tolerated position, without forcing alignment: no rotation, flexion or extension of the neck.\nWORLD: PERFORMED.\nDOCTOR: I assess muscle strength in all four limbs, comparing both sides, without moving the neck and while maintaining cervical stabilisation.\nWORLD: EXAMINATION: strength 4/5 bilaterally in the upper limbs; 5/5 in the lower limbs.\nDOCTOR: I request an urgent non-contrast CT scan of the cervical spine, with multiplanar reconstructions and careful assessment of the craniocervical junction, maintaining stabilisation during transfers.\nWORLD: RESULT: anterior atlantoaxial subluxation with an atlantodental interval of 9 mm, erosion of the odontoid process and early basilar impression; no cervical fractures are identified.\nDOCTOR: FINAL DECISION: Severe atlantoaxial instability due to rheumatoid arthritis, with basilar impression and suspected spinal cord compromise following trauma, not excluded by the absence of fractures. I maintain cervical stabilisation in the usual, tolerated position, without forcing alignment, and prevent walking and unaided movement. I immediately contact neurosurgery/spinal surgery and arrange urgent admission, with neurological and respiratory monitoring. I request urgent MRI of the cervical spine and craniocervical junction to assess spinal cord compression and injury, without delaying specialist management. I do NOT perform neck mobilisation, dynamic radiographs, manipulation or non-specialist traction, and do NOT discharge the patient with a diagnosis of simple “whiplash”.",
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": false,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  }
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "high-rep1",
+  "turns": 7,
+  "transcript_en": "DOCTOR: I am instituting **immediate cervical spine stabilisation**, with manual support and padded supports in the spontaneously adopted, tolerated position: no forced flexion, extension or rotation, and no collar that imposes different alignment.\nWORLD: DONE.\nDOCTOR: After the fall, did you have **tingling, loss of sensation or weakness in your arms or legs**, even for only a few moments?\nWORLD: I have some tingling in my hands, but they have always been a little numb. I do not think I lost any sensation or strength after the fall.\nDOCTOR: I am requesting an **urgent non-contrast CT scan of the cervical spine, from the occiput to T1**, with multiplanar reconstructions and particular attention to the craniovertebral junction and C1–C2 alignment. I am maintaining stabilisation during transfer.\nWORLD: RESULT: anterior atlantoaxial subluxation with an atlantodental interval of 9 mm, erosion of the odontoid process and early basilar invagination. No cervical fracture.\nDOCTOR: I am requesting an **urgent neurosurgical consultation** for severe atlantoaxial instability (atlantodental interval 9 mm) with early basilar invagination following trauma, in a patient with rheumatoid arthritis.\nWORLD: DONE.\nDOCTOR: I am assessing **muscle strength in all four limbs using the MRC scale**, comparing right and left, without moving the neck and distinguishing weakness from pain-related limitation due to arthritis.\nWORLD: EXAMINATION: strength 4/5 bilaterally in the upper limbs and 5/5 in the lower limbs.\nDOCTOR: I am requesting an **urgent non-contrast MRI of the craniovertebral junction and cervical spine**, to assess cervicomedullary compression, retro-odontoid pannus and changes in spinal cord signal, while maintaining stabilisation without forcing alignment.\nWORLD: RESULT: retro-odontoid pannus with spinal cord compression at C1–C2 and intramedullary T2 hyperintensity.\nDOCTOR: FINAL DECISION: Rheumatoid atlantoaxial instability with pannus, C1–C2 spinal cord compression and myelopathy, associated with early basilar invagination. I am maintaining cervical spine stabilisation in the tolerated position, with neurological and respiratory monitoring. Urgent neurosurgical admission for decompression and stabilisation, with protected transfer if necessary. **Do not discharge, do not mobilise the neck, and do not perform dynamic radiographs, traction or cervical manipulation.**",
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": true,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  }
+ }
+]

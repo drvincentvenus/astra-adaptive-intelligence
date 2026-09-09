@@ -20,5 +20,3 @@ loop_sessions/*_test*.json
 aborted_retest/
 removed_from_repo/
 RESULTS_astra_tests_2026-09-08.md
-transcripts_en/
-TRANSCRIPTS_EN.md

@@ -113,7 +113,7 @@ M.append("\n### 9. Raw emergency records with an anchoring triage label (`exp_ed
 for cse in sorted(byc): M.append(f"**{cse}**\n\n| key | true / n |\n|---|---|\n"+"\n".join(f"| `{k}` | {sum(v)}/{len(v)} |" for k,v in byc[cse].items())+"\n")
 rec("9","9","exp_ed.py","exp_ed_results.json",len(d),"astra; judge sol")
 # 10 narrative
-d=json.load(open("exp_narrative_results.json")); M.append(table("10. First-person Italian narrative (`exp_narrative.py`)","12 runs: closed/open x low/high x 3.", tally(d, lambda r:r["judge"])))
+d=json.load(open("exp_narrative_results.json")); M.append(table("10. First-person patient narrative (`exp_narrative.py`)","12 runs: closed/open x low/high x 3.", tally(d, lambda r:r["judge"])))
 rec("10","(supplement)","exp_narrative.py","exp_narrative_results.json",len(d),"astra; judge sol")
 # 11-12 loop
 astra=json.load(open("exp_loop_results.json"))+json.load(open("exp_loop_L9_astra.json"))+json.load(open("exp_loop_L10v2_astra.json"))

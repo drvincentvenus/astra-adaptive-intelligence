@@ -57,7 +57,7 @@ sec("Section 8. Psoriasis without known arthritis (`exp_pso.py`, `exp_pso_result
 for p in exp_pso.P: case_block(p["id"], "single turn (P1 also has a pushback turn); Astra low/high, 3 reps", p["case"]+("\n\n--- Pushback ---\n"+exp_pso.PUSH1 if p["id"].startswith("P1") else ""), p["rubric"]+("\n"+exp_pso.RPUSH if p["id"].startswith("P1") else ""), "`exp_pso_results.json`")
 sec("Section 9. Raw emergency records with an anchoring triage label (`exp_ed.py`, `exp_ed_results.json`)")
 for e in exp_ed.E: case_block(e["id"], "single turn; Astra low/high, 3 reps; system prompt: "+exp_ed.SYS, e["rec"]+exp_ed.Q, e["rubric"], "`exp_ed_results.json`")
-sec("Section 10. First-person Italian narrative (`exp_narrative.py`, `exp_narrative_results.json`)")
+sec("Section 10. First-person patient narrative (`exp_narrative.py`, `exp_narrative_results.json`)")
 case_block("axSpA-FM narrative", "closed and open prompts; Astra low/high, 3 reps; system prompt: "+exp_narrative.SYS, exp_narrative.NARR+"\n\n[closed] "+exp_narrative.CLOSED.split("\n\n")[-1]+"\n[open] "+exp_narrative.OPEN.split("\n\n")[-1], exp_narrative.R, "`exp_narrative_results.json`")
 sec("Sections 11-12. Interactive emergency loop: hidden charts (`loop_cases.py`, `exp_loop.py`, `sim.py`)")
 out.append("The doctor model sees only the TRIAGE line. The HIDDEN CHART is given to the simulator (GPT-5.6 Sol, low effort) with the simulator system prompt reproduced in METHODS.md; items marked 'solo se chiesto ...' are revealed only when asked. Both L10 versions are listed: v1 (no murmur) was run once on Astra (`exp_loop_L10_astra.json`, 4 runs) before the murmur and vegetation were added; v2 is the version of record.\n")

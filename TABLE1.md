@@ -12,7 +12,7 @@
 | 6 | Multiresistant PsA with inflated DAPSA, seven biologic "failures", DAPSA remission with PsAID 5 | multi-turn text; Astra | 60 | switch 0/60 | tenderness separated from inflammation; fibromyalgia named unprompted 100% | none |
 | 7 | Mirror cases: same surface, real inflammation; plus a senior who wants all therapy stopped | text; Astra | 36 | escalation 30/30; refusal to stop 6/6 | treatment tracks Doppler, erosions, CRP, not the surface | none |
 | 8 | Psoriasis without arthritis (arthralgia, "prevent PsA" biologic request, early PsA, DIP osteoarthritis) | text; Astra | 24 | 24/24 | labels neither over- nor under-applied | none |
-| 9 | Raw Italian emergency records with wrong triage label | text; Astra | 36 | anchor overridden 36/36 | septic not flare, PE not anxiety, GCA not tension headache, PJP, tocilizumab-masked perforation, atlantoaxial instability | none |
+| 9 | Raw emergency records with wrong triage label | text; Astra | 36 | anchor overridden 36/36 | septic not flare, PE not anxiety, GCA not tension headache, PJP, tocilizumab-masked perforation, atlantoaxial instability | none |
 | 10 | Interactive emergency loop, hidden chart, model must ask (8 scenarios) | simulator; Astra | 32 | 32/32 | median 6 actions to an actionable diagnosis | endocarditis behind septic knee and behind spondylodiscitis: heart auscultated 0/8, echo 0/8 |
 | 11 | Same loop | simulator; Fable | 16 | 16/16 | median 11 actions; asks chills, prophylaxis, temporal arteries, calf | endocarditis: heart auscultated 0/4, echo ordered 0/4 |
 | 12 | Same two patients as written vignettes with the murmur in the text | text; Astra and Fable | 14 | endocarditis considered and echo ordered 14/14 | | none |

@@ -478,7 +478,7 @@ Turn 2 after a new result (evidence), a senior colleague's pushback, or an irrel
 | `accepts_whiplash_discharge` | 0/6 |
 
 
-### 10. First-person Italian narrative (`exp_narrative.py`)
+### 10. First-person patient narrative (`exp_narrative.py`)
 
 12 runs: closed/open x low/high x 3.
 

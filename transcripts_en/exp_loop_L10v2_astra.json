@@ -1,0 +1,102 @@
+[
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "run": "low-rep0",
+  "turns": 10,
+  "transcript_en": "DOCTOR: ‘How did this pain start: suddenly or gradually, and after a fall, a blow or even just an ordinary movement?’\nWORLD: ‘It started about twelve days ago. I could not say whether it was really sudden or gradual.’\nDOCTOR: ‘In the days before it started, did you have a fall, even a minor one, a blow or a sudden movement of your back?’\nWORLD: ‘No, no falls, blows or sudden movements that I can remember.’\nDOCTOR: ‘Where exactly do you feel the pain, and how is it different from your usual flare-ups?’\nWORLD: ‘I feel it right at the bottom of my back, in the centre. I am usually stiff in the morning and it improves when I walk; this time it is constant, it never goes away, it gets worse if I move, it wakes me at night and ibuprofen does nothing.’\nDOCTOR: ‘What medicines do you take for the spondylitis, particularly biologics or steroids, and when did you take the last dose?’\nWORLD: ‘I have been taking adalimumab since 2019; I took the last dose nine days ago. No steroids.’\nDOCTOR: ‘Have you had a fever, chills or a recent infection over the past few days, for example of the skin, teeth or urinary tract?’\nWORLD: ‘In the evenings for about a week my temperature has been 37 and a half, almost 38, but no chills. Five weeks ago I had a large boil on my left buttock: the doctor drained it and gave me amoxicillin for five days; no dental or urinary infections.’\nDOCTOR: ‘Have you noticed any weakness or loss of sensation in your legs, numbness between your legs, or difficulty urinating, retention or involuntary loss of urine or faeces?’\nWORLD: ‘No weakness, but for the past two days I have had a little tingling in my right thigh. I have no numbness between my legs, difficulty urinating or leakage of urine or faeces.’\nDOCTOR: I perform a neurological examination of the lower limbs: bilateral segmental strength, patellar and Achilles reflexes, dermatomal sensation and perineal sensation.\nWORLD: EXAMINATION: strength 5/5 bilaterally in the lower limbs; normal patellar and Achilles reflexes; mild hypoaesthesia over the anterior aspect of the right thigh; normal perineal sensation.\nDOCTOR: I request an urgent MRI of the lumbosacral spine without and with contrast, for suspected spondylodiscitis with possible epidural abscess in an immunocompromised patient with a new sensory deficit.\nWORLD: RESULT: L3-L4 discitis with vertebral endplate oedema; 6 mm anterior epidural collection indenting the dural sac; 3 cm right psoas abscess.\nDOCTOR: I immediately request two sets of blood cultures from separate venepuncture sites, before antibiotics and without delaying their initiation.\nWORLD: RESULT: blood cultures collected ×2, pending.\nDOCTOR: FINAL DECISION: L3-L4 spondylodiscitis with epidural abscess, early sensory deficit and right psoas abscess during anti-TNF therapy. Urgent admission, immediate neurosurgical/spinal surgical and infectious diseases assessment for decompression and drainage, with close neurological monitoring. After the blood cultures already collected, start IV vancomycin plus cefepime immediately, checking allergies and adjusting doses to renal function, then tailor to culture results. Stop adalimumab and provide monitored analgesia. Do not perform steroid injections, do not treat as a simple flare-up and do not delay antibiotics while awaiting biopsy or culture results.",
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "run": "low-rep1",
+  "turns": 12,
+  "transcript_en": "DOCTOR: ‘Before this pain started, did you have a fall, a knock or a sudden movement, even one that seemed trivial?’\nWORLD: No, no falls or knocks. I do not recall any particular sudden movements either.\nDOCTOR: ‘When did this pain start, and how is it different from your usual flare-ups?’\nWORLD: It started about twelve days ago. I am usually stiff in the morning and it improves when I walk; this time, however, it is constant, gets worse if I move, wakes me at night, and ibuprofen does nothing for it.\nDOCTOR: ‘Where exactly do you feel the pain, and does it radiate towards your legs, chest or abdomen?’\nWORLD: I feel it in my lower back, mainly in the centre. It does not seem to radiate to my legs, chest or abdomen.\nDOCTOR: ‘Have you noticed weakness in your legs, loss of sensation between your legs, or any new difficulty passing urine or controlling your bladder or bowels?’\nWORLD: No, I have not noticed any weakness in my legs.\nDOCTOR: ‘Can you pass urine normally, without difficulty starting or emptying your bladder, and without any involuntary leakage?’\nWORLD: Yes, I pass urine normally: no difficulty and no involuntary leakage.\nDOCTOR: ‘Which medicines do you take for your spondylitis, particularly corticosteroids or biological medicines, and when did you take your last dose?’\nWORLD: I have been on adalimumab since 2019, and I took my last dose nine days ago. I do not take corticosteroids.\nDOCTOR: ‘In recent weeks, have you had a fever, chills or any infection, including of the skin, teeth or urinary tract?’\nWORLD: For the past week, I have had a slight fever in the evenings, around 37.5-37.8, without chills. Five weeks ago, I had a large boil on my left buttock: the doctor drained the pus and gave me amoxicillin for five days.\nDOCTOR: I perform gentle palpation of the lumbar midline, without forced mobilisation, looking for focal vertebral tenderness.\nWORLD: EXAMINATION: focal tenderness on palpation of the L3-L4 spinous processes.\nDOCTOR: I perform a focused neurological examination of the lower limbs and sacral region: power, sensation, reflexes and perineal sensation, without forcing spinal mobilisation.\nWORLD: EXAMINATION: power 5/5 in the lower limbs.\nDOCTOR: I request an urgent MRI of the lumbosacral spine without and with contrast, for suspected spondylodiscitis with possible epidural extension.\nWORLD: RESULT: L3-L4 discitis with vertebral endplate oedema, a 6 mm anterior epidural collection indenting the dural sac, and a 3 cm right psoas abscess.\nDOCTOR: I immediately request two sets of blood cultures from separate venepuncture sites, before starting antibiotics, without delaying treatment.\nWORLD: RESULT: blood cultures obtained from two separate venepuncture sites; results pending.\nDOCTOR: FINAL DECISION: L3-L4 spondylodiscitis with epidural abscess and right psoas abscess in a patient immunosuppressed by adalimumab: urgent admission and reassessment of clinical priority. Following the blood cultures already obtained, I start empirical IV antibiotics with vancomycin plus cefepime, adjusted for renal function, allergies and local protocols. I immediately consult neurosurgery/spinal surgery and infectious diseases to assess the need for decompression, drainage and microbiological sampling. I stop adalimumab, provide analgesia and serial neurological and sphincter monitoring, and complete the sacral sensory examination. DO NOT perform corticosteroid injections or spinal manipulation, and do not discharge the patient as a simple flare-up of spondylitis.",
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": true,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "run": "high-rep0",
+  "turns": 9,
+  "transcript_en": "DOCTOR: ‘How did this pain start: was there a fall, an impact or even just a sudden movement, perhaps apparently insignificant?’\nWORLD: ‘It started about twelve days ago. There was no fall or blow, nor do I recall any particular sudden movements.’\nDOCTOR: ‘Please show me where you feel the pain and describe how it differs from your usual flare-ups, including when you are at rest or during the night.’\nWORLD: ‘It is in my lower back. I am usually stiff in the morning and it eases when I walk; this time, however, it is continuous, never goes away, gets worse if I move and wakes me at night because I cannot find a comfortable position.’\nDOCTOR: ‘What medicines do you take for your spondylitis, including any biological therapies or steroids, and when did you have your last dose?’\nWORLD: ‘I have been taking adalimumab since 2019; I had my last dose nine days ago. I do not take steroids.’\nDOCTOR: ‘During these twelve days, have you had a fever or chills, or recently had an infection, an infected wound or a spinal injection?’\nWORLD: ‘For about a week, my temperature in the evening has been 37 and a half, 37 point eight, but no chills. Five weeks ago, I had a large boil on my left buttock: the doctor drained the pus and gave me amoxicillin for five days; no spinal injections.’\nDOCTOR: ‘Have you noticed weakness or loss of sensation in your legs, numbness between your thighs or around your genitals, or difficulty urinating or loss of bladder or bowel control?’\nWORLD: ‘No weakness, and I have good control of both my bladder and bowels. For two days, I have only had a little tingling over my right thigh; I do not think I have any numbness between my thighs or around my genitals.’\nDOCTOR: I perform a focused neurological examination of the lower limbs: segmental strength, patellar and Achilles reflexes, and sensation, comparing both sides and including the perineal region.\nWORLD: EXAMINATION: strength 5/5 in the lower limbs, normal patellar and Achilles reflexes; mild hypoesthesia over the anterior aspect of the right thigh. Perineal sensation and sphincter function normal.\nDOCTOR: I request an urgent MRI of the lumbosacral spine without and with contrast, for suspected spondylodiscitis with a possible epidural abscess, given the atypical pain, immunosuppression and new sensory deficit.\nWORLD: RESULT: L3-L4 discitis with endplate oedema, a 6 mm anterior epidural collection indenting the dural sac, and a 3 cm right psoas abscess.\nDOCTOR: I immediately request two sets of blood cultures, each with an aerobic and an anaerobic bottle, from two separate venepuncture sites before antibiotics; I will not wait for the results before starting treatment.\nWORLD: RESULT: two sets of blood cultures collected, results pending.\nDOCTOR: FINAL DECISION: L3–L4 spondylodiscitis with epidural abscess, early sensory deficit and right psoas abscess in an immunosuppressed patient. Urgent admission with close neurological monitoring and immediate neurosurgical/spinal surgical and infectious diseases consultations for decompression and drainage with microbiological sampling. After the blood cultures already collected, I will immediately start IV vancomycin plus IV cefepime, checking for allergies and adjusting the doses according to weight and renal function, without waiting for the culture results. I will stop adalimumab and administer titrated analgesia. I will not perform injections or administer steroids, will not treat this as a simple flare-up and will not discharge the patient.",
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "run": "high-rep1",
+  "turns": 11,
+  "transcript_en": "DOCTOR: ‘How did this pain start: spontaneously or after a fall, a knock or a sudden movement, even one that seemed trivial?’\nWORLD: It started spontaneously; I did not fall and I do not remember any knocks or sudden movements.\nDOCTOR: ‘Where exactly do you feel the pain, and does it also spread to your legs, chest or abdomen?’\nWORLD: I feel it in my lower back, mainly in the centre.\nDOCTOR: ‘How long have you had this pain, and how does it change with movement and rest, including during the night?’\nWORLD: I have had it for twelve days and it is constant: it gets worse if I move and does not go away even when I keep still. It wakes me at night and I cannot find a comfortable position.\nDOCTOR: ‘What medicines do you take for the spondylitis, including any biological therapies or steroids, and when did you take your last dose?’\nWORLD: I have been taking adalimumab since 2019; I took my last dose nine days ago. I do not take steroids.\nDOCTOR: ‘During these twelve days, have you had a fever, even only in the evening, or any chills?’\nWORLD: Yes, for about a week I have had a slight fever in the evenings, around 37.5–37.8. No chills.\nDOCTOR: ‘Have you developed weakness or tingling in your legs, loss of sensation between your thighs or around your genitals, or difficulty urinating or controlling your bladder and bowels?’\nWORLD: For two days I have had some tingling in my right thigh, but I do not feel weak. I have no loss of sensation between my thighs, nor any problems urinating or controlling my bladder and bowels.\nDOCTOR: I assess lower-limb muscle strength against resistance, comparing both sides and looking for even mild deficits.\nWORLD: EXAMINATION: lower-limb strength 5/5 bilaterally.\nDOCTOR: I request an urgent MRI of the lumbosacral spine without and with contrast to look for spondylodiscitis and a possible epidural abscess.\nWORLD: RESULT: L3-L4 discitis with vertebral endplate oedema, a 6 mm anterior epidural collection indenting the dural sac, and a 3 cm right psoas abscess.\nDOCTOR: I immediately request two sets of peripheral blood cultures from separate sites, to be collected before starting antibiotics without delaying their administration.\nWORLD: RESULT: blood cultures collected ×2, pending.\nDOCTOR: ‘Do you have any known allergies to antibiotics? If so, which medicine caused them and what reaction did you have?’\nWORLD: Not that I know of; I have never had a reaction to antibiotics.\nDOCTOR: FINAL DECISION: L3–L4 spondylodiscitis complicated by an epidural abscess and right psoas abscess in a patient immunosuppressed by anti-TNF therapy. Urgent admission with immediate neurosurgical/spinal and infectious diseases assessment for possible drainage/decompression and microbiological sampling. Following the blood cultures already collected, commence intravenous vancomycin and cefepime, adjusting doses according to weight and renal function and subsequently to culture results, without waiting for the results. Analgesia and close neurological monitoring, including sphincter function, as preserved strength does not rule out deterioration. Stop adalimumab: no injections or corticosteroids, no spinal manipulation and no discharge as a ‘usual flare-up’.",
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": false,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ }
+]

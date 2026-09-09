@@ -1,0 +1,66 @@
+[
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "low-rep0",
+  "turns": 7,
+  "transcript_en": "DOCTOR: “Please tell me how the swelling of the toe began and whether there was any trauma, wound or puncture before it appeared.”\nWORLD: “Four days ago I struck my foot violently against the leg of the bed while barefoot: the pain nearly made me faint, but then it passed. The following day, the fourth toe began to swell and hurt; there were no wounds or punctures.”\nDOCTOR: I examine the fourth toe, comparing it with the contralateral toe: I look for deformity or rotation, bruising and wounds, and gently palpate the phalanges to localise the bony pain.\nWORLD: EXAMINATION: diffuse swelling of the entire right 4th toe; no obvious deformity or rotation.\nDOCTOR: I gently palpate the phalanges and joints of the right fourth toe one at a time to identify the point of maximal tenderness.\nWORLD: EXAMINATION: focal tenderness on pressure over the proximal phalanx of the right 4th toe.\nDOCTOR: I request radiographs of the fourth toe and right forefoot in anteroposterior, oblique and lateral views for a suspected fracture of the proximal phalanx.\nWORLD: RESULT: undisplaced fracture of the base of the proximal phalanx of the right 4th toe, with an oblique fracture line and minimal displacement.\nDOCTOR: I assess the neurovascular status of the right fourth toe: colour and temperature, distal capillary refill and light-touch sensation on both sides of the toe.\nWORLD: EXAMINATION: neurovascular status normal; toe warm and well perfused, distal capillary refill normal and sensation preserved bilaterally.\nDOCTOR: I carefully inspect the skin of the fourth toe, the interdigital spaces and the nail bed to rule out wounds or exposure of the fracture.\nWORLD: EXAMINATION: skin intact, with no wounds or exposure of the fracture; interdigital spaces and nail bed normal.\nDOCTOR: FINAL DECISION: Closed fracture of the base of the proximal phalanx of the right fourth toe, minimally displaced, with no neurovascular deficits. Conservative treatment with buddy taping to the adjacent toe with gauze between the toes, a rigid-soled shoe, weight-bearing as pain allows, elevation, protected ice application and analgesia after checking for contraindications. Orthopaedic review within 7 days; return immediately for increasing pain, a cold/pale toe, loss of sensation or skin lesions. Do not attribute the swelling to psoriasis or start corticosteroids or immunosuppressants for presumed dactylitis; no urgent reduction indicated.",
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "low-rep1",
+  "turns": 8,
+  "transcript_en": "DOCTOR: «Tell me how the swelling started and whether, before it appeared, you had any wounds, punctures or trauma to that toe?»\nWORLD: «Four days ago I struck it extremely hard against the leg of the bed; I was barefoot. The pain was enough to make me faint, but then it went away. The next day the toe started to swell; no wounds or punctures.»\nDOCTOR: I examine the affected toe, looking for deformity or rotation, skin lesions, and the precise site of pain on palpation of the bone and joint.\nWORLD: EXAMINATION: no deformity or rotation of the 4th toe of the right foot.\nDOCTOR: I gently palpate the phalanges of the right fourth toe to identify any focal bony tenderness.\nWORLD: EXAMINATION: localised tenderness on pressure over the proximal phalanx of the 4th toe of the right foot.\nDOCTOR: I request radiographs of the fourth toe of the right foot in anteroposterior, oblique and lateral views, for suspected fracture of the proximal phalanx.\nWORLD: RESULT: undisplaced fracture of the base of the proximal phalanx of the 4th toe of the right foot, with an oblique fracture line and minimal displacement.\nDOCTOR: I inspect the skin around the entire circumference of the fourth toe, including the interdigital spaces, looking for wounds or exposed bone.\nWORLD: EXAMINATION: skin intact, with no wounds or exposed bone.\nDOCTOR: I assess the neurovascular status of the right fourth toe: colour, temperature, capillary refill and distal sensation.\nWORLD: EXAMINATION: normal neurovascular status; toe well perfused and warm, with preserved capillary refill and distal sensation.\nDOCTOR: I request radiological clarification: does the fracture line involve the articular surface, and is there any articular step-off or subluxation?\nWORLD: RESULT: the fracture line does not involve the articular surface; no articular step-off or subluxation.\nDOCTOR: FINAL DECISION: Closed traumatic extra-articular fracture of the proximal phalanx of the right fourth toe, minimally displaced, with no neurovascular deficits; not psoriatic dactylitis. Conservative treatment with buddy taping to the adjacent toe, interposed gauze and perfusion monitoring, a rigid-soled shoe, weight-bearing as pain allows, protected ice and elevation. Analgesia after checking for allergies and contraindications; discharge with outpatient follow-up within 7–10 days. Return immediately for increasing pain, a cold or pale toe, loss of sensation or skin lesions. Do not start corticosteroids or immunosuppressants for presumed dactylitis; reduction is not indicated in the absence of deformity or rotation.",
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "high-rep0",
+  "turns": 8,
+  "transcript_en": "DOCTOR: I inspect the swollen toe and the adjacent interdigital spaces: which toe is involved, and is there any redness, wounds, fissures, discharge or discolouration?\nWORLD: EXAMINATION: the 4th toe of the right foot is involved; it is diffusely swollen and red. No wounds, fissures, discharge or abnormalities are seen in the adjacent interdigital spaces.\nDOCTOR: Before the swelling developed, did you sustain any trauma, puncture or small wound to that toe, including while walking barefoot or during a pedicure?\nWORLD: Yes, four days ago I struck that toe extremely hard against the leg of the bed while I was barefoot. At the time, the pain nearly made me faint, but then it subsided; no punctures, wounds or pedicure.\nDOCTOR: I gently palpate the phalanges of the right 4th toe to locate any point of maximal bony tenderness.\nWORLD: EXAMINATION: focal tenderness on pressure over the proximal phalanx of the right 4th toe.\nDOCTOR: I request an X-ray of the right 4th toe in anteroposterior, oblique and lateral views to look for a fracture.\nWORLD: RESULT: undisplaced fracture of the base of the proximal phalanx of the right 4th toe, with an oblique fracture line and minimal displacement.\nDOCTOR: I perform a distal neurovascular examination of the right 4th toe: I assess temperature, capillary refill at the tip of the toe and sensation to light touch.\nWORLD: EXAMINATION: temperature preserved, capillary refill normal and distal sensation to light touch intact.\nDOCTOR: I assess the alignment of the right 4th toe against the contralateral toe, comparing the orientation of the toenail and checking for any deviation or overlap with the neighbouring toes during gentle active flexion.\nWORLD: EXAMINATION: alignment preserved compared with the contralateral toe, with no deviation, rotation or overlap with the adjacent toes during active flexion.\nDOCTOR: I request a review of the X-rays to establish whether the fracture involves the articular surface and, if so, whether there is any step-off or joint incongruity.\nWORLD: RESULT: the fracture line does not involve the articular surface; no step-off or joint incongruity is seen.\nDOCTOR: FINAL DECISION: Closed, extra-articular, minimally displaced traumatic fracture of the proximal phalanx of the right 4th toe, with no malrotation or neurovascular deficit. Conservative treatment with buddy taping, gauze interposed between the toes and repeat neurovascular assessment, a rigid-soled shoe for approximately 4 weeks, weight-bearing as pain allows, elevation and protected ice application. Analgesia after checking for allergies and contraindications; discharge with clinical review within 7–10 days. Return urgently for increasing pain, a cold or numb toe, discolouration, fever or spreading redness. Do not perform reduction or initiate corticosteroids or immunosuppressants for presumed psoriatic dactylitis; antibiotics are not indicated.",
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "high-rep1",
+  "turns": 8,
+  "transcript_en": "DOCTOR: I inspect the affected foot, including the interdigital spaces and plantar surface, looking for the distribution of swelling, redness, wounds or entry points.\nWORLD: EXAMINATION: 4th toe of the right foot diffusely swollen and red, with mild warmth; at the base, on the plantar aspect, there is resolving yellowish bruising. No wound or entry point; interdigital spaces normal.\nDOCTOR: In the days before the swelling, did you knock or twist that toe, or sustain any trauma to the foot, even if apparently minor?\nWORLD: Yes, four days ago I struck my foot violently against the leg of the bed while barefoot. At the time, the pain nearly made me faint, but then it subsided.\nDOCTOR: I gently palpate the fourth toe and then move proximally along the fourth metatarsal to its base, to locate the point of maximal bony tenderness.\nWORLD: EXAMINATION: focal tenderness on pressure over the proximal phalanx of the 4th right toe; fourth metatarsal non-tender.\nDOCTOR: I request an X-ray of the fourth toe of the right foot in anteroposterior, oblique and lateral views for a suspected fracture of the proximal phalanx.\nWORLD: RESULT: undisplaced fracture of the base of the proximal phalanx of the 4th right toe, with an oblique fracture line and minimal displacement.\nDOCTOR: I assess the alignment of the fourth toe, comparing the orientation of the nail and the position of the toe with the contralateral foot, to exclude rotational or angular deformity.\nWORLD: EXAMINATION: alignment preserved, with no rotational or angular deformity.\nDOCTOR: I assess the distal neurovascular status of the fourth toe: light-touch sensation and capillary refill time at the toe pad.\nWORLD: EXAMINATION: distal sensation preserved and capillary refill time normal.\nDOCTOR: I request a further review of the X-rays to determine whether the fracture line reaches the articular surface and whether there is any step-off or incongruity of the metatarsophalangeal joint.\nWORLD: RESULT: the fracture line does not involve the articular surface; the metatarsophalangeal joint is congruent, with no articular step-off.\nDOCTOR: FINAL DECISION: Closed traumatic extra-articular fracture of the proximal phalanx of the IV right toe, minimally displaced, with no malrotation or neurovascular deficit. Discharge with non-constrictive buddy strapping to the III toe with gauze between the toes, a rigid-soled shoe, weight-bearing as pain allows, elevation and protected ice application. Paracetamol if not contraindicated, and outpatient follow-up within 7–10 days; protection for approximately 4–6 weeks. Return urgently for increasing pain, a cold, pale or numb toe, fever or spreading redness. Do not perform reduction or start antibiotics, corticosteroids or immunomodulatory therapy for presumed psoriatic dactylitis.",
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ }
+]
