@@ -1,0 +1,189 @@
+{
+ "case": "L1_septic_vs_flare",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Anamnesi mirata: da quanto tempo è gonfio il ginocchio, è un solo ginocchio o anche altre articolazioni, ha avuto brividi o febbre a casa, e quale terapia fa per la psoriasica (biologico, metotrexato, cortisone), ultime infiltrazioni o traumi/ferite recenti alla gamba?"
+  },
+  {
+   "role": "assistant",
+   "content": "«È gonfio da due giorni.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Quale terapia sta facendo per l'artrite psoriasica: biologico, metotrexato, cortisone? E ha fatto infiltrazioni di recente in quel ginocchio?"
+  },
+  {
+   "role": "assistant",
+   "content": "«Faccio l’adalimumab, l’ultima dose cinque giorni fa. Il metotrexato me l’hanno sospeso per i valori del fegato e cortisone adesso non ne prendo.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo del ginocchio: calore, arrossamento, versamento (ballottamento rotuleo), escursione articolare attiva e passiva, dolore al minimo movimento; ispeziono anche la cute della gamba e del piede per ferite, ulcere o porte d'ingresso."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: ginocchio destro caldo, con versamento abbondante e mobilità limitata dal dolore; cute integra, senza ferite, ulcere o altre porte d’ingresso cutanee."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Artrocentesi del ginocchio destro in asepsi, prima di qualsiasi terapia: aspetto del liquido, conta cellulare con formula, colorazione di Gram, coltura e ricerca cristalli al microscopio a luce polarizzata."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: liquido torbido giallo, 68.000 GB/µL con 92% PMN; Gram con cocchi Gram-positivi in ammassi; nessun cristallo. Coltura in corso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Emocolture, due set da due sedi diverse, prima di iniziare qualunque antibiotico."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emocolture prelevate da due sedi diverse; colture in corso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esami ematici urgenti: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, transaminasi, lattato, glicemia, uricemia, coagulazione."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: GB 14,8×10³/µL con neutrofili 88%, Hb 13,9 g/dL, PLT 310×10³/µL; PCR 187 mg/L, procalcitonina 1,9 ng/mL; creatinina 1,1 mg/dL, elettroliti e transaminasi nella norma; lattato 1,6 mmol/L, glicemia 214 mg/dL, uricemia 5,9 mg/dL, coagulazione nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: È allergico a qualche antibiotico, in particolare penicilline o cefalosporine?"
+  },
+  {
+   "role": "assistant",
+   "content": "«No, che io sappia non sono allergico a nessun antibiotico.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: È diabetico o le hanno mai trovato la glicemia alta? Negli ultimi mesi è stato ricoverato o ha avuto infezioni da stafilococco resistente (MRSA)?"
+  },
+  {
+   "role": "assistant",
+   "content": "«Sì, ho il diabete di tipo 2 e prendo la metformina.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Radiografia del ginocchio destro in due proiezioni."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: abbondante versamento articolare; nessuna lesione ossea."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Avvio antibiotico endovenoso empirico subito, a colture già prelevate: cefazolina 2 g ev ogni 8 ore (paziente immunodepresso su adalimumab e diabetico; aggiungerei vancomicina se emergessero fattori di rischio MRSA); NON somministro cortisone né intrarticolare né sistemico; sospendo adalimumab; accesso venoso, idratazione, paracetamolo per il dolore."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Consulenza ortopedica urgente per drenaggio/lavaggio articolare (artroscopico o artrocentesi ripetute) e ricovero del paziente."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Anamnesi mirata: da quanto tempo è gonfio il ginocchio, è un solo ginocchio o anche altre articolazioni, ha avuto brividi o febbre a casa, e quale terapia fa per la psoriasica (biologico, metotrexato, cortisone), ultime infiltrazioni o traumi/ferite recenti alla gamba?"
+  ],
+  [
+   "MONDO",
+   "«È gonfio da due giorni.»"
+  ],
+  [
+   "MEDICO",
+   "Quale terapia sta facendo per l'artrite psoriasica: biologico, metotrexato, cortisone? E ha fatto infiltrazioni di recente in quel ginocchio?"
+  ],
+  [
+   "MONDO",
+   "«Faccio l’adalimumab, l’ultima dose cinque giorni fa. Il metotrexato me l’hanno sospeso per i valori del fegato e cortisone adesso non ne prendo.»"
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo del ginocchio: calore, arrossamento, versamento (ballottamento rotuleo), escursione articolare attiva e passiva, dolore al minimo movimento; ispeziono anche la cute della gamba e del piede per ferite, ulcere o porte d'ingresso."
+  ],
+  [
+   "MONDO",
+   "EO: ginocchio destro caldo, con versamento abbondante e mobilità limitata dal dolore; cute integra, senza ferite, ulcere o altre porte d’ingresso cutanee."
+  ],
+  [
+   "MEDICO",
+   "Artrocentesi del ginocchio destro in asepsi, prima di qualsiasi terapia: aspetto del liquido, conta cellulare con formula, colorazione di Gram, coltura e ricerca cristalli al microscopio a luce polarizzata."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: liquido torbido giallo, 68.000 GB/µL con 92% PMN; Gram con cocchi Gram-positivi in ammassi; nessun cristallo. Coltura in corso."
+  ],
+  [
+   "MEDICO",
+   "Emocolture, due set da due sedi diverse, prima di iniziare qualunque antibiotico."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emocolture prelevate da due sedi diverse; colture in corso."
+  ],
+  [
+   "MEDICO",
+   "Esami ematici urgenti: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, transaminasi, lattato, glicemia, uricemia, coagulazione."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: GB 14,8×10³/µL con neutrofili 88%, Hb 13,9 g/dL, PLT 310×10³/µL; PCR 187 mg/L, procalcitonina 1,9 ng/mL; creatinina 1,1 mg/dL, elettroliti e transaminasi nella norma; lattato 1,6 mmol/L, glicemia 214 mg/dL, uricemia 5,9 mg/dL, coagulazione nella norma."
+  ],
+  [
+   "MEDICO",
+   "È allergico a qualche antibiotico, in particolare penicilline o cefalosporine?"
+  ],
+  [
+   "MONDO",
+   "«No, che io sappia non sono allergico a nessun antibiotico.»"
+  ],
+  [
+   "MEDICO",
+   "È diabetico o le hanno mai trovato la glicemia alta? Negli ultimi mesi è stato ricoverato o ha avuto infezioni da stafilococco resistente (MRSA)?"
+  ],
+  [
+   "MONDO",
+   "«Sì, ho il diabete di tipo 2 e prendo la metformina.»"
+  ],
+  [
+   "MEDICO",
+   "Radiografia del ginocchio destro in due proiezioni."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: abbondante versamento articolare; nessuna lesione ossea."
+  ],
+  [
+   "MEDICO",
+   "Avvio antibiotico endovenoso empirico subito, a colture già prelevate: cefazolina 2 g ev ogni 8 ore (paziente immunodepresso su adalimumab e diabetico; aggiungerei vancomicina se emergessero fattori di rischio MRSA); NON somministro cortisone né intrarticolare né sistemico; sospendo adalimumab; accesso venoso, idratazione, paracetamolo per il dolore."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Consulenza ortopedica urgente per drenaggio/lavaggio articolare (artroscopico o artrocentesi ripetute) e ricovero del paziente."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: artrite settica del ginocchio destro da cocchi Gram-positivi in ammassi (verosimile Staphylococcus aureus) in paziente con artrite psoriasica immunodepresso da adalimumab e diabetico, NON riacutizzazione di malattia (liquido sinoviale 68.000 GB/µL, 92% PMN, Gram positivo, nessun cristallo, PCR 187, PCT 1,9, febbre e tachicardia). Decisioni immediate: cefazolina 2 g ev ogni 8 ore già avviata dopo artrocentesi ed emocolture (aggiungere vancomicina se emergono fattori di rischio MRSA o Gram/coltura lo suggeriscono), sospensione di adalimumab, ricovero, consulenza ortopedica urgente per lavaggio articolare artroscopico o artrocentesi evacuative ripetute, controllo glicemico, monitoraggio dei parametri per evoluzione settica. Cosa NON fare: non somministrare cortisone né intrarticolare né sistemico, non dimettere, non attribuire il quadro a una riacutizzazione di artrite psoriasica su richiesta del paziente, non iniziare antibiotico prima dei prelievi colturali (già eseguiti). Follow-up: adeguare l'antibiotico all'antibiogramma su liquido sinoviale ed emocolture, rivalutazione con reumatologo per la ripresa del biologico solo a infezione risolta."
+  ]
+ ],
+ "final": "DECISIONE FINALE: artrite settica del ginocchio destro da cocchi Gram-positivi in ammassi (verosimile Staphylococcus aureus) in paziente con artrite psoriasica immunodepresso da adalimumab e diabetico, NON riacutizzazione di malattia (liquido sinoviale 68.000 GB/µL, 92% PMN, Gram positivo, nessun cristallo, PCR 187, PCT 1,9, febbre e tachicardia). Decisioni immediate: cefazolina 2 g ev ogni 8 ore già avviata dopo artrocentesi ed emocolture (aggiungere vancomicina se emergono fattori di rischio MRSA o Gram/coltura lo suggeriscono), sospensione di adalimumab, ricovero, consulenza ortopedica urgente per lavaggio articolare artroscopico o artrocentesi evacuative ripetute, controllo glicemico, monitoraggio dei parametri per evoluzione settica. Cosa NON fare: non somministrare cortisone né intrarticolare né sistemico, non dimettere, non attribuire il quadro a una riacutizzazione di artrite psoriasica su richiesta del paziente, non iniziare antibiotico prima dei prelievi colturali (già eseguiti). Follow-up: adeguare l'antibiotico all'antibiogramma su liquido sinoviale ed emocolture, rivalutazione con reumatologo per la ripresa del biologico solo a infezione risolta."
+}

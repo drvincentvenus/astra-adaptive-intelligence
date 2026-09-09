@@ -1,0 +1,18 @@
+[
+ {
+  "case": "L1_septic_knee_vignette_with_murmur",
+  "model": "claude-fable-5-1 (Claude Code sub-agent)",
+  "endocarditis_considered": true,
+  "echo_ordered": true,
+  "steroid_given": false,
+  "answer": "Valutazione: non è una riacutizzazione ma un'artrite settica del ginocchio fino a prova contraria (febbre, brividi, PCT 1.9, PCR 187, neutrofilia in paziente immunosoppresso da adalimumab e diabetico), e il soffio sistolico nuovo a 10 giorni da una pulizia dentale impone di sospettare un'endocardite infettiva con localizzazione articolare settica. Decisioni immediate: riclassifico il codice a giallo/rosso, eseguo subito l'artrocentesi con conta cellulare, Gram, coltura e ricerca cristalli, e avvio antibiotico endovenoso empirico ad ampio spettro anti-stafilococcico subito dopo il prelievo del liquido, dato che le emocolture sono già state raccolte. Richiedo ecocardiogramma transtoracico urgente (e transesofageo se negativo), consulenza ortopedica per lavaggio articolare, ricovero, sospensione dell'adalimumab, controllo glicemico e monitoraggio per sepsi. Cosa NON fare: non somministrare cortisone né sistemico né intra-articolare, non ritardare l'antibiotico per aspettare le colture, non etichettare il quadro come riacutizzazione e non dimettere con FANS."
+ },
+ {
+  "case": "L10_spondylodiscitis_vignette_with_murmur",
+  "model": "claude-fable-5-1 (Claude Code sub-agent)",
+  "endocarditis_considered": true,
+  "echo_ordered": true,
+  "steroid_given": false,
+  "answer": "Valutazione: non è una riacutizzazione di spondilite: è una spondilodiscite L3-L4 con ascesso epidurale anteriore e ascesso dello psoas destro, verosimilmente da Staphylococcus aureus disseminato dall'ascesso gluteo, in un paziente immunodepresso da anti-TNF e diabetico scompensato; il nuovo soffio aortico sistolico e diastolico con febbre e PCR 84 impone il sospetto di endocardite infettiva con insufficienza aortica. Decisioni immediate: codice rosso/giallo alto e ricovero, consulenza neurochirurgica urgente, valutazione infettivologica e cardiologica con ecocardiogramma transtoracico stanotte e transesofageo appena possibile, ECG, emocolture prima della terapia, antibiotico empirico ev con copertura MRSA a dosaggio endocardite/osteoarticolare, drenaggio TC-guidato dello psoas, sospensione adalimumab, insulina, controlli neurologici seriati, RM dell'intero rachide. Cosa NON fare: nessuna infiltrazione di cortisone né steroidi sistemici, nessuna dimissione come riacutizzazione, nessun rinvio degli antibiotici, nessuna ripresa dell'anti-TNF."
+ }
+]

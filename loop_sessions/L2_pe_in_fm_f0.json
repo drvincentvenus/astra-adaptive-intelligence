@@ -1,0 +1,157 @@
+{
+ "case": "L2_pe_in_fm",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi descriva il dolore al petto di oggi: quando è iniziato esattamente, è diverso dai suoi soliti dolori, peggiora con il respiro profondo, e ha avuto affanno o fiato corto?"
+  },
+  {
+   "role": "assistant",
+   "content": "È iniziato stamattina, qui a destra: sembra diverso dal mio solito dolore e peggiora quando faccio un respiro profondo. Mi manca il fiato, prima soprattutto sulle scale, ma adesso anche da ferma mentre parlo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ha fattori di rischio per trombosi: nelle ultime settimane immobilizzazione, viaggi lunghi, interventi chirurgici, gessi, prende estroprogestinici o terapia ormonale, fuma, ha avuto in passato trombosi o embolia, tumori, e ha notato una gamba gonfia o dolente?"
+  },
+  {
+   "role": "assistant",
+   "content": "Sono tornata tre giorni fa da un viaggio in auto di circa undici ore, prendo la pillola estroprogestinica e fumo una quindicina di sigarette al giorno. Da qualche giorno ho anche la gamba sinistra un po’ gonfia e dolente, ma pensavo fosse per il caldo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo degli arti inferiori: confronto circonferenza polpacci, edema, dolorabilità alla palpazione del polpaccio sinistro, eritema/calore, segno di Homans, polsi periferici"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: ECG 12 derivazioni"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: tachicardia sinusale a 110 bpm; quadro S1Q3T3 dubbio."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esami ematici urgenti: troponina hs, NT-proBNP, emocromo, creatinina, PT/INR, aPTT, elettroliti, beta-hCG"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: troponina hs 8 ng/L."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo torace e cuore: auscultazione polmonare, toni cardiaci, turgore giugulare, segni di ipoperfusione (cute, refill capillare), e rivalutazione PA/FC/SpO2"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ossigeno con occhialini per SpO2 target ≥94%, monitoraggio continuo ECG/SpO2/PA, accesso venoso, passaggio a codice di priorità alta"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Inizio subito anticoagulazione terapeutica con enoxaparina 1 mg/kg sc ogni 12 ore (probabilità clinica alta di embolia polmonare, nessuna controindicazione emorragica nota), senza attendere l'imaging"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Angio-TC torace con protocollo per embolia polmonare in urgenza"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emboli polmonari bilaterali lobari e segmentari; rapporto ventricolo destro/ventricolo sinistro 1,1."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi descriva il dolore al petto di oggi: quando è iniziato esattamente, è diverso dai suoi soliti dolori, peggiora con il respiro profondo, e ha avuto affanno o fiato corto?"
+  ],
+  [
+   "MONDO",
+   "È iniziato stamattina, qui a destra: sembra diverso dal mio solito dolore e peggiora quando faccio un respiro profondo. Mi manca il fiato, prima soprattutto sulle scale, ma adesso anche da ferma mentre parlo."
+  ],
+  [
+   "MEDICO",
+   "Ha fattori di rischio per trombosi: nelle ultime settimane immobilizzazione, viaggi lunghi, interventi chirurgici, gessi, prende estroprogestinici o terapia ormonale, fuma, ha avuto in passato trombosi o embolia, tumori, e ha notato una gamba gonfia o dolente?"
+  ],
+  [
+   "MONDO",
+   "Sono tornata tre giorni fa da un viaggio in auto di circa undici ore, prendo la pillola estroprogestinica e fumo una quindicina di sigarette al giorno. Da qualche giorno ho anche la gamba sinistra un po’ gonfia e dolente, ma pensavo fosse per il caldo."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo degli arti inferiori: confronto circonferenza polpacci, edema, dolorabilità alla palpazione del polpaccio sinistro, eritema/calore, segno di Homans, polsi periferici"
+  ],
+  [
+   "MONDO",
+   "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+  ],
+  [
+   "MEDICO",
+   "ECG 12 derivazioni"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: tachicardia sinusale a 110 bpm; quadro S1Q3T3 dubbio."
+  ],
+  [
+   "MEDICO",
+   "Esami ematici urgenti: troponina hs, NT-proBNP, emocromo, creatinina, PT/INR, aPTT, elettroliti, beta-hCG"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: troponina hs 8 ng/L."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo torace e cuore: auscultazione polmonare, toni cardiaci, turgore giugulare, segni di ipoperfusione (cute, refill capillare), e rivalutazione PA/FC/SpO2"
+  ],
+  [
+   "MONDO",
+   "EO: murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+  ],
+  [
+   "MEDICO",
+   "Ossigeno con occhialini per SpO2 target ≥94%, monitoraggio continuo ECG/SpO2/PA, accesso venoso, passaggio a codice di priorità alta"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Inizio subito anticoagulazione terapeutica con enoxaparina 1 mg/kg sc ogni 12 ore (probabilità clinica alta di embolia polmonare, nessuna controindicazione emorragica nota), senza attendere l'imaging"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Angio-TC torace con protocollo per embolia polmonare in urgenza"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emboli polmonari bilaterali lobari e segmentari; rapporto ventricolo destro/ventricolo sinistro 1,1."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: embolia polmonare acuta bilaterale lobare e segmentaria con TVP arto inferiore sinistro, in paziente con fattori di rischio (viaggio prolungato, estroprogestinico, fumo); rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC ≥110, RV/LV 1,1 alla TC ma troponina hs negativa). Decisioni immediate: proseguire anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 ore, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica/subintensiva con ecocardiogramma e NT-proBNP per completare la stratificazione, sospensione definitiva della pillola estroprogestinica e counselling antifumo, poi passaggio a DOAC (apixaban o rivaroxaban) per almeno 3-6 mesi. Cosa NON fare: non attribuire i sintomi alla fibromialgia o all'ansia e non dimettere; non trombolisi sistemica (nessuna instabilità emodinamica, da riservare solo a deterioramento); non ansiolitici o oppioidi al posto del trattamento causale; non ritardare l'anticoagulazione in attesa di ulteriori esami."
+  ]
+ ],
+ "final": "DECISIONE FINALE: embolia polmonare acuta bilaterale lobare e segmentaria con TVP arto inferiore sinistro, in paziente con fattori di rischio (viaggio prolungato, estroprogestinico, fumo); rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC ≥110, RV/LV 1,1 alla TC ma troponina hs negativa). Decisioni immediate: proseguire anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 ore, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica/subintensiva con ecocardiogramma e NT-proBNP per completare la stratificazione, sospensione definitiva della pillola estroprogestinica e counselling antifumo, poi passaggio a DOAC (apixaban o rivaroxaban) per almeno 3-6 mesi. Cosa NON fare: non attribuire i sintomi alla fibromialgia o all'ansia e non dimettere; non trombolisi sistemica (nessuna instabilità emodinamica, da riservare solo a deterioramento); non ansiolitici o oppioidi al posto del trattamento causale; non ritardare l'anticoagulazione in attesa di ulteriori esami."
+}

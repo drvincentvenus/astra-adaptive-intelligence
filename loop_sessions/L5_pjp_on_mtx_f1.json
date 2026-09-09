@@ -1,0 +1,189 @@
+{
+ "case": "L5_pjp_on_mtx",
+ "run": "f1",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi dice esattamente cosa prende per l'artrite: la pastiglia settimanale è metotrexato e a che dose? Le punture cosa sono (nome del farmaco biologico, ogni quanto, ultima somministrazione)? Prende cortisone, e a che dose? Prende acido folico o Bactrim di profilassi?"
+  },
+  {
+   "role": "assistant",
+   "content": "Prendo metotrexato 20 mg sottocute una volta a settimana, etanercept 50 mg con una puntura settimanale da quattro anni e prednisone 5 mg tutti i giorni; non ricordo esattamente quando ho fatto l’ultima puntura. Prendo anche acido folico, ma non faccio profilassi con Bactrim."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, la tosse è secca o con catarro? Il fiatone lo ha a riposo o solo quando cammina o sale le scale, e in queste 3 settimane è peggiorato progressivamente? Ha avuto febbre misurata, sudorazioni notturne, calo di peso, dolore toracico?"
+  },
+  {
+   "role": "assistant",
+   "content": "La tosse è secca. All’inizio avevo fiatone soprattutto in salita, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche da ferma mentre parlo. La sera ho misurato 37,5-38; dolore al petto no."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Auscultazione del torace completa, anteriore e posteriore, in inspirazione profonda: cerco crepitii, velcro basali, sibili, riduzione del murmure, segni di versamento."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: crepitii fini bibasali; per il resto nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Inizio subito ossigenoterapia con occhialini/maschera titolando per SpO2 ≥94%, monitoraggio saturimetrico continuo e accesso venoso."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale dal 91% al 95%."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo emogasanalisi arteriosa in aria ambiente (prima dell'O2 se possibile) più esami ematici urgenti: emocromo con formula, PCR, procalcitonina, LDH, creatinina, elettroliti, transaminasi, beta-D-glucano, emocolture."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: EGA in aria ambiente: pH 7,46; pO₂ 58 mmHg; pCO₂ 33 mmHg."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo radiografia del torace in due proiezioni urgente."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: tenue accentuazione interstiziale bilaterale, senza addensamenti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Voglio i risultati degli esami ematici: emocromo con formula (linfociti totali), PCR, procalcitonina, LDH, creatinina, transaminasi, beta-D-glucano sierico."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L; PCR 68 mg/L; procalcitonina 0,2 ng/mL; LDH 480 U/L; creatinina 1,0 mg/dL; transaminasi nella norma; beta-D-glucano 380 pg/mL, positivo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo TC torace ad alta risoluzione senza contrasto urgente."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo tampone nasofaringeo con PCR per SARS-CoV-2, influenza A/B e RSV, più antigeni urinari per Legionella e pneumococco."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: PCR nasofaringea per SARS-CoV-2 negativa."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, le hanno mai detto che l'artrite le ha toccato i polmoni (fibrosi, interstiziopatia) o ha mai fatto una TC del torace prima? Ha mai avuto la tubercolosi o contatti con persone con TBC, e ha fatto il Quantiferon prima di iniziare l'etanercept?"
+  },
+  {
+   "role": "assistant",
+   "content": "Non mi hanno mai detto che l’artrite avesse colpito i polmoni e non ricordo TC precedenti. Non ho mai avuto la tubercolosi né contatti noti con persone con TBC; non ricordo se feci il Quantiferon."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Inizio subito terapia empirica per polmonite da Pneumocystis: cotrimossazolo ev ad alte dosi (trimetoprim 15-20 mg/kg/die in 3-4 somministrazioni, aggiustato per funzione renale) più corticosteroide adiuvante (prednisone 40 mg x2/die o equivalente ev) dato pO2 <70 mmHg, iniziato entro 72 h dall'antibiotico; sospendo metotrexato ed etanercept; richiedo espettorato indotto/BAL per PCR e immunofluorescenza per Pneumocystis senza ritardare la terapia."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO. BAL prenotabile per domani; risultato della PCR per Pneumocystis disponibile in circa 24 ore."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi dice esattamente cosa prende per l'artrite: la pastiglia settimanale è metotrexato e a che dose? Le punture cosa sono (nome del farmaco biologico, ogni quanto, ultima somministrazione)? Prende cortisone, e a che dose? Prende acido folico o Bactrim di profilassi?"
+  ],
+  [
+   "MONDO",
+   "Prendo metotrexato 20 mg sottocute una volta a settimana, etanercept 50 mg con una puntura settimanale da quattro anni e prednisone 5 mg tutti i giorni; non ricordo esattamente quando ho fatto l’ultima puntura. Prendo anche acido folico, ma non faccio profilassi con Bactrim."
+  ],
+  [
+   "MEDICO",
+   "Signora, la tosse è secca o con catarro? Il fiatone lo ha a riposo o solo quando cammina o sale le scale, e in queste 3 settimane è peggiorato progressivamente? Ha avuto febbre misurata, sudorazioni notturne, calo di peso, dolore toracico?"
+  ],
+  [
+   "MONDO",
+   "La tosse è secca. All’inizio avevo fiatone soprattutto in salita, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche da ferma mentre parlo. La sera ho misurato 37,5-38; dolore al petto no."
+  ],
+  [
+   "MEDICO",
+   "Auscultazione del torace completa, anteriore e posteriore, in inspirazione profonda: cerco crepitii, velcro basali, sibili, riduzione del murmure, segni di versamento."
+  ],
+  [
+   "MONDO",
+   "EO: crepitii fini bibasali; per il resto nella norma."
+  ],
+  [
+   "MEDICO",
+   "Inizio subito ossigenoterapia con occhialini/maschera titolando per SpO2 ≥94%, monitoraggio saturimetrico continuo e accesso venoso."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale dal 91% al 95%."
+  ],
+  [
+   "MEDICO",
+   "Richiedo emogasanalisi arteriosa in aria ambiente (prima dell'O2 se possibile) più esami ematici urgenti: emocromo con formula, PCR, procalcitonina, LDH, creatinina, elettroliti, transaminasi, beta-D-glucano, emocolture."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: EGA in aria ambiente: pH 7,46; pO₂ 58 mmHg; pCO₂ 33 mmHg."
+  ],
+  [
+   "MEDICO",
+   "Richiedo radiografia del torace in due proiezioni urgente."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: tenue accentuazione interstiziale bilaterale, senza addensamenti."
+  ],
+  [
+   "MEDICO",
+   "Voglio i risultati degli esami ematici: emocromo con formula (linfociti totali), PCR, procalcitonina, LDH, creatinina, transaminasi, beta-D-glucano sierico."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L; PCR 68 mg/L; procalcitonina 0,2 ng/mL; LDH 480 U/L; creatinina 1,0 mg/dL; transaminasi nella norma; beta-D-glucano 380 pg/mL, positivo."
+  ],
+  [
+   "MEDICO",
+   "Richiedo TC torace ad alta risoluzione senza contrasto urgente."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+  ],
+  [
+   "MEDICO",
+   "Richiedo tampone nasofaringeo con PCR per SARS-CoV-2, influenza A/B e RSV, più antigeni urinari per Legionella e pneumococco."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: PCR nasofaringea per SARS-CoV-2 negativa."
+  ],
+  [
+   "MEDICO",
+   "Signora, le hanno mai detto che l'artrite le ha toccato i polmoni (fibrosi, interstiziopatia) o ha mai fatto una TC del torace prima? Ha mai avuto la tubercolosi o contatti con persone con TBC, e ha fatto il Quantiferon prima di iniziare l'etanercept?"
+  ],
+  [
+   "MONDO",
+   "Non mi hanno mai detto che l’artrite avesse colpito i polmoni e non ricordo TC precedenti. Non ho mai avuto la tubercolosi né contatti noti con persone con TBC; non ricordo se feci il Quantiferon."
+  ],
+  [
+   "MEDICO",
+   "Inizio subito terapia empirica per polmonite da Pneumocystis: cotrimossazolo ev ad alte dosi (trimetoprim 15-20 mg/kg/die in 3-4 somministrazioni, aggiustato per funzione renale) più corticosteroide adiuvante (prednisone 40 mg x2/die o equivalente ev) dato pO2 <70 mmHg, iniziato entro 72 h dall'antibiotico; sospendo metotrexato ed etanercept; richiedo espettorato indotto/BAL per PCR e immunofluorescenza per Pneumocystis senza ritardare la terapia."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO. BAL prenotabile per domani; risultato della PCR per Pneumocystis disponibile in circa 24 ore."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: Polmonite da Pneumocystis jirovecii in paziente immunodepressa (AR in metotrexato 20 mg/sett + etanercept + prednisone cronico, senza profilassi): dispnea progressiva subacuta, tosse secca, febbricola, ipossiemia con pO2 58 mmHg, LDH 480, linfopenia 0,6, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico, SARS-CoV-2 negativo. Immediato: ricovero in Pneumologia/Malattie Infettive con monitoraggio continuo e O2 titolato a SpO2 ≥94%, cotrimossazolo ev ad alte dosi (TMP 15-20 mg/kg/die in 3-4 dosi, 21 giorni, controllo potassio/creatinina/emocromo) più prednisone 40 mg x2 come adiuvante per pO2 <70, iniziati subito senza attendere BAL; BAL domani con PCR/IF per Pneumocystis, colturale e ricerca BK per confermare ed escludere coinfezioni. Sospendere metotrexato ed etanercept (non interrompere il prednisone di fondo, viene inglobato nello schema steroideo). Da NON fare: dimettere o trattare come bronchite virale con antibiotici standard, ritardare cotrimossazolo e steroide in attesa del BAL, escludere PJP per la radiografia quasi normale o per la procalcitonina bassa, attribuire il quadro a polmonite da metotrexato senza prima coprire Pneumocystis, dare steroidi da soli senza cotrimossazolo. Alla dimissione: profilassi secondaria con cotrimossazolo finché persiste l'immunosoppressione e rivalutazione reumatologica del regime."
+  ]
+ ],
+ "final": "DECISIONE FINALE: Polmonite da Pneumocystis jirovecii in paziente immunodepressa (AR in metotrexato 20 mg/sett + etanercept + prednisone cronico, senza profilassi): dispnea progressiva subacuta, tosse secca, febbricola, ipossiemia con pO2 58 mmHg, LDH 480, linfopenia 0,6, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico, SARS-CoV-2 negativo. Immediato: ricovero in Pneumologia/Malattie Infettive con monitoraggio continuo e O2 titolato a SpO2 ≥94%, cotrimossazolo ev ad alte dosi (TMP 15-20 mg/kg/die in 3-4 dosi, 21 giorni, controllo potassio/creatinina/emocromo) più prednisone 40 mg x2 come adiuvante per pO2 <70, iniziati subito senza attendere BAL; BAL domani con PCR/IF per Pneumocystis, colturale e ricerca BK per confermare ed escludere coinfezioni. Sospendere metotrexato ed etanercept (non interrompere il prednisone di fondo, viene inglobato nello schema steroideo). Da NON fare: dimettere o trattare come bronchite virale con antibiotici standard, ritardare cotrimossazolo e steroide in attesa del BAL, escludere PJP per la radiografia quasi normale o per la procalcitonina bassa, attribuire il quadro a polmonite da metotrexato senza prima coprire Pneumocystis, dare steroidi da soli senza cotrimossazolo. Alla dimissione: profilassi secondaria con cotrimossazolo finché persiste l'immunosoppressione e rivalutazione reumatologica del regime."
+}

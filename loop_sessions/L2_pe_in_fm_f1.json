@@ -1,0 +1,189 @@
+{
+ "case": "L2_pe_in_fm",
+ "run": "f1",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi racconti il dolore al petto di oggi: quando è iniziato esattamente, è comparso all'improvviso o gradualmente, dove lo sente, peggiora quando respira profondamente e le manca il fiato?"
+  },
+  {
+   "role": "assistant",
+   "content": "È iniziato stamattina, lo sento sul lato destro e aumenta quando faccio un respiro profondo. Mi manca il fiato: prima soprattutto sulle scale, adesso anche da ferma mentre parlo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Anamnesi mirata per rischio tromboembolico: nelle ultime settimane ha fatto viaggi lunghi, interventi chirurgici, periodi di immobilità o allettamento? Prende pillola estroprogestinica o terapia ormonale, fuma? Ha mai avuto trombosi o embolia, tumori, ha una gamba gonfia o dolente?"
+  },
+  {
+   "role": "assistant",
+   "content": "Sono rientrata tre giorni fa da un viaggio in auto durato circa undici ore. Sono rimasta seduta quasi tutto il tempo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo degli arti inferiori: confronto i polpacci (circonferenza, edema, calore, dolorabilità alla palpazione del polpaccio e lungo il decorso venoso profondo, asimmetria)."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Auscultazione cardiaca e polmonare completa: ritmo, toni, soffi, rinforzo del secondo tono polmonare, murmure vescicolare bilaterale, sfregamenti pleurici, rantoli, e valuto turgore giugulare."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: toni cardiaci ritmici ma tachicardici, senza soffi; murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo ECG 12 derivazioni immediato."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: tachicardia sinusale a 110 bpm; pattern S1Q3T3 dubbio."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Riclassifico il paziente: monitoraggio continuo, ossigeno per SpO2 target ≥94%, accesso venoso, ed esami urgenti: emogasanalisi arteriosa, emocromo, creatinina, coagulazione, troponina hs, NT-proBNP, beta-hCG."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, prima di iniziare un anticoagulante: ha avuto sanguinamenti recenti, ulcera gastrica, interventi o traumi recenti, problemi ai reni o al fegato, allergie all'eparina, e quanto pesa? Potrebbe essere incinta?"
+  },
+  {
+   "role": "assistant",
+   "content": "Non mi risulta di avere avuto sanguinamenti recenti. Per il resto non saprei dirle, e non so dirle il peso preciso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Probabilità clinica pre-test alta (Wells ≥7,5: segni di TVP, tachicardia, EP diagnosi più probabile, viaggio prolungato): senza attendere altri esami avvio anticoagulazione terapeutica con enoxaparina 1 mg/kg sc su peso stimato (circa 70 kg → 7000 UI), salvo insufficienza renale grave all'arrivo della creatinina."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo angio-TC torace con protocollo per embolia polmonare urgente (salto il D-dimero data l'alta probabilità pre-test)."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emboli polmonari bilaterali lobari e segmentari, con rapporto VD/VS di 1,1."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Mostrami i risultati disponibili di emogasanalisi, troponina hs, NT-proBNP, creatinina ed emocromo."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emogasanalisi arteriosa: pH 7,47; pO₂ 66 mmHg; pCO₂ 30 mmHg."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Risultati di troponina hs e NT-proBNP per la stratificazione del rischio."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: troponina hs 8 ng/L."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi racconti il dolore al petto di oggi: quando è iniziato esattamente, è comparso all'improvviso o gradualmente, dove lo sente, peggiora quando respira profondamente e le manca il fiato?"
+  ],
+  [
+   "MONDO",
+   "È iniziato stamattina, lo sento sul lato destro e aumenta quando faccio un respiro profondo. Mi manca il fiato: prima soprattutto sulle scale, adesso anche da ferma mentre parlo."
+  ],
+  [
+   "MEDICO",
+   "Anamnesi mirata per rischio tromboembolico: nelle ultime settimane ha fatto viaggi lunghi, interventi chirurgici, periodi di immobilità o allettamento? Prende pillola estroprogestinica o terapia ormonale, fuma? Ha mai avuto trombosi o embolia, tumori, ha una gamba gonfia o dolente?"
+  ],
+  [
+   "MONDO",
+   "Sono rientrata tre giorni fa da un viaggio in auto durato circa undici ore. Sono rimasta seduta quasi tutto il tempo."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo degli arti inferiori: confronto i polpacci (circonferenza, edema, calore, dolorabilità alla palpazione del polpaccio e lungo il decorso venoso profondo, asimmetria)."
+  ],
+  [
+   "MONDO",
+   "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+  ],
+  [
+   "MEDICO",
+   "Auscultazione cardiaca e polmonare completa: ritmo, toni, soffi, rinforzo del secondo tono polmonare, murmure vescicolare bilaterale, sfregamenti pleurici, rantoli, e valuto turgore giugulare."
+  ],
+  [
+   "MONDO",
+   "EO: toni cardiaci ritmici ma tachicardici, senza soffi; murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+  ],
+  [
+   "MEDICO",
+   "Richiedo ECG 12 derivazioni immediato."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: tachicardia sinusale a 110 bpm; pattern S1Q3T3 dubbio."
+  ],
+  [
+   "MEDICO",
+   "Riclassifico il paziente: monitoraggio continuo, ossigeno per SpO2 target ≥94%, accesso venoso, ed esami urgenti: emogasanalisi arteriosa, emocromo, creatinina, coagulazione, troponina hs, NT-proBNP, beta-hCG."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Signora, prima di iniziare un anticoagulante: ha avuto sanguinamenti recenti, ulcera gastrica, interventi o traumi recenti, problemi ai reni o al fegato, allergie all'eparina, e quanto pesa? Potrebbe essere incinta?"
+  ],
+  [
+   "MONDO",
+   "Non mi risulta di avere avuto sanguinamenti recenti. Per il resto non saprei dirle, e non so dirle il peso preciso."
+  ],
+  [
+   "MEDICO",
+   "Probabilità clinica pre-test alta (Wells ≥7,5: segni di TVP, tachicardia, EP diagnosi più probabile, viaggio prolungato): senza attendere altri esami avvio anticoagulazione terapeutica con enoxaparina 1 mg/kg sc su peso stimato (circa 70 kg → 7000 UI), salvo insufficienza renale grave all'arrivo della creatinina."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Richiedo angio-TC torace con protocollo per embolia polmonare urgente (salto il D-dimero data l'alta probabilità pre-test)."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emboli polmonari bilaterali lobari e segmentari, con rapporto VD/VS di 1,1."
+  ],
+  [
+   "MEDICO",
+   "Mostrami i risultati disponibili di emogasanalisi, troponina hs, NT-proBNP, creatinina ed emocromo."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emogasanalisi arteriosa: pH 7,47; pO₂ 66 mmHg; pCO₂ 30 mmHg."
+  ],
+  [
+   "MEDICO",
+   "Risultati di troponina hs e NT-proBNP per la stratificazione del rischio."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: troponina hs 8 ng/L."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: Embolia polmonare acuta bilaterale lobare e segmentaria confermata all'angio-TC, con TVP clinica del polpaccio sinistro dopo viaggio in auto di 11 ore; il dolore NON è fibromialgia né ansia. Rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC 112, VD/VS 1,1 ma troponina hs negativa): anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 h da proseguire, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica monitorata con ecocardiogramma e rivalutazione clinica precoce, passaggio a DOAC (apixaban o rivaroxaban) quando stabile. NON dimettere, NON trombolisi sistemica in assenza di instabilità emodinamica (riservarla a deterioramento con ipotensione), NON attribuire i sintomi a fibromialgia/ansia, NON sedare con benzodiazepine. Approfondire in reparto peso reale, funzione renale, eventuale terapia ormonale e durata dell'anticoagulazione (fattore di rischio transitorio: minimo 3 mesi)."
+  ]
+ ],
+ "final": "DECISIONE FINALE: Embolia polmonare acuta bilaterale lobare e segmentaria confermata all'angio-TC, con TVP clinica del polpaccio sinistro dopo viaggio in auto di 11 ore; il dolore NON è fibromialgia né ansia. Rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC 112, VD/VS 1,1 ma troponina hs negativa): anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 h da proseguire, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica monitorata con ecocardiogramma e rivalutazione clinica precoce, passaggio a DOAC (apixaban o rivaroxaban) quando stabile. NON dimettere, NON trombolisi sistemica in assenza di instabilità emodinamica (riservarla a deterioramento con ipotensione), NON attribuire i sintomi a fibromialgia/ansia, NON sedare con benzodiazepine. Approfondire in reparto peso reale, funzione renale, eventuale terapia ormonale e durata dell'anticoagulazione (fattore di rischio transitorio: minimo 3 mesi)."
+}

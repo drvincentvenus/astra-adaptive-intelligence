@@ -1,0 +1,1372 @@
+[
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "f0",
+  "turns": 12,
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": true,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": true,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Anamnesi mirata: da quanto tempo è gonfio il ginocchio, è un solo ginocchio o anche altre articolazioni, ha avuto brividi o febbre a casa, e quale terapia fa per la psoriasica (biologico, metotrexato, cortisone), ultime infiltrazioni o traumi/ferite recenti alla gamba?"
+   ],
+   [
+    "MONDO",
+    "«È gonfio da due giorni.»"
+   ],
+   [
+    "MEDICO",
+    "Quale terapia sta facendo per l'artrite psoriasica: biologico, metotrexato, cortisone? E ha fatto infiltrazioni di recente in quel ginocchio?"
+   ],
+   [
+    "MONDO",
+    "«Faccio l’adalimumab, l’ultima dose cinque giorni fa. Il metotrexato me l’hanno sospeso per i valori del fegato e cortisone adesso non ne prendo.»"
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo del ginocchio: calore, arrossamento, versamento (ballottamento rotuleo), escursione articolare attiva e passiva, dolore al minimo movimento; ispeziono anche la cute della gamba e del piede per ferite, ulcere o porte d'ingresso."
+   ],
+   [
+    "MONDO",
+    "EO: ginocchio destro caldo, con versamento abbondante e mobilità limitata dal dolore; cute integra, senza ferite, ulcere o altre porte d’ingresso cutanee."
+   ],
+   [
+    "MEDICO",
+    "Artrocentesi del ginocchio destro in asepsi, prima di qualsiasi terapia: aspetto del liquido, conta cellulare con formula, colorazione di Gram, coltura e ricerca cristalli al microscopio a luce polarizzata."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: liquido torbido giallo, 68.000 GB/µL con 92% PMN; Gram con cocchi Gram-positivi in ammassi; nessun cristallo. Coltura in corso."
+   ],
+   [
+    "MEDICO",
+    "Emocolture, due set da due sedi diverse, prima di iniziare qualunque antibiotico."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocolture prelevate da due sedi diverse; colture in corso."
+   ],
+   [
+    "MEDICO",
+    "Esami ematici urgenti: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, transaminasi, lattato, glicemia, uricemia, coagulazione."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: GB 14,8×10³/µL con neutrofili 88%, Hb 13,9 g/dL, PLT 310×10³/µL; PCR 187 mg/L, procalcitonina 1,9 ng/mL; creatinina 1,1 mg/dL, elettroliti e transaminasi nella norma; lattato 1,6 mmol/L, glicemia 214 mg/dL, uricemia 5,9 mg/dL, coagulazione nella norma."
+   ],
+   [
+    "MEDICO",
+    "È allergico a qualche antibiotico, in particolare penicilline o cefalosporine?"
+   ],
+   [
+    "MONDO",
+    "«No, che io sappia non sono allergico a nessun antibiotico.»"
+   ],
+   [
+    "MEDICO",
+    "È diabetico o le hanno mai trovato la glicemia alta? Negli ultimi mesi è stato ricoverato o ha avuto infezioni da stafilococco resistente (MRSA)?"
+   ],
+   [
+    "MONDO",
+    "«Sì, ho il diabete di tipo 2 e prendo la metformina.»"
+   ],
+   [
+    "MEDICO",
+    "Radiografia del ginocchio destro in due proiezioni."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: abbondante versamento articolare; nessuna lesione ossea."
+   ],
+   [
+    "MEDICO",
+    "Avvio antibiotico endovenoso empirico subito, a colture già prelevate: cefazolina 2 g ev ogni 8 ore (paziente immunodepresso su adalimumab e diabetico; aggiungerei vancomicina se emergessero fattori di rischio MRSA); NON somministro cortisone né intrarticolare né sistemico; sospendo adalimumab; accesso venoso, idratazione, paracetamolo per il dolore."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Consulenza ortopedica urgente per drenaggio/lavaggio articolare (artroscopico o artrocentesi ripetute) e ricovero del paziente."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: artrite settica del ginocchio destro da cocchi Gram-positivi in ammassi (verosimile Staphylococcus aureus) in paziente con artrite psoriasica immunodepresso da adalimumab e diabetico, NON riacutizzazione di malattia (liquido sinoviale 68.000 GB/µL, 92% PMN, Gram positivo, nessun cristallo, PCR 187, PCT 1,9, febbre e tachicardia). Decisioni immediate: cefazolina 2 g ev ogni 8 ore già avviata dopo artrocentesi ed emocolture (aggiungere vancomicina se emergono fattori di rischio MRSA o Gram/coltura lo suggeriscono), sospensione di adalimumab, ricovero, consulenza ortopedica urgente per lavaggio articolare artroscopico o artrocentesi evacuative ripetute, controllo glicemico, monitoraggio dei parametri per evoluzione settica. Cosa NON fare: non somministrare cortisone né intrarticolare né sistemico, non dimettere, non attribuire il quadro a una riacutizzazione di artrite psoriasica su richiesta del paziente, non iniziare antibiotico prima dei prelievi colturali (già eseguiti). Follow-up: adeguare l'antibiotico all'antibiogramma su liquido sinoviale ed emocolture, rivalutazione con reumatologo per la ripresa del biologico solo a infezione risolta."
+   ]
+  ]
+ },
+ {
+  "case": "L1_septic_vs_flare",
+  "run": "f1",
+  "turns": 11,
+  "judge": {
+   "aspirated_joint_before_steroid": true,
+   "asked_chills_or_fever_history": true,
+   "auscultated_heart_or_found_murmur": false,
+   "asked_dental_or_procedures": false,
+   "ordered_echo": false,
+   "held_adalimumab": true,
+   "gave_steroids": false,
+   "final_septic_arthritis": true,
+   "final_endocarditis_considered": false,
+   "final_empirical_antibiotics": true
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Chiedo al paziente: da quanto tempo il ginocchio è gonfio, e quali farmaci sta prendendo per l'artrite psoriasica (biologico, metotrexato, cortisone, quando l'ultima dose)?"
+   ],
+   [
+    "MONDO",
+    "«È gonfio da due giorni. Per l’artrite prendo adalimumab dal 2022, l’ultima dose l’ho fatta cinque giorni fa; il metotrexato me l’hanno sospeso per i valori del fegato e cortisone adesso non ne prendo.»"
+   ],
+   [
+    "MEDICO",
+    "Chiedo al paziente: ha avuto brividi scuotenti, altre articolazioni gonfie, ferite o lesioni cutanee alla gamba, infiltrazioni recenti nel ginocchio, o traumi? E le riacutizzazioni precedenti erano così, con febbre?"
+   ],
+   [
+    "MONDO",
+    "«Sì, ieri sera ho avuto dei brividi fortissimi, mi scuotevano proprio.»"
+   ],
+   [
+    "MEDICO",
+    "Chiedo al paziente: nelle ultime settimane ha fatto infiltrazioni nel ginocchio, ha ferite, ulcere o placche di psoriasi infette sulla gamba, o ha avuto traumi al ginocchio?"
+   ],
+   [
+    "MONDO",
+    "«No, niente infiltrazioni recenti, ferite o traumi al ginocchio. Non ho nemmeno ulcere o placche che sembrino infette sulla gamba.»"
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo del ginocchio: ispezione e palpazione per versamento (ballottamento rotuleo), calore, arrossamento, escursione articolare attiva e passiva, e confronto con il controlaterale; controllo delle altre articolazioni e della cute."
+   ],
+   [
+    "MONDO",
+    "EO: ginocchio destro caldo, con versamento abbondante e ballottamento rotuleo positivo; escursione articolare attiva e passiva limitata dal dolore, cute integra. Ginocchio controlaterale e altre articolazioni nella norma; nessuna porta d’ingresso cutanea."
+   ],
+   [
+    "MEDICO",
+    "Prelievo di due set di emocolture (aerobi e anaerobi) da due sedi diverse, prima di qualsiasi antibiotico."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: due set di emocolture prelevati prima dell’antibiotico; colture in corso."
+   ],
+   [
+    "MEDICO",
+    "Richiedo esami ematici urgenti: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, transaminasi, lattato, glicemia, coagulazione."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: GB 14,8×10³/µL (neutrofili 88%), Hb 13,9 g/dL, PLT 310×10³/µL; PCR 187 mg/L, procalcitonina 1,9 ng/mL; creatinina 1,1 mg/dL, glicemia 214 mg/dL, lattato 1,6 mmol/L. Elettroliti, transaminasi e coagulazione nei limiti."
+   ],
+   [
+    "MEDICO",
+    "Artrocentesi del ginocchio destro in sterilità: aspetto del liquido, conta cellulare con formula, colorazione di Gram, coltura (aerobi/anaerobi), ricerca cristalli al microscopio a luce polarizzata, glucosio sinoviale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: liquido sinoviale torbido, giallo; 68.000 GB/µL con 92% PMN. Gram: cocchi Gram-positivi in ammassi; nessun cristallo alla luce polarizzata. Colture aerobie e anaerobie in corso; glucosio sinoviale nei limiti."
+   ],
+   [
+    "MEDICO",
+    "Avvio subito terapia antibiotica empirica endovenosa per artrite settica da cocchi Gram-positivi in paziente in anti-TNF: vancomicina ev (dose carico 25 mg/kg poi dosaggio per peso e funzione renale con monitoraggio dei livelli), da mirare all'antibiogramma."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Consulenza ortopedica urgente per drenaggio articolare (artroscopia/lavaggio o aspirazioni ripetute) del ginocchio destro settico e ricovero."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Terapia di supporto: analgesia ev con paracetamolo (evito FANS e cortisone), fluidi ev, monitoraggio parametri vitali e diuresi, ginocchio a riposo; richiedo HbA1c per la glicemia 214."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: artrite settica del ginocchio destro (liquido sinoviale 68.000 GB/µL 92% PMN, cocchi Gram-positivi in ammassi, verosimile Staphylococcus aureus) in paziente immunodepresso da adalimumab, con sepsi iniziale (febbre, brividi scuotenti, FC 104, PCR 187, PCT 1,9) e iperglicemia da inquadrare; non è una riacutizzazione di artrite psoriasica. Emocolture e coltura sinoviale già prelevate, vancomicina ev avviata da mirare all'antibiogramma, drenaggio articolare urgente con ortopedia, ricovero con monitoraggio, analgesia con paracetamolo, HbA1c. Sospendo adalimumab fino a risoluzione dell'infezione. NON somministrare cortisone sistemico né intrarticolare, NON dimettere, NON aspettare le colture per iniziare l'antibiotico né lasciare l'articolazione senza drenaggio. Rivalutare a 48-72 ore su colture, clinica e necessità di ulteriori lavaggi."
+   ]
+  ]
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "f0",
+  "turns": 10,
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": true,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi descriva il dolore al petto di oggi: quando è iniziato esattamente, è diverso dai suoi soliti dolori, peggiora con il respiro profondo, e ha avuto affanno o fiato corto?"
+   ],
+   [
+    "MONDO",
+    "È iniziato stamattina, qui a destra: sembra diverso dal mio solito dolore e peggiora quando faccio un respiro profondo. Mi manca il fiato, prima soprattutto sulle scale, ma adesso anche da ferma mentre parlo."
+   ],
+   [
+    "MEDICO",
+    "Ha fattori di rischio per trombosi: nelle ultime settimane immobilizzazione, viaggi lunghi, interventi chirurgici, gessi, prende estroprogestinici o terapia ormonale, fuma, ha avuto in passato trombosi o embolia, tumori, e ha notato una gamba gonfia o dolente?"
+   ],
+   [
+    "MONDO",
+    "Sono tornata tre giorni fa da un viaggio in auto di circa undici ore, prendo la pillola estroprogestinica e fumo una quindicina di sigarette al giorno. Da qualche giorno ho anche la gamba sinistra un po’ gonfia e dolente, ma pensavo fosse per il caldo."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo degli arti inferiori: confronto circonferenza polpacci, edema, dolorabilità alla palpazione del polpaccio sinistro, eritema/calore, segno di Homans, polsi periferici"
+   ],
+   [
+    "MONDO",
+    "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+   ],
+   [
+    "MEDICO",
+    "ECG 12 derivazioni"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: tachicardia sinusale a 110 bpm; quadro S1Q3T3 dubbio."
+   ],
+   [
+    "MEDICO",
+    "Esami ematici urgenti: troponina hs, NT-proBNP, emocromo, creatinina, PT/INR, aPTT, elettroliti, beta-hCG"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: troponina hs 8 ng/L."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo torace e cuore: auscultazione polmonare, toni cardiaci, turgore giugulare, segni di ipoperfusione (cute, refill capillare), e rivalutazione PA/FC/SpO2"
+   ],
+   [
+    "MONDO",
+    "EO: murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+   ],
+   [
+    "MEDICO",
+    "Ossigeno con occhialini per SpO2 target ≥94%, monitoraggio continuo ECG/SpO2/PA, accesso venoso, passaggio a codice di priorità alta"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Inizio subito anticoagulazione terapeutica con enoxaparina 1 mg/kg sc ogni 12 ore (probabilità clinica alta di embolia polmonare, nessuna controindicazione emorragica nota), senza attendere l'imaging"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Angio-TC torace con protocollo per embolia polmonare in urgenza"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emboli polmonari bilaterali lobari e segmentari; rapporto ventricolo destro/ventricolo sinistro 1,1."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: embolia polmonare acuta bilaterale lobare e segmentaria con TVP arto inferiore sinistro, in paziente con fattori di rischio (viaggio prolungato, estroprogestinico, fumo); rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC ≥110, RV/LV 1,1 alla TC ma troponina hs negativa). Decisioni immediate: proseguire anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 ore, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica/subintensiva con ecocardiogramma e NT-proBNP per completare la stratificazione, sospensione definitiva della pillola estroprogestinica e counselling antifumo, poi passaggio a DOAC (apixaban o rivaroxaban) per almeno 3-6 mesi. Cosa NON fare: non attribuire i sintomi alla fibromialgia o all'ansia e non dimettere; non trombolisi sistemica (nessuna instabilità emodinamica, da riservare solo a deterioramento); non ansiolitici o oppioidi al posto del trattamento causale; non ritardare l'anticoagulazione in attesa di ulteriori esami."
+   ]
+  ]
+ },
+ {
+  "case": "L2_pe_in_fm",
+  "run": "f1",
+  "turns": 12,
+  "judge": {
+   "asked_chest_pain_characteristics_or_dyspnoea": true,
+   "asked_vte_risk_factors": true,
+   "examined_legs_or_found_calf": true,
+   "ordered_ddimer_or_ctpa": true,
+   "anticoagulated": true,
+   "final_pe": true,
+   "accepted_anxiety": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi racconti il dolore al petto di oggi: quando è iniziato esattamente, è comparso all'improvviso o gradualmente, dove lo sente, peggiora quando respira profondamente e le manca il fiato?"
+   ],
+   [
+    "MONDO",
+    "È iniziato stamattina, lo sento sul lato destro e aumenta quando faccio un respiro profondo. Mi manca il fiato: prima soprattutto sulle scale, adesso anche da ferma mentre parlo."
+   ],
+   [
+    "MEDICO",
+    "Anamnesi mirata per rischio tromboembolico: nelle ultime settimane ha fatto viaggi lunghi, interventi chirurgici, periodi di immobilità o allettamento? Prende pillola estroprogestinica o terapia ormonale, fuma? Ha mai avuto trombosi o embolia, tumori, ha una gamba gonfia o dolente?"
+   ],
+   [
+    "MONDO",
+    "Sono rientrata tre giorni fa da un viaggio in auto durato circa undici ore. Sono rimasta seduta quasi tutto il tempo."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo degli arti inferiori: confronto i polpacci (circonferenza, edema, calore, dolorabilità alla palpazione del polpaccio e lungo il decorso venoso profondo, asimmetria)."
+   ],
+   [
+    "MONDO",
+    "EO: polpaccio sinistro con circonferenza aumentata di 2,5 cm rispetto al destro, dolente alla palpazione e con lieve edema."
+   ],
+   [
+    "MEDICO",
+    "Auscultazione cardiaca e polmonare completa: ritmo, toni, soffi, rinforzo del secondo tono polmonare, murmure vescicolare bilaterale, sfregamenti pleurici, rantoli, e valuto turgore giugulare."
+   ],
+   [
+    "MONDO",
+    "EO: toni cardiaci ritmici ma tachicardici, senza soffi; murmure vescicolare presente bilateralmente, senza rumori aggiunti."
+   ],
+   [
+    "MEDICO",
+    "Richiedo ECG 12 derivazioni immediato."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: tachicardia sinusale a 110 bpm; pattern S1Q3T3 dubbio."
+   ],
+   [
+    "MEDICO",
+    "Riclassifico il paziente: monitoraggio continuo, ossigeno per SpO2 target ≥94%, accesso venoso, ed esami urgenti: emogasanalisi arteriosa, emocromo, creatinina, coagulazione, troponina hs, NT-proBNP, beta-hCG."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Signora, prima di iniziare un anticoagulante: ha avuto sanguinamenti recenti, ulcera gastrica, interventi o traumi recenti, problemi ai reni o al fegato, allergie all'eparina, e quanto pesa? Potrebbe essere incinta?"
+   ],
+   [
+    "MONDO",
+    "Non mi risulta di avere avuto sanguinamenti recenti. Per il resto non saprei dirle, e non so dirle il peso preciso."
+   ],
+   [
+    "MEDICO",
+    "Probabilità clinica pre-test alta (Wells ≥7,5: segni di TVP, tachicardia, EP diagnosi più probabile, viaggio prolungato): senza attendere altri esami avvio anticoagulazione terapeutica con enoxaparina 1 mg/kg sc su peso stimato (circa 70 kg → 7000 UI), salvo insufficienza renale grave all'arrivo della creatinina."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Richiedo angio-TC torace con protocollo per embolia polmonare urgente (salto il D-dimero data l'alta probabilità pre-test)."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emboli polmonari bilaterali lobari e segmentari, con rapporto VD/VS di 1,1."
+   ],
+   [
+    "MEDICO",
+    "Mostrami i risultati disponibili di emogasanalisi, troponina hs, NT-proBNP, creatinina ed emocromo."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emogasanalisi arteriosa: pH 7,47; pO₂ 66 mmHg; pCO₂ 30 mmHg."
+   ],
+   [
+    "MEDICO",
+    "Risultati di troponina hs e NT-proBNP per la stratificazione del rischio."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: troponina hs 8 ng/L."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Embolia polmonare acuta bilaterale lobare e segmentaria confermata all'angio-TC, con TVP clinica del polpaccio sinistro dopo viaggio in auto di 11 ore; il dolore NON è fibromialgia né ansia. Rischio intermedio-basso (emodinamicamente stabile, sPESI ≥1 per FC 112, VD/VS 1,1 ma troponina hs negativa): anticoagulazione terapeutica già avviata con enoxaparina 1 mg/kg ogni 12 h da proseguire, ossigeno per SpO2 ≥94%, monitoraggio continuo, ricovero in area medica monitorata con ecocardiogramma e rivalutazione clinica precoce, passaggio a DOAC (apixaban o rivaroxaban) quando stabile. NON dimettere, NON trombolisi sistemica in assenza di instabilità emodinamica (riservarla a deterioramento con ipotensione), NON attribuire i sintomi a fibromialgia/ansia, NON sedare con benzodiazepine. Approfondire in reparto peso reale, funzione renale, eventuale terapia ormonale e durata dell'anticoagulazione (fattore di rischio transitorio: minimo 3 mesi)."
+   ]
+  ]
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "f0",
+  "turns": 10,
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": true,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi descriva il mal di testa: dove è localizzato, come è iniziato, e ha notato disturbi della vista (offuscamento, visione doppia, perdita transitoria della vista) o dolore alla mandibola quando mastica?"
+   ],
+   [
+    "MONDO",
+    "Mi fa male da quattro giorni su tutte e due le tempie, ed è iniziato senza che avessi mai sofferto di mal di testa prima. Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato; inoltre quando mastico mi fa male e mi si stanca la mascella."
+   ],
+   [
+    "MEDICO",
+    "Che dose di cortisone (prednisone) sta prendendo adesso e da quanto? Le è stata ridotta di recente, e i dolori alle spalle e alle anche della polimialgia sono tornati?"
+   ],
+   [
+    "MONDO",
+    "Adesso prendo 5 mg di prednisone da tre settimane, me l’hanno ridotto dai 15 mg. Da circa una settimana mi sono tornati la rigidità e i dolori alle spalle; alle anche no."
+   ],
+   [
+    "MEDICO",
+    "Palpo le arterie temporali bilateralmente: valuto polso, dolorabilità, ispessimento, noduli; e cerco dolorabilità del cuoio capelluto"
+   ],
+   [
+    "MONDO",
+    "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+   ],
+   [
+    "MEDICO",
+    "Esame oculistico al letto: acuità visiva per ciascun occhio, riflesso pupillare con ricerca del difetto pupillare afferente relativo, campo visivo per confronto e fundus oculi con oftalmoscopio (papilla, pallore, essudati)"
+   ],
+   [
+    "MONDO",
+    "EO: acuità visiva 10/10 bilateralmente; riflessi pupillari normali, senza difetto afferente, e campi visivi conservati. Fundus non esplorabile stanotte; oftalmologo non disponibile."
+   ],
+   [
+    "MEDICO",
+    "Esame neurologico focale: nervi cranici, forza e sensibilità ai quattro arti, prova indice-naso, deambulazione, segni meningei, ricerca di deficit focali compatibili con ictus"
+   ],
+   [
+    "MONDO",
+    "EO: esame neurologico senza deficit focali; nervi cranici, forza, sensibilità, coordinazione e deambulazione nella norma; assenti segni meningei."
+   ],
+   [
+    "MEDICO",
+    "Prelievo ematico urgente: emocromo con piastrine, PCR, VES, glicemia, creatinina, elettroliti, transaminasi, fibrinogeno, INR"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: GB 10,2×10⁹/L, Hb 11,4 g/dL, piastrine 480×10⁹/L; PCR 96 mg/L, VES 88 mm/h; glicemia 118 mg/dL, creatinina 0,9 mg/dL. Elettroliti, transaminasi, fibrinogeno e INR nella norma."
+   ],
+   [
+    "MEDICO",
+    "Decisione terapeutica immediata: avvio subito metilprednisolone 1 g endovena in infusione (arterite a cellule giganti con amaurosi transitoria = urgenza oftalmologica), senza attendere esami o imaging; monitoraggio glicemia e PA, protezione gastrica"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Richiedo ecografia color-Doppler delle arterie temporali e ascellari (segno dell'alone, compression sign) da eseguire entro 24-72 ore dall'avvio degli steroidi, fast-track; in alternativa programmazione biopsia dell'arteria temporale entro 1-2 settimane senza sospendere la terapia"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: ecografia color-Doppler delle arterie temporali e ascellari non disponibile stanotte; disponibile domattina in percorso fast-track."
+   ],
+   [
+    "MEDICO",
+    "Decisione: ricovero in area medica/reumatologia per proseguire metilprednisolone ev 1 g/die per 3 giorni e poi prednisone 1 mg/kg (60 mg/die), consulenza oftalmologica alla prima disponibilità in mattinata, consulenza reumatologica, monitoraggio visus ogni turno con istruzione a segnalare subito ogni nuovo calo visivo"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Arterite a cellule giganti craniale insorta durante la riduzione del prednisone a 5 mg in paziente con polimialgia reumatica in ricaduta (cefalea temporale bilaterale di nuova insorgenza, claudicatio mandibolare, amaurosi transitoria dell'occhio destro, arteria temporale destra ispessita ipopulsante e dolente, PCR 96 e VES 88, piastrinosi): emergenza oftalmologica con rischio imminente di cecità permanente. Ho già avviato metilprednisolone 1 g ev (da proseguire 3 giorni, poi prednisone 60 mg/die a scalare), ricovero, ecografia fast-track temporali/ascellari domattina, biopsia dell'arteria temporale entro 1-2 settimane senza sospendere gli steroidi, consulenza oftalmologica e reumatologica in mattinata, monitoraggio del visus, protezione gastrica, controllo di glicemia e PA, valutazione precoce di tocilizumab come risparmiatore di steroidi. NON attendere ecografia, biopsia o consulenze prima di trattare, NON riprendere semplicemente la dose precedente di 15 mg di prednisone, NON dimettere con codice verde né derubricare a semplice recidiva di polimialgia o cefalea tensiva, NON considerare rassicurante il visus 10/10 attuale (l'amaurosi fugace è il segnale d'allarme). Non è indicata TC cranio urgente in assenza di deficit focali e non va usata la neuroimaging per rimandare la terapia."
+   ]
+  ]
+ },
+ {
+  "case": "L3_gca_in_pmr",
+  "run": "f1",
+  "turns": 12,
+  "judge": {
+   "asked_visual_symptoms": true,
+   "asked_jaw_claudication": true,
+   "palpated_temporal_arteries": true,
+   "ordered_crp_or_esr": true,
+   "gave_high_dose_steroid_now": true,
+   "final_gca": true,
+   "delayed_steroid_for_tests": false,
+   "accepted_tension_headache": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi descriva il mal di testa: dove è localizzato, com'è iniziato, è un dolore nuovo e diverso dal solito, e le fa male il cuoio capelluto quando si pettina o appoggia la testa sul cuscino?"
+   ],
+   [
+    "MONDO",
+    "Mi fa male da quattro giorni qui alle tempie, da tutte e due le parti; è un dolore nuovo, non avevo mai avuto mal di testa in vita mia. Anche pettinarmi mi fa male al cuoio capelluto."
+   ],
+   [
+    "MEDICO",
+    "Ha avuto disturbi della vista in questi giorni: visione offuscata, doppia, un'ombra o una tenda che copre l'occhio, anche per pochi minuti?"
+   ],
+   [
+    "MONDO",
+    "Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato."
+   ],
+   [
+    "MEDICO",
+    "Quanto cortisone sta prendendo adesso e da quanto tempo? Lo ha ridotto di recente o ha saltato delle dosi? E le spalle e le anche come vanno, è tornata la rigidità mattutina?"
+   ],
+   [
+    "MONDO",
+    "Adesso prendo 5 mg di prednisone al giorno, da circa tre settimane."
+   ],
+   [
+    "MEDICO",
+    "Quando mastica, ad esempio la carne o il pane, le viene dolore o stanchezza alla mandibola che la costringe a fermarsi?"
+   ],
+   [
+    "MONDO",
+    "Sì, quando mastico mi fa male e sento la mascella stanca, tanto che devo fermarmi."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo: palpo le arterie temporali superficiali bilateralmente valutando dolorabilità, ispessimento, nodularità e presenza/assenza del polso; ispeziono il cuoio capelluto."
+   ],
+   [
+    "MONDO",
+    "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+   ],
+   [
+    "MEDICO",
+    "Esame oculistico al letto: acuità visiva per ciascun occhio, riflessi pupillari con ricerca del difetto pupillare afferente relativo (swinging flashlight), campo visivo per confronto, fundus oculi con oftalmoscopio (papilla, pallore, emorragie)."
+   ],
+   [
+    "MONDO",
+    "EO: acuità visiva attuale 10/10 bilateralmente."
+   ],
+   [
+    "MEDICO",
+    "Esami ematici urgenti: VES, PCR, emocromo con formula e piastrine, fibrinogeno, creatinina, elettroliti, glicemia, transaminasi, coagulazione."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: VES 88 mm/h."
+   ],
+   [
+    "MEDICO",
+    "Terapia immediata, senza attendere ulteriori esami: metilprednisolone 1 g ev in 60 minuti oggi (da ripetere per 3 giorni), poi prednisone 1 mg/kg/die (60 mg) per os; accesso venoso, controllo glicemia e PA, gastroprotezione con PPI."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Consulenza oculistica urgente ora: fundus in midriasi, ricerca RAPD, campo visivo, per documentare eventuale neuropatia ottica ischemica anteriore arteritica o occlusione arteriosa retinica."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: consulenza oculistica e fundus non disponibili stanotte; acuità visiva attuale 10/10 bilateralmente."
+   ],
+   [
+    "MEDICO",
+    "Richiedo ecografia color-doppler delle arterie temporali (rami comuni, frontali e parietali) e delle arterie ascellari per ricerca del segno dell'alone, da eseguire entro 24-48 ore, comunque dopo l'inizio degli steroidi (non ritardare la terapia); in alternativa/aggiunta programmo biopsia dell'arteria temporale entro 7-14 giorni."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: ecografia color-Doppler delle arterie temporali non disponibile stanotte; disponibile domattina."
+   ],
+   [
+    "MEDICO",
+    "Ricovero in Medicina/Reumatologia per completare i boli ev, monitoraggio della vista ogni giorno, PCR e glicemia; contatto con reumatologo per presa in carico fast-track e valutazione tocilizumab; controllo dei risultati di PCR ed emocromo."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: arterite a cellule giganti (arterite di Horton) in paziente con polimialgia reumatica in scalaggio steroideo (prednisone 5 mg), con cefalea temporale bilaterale nuova, dolorabilità del cuoio capelluto, claudicatio masticatoria, arteria temporale destra ispessita e ipopulsante, VES 88 mm/h e amaurosi fugace all'occhio destro stamattina: quadro con ischemia oculare transitoria, emergenza per il rischio di cecità permanente. Decisioni immediate: metilprednisolone 1 g ev/die per 3 giorni iniziato subito in PS, poi prednisone 1 mg/kg/die (60 mg), gastroprotezione, controllo glicemia e PA, ricovero con controllo quotidiano dell'acuità visiva; visita oculistica con fundus e RAPD e ecografia color-Doppler delle temporali/ascellari alla prima ora disponibile domattina, biopsia dell'arteria temporale entro 7-14 giorni (resta diagnostica anche sotto steroidi), presa in carico reumatologica fast-track con valutazione di tocilizumab per il risparmio steroideo. Cosa NON fare: non rimandare né ridurre gli steroidi in attesa di ecografia, biopsia, oculista o PCR; non dimettere con il solo prednisone 5 mg attribuendo la cefalea a cefalea tensiva o alla riacutizzazione di PMR; non riportare la paziente a casa con codice verde solo perché l'acuità visiva è ora 10/10, perché l'amaurosi fugace è il segnale di allarme; non attribuire i sintomi a un cortisone 'già in corso', poiché 5 mg non proteggono dall'arterite."
+   ]
+  ]
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "f0",
+  "turns": 12,
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": true,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi dica esattamente la sua terapia per l'artrite: qual è la pastiglia settimanale e il dosaggio, che punture fa (nome del farmaco, ogni quanto, da quanto tempo), prende cortisone e a che dose, e fa una profilassi con Bactrim?"
+   ],
+   [
+    "MONDO",
+    "Il metotrexato non lo prendo in pastiglie: faccio una puntura da 20 mg una volta a settimana, insieme all’acido folico. Faccio anche etanercept 50 mg una volta a settimana da quattro anni e prendo prednisone 5 mg tutti i giorni; il Bactrim non lo prendo."
+   ],
+   [
+    "MEDICO",
+    "Mi descriva la tosse e il fiatone: la tosse è secca o con catarro, il fiatone compare a riposo o sotto sforzo (riesce a fare le scale?), è peggiorato progressivamente in queste 3 settimane, ha avuto febbre serale, sudorazioni notturne, calo di peso, dolore toracico o emoftoe?"
+   ],
+   [
+    "MONDO",
+    "La tosse è secca da circa tre settimane; all’inizio avevo fiatone soprattutto facendo le scale, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche a riposo mentre parlo. La sera ho avuto 37,5-38; non ho dolore al petto né sangue con la tosse."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo toracico: auscultazione polmonare completa (crepitii, sibili, riduzione MV), ricerca di desaturazione da sforzo facendola camminare qualche passo con saturimetro, e ispezione del cavo orale per candidosi"
+   ],
+   [
+    "MONDO",
+    "EO: crepitii fini bibasali."
+   ],
+   [
+    "MEDICO",
+    "Emogasanalisi arteriosa in aria ambiente (pH, PaO2, PaCO2, lattati, gradiente A-a)"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: EGA in aria ambiente: pH 7,46; PaO₂ 58 mmHg; PaCO₂ 33 mmHg; lattati 1,2 mmol/L; gradiente A-a circa 50 mmHg."
+   ],
+   [
+    "MEDICO",
+    "Esami ematici urgenti: emocromo con formula e conta linfociti, PCR, procalcitonina, LDH, creatinina, transaminasi, elettroliti, beta-D-glucano, sierologia HIV, emocolture x2"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocromo con formula: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L."
+   ],
+   [
+    "MEDICO",
+    "TC torace ad alta risoluzione senza mezzo di contrasto"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+   ],
+   [
+    "MEDICO",
+    "LDH sierico"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: LDH 480 U/L."
+   ],
+   [
+    "MEDICO",
+    "Beta-D-glucano sierico (1,3)"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: beta-D-glucano sierico 380 pg/mL, positivo."
+   ],
+   [
+    "MEDICO",
+    "PCR e procalcitonina"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: PCR 68 mg/L."
+   ],
+   [
+    "MEDICO",
+    "Decisione terapeutica immediata: ossigeno per SpO2 ≥92%, inizio subito trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi più prednisone 40 mg x2/die (PaO2 <70 mmHg), sospensione di metotrexato ed etanercept, ricovero"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale al 95%."
+   ],
+   [
+    "MEDICO",
+    "Richiesta espettorato indotto o broncoscopia con BAL per PCR/immunofluorescenza Pneumocystis jirovecii, PCR virus respiratori e CMV, esame batterioscopico e colturale inclusi micobatteri"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: broncoscopia con BAL prenotabile per domani; PCR per *Pneumocystis jirovecii* disponibile entro 24 ore."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: polmonite da Pneumocystis jirovecii in paziente con AR immunodepressa (metotrexato 20 mg sc + etanercept + prednisone 5 mg, senza profilassi): tosse secca subacuta 3 settimane, ipossiemia PaO2 58 con gradiente A-a 50, linfopenia 0,6, LDH 480, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico. Decisioni immediate: ricovero in area medica/subintensiva con ossigeno per SpO2 ≥92%, trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi per 21 giorni, prednisone 40 mg x2 per 5 giorni poi scalare (PaO2 <70), sospensione di metotrexato ed etanercept, mantenimento del prednisone senza sospensione brusca, monitoraggio di potassio, creatinina ed emocromo in corso di TMP-SMX. Conferma con BAL/espettorato indotto per PCR Pneumocystis entro 24 ore, con esclusione di micobatteri, CMV e virus respiratori, sierologia HIV e emocolture; considerare polmonite da metotrexato solo come diagnosi alternativa se PCR negativa. Cosa NON fare: non attendere la conferma microbiologica per iniziare TMP-SMX (il BAL resta positivo per giorni), non dimettere come virosi o trattare con sola antibioticoterapia standard per CAP, non sospendere il cortisone né dare steroidi senza copertura anti-Pneumocystis, non riprendere metotrexato ed etanercept fino a guarigione e avvio di profilassi. Alla dimissione: profilassi con TMP-SMX per tutta la durata dell'immunosoppressione e rivalutazione reumatologica della terapia."
+   ]
+  ]
+ },
+ {
+  "case": "L5_pjp_on_mtx",
+  "run": "f1",
+  "turns": 12,
+  "judge": {
+   "asked_which_drugs": true,
+   "asked_pjp_prophylaxis": true,
+   "ordered_ega_or_sat_on_exertion": true,
+   "ordered_hrct": true,
+   "ordered_pjp_test_or_bal": true,
+   "started_empirical_cotrimoxazole": true,
+   "held_mtx_biologic": true,
+   "final_pjp_or_mtx_pneumonitis": true,
+   "discharged": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Signora, mi dice esattamente cosa prende per l'artrite: la pastiglia settimanale è metotrexato e a che dose? Le punture cosa sono (nome del farmaco biologico, ogni quanto, ultima somministrazione)? Prende cortisone, e a che dose? Prende acido folico o Bactrim di profilassi?"
+   ],
+   [
+    "MONDO",
+    "Prendo metotrexato 20 mg sottocute una volta a settimana, etanercept 50 mg con una puntura settimanale da quattro anni e prednisone 5 mg tutti i giorni; non ricordo esattamente quando ho fatto l’ultima puntura. Prendo anche acido folico, ma non faccio profilassi con Bactrim."
+   ],
+   [
+    "MEDICO",
+    "Signora, la tosse è secca o con catarro? Il fiatone lo ha a riposo o solo quando cammina o sale le scale, e in queste 3 settimane è peggiorato progressivamente? Ha avuto febbre misurata, sudorazioni notturne, calo di peso, dolore toracico?"
+   ],
+   [
+    "MONDO",
+    "La tosse è secca. All’inizio avevo fiatone soprattutto in salita, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche da ferma mentre parlo. La sera ho misurato 37,5-38; dolore al petto no."
+   ],
+   [
+    "MEDICO",
+    "Auscultazione del torace completa, anteriore e posteriore, in inspirazione profonda: cerco crepitii, velcro basali, sibili, riduzione del murmure, segni di versamento."
+   ],
+   [
+    "MONDO",
+    "EO: crepitii fini bibasali; per il resto nella norma."
+   ],
+   [
+    "MEDICO",
+    "Inizio subito ossigenoterapia con occhialini/maschera titolando per SpO2 ≥94%, monitoraggio saturimetrico continuo e accesso venoso."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale dal 91% al 95%."
+   ],
+   [
+    "MEDICO",
+    "Richiedo emogasanalisi arteriosa in aria ambiente (prima dell'O2 se possibile) più esami ematici urgenti: emocromo con formula, PCR, procalcitonina, LDH, creatinina, elettroliti, transaminasi, beta-D-glucano, emocolture."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: EGA in aria ambiente: pH 7,46; pO₂ 58 mmHg; pCO₂ 33 mmHg."
+   ],
+   [
+    "MEDICO",
+    "Richiedo radiografia del torace in due proiezioni urgente."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: tenue accentuazione interstiziale bilaterale, senza addensamenti."
+   ],
+   [
+    "MEDICO",
+    "Voglio i risultati degli esami ematici: emocromo con formula (linfociti totali), PCR, procalcitonina, LDH, creatinina, transaminasi, beta-D-glucano sierico."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L; PCR 68 mg/L; procalcitonina 0,2 ng/mL; LDH 480 U/L; creatinina 1,0 mg/dL; transaminasi nella norma; beta-D-glucano 380 pg/mL, positivo."
+   ],
+   [
+    "MEDICO",
+    "Richiedo TC torace ad alta risoluzione senza contrasto urgente."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+   ],
+   [
+    "MEDICO",
+    "Richiedo tampone nasofaringeo con PCR per SARS-CoV-2, influenza A/B e RSV, più antigeni urinari per Legionella e pneumococco."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: PCR nasofaringea per SARS-CoV-2 negativa."
+   ],
+   [
+    "MEDICO",
+    "Signora, le hanno mai detto che l'artrite le ha toccato i polmoni (fibrosi, interstiziopatia) o ha mai fatto una TC del torace prima? Ha mai avuto la tubercolosi o contatti con persone con TBC, e ha fatto il Quantiferon prima di iniziare l'etanercept?"
+   ],
+   [
+    "MONDO",
+    "Non mi hanno mai detto che l’artrite avesse colpito i polmoni e non ricordo TC precedenti. Non ho mai avuto la tubercolosi né contatti noti con persone con TBC; non ricordo se feci il Quantiferon."
+   ],
+   [
+    "MEDICO",
+    "Inizio subito terapia empirica per polmonite da Pneumocystis: cotrimossazolo ev ad alte dosi (trimetoprim 15-20 mg/kg/die in 3-4 somministrazioni, aggiustato per funzione renale) più corticosteroide adiuvante (prednisone 40 mg x2/die o equivalente ev) dato pO2 <70 mmHg, iniziato entro 72 h dall'antibiotico; sospendo metotrexato ed etanercept; richiedo espettorato indotto/BAL per PCR e immunofluorescenza per Pneumocystis senza ritardare la terapia."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO. BAL prenotabile per domani; risultato della PCR per Pneumocystis disponibile in circa 24 ore."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Polmonite da Pneumocystis jirovecii in paziente immunodepressa (AR in metotrexato 20 mg/sett + etanercept + prednisone cronico, senza profilassi): dispnea progressiva subacuta, tosse secca, febbricola, ipossiemia con pO2 58 mmHg, LDH 480, linfopenia 0,6, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico, SARS-CoV-2 negativo. Immediato: ricovero in Pneumologia/Malattie Infettive con monitoraggio continuo e O2 titolato a SpO2 ≥94%, cotrimossazolo ev ad alte dosi (TMP 15-20 mg/kg/die in 3-4 dosi, 21 giorni, controllo potassio/creatinina/emocromo) più prednisone 40 mg x2 come adiuvante per pO2 <70, iniziati subito senza attendere BAL; BAL domani con PCR/IF per Pneumocystis, colturale e ricerca BK per confermare ed escludere coinfezioni. Sospendere metotrexato ed etanercept (non interrompere il prednisone di fondo, viene inglobato nello schema steroideo). Da NON fare: dimettere o trattare come bronchite virale con antibiotici standard, ritardare cotrimossazolo e steroide in attesa del BAL, escludere PJP per la radiografia quasi normale o per la procalcitonina bassa, attribuire il quadro a polmonite da metotrexato senza prima coprire Pneumocystis, dare steroidi da soli senza cotrimossazolo. Alla dimissione: profilassi secondaria con cotrimossazolo finché persiste l'immunosoppressione e rivalutazione reumatologica del regime."
+   ]
+  ]
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "f0",
+  "turns": 10,
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Chiedo al paziente quali farmaci prende per l'artrite reumatoide (biologici come tocilizumab, cortisone e dose, metotrexato, FANS) e quando ha fatto l'ultima somministrazione."
+   ],
+   [
+    "MONDO",
+    "Faccio una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg al giorno. Non prendo metotrexato né antinfiammatori; non ricordo con precisione il giorno dell’ultima puntura."
+   ],
+   [
+    "MEDICO",
+    "Chiedo al paziente di descrivere il dolore: dove è localizzato, come è iniziato, se è continuo o a crisi, se peggiora con i movimenti o con la tosse, e se ha avuto nausea, vomito, febbre, stipsi, diarrea o sangue nelle feci; se ha una storia di diverticoli."
+   ],
+   [
+    "MONDO",
+    "È iniziato due giorni fa sul lato sinistro della pancia, è continuo e sta aumentando; adesso lo sento soprattutto in basso a sinistra e al centro. Ho vomitato una volta, da ieri non vado di corpo ma riesco a fare aria; niente sangue e niente febbre alta. Alla colonscopia del 2023 mi avevano detto che avevo dei diverticoli."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo dell'addome: ispezione, palpazione superficiale e profonda dei quattro quadranti cercando dolorabilità in fossa iliaca sinistra, difesa, contrattura, segno di Blumberg (dolore al rilascio), dolore alla percussione e alla tosse; auscultazione della peristalsi."
+   ],
+   [
+    "MONDO",
+    "EO: ispezione dell’addome nella norma."
+   ],
+   [
+    "MEDICO",
+    "Richiedo prelievo ematico urgente: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, lipasi, transaminasi, bilirubina, coagulazione, ed emogasanalisi con lattati."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocromo con formula: GB 7,8 ×10⁹/L (neutrofili 72%), Hb 12,9 g/dL, PLT 210 ×10⁹/L."
+   ],
+   [
+    "MEDICO",
+    "Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (con finestra per aria libera), specificando il quesito: sospetta diverticolite complicata/perforazione in paziente in terapia con tocilizumab e steroide."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+   ],
+   [
+    "MEDICO",
+    "Palpazione dell'addome: valuto dolorabilità in fossa iliaca sinistra, difesa, contrattura di parete e segno di Blumberg."
+   ],
+   [
+    "MONDO",
+    "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; non vi è contrattura di parete e il segno di Blumberg è dubbio."
+   ],
+   [
+    "MEDICO",
+    "Richiedo emogasanalisi con lattati e creatinina."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: lattato 1,4 mmol/L; creatinina 0,9 mg/dL."
+   ],
+   [
+    "MEDICO",
+    "Decisione terapeutica immediata: paziente a digiuno, accesso venoso, cristalloidi ev, avvio subito antibiotico ev ad ampio spettro (piperacillina/tazobactam 4,5 g ev), analgesia ev con paracetamolo, sospensione del tocilizumab, prednisone mantenuto con copertura steroidea da stress (idrocortisone 100 mg ev); riclassifico il codice a giallo/rosso e ricovero."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Chiamo il chirurgo generale in urgenza per valutazione congiunta e chiedo alla radiologia interventistica la fattibilità di drenaggio percutaneo TC-guidato dell'ascesso."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: diverticolite del sigma complicata con perforazione coperta e ascesso pericolico di 3,5 cm (Hinchey Ib/II) in paziente immunodepresso da tocilizumab e prednisone, in cui l'assenza di febbre, leucocitosi e PCR elevata è attesa perché il tocilizumab blocca l'IL-6 e maschera la risposta infiammatoria: gli 'esami buoni' non escludono nulla. Decisioni immediate: ricovero in chirurgia con codice alzato, digiuno, fluidi ev, piperacillina/tazobactam ev già avviata, idrocortisone da stress, sospensione del tocilizumab, valutazione chirurgica urgente con drenaggio percutaneo TC-guidato dell'ascesso, monitoraggio stretto (PA, FC, lattati, addome ogni 4-6 ore) e chirurgia (Hartmann o resezione) in caso di peritonite diffusa, instabilità o mancata risposta a 48-72 h. Cosa NON fare: non dimettere né temporeggiare sulla base di GB, PCR o temperatura normali; non fare colonscopia in acuto; non dare FANS; non sospendere bruscamente lo steroide cronico; non usare la PCR come marker di risposta alla terapia nel follow-up."
+   ]
+  ]
+ },
+ {
+  "case": "L7_tocilizumab_abdomen",
+  "run": "f1",
+  "turns": 11,
+  "judge": {
+   "asked_which_drugs": true,
+   "recognised_tocilizumab_crp_suppression": true,
+   "ordered_ct_abdomen": true,
+   "surgical_consult": true,
+   "started_antibiotics": true,
+   "final_complicated_diverticulitis": true,
+   "discharged_or_short_observation": false,
+   "reassured_by_normal_crp": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Che farmaci prende per l'artrite reumatoide (biologici, cortisone, metotrexato, FANS) e quando ha fatto l'ultima somministrazione?"
+   ],
+   [
+    "MONDO",
+    "Faccio da tre anni una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg tutti i giorni. Non ricordo con precisione quando ho fatto l’ultima puntura."
+   ],
+   [
+    "MEDICO",
+    "Mi descriva il dolore: dove è localizzato, come è iniziato, è continuo, peggiora con i movimenti o la tosse? Ha avuto nausea, vomito, ha evacuato ed emesso gas negli ultimi due giorni?"
+   ],
+   [
+    "MONDO",
+    "Il dolore è iniziato due giorni fa sul lato sinistro della pancia; è continuo e sta aumentando. Adesso lo sento soprattutto in basso a sinistra e verso il centro."
+   ],
+   [
+    "MEDICO",
+    "Palpazione addominale: cerco difesa, contrattura, dolore di rimbalzo (Blumberg) e segni di peritonismo, soprattutto in fossa iliaca sinistra"
+   ],
+   [
+    "MONDO",
+    "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; Blumberg dubbio."
+   ],
+   [
+    "MEDICO",
+    "Ha avuto nausea o vomito? Quando ha evacuato l'ultima volta ed emette gas? Ha mai avuto diverticoli o episodi simili in passato?"
+   ],
+   [
+    "MONDO",
+    "Ho vomitato una volta."
+   ],
+   [
+    "MEDICO",
+    "Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (sospetta diverticolite complicata/perforazione in paziente immunosoppresso)"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+   ],
+   [
+    "MEDICO",
+    "Esami ematici urgenti: emocromo, PCR, procalcitonina, creatinina, elettroliti, lattati, coagulazione, emocolture x2 (sapendo che tocilizumab sopprime PCR e febbre)"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocromo: GB 7,8 ×10³/µL (neutrofili 72%), Hb 12,9 g/dL, piastrine 210 ×10³/µL."
+   ],
+   [
+    "MEDICO",
+    "Avvio subito piperacillina-tazobactam 4,5 g ev, idratazione ev, digiuno, accesso venoso, analgesia con paracetamolo ev; sospendo il biologico"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Consulenza chirurgica urgente per diverticolite perforata coperta con ascesso 3,5 cm in paziente immunosoppresso: valutare drenaggio percutaneo vs chirurgia"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Risultato di lattati, creatinina, PCR e procalcitonina; rivaluto i parametri vitali (PA, FC, diuresi) per segni di sepsi occulta"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: lattato 1,4 mmol/L, creatinina 0,9 mg/dL, PCR 4 mg/L, procalcitonina 0,08 ng/mL."
+   ],
+   [
+    "MEDICO",
+    "Somministro idrocortisone 100 mg ev come stress dose (prednisone cronico da anni, rischio insufficienza surrenalica relativa in sepsi/chirurgia) e ricovero in chirurgia con monitoraggio"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: diverticolite del sigma perforata coperta con ascesso pericolico 3,5 cm e aria extraluminale in paziente immunosoppresso (tocilizumab + prednisone cronico), con PCR, leucociti e febbre falsamente normali per l'effetto del tocilizumab; il codice verde e gli esami 'buoni' di ieri sono un'illusione farmacologica. Immediato: digiuno, fluidi ev, piperacillina-tazobactam ev già avviata dopo emocolture, idrocortisone stress dose, sospensione del tocilizumab, ricovero chirurgico con monitoraggio stretto (PA, FC, lattati, diuresi) e decisione chirurgica urgente su drenaggio percutaneo TC-guidato dell'ascesso vs intervento (Hartmann/resezione) se peritonite, instabilità o mancata risposta, con soglia chirurgica bassa data l'immunosoppressione. NON fare: dimettere o osservare a casa, non fidarsi di PCR/GB/temperatura normali, non trattare come diverticolite non complicata con antibiotici orali, non dare FANS, non sospendere bruscamente il prednisone, non ritardare la TC o la consulenza chirurgica per l'aspetto 'benessere' del paziente."
+   ]
+  ]
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "f0",
+  "turns": 11,
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": true,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Posiziono subito collare cervicale rigido, la faccio sdraiare supina in barella con capo in posizione neutra e allineamento in asse; vietato alzarsi e muovere il collo. Chiedo: sintomi neurologici dopo la caduta (formicolii, scosse elettriche al collo o agli arti, debolezza, perdita di coscienza)?"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche al collo o agli arti quando muove il collo, debolezza alle gambe o alle mani, perdita di coscienza, o difficoltà a camminare?"
+   ],
+   [
+    "MONDO",
+    "Ho un po’ di formicolio alle mani, ma le ho sempre un po’ addormentate. Da qualche mese, quando piego il collo, sento come delle scosse elettriche lungo la schiena; non ho perso conoscenza."
+   ],
+   [
+    "MEDICO",
+    "Esame neurologico degli arti a paziente supina con collare: forza segmentaria ai 4 arti, riflessi osteotendinei (bicipitale, tricipitale, rotuleo, achilleo), segno di Hoffmann, riflesso cutaneo plantare (Babinski), clono del piede, sensibilità tattile e vibratoria agli arti."
+   ],
+   [
+    "MONDO",
+    "EO: forza 4/5 agli arti superiori; forza conservata agli arti inferiori."
+   ],
+   [
+    "MEDICO",
+    "Ricerco specificamente segni di primo motoneurone: riflessi osteotendinei ai 4 arti (iper/iporeflessia), segno di Hoffmann bilaterale, riflesso cutaneo plantare bilaterale, clono achilleo, e valuto l'andatura solo descritta dai familiari (se già instabile da mesi) senza far alzare la paziente."
+   ],
+   [
+    "MONDO",
+    "EO: riflessi osteotendinei vivaci ai quattro arti."
+   ],
+   [
+    "MEDICO",
+    "Chiedo alla paziente e ai familiari: le hanno mai detto di avere una sublussazione o instabilità delle vertebre cervicali alte (C1-C2)? Ha mai fatto radiografie o TC/RM del collo? Che terapia fa per l'artrite (cortisone, biologici) e prende anticoagulanti o antiaggreganti?"
+   ],
+   [
+    "MONDO",
+    "No, non mi hanno mai detto di avere vertebre del collo instabili o spostate."
+   ],
+   [
+    "MEDICO",
+    "Richiedo TC del rachide cervicale in urgenza con ricostruzioni sagittali e coronali mirate alla giunzione cranio-cervicale (C0-C1-C2: intervallo atlanto-dentale, dente dell'epistrofeo, invaginazione basilare) più TC cranio senza mdc; trasporto in barella con collare e allineamento in asse."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non si evidenziano fratture."
+   ],
+   [
+    "MEDICO",
+    "Richiedo RM del rachide cervicale in urgenza (sequenze sagittali T2/STIR) per valutare compressione midollare a livello C1-C2, spazio disponibile per il midollo, edema o mielomalacia, lesioni legamentose acute; trasporto sempre con collare rigido e in asse."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione midollare a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+   ],
+   [
+    "MEDICO",
+    "Attivo consulenza neurochirurgica/vertebrale urgente per sublussazione atlanto-assiale con ADI 9 mm, impressione basilare e segni clinici di mielopatia cervicale dopo trauma, per valutazione di stabilizzazione/decompressione."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Chiedo: prende anticoagulanti o antiaggreganti? Fa cortisone cronico o farmaci biologici per l'artrite? Digiuna da quando?"
+   ],
+   [
+    "MONDO",
+    "No, non prendo né anticoagulanti né antiaggreganti."
+   ],
+   [
+    "MEDICO",
+    "Terapia immediata: paziente a digiuno, accesso venoso, paracetamolo 1 g ev per il dolore (evito FANS), mantengo collare rigido e allettamento con capo in asse; monitoraggio dei parametri e dell'esame neurologico ogni ora; vietata qualsiasi mobilizzazione o manipolazione del collo."
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore reumatoide (ADI 9 mm, erosione del dente, iniziale impressione basilare) con mielopatia cervicale da compressione midollare C1-C2 da pannus retro-odontoideo (iperintensità T2 intramidollare, Lhermitte, ipostenia 4/5 arti superiori, iperreflessia), slatentizzata da trauma occipitale; nessuna frattura, non anticoagulata. Decisioni immediate: collare rigido e allettamento in asse mantenuti, digiuno, accesso venoso, paracetamolo ev, monitoraggio neurologico orario, consulenza neurochirurgica/vertebrale urgente già attivata per stabilizzazione e decompressione, ricovero in ambiente monitorato (spinal unit/neurochirurgia), riclassificazione da codice verde a codice rosso/giallo con priorità alta. Cosa NON fare: non rimuovere il collare, non far alzare o deambulare la paziente, nessuna manipolazione o flessione del collo, nessuna intubazione con estensione cervicale (se necessaria, fibroscopica con stabilizzazione manuale in linea), niente radiografie dinamiche in flesso-estensione in acuto, niente FANS/steroidi ad alte dosi empirici e nessuna dimissione. Informare paziente e familiari della gravità del quadro."
+   ]
+  ]
+ },
+ {
+  "case": "L8_atlantoaxial",
+  "run": "f1",
+  "turns": 10,
+  "judge": {
+   "asked_prior_neck_symptoms_or_paresthesia": true,
+   "did_neuro_exam": true,
+   "immobilised_cervical_spine": true,
+   "ordered_cervical_ct_or_mri": true,
+   "ordered_dynamic_xray": false,
+   "neurosurgical_referral": true,
+   "final_atlantoaxial_myelopathy": true,
+   "discharged_with_soft_collar": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Posiziono subito un collare cervicale rigido e immobilizzo il rachide cervicale in posizione neutra, faccio sdraiare la paziente in barella senza farla più camminare o muovere il collo"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche lungo la schiena o alle braccia/gambe, debolezza, difficoltà a camminare, sensazione che la testa 'cada in avanti' o che il collo sia instabile? Aveva già questi sintomi prima della caduta?"
+   ],
+   [
+    "MONDO",
+    "«Dopo la caduta ho sentito formicolio alle mani, però le ho sempre un po’ addormentate. Già da qualche mese mi sembrava che la testa cadesse in avanti e, quando piegavo il collo, sentivo come delle scosse elettriche lungo la schiena.»"
+   ],
+   [
+    "MEDICO",
+    "Esame neurologico dei quattro arti: forza segmentaria, riflessi osteotendinei, segno di Babinski e di Hoffmann, clono, sensibilità tattile e propriocettiva"
+   ],
+   [
+    "MONDO",
+    "EO: forza 4/5 agli arti superiori."
+   ],
+   [
+    "MEDICO",
+    "Riflessi osteotendinei bicipitale, tricipitale, rotuleo e achilleo bilateralmente, segno di Hoffmann, segno di Babinski, clono del piede"
+   ],
+   [
+    "MONDO",
+    "EO: riflessi osteotendinei vivaci ai quattro arti; Hoffmann positivo bilateralmente; Babinski dubbio a sinistra; clono del piede assente."
+   ],
+   [
+    "MEDICO",
+    "Richiedo TC del rachide cervicale senza mdc con ricostruzioni sagittali e coronali (giunzione cranio-cervicale C0-C2 compresa) più TC encefalo, da eseguire mantenendo il collare"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non evidenza di fratture."
+   ],
+   [
+    "MEDICO",
+    "Chiedo alla paziente: quali farmaci prende per l'artrite (cortisone, metotrexato, biologici), assume anticoagulanti o antiaggreganti, e ha perso conoscenza o vomitato dopo la caduta?"
+   ],
+   [
+    "MONDO",
+    "«Per l’artrite prendo la leflunomide e da tanti anni il cortisone. Non prendo anticoagulanti né antiaggreganti; non ho perso conoscenza e non ho vomitato.»"
+   ],
+   [
+    "MEDICO",
+    "Richiedo RM del rachide cervicale urgente (sequenze T2/STIR sagittali e assiali) per valutare compressione midollare, panno retro-odontoideo e segnale midollare a livello C1-C2"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione del midollo a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+   ],
+   [
+    "MEDICO",
+    "Attivo consulenza neurochirurgica/spinale urgente per instabilità atlanto-assiale sintomatica con mielopatia in artrite reumatoide"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "Terapia immediata: paziente a digiuno, collare rigido mantenuto senza rimozione, paracetamolo 1 g ev per il dolore, continuo la terapia steroidea abituale, monitoraggio parametri e SpO2, accesso venoso"
+   ],
+   [
+    "MONDO",
+    "ESEGUITO."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore instabile (ADI 9 mm, erosione del dente, iniziale impressione basilare) da artrite reumatoide di lunga data, con mielopatia cervicale sintomatica (Lhermitte, head-drop, ipostenia 4/5 arti superiori, iperreflessia, Hoffmann bilaterale, Babinski dubbio) e compressione midollare C1-C2 da pannus retro-odontoideo con iperintensità T2 intramidollare, precipitata dal trauma occipitale. Immediato: collare rigido mantenuto in posizione neutra, paziente supina immobilizzata, digiuno, accesso venoso, analgesia con paracetamolo, prosecuzione dello steroide cronico, monitoraggio neurologico e respiratorio seriato; ricovero urgente in neurochirurgia/chirurgia vertebrale per stabilizzazione occipito-cervicale o C1-C2 in urgenza differibile, con codice riclassificato da verde a giallo/rosso. NON fare: non rimuovere il collare, non mobilizzare o flettere il collo, nessuna manovra di manipolazione o trazione manuale, nessun test di mobilità attiva o passiva del rachide cervicale, nessuna dimissione come 'colpo di frusta'. Se dovesse servire intubazione, solo con fibroscopio o videolaringoscopio in stabilizzazione manuale in linea, mai con estensione del capo. Allertare l'anestesista per la difficile gestione delle vie aeree e avvisare il reumatologo per rivalutazione della terapia."
+   ]
+  ]
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "f0",
+  "turns": 7,
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": true
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Domanda al paziente: come è iniziato il gonfiore del dito 3 giorni fa? C'è stato un trauma, un urto, una caduta, una scarpa stretta o uno sforzo insolito prima dell'esordio? Il dolore è comparso improvvisamente o gradualmente?"
+   ],
+   [
+    "MONDO",
+    "Il giorno prima avevo urtato violentemente il piede scalzo contro la gamba del letto: un dolore da svenire, ma poi è passato. Il gonfiore e il dolore sono comparsi il giorno dopo."
+   ],
+   [
+    "MEDICO",
+    "Esame obiettivo del piede: quale dito è coinvolto, il gonfiore è uniforme a salsiccia su tutto il dito o localizzato; presenza di ecchimosi, deformità, ferite cutanee; dolorabilità ossea puntoria alla palpazione della falange e del metatarso; dolore alla compressione assiale del dito."
+   ],
+   [
+    "MONDO",
+    "EO: coinvolto il 4° dito del piede destro, con tumefazione diffusa e uniforme dell’intero dito, “a salsicciotto”."
+   ],
+   [
+    "MEDICO",
+    "Ispezione mirata del 4° dito destro: presenza di ecchimosi (anche plantare o subungueale), deformità/malallineamento, ferite o soluzioni di continuo cutanee, arrossamento e calore, lesioni psoriasiche o ungueali."
+   ],
+   [
+    "MONDO",
+    "EO: alla base del 4° dito, sul versante plantare, è presente un’ecchimosi giallastra in via di riassorbimento. Nessuna deformità o ferita; presenti arrossamento e calore modesto. Nessuna lesione psoriasica locale né alterazione ungueale."
+   ],
+   [
+    "MEDICO",
+    "Palpazione mirata: dolorabilità ossea puntoria sulla falange prossimale, sulla testa del 4° metatarso e sulle interfalangee; dolore alla compressione assiale del dito; mobilità attiva e passiva delle interfalangee."
+   ],
+   [
+    "MONDO",
+    "EO: dolorabilità ossea puntoria sulla falange prossimale del 4° dito; testa del 4° metatarso e articolazioni interfalangee non dolenti."
+   ],
+   [
+    "MEDICO",
+    "Richiedo radiografia del piede destro in 3 proiezioni (AP, obliqua, laterale) centrata sul 4° raggio."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito, con rima obliqua e minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Domanda al paziente: ha avuto febbre o brividi in questi 3 giorni? In passato ha mai avuto altre dita gonfie a salsicciotto, dolori articolari, lombalgia notturna, dolore ai talloni, o episodi di gotta? Che terapia fa per la psoriasi e quali farmaci assume?"
+   ],
+   [
+    "MONDO",
+    "No, non ho avuto né febbre né brividi in questi tre giorni."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: frattura composta minimamente scomposta della base della falange prossimale del 4° dito del piede destro, post-traumatica (urto contro il letto), con tumefazione reattiva dell'intero dito che mima una dattilite; non è una dattilite psoriasica (esordio dopo trauma, ecchimosi plantare in riassorbimento, dolorabilità ossea puntoria, nessuna febbre, nessuna lesione psoriasica o ungueale locale). Trattamento immediato: syndactilizzazione (buddy taping) del 4° dito con il 3° con garza interdigitale, scarpa a suola rigida (talus), ghiaccio, elevazione, analgesia con paracetamolo ed eventuale FANS a breve termine, carico consentito secondo dolore. Dimissione con controllo ortopedico ambulatoriale e radiografia di controllo a 10-14 giorni, e istruzioni di rientro per dolore ingravescente, deficit vascolo-nervoso o comparsa di febbre. NON iniziare terapia per artrite psoriasica (niente steroidi sistemici o infiltrazioni locali, niente metotrexato o biologici), non etichettare l'episodio come dattilite in cartella, non eseguire ecografia/RM o esami reumatologici in urgenza. Rimandare al curante/reumatologo solo se, guarita la frattura, persistono segni infiammatori o compaiono altri elementi di artrite psoriasica."
+   ]
+  ]
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "run": "f1",
+  "turns": 8,
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  },
+  "transcript": [
+   [
+    "MEDICO",
+    "Mi racconti come è iniziato: il gonfiore è comparso all'improvviso o gradualmente, e nei giorni prima ha avuto un trauma, una botta, un calcio, una caduta o ha fatto sport con quel piede?"
+   ],
+   [
+    "MONDO",
+    "È comparso abbastanza gradualmente dopo che, quattro giorni fa, ho urtato violentemente il piede scalzo contro la gamba del letto. Lì per lì è stato un dolore da svenire, ma poi è passato; il dito si è gonfiato dal giorno dopo."
+   ],
+   [
+    "MEDICO",
+    "Quale dito è coinvolto? Ha mai avuto in passato dita gonfie 'a salsicciotto', dolori articolari, mal di schiena notturno, o una diagnosi di artrite psoriasica, e che terapia fa per la psoriasi?"
+   ],
+   [
+    "MONDO",
+    "È il quarto dito del piede destro. Non mi era mai successo prima e non ho mai avuto dolori alle articolazioni, mal di schiena notturno o diagnosi di artrite; per la psoriasi uso solo creme sui gomiti e sul cuoio capelluto."
+   ],
+   [
+    "MEDICO",
+    "Ispeziono il quarto dito del piede destro scalzo confrontandolo col controlaterale: distribuzione del gonfiore (tutto il dito uniforme vs localizzato a una falange o articolazione), ecchimosi/colore della cute, deformità o angolazione, stato dell'unghia e cute periungueale."
+   ],
+   [
+    "MONDO",
+    "EO: tumefazione diffusa uniforme dell’intero 4° dito destro, con eritema ed ecchimosi giallastra in via di riassorbimento alla base; nessuna deformità o angolazione evidente. Unghia e cute periungueale nella norma; controlaterale normale."
+   ],
+   [
+    "MEDICO",
+    "Palpo il quarto dito destro cercando il punto di massima dolorabilità: pressione diretta su ciascuna falange (prossimale, media, distale) e sulle articolazioni MTF, IFP, IFD, più compressione assiale del dito lungo il suo asse; valuto anche calore locale rispetto alle altre dita."
+   ],
+   [
+    "MONDO",
+    "EO: dolore massimo e ben localizzato alla pressione sulla falange prossimale; falangi media e distale e articolazioni non dolenti. Compressione assiale negativa; calore locale modesto."
+   ],
+   [
+    "MEDICO",
+    "Richiedo radiografia del piede destro/avampiede in tre proiezioni (AP, obliqua, laterale) centrata sul 4° dito, quesito: frattura falange prossimale 4° dito dopo trauma contusivo 4 giorni fa."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito del piede destro, a rima obliqua, con minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Valuto il 4° dito destro per: refill capillare e sensibilità del polpastrello, integrità cutanea (frattura chiusa), e malrotazione clinica facendo flettere attivamente le dita e osservando se il 4° dito si accavalla o diverge rispetto al 3° e al 5°."
+   ],
+   [
+    "MONDO",
+    "EO: refill capillare regolare e sensibilità del polpastrello conservata."
+   ],
+   [
+    "MEDICO",
+    "Chiedo al paziente di flettere attivamente le dita del piede destro e osservo il 4° dito: si accavalla o diverge rispetto al 3° e al 5° (malrotazione clinica)? Verifico inoltre che la cute sul dito sia integra, senza ferite o abrasioni sopra il focolaio di frattura."
+   ],
+   [
+    "MONDO",
+    "EO: durante la flessione attiva il 4° dito mantiene un allineamento regolare, senza accavallamento o divergenza rispetto al 3° e al 5°."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: frattura chiusa composta della base della falange prossimale del 4° dito del piede destro, a rima obliqua con minima scomposizione, da trauma contusivo diretto 4 giorni fa, senza malrotazione né deficit neurovascolare; NON è una dattilite psoriasica (esordio post-traumatico, ecchimosi, dolorabilità ossea focale sulla sola falange prossimale con articolazioni indolenti, nessuna storia di artrite). Trattamento conservativo: syndactilizzazione (buddy taping) del 4° al 3° dito con garza interdigitale, scarpa a suola rigida post-operatoria, carico come tollerato, ghiaccio/elevazione, paracetamolo o FANS per pochi giorni se non controindicati. Controllo ortopedico/radiografico a 2-3 settimane, rientro in PS se peggioramento del dolore, alterazione del colore o della sensibilità del dito. NON iniziare terapia per artrite psoriasica (niente steroidi sistemici, metotrexato o biologici), NON richiedere ecografia o esami reumatologici in urgenza, NON mettere gesso; comunicare al curante che la diagnosi di dattilite non è sostenuta e che, solo in caso di dita gonfie senza trauma in futuro, andrà valutato dal reumatologo."
+   ]
+  ]
+ }
+]

@@ -1,0 +1,157 @@
+{
+ "case": "L7_tocilizumab_abdomen",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo al paziente quali farmaci prende per l'artrite reumatoide (biologici come tocilizumab, cortisone e dose, metotrexato, FANS) e quando ha fatto l'ultima somministrazione."
+  },
+  {
+   "role": "assistant",
+   "content": "Faccio una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg al giorno. Non prendo metotrexato né antinfiammatori; non ricordo con precisione il giorno dell’ultima puntura."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo al paziente di descrivere il dolore: dove è localizzato, come è iniziato, se è continuo o a crisi, se peggiora con i movimenti o con la tosse, e se ha avuto nausea, vomito, febbre, stipsi, diarrea o sangue nelle feci; se ha una storia di diverticoli."
+  },
+  {
+   "role": "assistant",
+   "content": "È iniziato due giorni fa sul lato sinistro della pancia, è continuo e sta aumentando; adesso lo sento soprattutto in basso a sinistra e al centro. Ho vomitato una volta, da ieri non vado di corpo ma riesco a fare aria; niente sangue e niente febbre alta. Alla colonscopia del 2023 mi avevano detto che avevo dei diverticoli."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo dell'addome: ispezione, palpazione superficiale e profonda dei quattro quadranti cercando dolorabilità in fossa iliaca sinistra, difesa, contrattura, segno di Blumberg (dolore al rilascio), dolore alla percussione e alla tosse; auscultazione della peristalsi."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: ispezione dell’addome nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo prelievo ematico urgente: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, lipasi, transaminasi, bilirubina, coagulazione, ed emogasanalisi con lattati."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emocromo con formula: GB 7,8 ×10⁹/L (neutrofili 72%), Hb 12,9 g/dL, PLT 210 ×10⁹/L."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (con finestra per aria libera), specificando il quesito: sospetta diverticolite complicata/perforazione in paziente in terapia con tocilizumab e steroide."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Palpazione dell'addome: valuto dolorabilità in fossa iliaca sinistra, difesa, contrattura di parete e segno di Blumberg."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; non vi è contrattura di parete e il segno di Blumberg è dubbio."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo emogasanalisi con lattati e creatinina."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: lattato 1,4 mmol/L; creatinina 0,9 mg/dL."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Decisione terapeutica immediata: paziente a digiuno, accesso venoso, cristalloidi ev, avvio subito antibiotico ev ad ampio spettro (piperacillina/tazobactam 4,5 g ev), analgesia ev con paracetamolo, sospensione del tocilizumab, prednisone mantenuto con copertura steroidea da stress (idrocortisone 100 mg ev); riclassifico il codice a giallo/rosso e ricovero."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiamo il chirurgo generale in urgenza per valutazione congiunta e chiedo alla radiologia interventistica la fattibilità di drenaggio percutaneo TC-guidato dell'ascesso."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Chiedo al paziente quali farmaci prende per l'artrite reumatoide (biologici come tocilizumab, cortisone e dose, metotrexato, FANS) e quando ha fatto l'ultima somministrazione."
+  ],
+  [
+   "MONDO",
+   "Faccio una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg al giorno. Non prendo metotrexato né antinfiammatori; non ricordo con precisione il giorno dell’ultima puntura."
+  ],
+  [
+   "MEDICO",
+   "Chiedo al paziente di descrivere il dolore: dove è localizzato, come è iniziato, se è continuo o a crisi, se peggiora con i movimenti o con la tosse, e se ha avuto nausea, vomito, febbre, stipsi, diarrea o sangue nelle feci; se ha una storia di diverticoli."
+  ],
+  [
+   "MONDO",
+   "È iniziato due giorni fa sul lato sinistro della pancia, è continuo e sta aumentando; adesso lo sento soprattutto in basso a sinistra e al centro. Ho vomitato una volta, da ieri non vado di corpo ma riesco a fare aria; niente sangue e niente febbre alta. Alla colonscopia del 2023 mi avevano detto che avevo dei diverticoli."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo dell'addome: ispezione, palpazione superficiale e profonda dei quattro quadranti cercando dolorabilità in fossa iliaca sinistra, difesa, contrattura, segno di Blumberg (dolore al rilascio), dolore alla percussione e alla tosse; auscultazione della peristalsi."
+  ],
+  [
+   "MONDO",
+   "EO: ispezione dell’addome nella norma."
+  ],
+  [
+   "MEDICO",
+   "Richiedo prelievo ematico urgente: emocromo con formula, PCR, procalcitonina, creatinina, elettroliti, lipasi, transaminasi, bilirubina, coagulazione, ed emogasanalisi con lattati."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emocromo con formula: GB 7,8 ×10⁹/L (neutrofili 72%), Hb 12,9 g/dL, PLT 210 ×10⁹/L."
+  ],
+  [
+   "MEDICO",
+   "Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (con finestra per aria libera), specificando il quesito: sospetta diverticolite complicata/perforazione in paziente in terapia con tocilizumab e steroide."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+  ],
+  [
+   "MEDICO",
+   "Palpazione dell'addome: valuto dolorabilità in fossa iliaca sinistra, difesa, contrattura di parete e segno di Blumberg."
+  ],
+  [
+   "MONDO",
+   "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; non vi è contrattura di parete e il segno di Blumberg è dubbio."
+  ],
+  [
+   "MEDICO",
+   "Richiedo emogasanalisi con lattati e creatinina."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: lattato 1,4 mmol/L; creatinina 0,9 mg/dL."
+  ],
+  [
+   "MEDICO",
+   "Decisione terapeutica immediata: paziente a digiuno, accesso venoso, cristalloidi ev, avvio subito antibiotico ev ad ampio spettro (piperacillina/tazobactam 4,5 g ev), analgesia ev con paracetamolo, sospensione del tocilizumab, prednisone mantenuto con copertura steroidea da stress (idrocortisone 100 mg ev); riclassifico il codice a giallo/rosso e ricovero."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Chiamo il chirurgo generale in urgenza per valutazione congiunta e chiedo alla radiologia interventistica la fattibilità di drenaggio percutaneo TC-guidato dell'ascesso."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: diverticolite del sigma complicata con perforazione coperta e ascesso pericolico di 3,5 cm (Hinchey Ib/II) in paziente immunodepresso da tocilizumab e prednisone, in cui l'assenza di febbre, leucocitosi e PCR elevata è attesa perché il tocilizumab blocca l'IL-6 e maschera la risposta infiammatoria: gli 'esami buoni' non escludono nulla. Decisioni immediate: ricovero in chirurgia con codice alzato, digiuno, fluidi ev, piperacillina/tazobactam ev già avviata, idrocortisone da stress, sospensione del tocilizumab, valutazione chirurgica urgente con drenaggio percutaneo TC-guidato dell'ascesso, monitoraggio stretto (PA, FC, lattati, addome ogni 4-6 ore) e chirurgia (Hartmann o resezione) in caso di peritonite diffusa, instabilità o mancata risposta a 48-72 h. Cosa NON fare: non dimettere né temporeggiare sulla base di GB, PCR o temperatura normali; non fare colonscopia in acuto; non dare FANS; non sospendere bruscamente lo steroide cronico; non usare la PCR come marker di risposta alla terapia nel follow-up."
+  ]
+ ],
+ "final": "DECISIONE FINALE: diverticolite del sigma complicata con perforazione coperta e ascesso pericolico di 3,5 cm (Hinchey Ib/II) in paziente immunodepresso da tocilizumab e prednisone, in cui l'assenza di febbre, leucocitosi e PCR elevata è attesa perché il tocilizumab blocca l'IL-6 e maschera la risposta infiammatoria: gli 'esami buoni' non escludono nulla. Decisioni immediate: ricovero in chirurgia con codice alzato, digiuno, fluidi ev, piperacillina/tazobactam ev già avviata, idrocortisone da stress, sospensione del tocilizumab, valutazione chirurgica urgente con drenaggio percutaneo TC-guidato dell'ascesso, monitoraggio stretto (PA, FC, lattati, addome ogni 4-6 ore) e chirurgia (Hartmann o resezione) in caso di peritonite diffusa, instabilità o mancata risposta a 48-72 h. Cosa NON fare: non dimettere né temporeggiare sulla base di GB, PCR o temperatura normali; non fare colonscopia in acuto; non dare FANS; non sospendere bruscamente lo steroide cronico; non usare la PCR come marker di risposta alla terapia nel follow-up."
+}

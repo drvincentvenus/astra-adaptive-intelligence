@@ -1,0 +1,109 @@
+{
+ "case": "L9_dactylitis_vs_trauma",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Domanda al paziente: come è iniziato il gonfiore del dito 3 giorni fa? C'è stato un trauma, un urto, una caduta, una scarpa stretta o uno sforzo insolito prima dell'esordio? Il dolore è comparso improvvisamente o gradualmente?"
+  },
+  {
+   "role": "assistant",
+   "content": "Il giorno prima avevo urtato violentemente il piede scalzo contro la gamba del letto: un dolore da svenire, ma poi è passato. Il gonfiore e il dolore sono comparsi il giorno dopo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo del piede: quale dito è coinvolto, il gonfiore è uniforme a salsiccia su tutto il dito o localizzato; presenza di ecchimosi, deformità, ferite cutanee; dolorabilità ossea puntoria alla palpazione della falange e del metatarso; dolore alla compressione assiale del dito."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: coinvolto il 4° dito del piede destro, con tumefazione diffusa e uniforme dell’intero dito, “a salsicciotto”."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ispezione mirata del 4° dito destro: presenza di ecchimosi (anche plantare o subungueale), deformità/malallineamento, ferite o soluzioni di continuo cutanee, arrossamento e calore, lesioni psoriasiche o ungueali."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: alla base del 4° dito, sul versante plantare, è presente un’ecchimosi giallastra in via di riassorbimento. Nessuna deformità o ferita; presenti arrossamento e calore modesto. Nessuna lesione psoriasica locale né alterazione ungueale."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Palpazione mirata: dolorabilità ossea puntoria sulla falange prossimale, sulla testa del 4° metatarso e sulle interfalangee; dolore alla compressione assiale del dito; mobilità attiva e passiva delle interfalangee."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: dolorabilità ossea puntoria sulla falange prossimale del 4° dito; testa del 4° metatarso e articolazioni interfalangee non dolenti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo radiografia del piede destro in 3 proiezioni (AP, obliqua, laterale) centrata sul 4° raggio."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: frattura composta della base della falange prossimale del 4° dito, con rima obliqua e minima scomposizione."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Domanda al paziente: ha avuto febbre o brividi in questi 3 giorni? In passato ha mai avuto altre dita gonfie a salsicciotto, dolori articolari, lombalgia notturna, dolore ai talloni, o episodi di gotta? Che terapia fa per la psoriasi e quali farmaci assume?"
+  },
+  {
+   "role": "assistant",
+   "content": "No, non ho avuto né febbre né brividi in questi tre giorni."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Domanda al paziente: come è iniziato il gonfiore del dito 3 giorni fa? C'è stato un trauma, un urto, una caduta, una scarpa stretta o uno sforzo insolito prima dell'esordio? Il dolore è comparso improvvisamente o gradualmente?"
+  ],
+  [
+   "MONDO",
+   "Il giorno prima avevo urtato violentemente il piede scalzo contro la gamba del letto: un dolore da svenire, ma poi è passato. Il gonfiore e il dolore sono comparsi il giorno dopo."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo del piede: quale dito è coinvolto, il gonfiore è uniforme a salsiccia su tutto il dito o localizzato; presenza di ecchimosi, deformità, ferite cutanee; dolorabilità ossea puntoria alla palpazione della falange e del metatarso; dolore alla compressione assiale del dito."
+  ],
+  [
+   "MONDO",
+   "EO: coinvolto il 4° dito del piede destro, con tumefazione diffusa e uniforme dell’intero dito, “a salsicciotto”."
+  ],
+  [
+   "MEDICO",
+   "Ispezione mirata del 4° dito destro: presenza di ecchimosi (anche plantare o subungueale), deformità/malallineamento, ferite o soluzioni di continuo cutanee, arrossamento e calore, lesioni psoriasiche o ungueali."
+  ],
+  [
+   "MONDO",
+   "EO: alla base del 4° dito, sul versante plantare, è presente un’ecchimosi giallastra in via di riassorbimento. Nessuna deformità o ferita; presenti arrossamento e calore modesto. Nessuna lesione psoriasica locale né alterazione ungueale."
+  ],
+  [
+   "MEDICO",
+   "Palpazione mirata: dolorabilità ossea puntoria sulla falange prossimale, sulla testa del 4° metatarso e sulle interfalangee; dolore alla compressione assiale del dito; mobilità attiva e passiva delle interfalangee."
+  ],
+  [
+   "MONDO",
+   "EO: dolorabilità ossea puntoria sulla falange prossimale del 4° dito; testa del 4° metatarso e articolazioni interfalangee non dolenti."
+  ],
+  [
+   "MEDICO",
+   "Richiedo radiografia del piede destro in 3 proiezioni (AP, obliqua, laterale) centrata sul 4° raggio."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: frattura composta della base della falange prossimale del 4° dito, con rima obliqua e minima scomposizione."
+  ],
+  [
+   "MEDICO",
+   "Domanda al paziente: ha avuto febbre o brividi in questi 3 giorni? In passato ha mai avuto altre dita gonfie a salsicciotto, dolori articolari, lombalgia notturna, dolore ai talloni, o episodi di gotta? Che terapia fa per la psoriasi e quali farmaci assume?"
+  ],
+  [
+   "MONDO",
+   "No, non ho avuto né febbre né brividi in questi tre giorni."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: frattura composta minimamente scomposta della base della falange prossimale del 4° dito del piede destro, post-traumatica (urto contro il letto), con tumefazione reattiva dell'intero dito che mima una dattilite; non è una dattilite psoriasica (esordio dopo trauma, ecchimosi plantare in riassorbimento, dolorabilità ossea puntoria, nessuna febbre, nessuna lesione psoriasica o ungueale locale). Trattamento immediato: syndactilizzazione (buddy taping) del 4° dito con il 3° con garza interdigitale, scarpa a suola rigida (talus), ghiaccio, elevazione, analgesia con paracetamolo ed eventuale FANS a breve termine, carico consentito secondo dolore. Dimissione con controllo ortopedico ambulatoriale e radiografia di controllo a 10-14 giorni, e istruzioni di rientro per dolore ingravescente, deficit vascolo-nervoso o comparsa di febbre. NON iniziare terapia per artrite psoriasica (niente steroidi sistemici o infiltrazioni locali, niente metotrexato o biologici), non etichettare l'episodio come dattilite in cartella, non eseguire ecografia/RM o esami reumatologici in urgenza. Rimandare al curante/reumatologo solo se, guarita la frattura, persistono segni infiammatori o compaiono altri elementi di artrite psoriasica."
+  ]
+ ],
+ "final": "DECISIONE FINALE: frattura composta minimamente scomposta della base della falange prossimale del 4° dito del piede destro, post-traumatica (urto contro il letto), con tumefazione reattiva dell'intero dito che mima una dattilite; non è una dattilite psoriasica (esordio dopo trauma, ecchimosi plantare in riassorbimento, dolorabilità ossea puntoria, nessuna febbre, nessuna lesione psoriasica o ungueale locale). Trattamento immediato: syndactilizzazione (buddy taping) del 4° dito con il 3° con garza interdigitale, scarpa a suola rigida (talus), ghiaccio, elevazione, analgesia con paracetamolo ed eventuale FANS a breve termine, carico consentito secondo dolore. Dimissione con controllo ortopedico ambulatoriale e radiografia di controllo a 10-14 giorni, e istruzioni di rientro per dolore ingravescente, deficit vascolo-nervoso o comparsa di febbre. NON iniziare terapia per artrite psoriasica (niente steroidi sistemici o infiltrazioni locali, niente metotrexato o biologici), non etichettare l'episodio come dattilite in cartella, non eseguire ecografia/RM o esami reumatologici in urgenza. Rimandare al curante/reumatologo solo se, guarita la frattura, persistono segni infiammatori o compaiono altri elementi di artrite psoriasica."
+}

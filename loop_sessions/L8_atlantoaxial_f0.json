@@ -1,0 +1,173 @@
+{
+ "case": "L8_atlantoaxial",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Posiziono subito collare cervicale rigido, la faccio sdraiare supina in barella con capo in posizione neutra e allineamento in asse; vietato alzarsi e muovere il collo. Chiedo: sintomi neurologici dopo la caduta (formicolii, scosse elettriche al collo o agli arti, debolezza, perdita di coscienza)?"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche al collo o agli arti quando muove il collo, debolezza alle gambe o alle mani, perdita di coscienza, o difficoltà a camminare?"
+  },
+  {
+   "role": "assistant",
+   "content": "Ho un po’ di formicolio alle mani, ma le ho sempre un po’ addormentate. Da qualche mese, quando piego il collo, sento come delle scosse elettriche lungo la schiena; non ho perso conoscenza."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame neurologico degli arti a paziente supina con collare: forza segmentaria ai 4 arti, riflessi osteotendinei (bicipitale, tricipitale, rotuleo, achilleo), segno di Hoffmann, riflesso cutaneo plantare (Babinski), clono del piede, sensibilità tattile e vibratoria agli arti."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: forza 4/5 agli arti superiori; forza conservata agli arti inferiori."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ricerco specificamente segni di primo motoneurone: riflessi osteotendinei ai 4 arti (iper/iporeflessia), segno di Hoffmann bilaterale, riflesso cutaneo plantare bilaterale, clono achilleo, e valuto l'andatura solo descritta dai familiari (se già instabile da mesi) senza far alzare la paziente."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: riflessi osteotendinei vivaci ai quattro arti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo alla paziente e ai familiari: le hanno mai detto di avere una sublussazione o instabilità delle vertebre cervicali alte (C1-C2)? Ha mai fatto radiografie o TC/RM del collo? Che terapia fa per l'artrite (cortisone, biologici) e prende anticoagulanti o antiaggreganti?"
+  },
+  {
+   "role": "assistant",
+   "content": "No, non mi hanno mai detto di avere vertebre del collo instabili o spostate."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo TC del rachide cervicale in urgenza con ricostruzioni sagittali e coronali mirate alla giunzione cranio-cervicale (C0-C1-C2: intervallo atlanto-dentale, dente dell'epistrofeo, invaginazione basilare) più TC cranio senza mdc; trasporto in barella con collare e allineamento in asse."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non si evidenziano fratture."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo RM del rachide cervicale in urgenza (sequenze sagittali T2/STIR) per valutare compressione midollare a livello C1-C2, spazio disponibile per il midollo, edema o mielomalacia, lesioni legamentose acute; trasporto sempre con collare rigido e in asse."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione midollare a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Attivo consulenza neurochirurgica/vertebrale urgente per sublussazione atlanto-assiale con ADI 9 mm, impressione basilare e segni clinici di mielopatia cervicale dopo trauma, per valutazione di stabilizzazione/decompressione."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo: prende anticoagulanti o antiaggreganti? Fa cortisone cronico o farmaci biologici per l'artrite? Digiuna da quando?"
+  },
+  {
+   "role": "assistant",
+   "content": "No, non prendo né anticoagulanti né antiaggreganti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Terapia immediata: paziente a digiuno, accesso venoso, paracetamolo 1 g ev per il dolore (evito FANS), mantengo collare rigido e allettamento con capo in asse; monitoraggio dei parametri e dell'esame neurologico ogni ora; vietata qualsiasi mobilizzazione o manipolazione del collo."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Posiziono subito collare cervicale rigido, la faccio sdraiare supina in barella con capo in posizione neutra e allineamento in asse; vietato alzarsi e muovere il collo. Chiedo: sintomi neurologici dopo la caduta (formicolii, scosse elettriche al collo o agli arti, debolezza, perdita di coscienza)?"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche al collo o agli arti quando muove il collo, debolezza alle gambe o alle mani, perdita di coscienza, o difficoltà a camminare?"
+  ],
+  [
+   "MONDO",
+   "Ho un po’ di formicolio alle mani, ma le ho sempre un po’ addormentate. Da qualche mese, quando piego il collo, sento come delle scosse elettriche lungo la schiena; non ho perso conoscenza."
+  ],
+  [
+   "MEDICO",
+   "Esame neurologico degli arti a paziente supina con collare: forza segmentaria ai 4 arti, riflessi osteotendinei (bicipitale, tricipitale, rotuleo, achilleo), segno di Hoffmann, riflesso cutaneo plantare (Babinski), clono del piede, sensibilità tattile e vibratoria agli arti."
+  ],
+  [
+   "MONDO",
+   "EO: forza 4/5 agli arti superiori; forza conservata agli arti inferiori."
+  ],
+  [
+   "MEDICO",
+   "Ricerco specificamente segni di primo motoneurone: riflessi osteotendinei ai 4 arti (iper/iporeflessia), segno di Hoffmann bilaterale, riflesso cutaneo plantare bilaterale, clono achilleo, e valuto l'andatura solo descritta dai familiari (se già instabile da mesi) senza far alzare la paziente."
+  ],
+  [
+   "MONDO",
+   "EO: riflessi osteotendinei vivaci ai quattro arti."
+  ],
+  [
+   "MEDICO",
+   "Chiedo alla paziente e ai familiari: le hanno mai detto di avere una sublussazione o instabilità delle vertebre cervicali alte (C1-C2)? Ha mai fatto radiografie o TC/RM del collo? Che terapia fa per l'artrite (cortisone, biologici) e prende anticoagulanti o antiaggreganti?"
+  ],
+  [
+   "MONDO",
+   "No, non mi hanno mai detto di avere vertebre del collo instabili o spostate."
+  ],
+  [
+   "MEDICO",
+   "Richiedo TC del rachide cervicale in urgenza con ricostruzioni sagittali e coronali mirate alla giunzione cranio-cervicale (C0-C1-C2: intervallo atlanto-dentale, dente dell'epistrofeo, invaginazione basilare) più TC cranio senza mdc; trasporto in barella con collare e allineamento in asse."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non si evidenziano fratture."
+  ],
+  [
+   "MEDICO",
+   "Richiedo RM del rachide cervicale in urgenza (sequenze sagittali T2/STIR) per valutare compressione midollare a livello C1-C2, spazio disponibile per il midollo, edema o mielomalacia, lesioni legamentose acute; trasporto sempre con collare rigido e in asse."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione midollare a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+  ],
+  [
+   "MEDICO",
+   "Attivo consulenza neurochirurgica/vertebrale urgente per sublussazione atlanto-assiale con ADI 9 mm, impressione basilare e segni clinici di mielopatia cervicale dopo trauma, per valutazione di stabilizzazione/decompressione."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Chiedo: prende anticoagulanti o antiaggreganti? Fa cortisone cronico o farmaci biologici per l'artrite? Digiuna da quando?"
+  ],
+  [
+   "MONDO",
+   "No, non prendo né anticoagulanti né antiaggreganti."
+  ],
+  [
+   "MEDICO",
+   "Terapia immediata: paziente a digiuno, accesso venoso, paracetamolo 1 g ev per il dolore (evito FANS), mantengo collare rigido e allettamento con capo in asse; monitoraggio dei parametri e dell'esame neurologico ogni ora; vietata qualsiasi mobilizzazione o manipolazione del collo."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore reumatoide (ADI 9 mm, erosione del dente, iniziale impressione basilare) con mielopatia cervicale da compressione midollare C1-C2 da pannus retro-odontoideo (iperintensità T2 intramidollare, Lhermitte, ipostenia 4/5 arti superiori, iperreflessia), slatentizzata da trauma occipitale; nessuna frattura, non anticoagulata. Decisioni immediate: collare rigido e allettamento in asse mantenuti, digiuno, accesso venoso, paracetamolo ev, monitoraggio neurologico orario, consulenza neurochirurgica/vertebrale urgente già attivata per stabilizzazione e decompressione, ricovero in ambiente monitorato (spinal unit/neurochirurgia), riclassificazione da codice verde a codice rosso/giallo con priorità alta. Cosa NON fare: non rimuovere il collare, non far alzare o deambulare la paziente, nessuna manipolazione o flessione del collo, nessuna intubazione con estensione cervicale (se necessaria, fibroscopica con stabilizzazione manuale in linea), niente radiografie dinamiche in flesso-estensione in acuto, niente FANS/steroidi ad alte dosi empirici e nessuna dimissione. Informare paziente e familiari della gravità del quadro."
+  ]
+ ],
+ "final": "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore reumatoide (ADI 9 mm, erosione del dente, iniziale impressione basilare) con mielopatia cervicale da compressione midollare C1-C2 da pannus retro-odontoideo (iperintensità T2 intramidollare, Lhermitte, ipostenia 4/5 arti superiori, iperreflessia), slatentizzata da trauma occipitale; nessuna frattura, non anticoagulata. Decisioni immediate: collare rigido e allettamento in asse mantenuti, digiuno, accesso venoso, paracetamolo ev, monitoraggio neurologico orario, consulenza neurochirurgica/vertebrale urgente già attivata per stabilizzazione e decompressione, ricovero in ambiente monitorato (spinal unit/neurochirurgia), riclassificazione da codice verde a codice rosso/giallo con priorità alta. Cosa NON fare: non rimuovere il collare, non far alzare o deambulare la paziente, nessuna manipolazione o flessione del collo, nessuna intubazione con estensione cervicale (se necessaria, fibroscopica con stabilizzazione manuale in linea), niente radiografie dinamiche in flesso-estensione in acuto, niente FANS/steroidi ad alte dosi empirici e nessuna dimissione. Informare paziente e familiari della gravità del quadro."
+}

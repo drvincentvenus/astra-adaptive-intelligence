@@ -1,0 +1,430 @@
+[
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "effort": "low",
+  "rep": 0,
+  "turns": 10,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Come è iniziato questo dolore: improvvisamente o gradualmente, e dopo una caduta, un urto o anche solo un movimento banale?»"
+   ],
+   [
+    "MONDO",
+    "«È iniziato circa dodici giorni fa. Non saprei dire se proprio all’improvviso o piano piano.»"
+   ],
+   [
+    "MEDICO",
+    "«Nei giorni prima dell’inizio ha avuto una caduta, anche lieve, un urto o un movimento brusco della schiena?»"
+   ],
+   [
+    "MONDO",
+    "«No, niente cadute, urti o movimenti bruschi che ricordi.»"
+   ],
+   [
+    "MEDICO",
+    "«Dove sente esattamente il dolore e in cosa è diverso dalle sue solite riacutizzazioni?»"
+   ],
+   [
+    "MONDO",
+    "«Lo sento proprio in fondo alla schiena, al centro. Di solito al mattino sono rigido e camminando mi passa; stavolta è continuo, non passa mai, peggiora se mi muovo, la notte mi sveglia e l’ibuprofene non mi fa niente.»"
+   ],
+   [
+    "MEDICO",
+    "«Quali farmaci assume per la spondilite, in particolare biologici o cortisone, e quando ha fatto l’ultima dose?»"
+   ],
+   [
+    "MONDO",
+    "«Faccio l’adalimumab dal 2019; l’ultima dose l’ho fatta nove giorni fa. Cortisone no.»"
+   ],
+   [
+    "MEDICO",
+    "«In questi giorni ha avuto febbre, brividi o un’infezione recente, per esempio della pelle, dei denti o delle vie urinarie?»"
+   ],
+   [
+    "MONDO",
+    "«La sera da circa una settimana ho 37 e mezzo, quasi 38, ma brividi no. Cinque settimane fa avevo un grosso foruncolo sul gluteo sinistro: il medico l’ha drenato e mi ha dato amoxicillina per cinque giorni; niente infezioni ai denti o alle urine.»"
+   ],
+   [
+    "MEDICO",
+    "«Ha notato debolezza o perdita di sensibilità alle gambe, insensibilità tra le gambe oppure difficoltà a urinare, ritenzione o perdita involontaria di urine o feci?»"
+   ],
+   [
+    "MONDO",
+    "«Debolezza no, però da due giorni sento un po’ di formicolio sulla coscia destra. Non ho insensibilità tra le gambe né problemi a urinare o perdite di pipì o feci.»"
+   ],
+   [
+    "MEDICO",
+    "Eseguo un esame neurologico degli arti inferiori: forza segmentaria bilaterale, riflessi rotulei e achillei, sensibilità per dermatomeri e sensibilità perineale."
+   ],
+   [
+    "MONDO",
+    "EO: forza 5/5 bilateralmente agli arti inferiori; riflessi rotulei e achillei normali; lieve ipoestesia alla faccia anteriore della coscia destra; sensibilità perineale normale."
+   ],
+   [
+    "MEDICO",
+    "Richiedo RM urgente del rachide lombosacrale senza e con contrasto, per sospetta spondilodiscite con possibile ascesso epidurale in paziente immunodepresso con nuovo deficit sensitivo."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: discite L3-L4 con edema delle limitanti; raccolta epidurale anteriore di 6 mm che impronta il sacco durale; ascesso dello psoas destro di 3 cm."
+   ],
+   [
+    "MEDICO",
+    "Richiedo immediatamente due set di emocolture da venipunture distinte, prima dell’antibiotico e senza ritardarne l’avvio."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocolture prelevate ×2, in corso."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Spondilodiscite L3-L4 con ascesso epidurale, iniziale deficit sensitivo e ascesso dello psoas destro in terapia anti-TNF. Ricovero urgente, valutazione immediata neurochirurgica/chirurgica vertebrale e infettivologica per decompressione e drenaggio, con monitoraggio neurologico ravvicinato. Dopo le emocolture già prelevate, avviare subito vancomicina più cefepime EV, verificando allergie e adeguando le dosi alla funzione renale, poi adattare alle colture. Sospendere adalimumab e fornire analgesia monitorata. Non eseguire infiltrazioni cortisoniche, non trattare come semplice riacutizzazione e non ritardare gli antibiotici in attesa di biopsia o colture."
+   ]
+  ],
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "effort": "low",
+  "rep": 1,
+  "turns": 12,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Prima che iniziasse questo dolore ha avuto una caduta, un urto o un movimento brusco, anche apparentemente banale?»"
+   ],
+   [
+    "MONDO",
+    "No, niente cadute o colpi. Non ricordo neanche movimenti bruschi particolari."
+   ],
+   [
+    "MEDICO",
+    "«Quando è iniziato questo dolore e in che cosa è diverso dalle sue solite riacutizzazioni?»"
+   ],
+   [
+    "MONDO",
+    "È iniziato circa dodici giorni fa. Di solito al mattino sono rigido e camminando mi passa; stavolta invece è continuo, peggiora se mi muovo, mi sveglia la notte e l’ibuprofene non mi fa niente."
+   ],
+   [
+    "MEDICO",
+    "«Dove sente esattamente il dolore e si irradia verso gambe, torace o addome?»"
+   ],
+   [
+    "MONDO",
+    "Lo sento nella parte bassa della schiena, soprattutto al centro. Non mi sembra che si irradi alle gambe, al torace o alla pancia."
+   ],
+   [
+    "MEDICO",
+    "«Ha notato debolezza alle gambe, perdita di sensibilità tra le gambe oppure difficoltà nuove a urinare o a trattenere urine o feci?»"
+   ],
+   [
+    "MONDO",
+    "No, non ho notato debolezza alle gambe."
+   ],
+   [
+    "MEDICO",
+    "«Riesce a urinare normalmente, senza difficoltà a iniziare o svuotare la vescica né perdite involontarie?»"
+   ],
+   [
+    "MONDO",
+    "Sì, urino normalmente: nessuna difficoltà e nessuna perdita involontaria."
+   ],
+   [
+    "MEDICO",
+    "«Quali farmaci assume per la spondilite, in particolare cortisone o farmaci biologici, e quando ha fatto l’ultima dose?»"
+   ],
+   [
+    "MONDO",
+    "Faccio l’adalimumab dal 2019 e l’ultima dose l’ho fatta nove giorni fa. Non prendo cortisone."
+   ],
+   [
+    "MEDICO",
+    "«Nelle ultime settimane ha avuto febbre, brividi o qualche infezione, anche della pelle, dei denti o delle vie urinarie?»"
+   ],
+   [
+    "MONDO",
+    "Da una settimana la sera ho un po’ di febbre, sui 37,5-37,8, senza brividi. Cinque settimane fa avevo un grosso foruncolo sul gluteo sinistro: il medico ha fatto uscire il pus e mi ha dato amoxicillina per cinque giorni."
+   ],
+   [
+    "MEDICO",
+    "Eseguo una palpazione delicata della linea mediana lombare, senza mobilizzazioni forzate, cercando una dolorabilità vertebrale focale."
+   ],
+   [
+    "MONDO",
+    "EO: dolore elettivo alla palpazione delle apofisi spinose L3-L4."
+   ],
+   [
+    "MEDICO",
+    "Eseguo un esame neurologico mirato degli arti inferiori e sacrale: forza, sensibilità, riflessi e sensibilità perineale, senza forzare la mobilizzazione del rachide."
+   ],
+   [
+    "MONDO",
+    "EO: forza 5/5 agli arti inferiori."
+   ],
+   [
+    "MEDICO",
+    "Richiedo RM urgente del rachide lombosacrale senza e con contrasto, per sospetta spondilodiscite con possibile estensione epidurale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: discite L3-L4 con edema delle limitanti, raccolta epidurale anteriore di 6 mm che impronta il sacco durale e ascesso dello psoas destro di 3 cm."
+   ],
+   [
+    "MEDICO",
+    "Richiedo subito due set di emocolture da venipunture distinte, prima dell’inizio degli antibiotici, senza ritardare il trattamento."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocolture prelevate da due venipunture distinte; esito in corso."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Spondilodiscite L3-L4 con ascesso epidurale e ascesso dello psoas destro in paziente immunodepresso da adalimumab: ricovero urgente e rivalutazione della priorità assistenziale. Dopo le emocolture già prelevate, avvio antibiotici EV empirici con vancomicina più cefepime, adeguati a funzione renale, allergie e protocolli locali. Consulto immediatamente neurochirurgia/chirurgia vertebrale e infettivologia per valutare decompressione, drenaggio e campionamento microbiologico. Sospendo adalimumab, garantisco analgesia e monitoraggio neurologico e sfinterico seriato, completando l’esame sensitivo-sacrale. NON eseguire infiltrazioni di cortisone, manipolazioni vertebrali né dimettere come semplice riacutizzazione della spondilite."
+   ]
+  ],
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": true,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "effort": "high",
+  "rep": 0,
+  "turns": 9,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Come è iniziato questo dolore: c’è stata una caduta, un urto o anche solo un movimento brusco, magari apparentemente insignificante?»"
+   ],
+   [
+    "MONDO",
+    "«È iniziato circa dodici giorni fa. Non c’è stata nessuna caduta o botta, né ricordo movimenti bruschi particolari.»"
+   ],
+   [
+    "MEDICO",
+    "«Mi indichi dove sente il dolore e mi descriva in cosa è diverso dalle sue solite riacutizzazioni, anche quando è a riposo o durante la notte.»"
+   ],
+   [
+    "MONDO",
+    "«È nella parte bassa della schiena. Di solito al mattino sono rigido e camminando mi passa; stavolta invece è continuo, non passa mai, peggiora se mi muovo e la notte mi sveglia perché non trovo posizione.»"
+   ],
+   [
+    "MEDICO",
+    "«Quali farmaci prende per la spondilite, comprese eventuali terapie biologiche o cortisone, e quando ha fatto l’ultima dose?»"
+   ],
+   [
+    "MONDO",
+    "«Faccio l’adalimumab dal 2019, l’ultima dose l’ho fatta nove giorni fa. Cortisone non ne prendo.»"
+   ],
+   [
+    "MEDICO",
+    "«In questi dodici giorni ha avuto febbre o brividi, oppure recentemente un’infezione, una ferita infetta o un’infiltrazione alla schiena?»"
+   ],
+   [
+    "MONDO",
+    "«Da circa una settimana la sera ho 37 e mezzo, 37 e otto, ma niente brividi. Cinque settimane fa avevo un grosso foruncolo sul gluteo sinistro: il medico ha fatto uscire il pus e mi ha dato amoxicillina per cinque giorni; infiltrazioni alla schiena no.»"
+   ],
+   [
+    "MEDICO",
+    "«Ha notato debolezza o perdita di sensibilità alle gambe, insensibilità tra le cosce o ai genitali, oppure difficoltà a urinare o perdita di controllo di urine o feci?»"
+   ],
+   [
+    "MONDO",
+    "«Debolezza no, e controllo bene sia l’urina sia l’intestino. Da due giorni sento solo un po’ di formicolio sulla coscia destra; tra le cosce e ai genitali non mi pare di avere insensibilità.»"
+   ],
+   [
+    "MEDICO",
+    "Eseguo un esame neurologico mirato degli arti inferiori: forza segmentaria, riflessi rotulei e achillei e sensibilità, confrontando i due lati e includendo la regione perineale."
+   ],
+   [
+    "MONDO",
+    "EO: forza 5/5 agli arti inferiori, riflessi rotulei e achillei normali; lieve ipoestesia sulla faccia anteriore della coscia destra. Sensibilità perineale e sfinteri normali."
+   ],
+   [
+    "MEDICO",
+    "Richiedo RM urgente del rachide lombosacrale senza e con contrasto, per sospetta spondilodiscite con possibile ascesso epidurale, dato il dolore atipico, l’immunosoppressione e il nuovo deficit sensitivo."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: discite L3-L4 con edema delle limitanti, raccolta epidurale anteriore di 6 mm che impronta il sacco durale e ascesso dello psoas destro di 3 cm."
+   ],
+   [
+    "MEDICO",
+    "Richiedo subito due set di emocolture, ciascuno con flacone aerobio e anaerobio, da due venipunture distinte prima degli antibiotici; non ne attenderò l’esito per iniziare la terapia."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: prelevate due emocolture, in corso."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Spondilodiscite L3–L4 con ascesso epidurale, iniziale deficit sensitivo e ascesso dello psoas destro in paziente immunosoppresso. Ricovero urgente con sorveglianza neurologica ravvicinata e consulenza immediata neurochirurgica/chirurgica vertebrale e infettivologica per decompressione e drenaggio con campionamento microbiologico. Dopo le emocolture già prelevate, avvio subito vancomicina EV più cefepime EV, verificando allergie e adeguando le dosi a peso e funzione renale, senza attendere i risultati colturali. Sospendo adalimumab e somministro analgesia titolata. Non eseguo infiltrazioni né somministro cortisone, non tratto il quadro come semplice riacutizzazione e non dimetto."
+   ]
+  ],
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": true,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ },
+ {
+  "case": "L10_spondylodiscitis_vs_flare",
+  "effort": "high",
+  "rep": 1,
+  "turns": 11,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Come è iniziato questo dolore: spontaneamente oppure dopo una caduta, un urto o un movimento brusco, anche apparentemente banale?»"
+   ],
+   [
+    "MONDO",
+    "È iniziato spontaneamente, non sono caduto e non ricordo urti o movimenti bruschi."
+   ],
+   [
+    "MEDICO",
+    "«Dove sente esattamente il dolore, e si estende anche alle gambe, al torace o all’addome?»"
+   ],
+   [
+    "MONDO",
+    "Lo sento nella parte bassa della schiena, soprattutto al centro."
+   ],
+   [
+    "MEDICO",
+    "«Da quanto tempo ha questo dolore e come cambia con il movimento e con il riposo, anche durante la notte?»"
+   ],
+   [
+    "MONDO",
+    "Ce l’ho da dodici giorni ed è continuo: se mi muovo peggiora e non passa neanche stando fermo. Di notte mi sveglia e non riesco a trovare una posizione."
+   ],
+   [
+    "MEDICO",
+    "«Quali farmaci assume per la spondilite, comprese eventuali terapie biologiche o cortisone, e quando ha preso l’ultima dose?»"
+   ],
+   [
+    "MONDO",
+    "Faccio l’adalimumab dal 2019; l’ultima dose l’ho fatta nove giorni fa. Non prendo cortisone."
+   ],
+   [
+    "MEDICO",
+    "«In questi dodici giorni ha avuto febbre, anche solo la sera, o brividi?»"
+   ],
+   [
+    "MONDO",
+    "Sì, da circa una settimana la sera ho avuto un po’ di febbre, sui 37,5-37,8. Brividi no."
+   ],
+   [
+    "MEDICO",
+    "«Sono comparsi debolezza o formicolii alle gambe, perdita di sensibilità tra le cosce o ai genitali, oppure difficoltà a urinare o a controllare urina e feci?»"
+   ],
+   [
+    "MONDO",
+    "Da due giorni ho un po’ di formicolio alla coscia destra, ma non sento debolezza. Non ho perdita di sensibilità lì in mezzo, né problemi a urinare o a controllare urina e feci."
+   ],
+   [
+    "MEDICO",
+    "Valuto la forza muscolare degli arti inferiori contro resistenza, confrontando i due lati e ricercando deficit anche lievi."
+   ],
+   [
+    "MONDO",
+    "EO: forza 5/5 agli arti inferiori bilateralmente."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una RM urgente del rachide lombosacrale senza e con contrasto, per ricercare spondilodiscite e un eventuale ascesso epidurale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: discite L3-L4 con edema delle limitanti, raccolta epidurale anteriore di 6 mm che impronta il sacco durale e ascesso dello psoas destro di 3 cm."
+   ],
+   [
+    "MEDICO",
+    "Richiedo subito due set di emocolture periferiche da sedi distinte, da prelevare prima di iniziare gli antibiotici, senza ritardarne la somministrazione."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: emocolture prelevate ×2, in corso."
+   ],
+   [
+    "MEDICO",
+    "«Ha allergie note agli antibiotici? Se sì, quale farmaco le ha provocate e che reazione ha avuto?»"
+   ],
+   [
+    "MONDO",
+    "Non che io sappia, non ho mai avuto reazioni agli antibiotici."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Spondilodiscite L3–L4 complicata da ascesso epidurale e ascesso dello psoas destro, in paziente immunodepresso da anti-TNF. Ricovero urgente con valutazione neurochirurgica/spinale e infettivologica immediata per eventuale drenaggio/decompressione e campionamento microbiologico. Dopo le emocolture già prelevate, avvio vancomicina e cefepime EV, adeguando dosi a peso e funzione renale e successivamente alle colture, senza attenderne l’esito. Analgesia e monitoraggio neurologico ravvicinato, compresa la funzione sfinterica, poiché la forza conservata non esclude un deterioramento. Sospendo adalimumab: niente infiltrazioni o corticosteroidi, niente manipolazioni vertebrali e nessuna dimissione come “solita riacutizzazione”."
+   ]
+  ],
+  "judge": {
+   "asked_how_pain_differs_from_usual": true,
+   "asked_fever_sweats_systemic": true,
+   "asked_infection_source_or_procedures": false,
+   "percussion_tenderness_exam": false,
+   "neuro_exam": true,
+   "ordered_crp_or_esr": false,
+   "ordered_blood_cultures": true,
+   "cultures_before_antibiotics": true,
+   "ordered_mri": true,
+   "held_biologic": true,
+   "gave_steroid_injection_or_systemic_steroid": false,
+   "treated_as_flare_with_nsaid_only": false,
+   "auscultated_heart_or_found_murmur": false,
+   "considered_endocarditis_or_echo": false,
+   "spine_surgery_or_neurosurgery_consult": true,
+   "final_spondylodiscitis": true,
+   "final_flare": false
+  }
+ }
+]

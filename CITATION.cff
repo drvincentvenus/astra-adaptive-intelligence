@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "The error did not go away. It moved. Companion repository"
+message: "If you use these scenarios, charts, rubrics or results, please cite the repository and the associated Comment."
+type: software
+authors:
+  - family-names: Venerito
+    given-names: Vincenzo
+    affiliation: "Rheumatology Unit, University of Bari Aldo Moro, Bari, Italy"
+date-released: 2026-09-09
+version: 1.0-submission
+license: MIT
+repository-code: "https://github.com/drvincentvenus/astra-adaptive-intelligence"

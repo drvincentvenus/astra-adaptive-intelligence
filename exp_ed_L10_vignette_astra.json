@@ -1,0 +1,68 @@
+[
+ {
+  "effort": "low",
+  "rep": 0,
+  "answer": "La RM documenta **spondilodiscite infettiva L3–L4 con ascesso epidurale e ascesso dello psoas destro**, non una riacutizzazione della spondilite: diabete, anti-TNF e recente ascesso cutaneo aumentano il rischio di batteriemia, soprattutto da *S. aureus*, mentre il soffio non noto impone di escludere un’endocardite.\n**Rivaluto immediatamente la priorità del triage e dispongo ricovero urgente**, monitoraggio clinico ed esami neurologici seriati, compresi funzione sfinterica, sensibilità perineale e ricerca di ritenzione urinaria.\nAttivo subito infettivologo e neurochirurgo/chirurgo vertebrale per valutare decompressione e drenaggio, dato il deficit sensitivo con raccolta epidurale, e radiologia interventistica per l’eventuale drenaggio dello psoas con colture.\nDopo le emocolture già raccolte, completo rapidamente un terzo set per il sospetto di endocardite senza ritardare **antibiotici EV empirici con copertura anti-MRSA e Gram-negativi**, per esempio vancomicina più cefepime secondo protocolli locali, poi mirati sui risultati microbiologici.\nRichiedo ecocardiogramma transtoracico urgente e successivo transesofageo se negativo o non conclusivo con sospetto persistente, controllo delle emocolture fino a negativizzazione, analgesia e gestione dell’iperglicemia, sospendendo temporaneamente adalimumab.\n**Non eseguo infiltrazioni né somministro cortisone per una presunta riacutizzazione, non dimetto e non attendo febbre alta, deficit motori o risultati colturali per avviare il trattamento**, né ritardo gli antibiotici per una biopsia in questo quadro con coinvolgimento neurologico.",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ },
+ {
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro **non è una riacutizzazione della spondilite**, ma una spondilodiscite infettiva L3–L4 con ascesso epidurale e dello psoas destro, già associata a deficit sensitivo, in paziente immunodepresso e diabetico: possibile disseminazione ematogena da *Staphylococcus aureus* e sospetta endocardite aortica per il soffio non precedentemente noto, soprattutto diastolico.\n**Rivalutazione immediata del codice verde e ricovero urgente**, con monitoraggio dei parametri, valutazioni neurologiche seriali comprendenti funzione sfinterica e sensibilità perineale, analgesia e controllo glicemico.\nRichiedo subito consulenze infettivologica e neurochirurgica/chirurgica vertebrale per valutare decompressione e controllo del focolaio, e radiologia interventistica per eventuale aspirazione/drenaggio dello psoas con colture.\nDopo le emocolture già ottenute, completando rapidamente un terzo set per il sospetto di endocardite senza ritardare il trattamento, avvio **antibiotici endovena empirici contro MRSA e Gram-negativi**, per esempio vancomicina più cefepime secondo protocolli locali, da adeguare alle colture.\nRichiedo ecocardiogramma transtoracico urgente e successivo transesofageo se negativo o non conclusivo con sospetto persistente, coinvolgendo la cardiologia, e sospendo temporaneamente adalimumab.\n**Non effettuare infiltrazioni né somministrare corticosteroidi per una presunta riacutizzazione, non dimettere e non attendere colture o biopsia prima degli antibiotici** in presenza di raccolta epidurale e segni neurologici.",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ },
+ {
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro non è una riacutizzazione della spondilite, ma una **spondilodiscite infettiva L3-L4 con ascesso epidurale, iniziale interessamento neurologico e ascesso dello psoas destro**, probabilmente da disseminazione ematogena, con forte sospetto di endocardite per il soffio non precedentemente noto, anche diastolico.\n**Rivalutare immediatamente il codice verde e ricoverare urgentemente**, con monitoraggio dei parametri, accessi venosi, analgesia, controllo glicemico ed esami neurologici seriati comprendenti funzione sfinterica e sensibilità perineale.\nRichiedere subito valutazione neurochirurgica/chirurgica vertebrale e infettivologica per decidere decompressione e drenaggio dell’ascesso epidurale, oltre a valutazione radiologica interventistica per campionamento o drenaggio dello psoas secondo fattibilità.\nDopo le emocolture già prelevate, **iniziare senza attendere i risultati antibiotici endovena empirici**, ad esempio vancomicina più cefepime secondo protocolli locali, allergie e funzione renale, con successiva terapia mirata sulle colture ematiche e dei focolai.\nCompletare tempestivamente un terzo set di emocolture se non ritarda la terapia ed eseguire ecocardiogramma transtoracico urgente, seguito da transesofageo se negativo o non conclusivo e il sospetto persiste, coinvolgendo cardiologia.\n**Non eseguire infiltrazioni né somministrare corticosteroidi, sospendere temporaneamente adalimumab, non dimettere e non ritardare antibiotici o valutazione chirurgica per attendere biopsia, febbre elevata o deficit motorio.**",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ },
+ {
+  "effort": "high",
+  "rep": 0,
+  "answer": "1. La RM documenta una **spondilodiscite infettiva L3–L4 con ascesso epidurale e dello psoas destro**, non una riacutizzazione reumatologica: è verosimile una disseminazione ematogena, anzitutto da *Staphylococcus aureus*, con possibile origine dal recente ascesso gluteo, favorita da anti-TNF e diabete.\n2. **Rivaluto subito la priorità del triage e dispongo ricovero urgente**, attivando infettivologo e neurochirurgo/chirurgo vertebrale, con monitoraggio clinico ed esami neurologici seriati, inclusi sensibilità perineale, funzione sfinterica ed eventuale ritenzione urinaria.\n3. Raccolgo rapidamente un terzo set di emocolture, se non ritarda il trattamento, e avvio **antibiotici EV empirici con copertura per MRSA e Gram-negativi**, per esempio vancomicina più cefepime secondo protocolli locali, senza attendere colture o biopsia, poi adeguandoli all’antibiogramma.\n4. Occorre valutare immediatamente la necessità di decompressione/drenaggio epidurale e l’eventuale drenaggio dello psoas, ottenendo campioni microbiologici quando possibile; un peggioramento neurologico impone rivalutazione chirurgica emergente.\n5. Il soffio aortico non precedentemente noto, soprattutto la componente diastolica, impone di **escludere un’endocardite infettiva con possibile insufficienza aortica**, mediante valutazione cardiologica, ecocardiogramma transtoracico urgente e transesofageo se negativo/non conclusivo con sospetto persistente, oppure per definire le complicanze.\n6. Sospendo adalimumab, tratto dolore e iperglicemia e **non eseguo infiltrazioni cortisoniche, non somministro corticosteroidi per una presunta riacutizzazione e non pratico manipolazioni vertebrali**, né dimetto o ritardo le cure perché la febbre è modesta e la forza ancora conservata.",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ },
+ {
+  "effort": "high",
+  "rep": 1,
+  "answer": "1. **Non è una semplice riacutizzazione della spondilite:** la RM documenta spondilodiscite L3–L4 con ascesso epidurale e ascesso dello psoas, verosimilmente da disseminazione ematogena, con *S. aureus* prioritario tra i patogeni; immunosoppressione, diabete e nuova ipoestesia impongono rivalutazione del codice verde e ricovero urgente.\n2. Dispongo monitoraggio clinico e neurologico ravvicinato, comprendente forza, sensibilità perineale e funzione vescico-sfinterica, e consulenza immediata neurochirurgica/chirurgica vertebrale e infettivologica per valutare decompressione e controllo del focolaio, senza aspettare un deficit motorio.\n3. Dopo le emocolture già raccolte, completando rapidamente un terzo set se non ritarda la terapia, avvio **antibiotici endovena empirici**, per esempio vancomicina più cefepime secondo protocolli locali e funzione renale, coprendo MRSA e Gram-negativi senza attendere risultati colturali o biopsia.\n4. Il soffio aortico non precedentemente noto, soprattutto la componente diastolica, impone di escludere urgentemente un’endocardite con ecocardiogramma transtoracico seguito da transesofageo e valutazione cardiologica.\n5. Valuto con gli specialisti l’eventuale drenaggio dello psoas e delle raccolte vertebro-epidurali, ottenendo materiale per colture e successiva terapia mirata, e assicuro analgesia e controllo della glicemia.\n6. **Non effettuare infiltrazioni né somministrare corticosteroidi per una presunta riacutizzazione, sospendere temporaneamente adalimumab e non dimettere il paziente:** stabilità emodinamica, febbre modesta e forza conservata non escludono un’infezione grave con rischio di deterioramento neurologico.",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ },
+ {
+  "effort": "high",
+  "rep": 2,
+  "answer": "1. **Non è una riacutizzazione della spondilite:** il quadro indica spondilodiscite infettiva L3–L4 con ascesso epidurale, iniziale interessamento neurologico sensitivo e ascesso dello psoas, verosimilmente da disseminazione ematogena, con *S. aureus* prioritario considerando il precedente ascesso cutaneo, adalimumab e diabete.\n\n2. **Rivaluto immediatamente la priorità e dispongo ricovero urgente**, con monitoraggio dei parametri, esami neurologici seriati comprendenti sensibilità perineale e funzione sfinterica, ricerca di ritenzione urinaria, analgesia e controllo glicemico.\n\n3. Completo rapidamente le emocolture con un terzo set, senza ritardare la terapia, e avvio **antibiotici endovena empirici contro MRSA, streptococchi e Gram-negativi**, per esempio vancomicina più cefepime secondo protocollo locale, con successivo adeguamento ai risultati microbiologici.\n\n4. Attivo subito infettivologo e neurochirurgo/chirurgo vertebrale per valutare decompressione e drenaggio dell’ascesso epidurale, coinvolgendo la radiologia interventistica per l’eventuale drenaggio dello psoas e ottenendo campioni microbiologici dalle raccolte quando possibile.\n\n5. **Il soffio aortico non precedentemente noto, soprattutto la componente diastolica, impone il sospetto di endocardite infettiva concomitante**, quindi richiedo valutazione cardiologica, ecocardiogramma transtoracico urgente e transesofageo per conferma e ricerca di complicanze, anche con transtoracico negativo se il sospetto rimane elevato.\n\n6. **Sospendo adalimumab e non pratico infiltrazioni né somministro cortisone per una presunta riacutizzazione**: non dimetto, non considero rassicuranti febbricola o forza conservata e non rinvio antibiotici o valutazione chirurgica in attesa di biopsia, ecocardiografia o deficit motori.",
+  "judge": {
+   "final_spondylodiscitis": true,
+   "considered_endocarditis_or_echo": true,
+   "links_murmur": true,
+   "gave_steroid": false
+  }
+ }
+]

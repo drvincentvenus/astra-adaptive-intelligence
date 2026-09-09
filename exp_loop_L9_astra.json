@@ -1,0 +1,306 @@
+[
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "effort": "low",
+  "rep": 0,
+  "turns": 7,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Mi racconta come è iniziato il gonfiore del dito e se, prima che comparisse, ci sono stati traumi, ferite o punture?»"
+   ],
+   [
+    "MONDO",
+    "«Quattro giorni fa ho sbattuto violentemente il piede contro la gamba del letto, ero scalzo: un dolore da svenire, ma poi è passato. Il giorno dopo il quarto dito ha iniziato a gonfiarsi e a farmi male; ferite o punture no.»"
+   ],
+   [
+    "MEDICO",
+    "Esamino il quarto dito confrontandolo con il controlaterale: cerco deformità o rotazione, ecchimosi e ferite, e palpo delicatamente le falangi per localizzare il dolore osseo."
+   ],
+   [
+    "MONDO",
+    "EO: tumefazione diffusa dell’intero 4° dito destro; nessuna deformità o rotazione evidente."
+   ],
+   [
+    "MEDICO",
+    "Palpo delicatamente, una alla volta, le falangi e le articolazioni del quarto dito destro per individuare il punto di massima dolorabilità."
+   ],
+   [
+    "MONDO",
+    "EO: dolore elettivo alla pressione sulla falange prossimale del 4° dito destro."
+   ],
+   [
+    "MEDICO",
+    "Richiedo radiografie del quarto dito e dell’avampiede destro in proiezioni anteroposteriore, obliqua e laterale, per sospetta frattura della falange prossimale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito destro, a rima obliqua, con minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Verifico lo stato neurovascolare del quarto dito destro: colore e temperatura, riempimento capillare distale e sensibilità al tatto sui due lati del dito."
+   ],
+   [
+    "MONDO",
+    "EO: stato neurovascolare nella norma; dito caldo e ben perfuso, riempimento capillare distale regolare e sensibilità conservata bilateralmente."
+   ],
+   [
+    "MEDICO",
+    "Ispeziono accuratamente la cute del quarto dito, gli spazi interdigitali e il letto ungueale per escludere ferite o esposizione della frattura."
+   ],
+   [
+    "MONDO",
+    "EO: cute integra, senza ferite né esposizione della frattura; spazi interdigitali e letto ungueale nella norma."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Frattura chiusa della base della falange prossimale del quarto dito destro, minimamente scomposta, senza deficit neurovascolari. Trattamento conservativo con buddy taping al dito adiacente e garza interposta, scarpa a suola rigida, carico secondo dolore, elevazione, ghiaccio protetto e analgesia previa verifica delle controindicazioni. Controllo ortopedico entro 7 giorni; rientro immediato per dolore crescente, dito freddo/pallido, perdita di sensibilità o lesioni cutanee. Non attribuire il gonfiore alla psoriasi né iniziare corticosteroidi o immunosoppressori per presunta dattilite; nessuna riduzione urgente indicata."
+   ]
+  ],
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "effort": "low",
+  "rep": 1,
+  "turns": 8,
+  "transcript": [
+   [
+    "MEDICO",
+    "«Mi racconta come è iniziato il gonfiore e se, prima che comparisse, ha avuto ferite, punture o traumi a quel dito?»"
+   ],
+   [
+    "MONDO",
+    "«Quattro giorni fa ho dato una botta violentissima contro la gamba del letto, ero scalzo: un dolore da svenire, ma poi è passato. Il giorno dopo il dito ha iniziato a gonfiarsi; niente ferite o punture.»"
+   ],
+   [
+    "MEDICO",
+    "Esamino il dito interessato: cerco deformità o rotazione, lesioni cutanee e sede precisa del dolore alla palpazione ossea e articolare."
+   ],
+   [
+    "MONDO",
+    "EO: nessuna deformità né rotazione del 4° dito del piede destro."
+   ],
+   [
+    "MEDICO",
+    "Palpo delicatamente le falangi del quarto dito destro per individuare un’eventuale dolorabilità ossea focale."
+   ],
+   [
+    "MONDO",
+    "EO: dolore elettivo alla pressione sulla falange prossimale del 4° dito destro."
+   ],
+   [
+    "MEDICO",
+    "Richiedo radiografie del quarto dito del piede destro in proiezioni anteroposteriore, obliqua e laterale, per sospetta frattura della falange prossimale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito destro, a rima obliqua, con minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Controllo la cute su tutta la circonferenza del quarto dito, inclusi gli spazi interdigitali, cercando ferite o esposizione ossea."
+   ],
+   [
+    "MONDO",
+    "EO: cute integra, senza ferite né esposizione ossea."
+   ],
+   [
+    "MEDICO",
+    "Valuto lo stato neurovascolare del quarto dito destro: colore, temperatura, riempimento capillare e sensibilità distale."
+   ],
+   [
+    "MONDO",
+    "EO: stato neurovascolare nella norma; dito ben perfuso, caldo, con riempimento capillare e sensibilità distale conservati."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una precisazione radiologica: la rima interessa la superficie articolare e sono presenti gradini articolari o sublussazione?"
+   ],
+   [
+    "MONDO",
+    "RISULTATO: la rima non interessa la superficie articolare; assenti gradini articolari e sublussazione."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Frattura traumatica chiusa extra-articolare della falange prossimale del quarto dito destro, minimamente scomposta, senza deficit neurovascolari; non dattilite psoriasica. Trattamento conservativo con bendaggio al dito adiacente, garza interposta e controllo della perfusione, scarpa a suola rigida, carico secondo dolore, ghiaccio protetto ed elevazione. Analgesia previa verifica di allergie e controindicazioni; dimissione con controllo ambulatoriale entro 7–10 giorni. Rientrare subito per dolore crescente, dito freddo o pallido, perdita di sensibilità o lesioni cutanee. Non iniziare corticosteroidi o immunosoppressori per presunta dattilite; non indicata riduzione in assenza di deformità o rotazione."
+   ]
+  ],
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "effort": "high",
+  "rep": 0,
+  "turns": 8,
+  "transcript": [
+   [
+    "MEDICO",
+    "Ispeziono il dito gonfio e gli spazi interdigitali adiacenti: quale dito è coinvolto e sono presenti arrossamento, ferite, fissurazioni, secrezioni o alterazioni del colore?"
+   ],
+   [
+    "MONDO",
+    "EO: coinvolto il 4° dito del piede destro, diffusamente tumefatto e arrossato. Non si osservano ferite, fissurazioni, secrezioni o alterazioni negli spazi interdigitali adiacenti."
+   ],
+   [
+    "MEDICO",
+    "Prima del gonfiore ha avuto un trauma, una puntura o una piccola ferita a quel dito, anche camminando scalzo o durante una pedicure?"
+   ],
+   [
+    "MONDO",
+    "Sì, quattro giorni fa ho urtato fortissimo quel dito contro la gamba del letto mentre ero scalzo. Sul momento è stato un dolore da svenire, poi però è passato; punture, ferite o pedicure no."
+   ],
+   [
+    "MEDICO",
+    "Palpo delicatamente le falangi del 4° dito destro per localizzare l’eventuale punto di massima dolorabilità ossea."
+   ],
+   [
+    "MONDO",
+    "EO: dolore elettivo alla pressione sulla falange prossimale del 4° dito destro."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una radiografia del 4° dito del piede destro in proiezioni anteroposteriore, obliqua e laterale per ricercare una frattura."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito destro, a rima obliqua, con minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Eseguo l’esame neurovascolare distale del 4° dito destro: verifico temperatura, riempimento capillare del polpastrello e sensibilità al tatto."
+   ],
+   [
+    "MONDO",
+    "EO: temperatura conservata, riempimento capillare normale e sensibilità tattile integra distalmente."
+   ],
+   [
+    "MEDICO",
+    "Valuto l’allineamento del 4° dito destro rispetto al controlaterale, confrontando l’orientamento dell’unghia e verificando eventuali deviazioni o sovrapposizioni alle dita vicine durante una lieve flessione attiva."
+   ],
+   [
+    "MONDO",
+    "EO: allineamento conservato rispetto al controlaterale, senza deviazioni, rotazioni o sovrapposizioni alle dita adiacenti durante la flessione attiva."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una revisione delle radiografie per precisare se la frattura coinvolge la superficie articolare e, in tal caso, se vi siano scalini o incongruenza articolare."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: la rima di frattura non coinvolge la superficie articolare; non si osservano scalini né incongruenza articolare."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Frattura traumatica chiusa, extra-articolare e minimamente scomposta della falange prossimale del 4° dito destro, senza malrotazione né deficit neurovascolari. Trattamento conservativo con bendaggio al dito adiacente, garza interposta e ricontrollo neurovascolare, scarpa a suola rigida per circa 4 settimane, carico secondo dolore, elevazione e ghiaccio protetto. Analgesia previa verifica di allergie e controindicazioni; dimissione con controllo clinico entro 7–10 giorni. Rientro urgente per dolore crescente, dito freddo o insensibile, cambiamento di colore, febbre o arrossamento in estensione. Non eseguire riduzioni né iniziare corticosteroidi o immunosoppressori per presunta dattilite psoriasica; antibiotici non indicati."
+   ]
+  ],
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ },
+ {
+  "case": "L9_dactylitis_vs_trauma",
+  "effort": "high",
+  "rep": 1,
+  "turns": 8,
+  "transcript": [
+   [
+    "MEDICO",
+    "Ispeziono il piede interessato, compresi gli spazi tra le dita e la superficie plantare, cercando distribuzione del gonfiore, arrossamento, ferite o punti di ingresso."
+   ],
+   [
+    "MONDO",
+    "EO: 4° dito del piede destro diffusamente gonfio e arrossato, con modesto calore; alla base, sul versante plantare, ecchimosi giallastra in riassorbimento. Nessuna ferita o punto d’ingresso, spazi interdigitali nella norma."
+   ],
+   [
+    "MEDICO",
+    "Nei giorni prima del gonfiore ha urtato o torto quel dito, oppure ha avuto un trauma anche apparentemente banale al piede?"
+   ],
+   [
+    "MONDO",
+    "Sì, quattro giorni fa ho sbattuto violentemente il piede contro la gamba del letto, ero scalzo. Lì per lì è stato un dolore da svenire, ma poi è passato."
+   ],
+   [
+    "MEDICO",
+    "Palpo delicatamente il quarto dito e, risalendo, il quarto metatarso fino alla sua base, per localizzare il punto di massimo dolore osseo."
+   ],
+   [
+    "MONDO",
+    "EO: dolore elettivo alla pressione sulla falange prossimale del 4° dito destro; quarto metatarso non dolente."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una radiografia del quarto dito del piede destro in proiezioni anteroposteriore, obliqua e laterale, per sospetta frattura della falange prossimale."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: frattura composta della base della falange prossimale del 4° dito destro, a rima obliqua, con minima scomposizione."
+   ],
+   [
+    "MEDICO",
+    "Valuto l’allineamento del quarto dito, confrontando l’orientamento dell’unghia e la posizione del dito con il piede controlaterale, per escludere deformità rotazionale o angolare."
+   ],
+   [
+    "MONDO",
+    "EO: allineamento conservato, senza deformità rotazionale o angolare."
+   ],
+   [
+    "MEDICO",
+    "Valuto lo stato neurovascolare distale del quarto dito: sensibilità al tatto e tempo di riempimento capillare del polpastrello."
+   ],
+   [
+    "MONDO",
+    "EO: sensibilità distale conservata e tempo di riempimento capillare nella norma."
+   ],
+   [
+    "MEDICO",
+    "Richiedo una rivalutazione delle radiografie per verificare se la rima raggiunge la superficie articolare e se vi sono gradini o incongruenze dell’articolazione metatarso-falangea."
+   ],
+   [
+    "MONDO",
+    "RISULTATO: la rima di frattura non interessa la superficie articolare; articolazione metatarso-falangea congruente, senza gradini articolari."
+   ],
+   [
+    "MEDICO",
+    "DECISIONE FINALE: Frattura traumatica chiusa extra-articolare della falange prossimale del IV dito destro, minimamente scomposta, senza malrotazione né deficit neurovascolari. Dimissione con bendaggio al III dito con garza interposta, non costrittivo, scarpa a suola rigida, carico secondo dolore, elevazione e ghiaccio protetto. Paracetamolo se non controindicato e controllo ambulatoriale entro 7–10 giorni; protezione indicativamente per 4–6 settimane. Rientro urgente per dolore crescente, dito freddo, pallido o insensibile, febbre o arrossamento in estensione. Non eseguire riduzione né iniziare antibiotici, corticosteroidi o terapia immunomodulante per una presunta dattilite psoriasica."
+   ]
+  ],
+  "judge": {
+   "asked_trauma_specifically": true,
+   "examined_for_bruise_or_bone_tenderness": true,
+   "ordered_xray": true,
+   "ordered_ultrasound": false,
+   "final_fracture": true,
+   "final_dactylitis_psa": false,
+   "started_psa_treatment": false,
+   "asked_gout_features_or_urate": false
+  }
+ }
+]

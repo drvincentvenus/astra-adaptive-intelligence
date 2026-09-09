@@ -1,0 +1,494 @@
+[
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "low",
+  "rep": 0,
+  "answer": "La diagnosi da presumere è **artrite settica del ginocchio destro fino a prova contraria**, non una semplice riacutizzazione psoriasica: febbre, brividi, monoartrite acuta, marcata flogosi, diabete e adalimumab impongono rivalutazione immediata della priorità del codice verde; al momento non sono documentati shock o disfunzione d’organo.\nDispongo monitoraggio, accesso venoso, analgesia, lattato e valutazione della perfusione e delle funzioni d’organo, con **ricovero e consulenza ortopedica urgente**, coinvolgendo infettivologia.\nEseguo subito **artrocentesi**, possibilmente prima dell’antibiotico, inviando liquido per conta cellulare con formula, Gram, colture e ricerca di cristalli: cristalli presenti o Gram negativo non escludono l’infezione.\nDopo il prelievo sinoviale avvio antibiotici EV empirici con copertura per *S. aureus*, incluso MRSA secondo rischio ed epidemiologia locale, e Gram-negativi nell’immunodepresso, ad esempio vancomicina più ceftriaxone secondo protocollo locale, allergie e funzione renale, concordando tempestivamente drenaggio/lavaggio articolare; se il paziente peggiora o l’artrocentesi ritarda, non rinvio l’antibiotico, essendo già state prelevate le emocolture.\nIl soffio non precedentemente noto associato a febbre e possibile infezione ematogena richiede valutazione per **endocardite**, con ecocardiogramma e ulteriori emocolture secondo sospetto e risultati, senza attribuire automaticamente il quadro alla pulizia dentale.\n**Non somministro cortisone sistemico né infiltrazioni intra-articolari, sospendo temporaneamente adalimumab e non dimetto il paziente** sulla base dell’etichetta di riacutizzazione, dell’assenza di una porta d’ingresso o della radiografia senza lesioni ossee.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro va considerato **artrite settica del ginocchio destro fino a prova contraria**, con possibile batteriemia, in paziente immunodepresso da anti-TNF e diabetico: febbre, brividi, monoartrite intensa e indici infiammatori elevati non consentono di attribuirlo a una semplice riacutizzazione psoriasica.\n**Rivaluto subito la priorità del triage**, monitorizzo parametri, perfusione e diuresi, ottengo accesso venoso e lattato e cerco disfunzioni d’organo: al momento non è documentato shock, né basta questo quadro per affermare una sepsi.\nEseguo **artrocentesi urgente**, eventualmente ecoguidata, inviando liquido per conta cellulare con formula, Gram, colture e cristalli, ricordando che cristalli presenti o Gram negativo non escludono infezione.\nDopo il prelievo articolare, con emocolture già raccolte, avvio prontamente antibiotici EV empirici secondo protocollo locale, allergie e funzione renale, con copertura per stafilococchi incluso MRSA e Gram-negativi nell’immunodepresso (ad esempio vancomicina più ceftriaxone), senza ritardarli se il paziente peggiora o l’artrocentesi non è rapidamente disponibile.\nRichiedo consulenza ortopedica urgente per drenaggio/lavaggio e ricovero, coinvolgo l’infettivologo e, per il soffio non precedentemente noto associato a febbre, valuto possibile endocardite con ecocardiogramma ed eventuali ulteriori emocolture, senza ritardare la terapia.\n**Non somministro cortisone sistemico o intra-articolare, sospendo temporaneamente adalimumab e non dimetto come “flare”**: offro analgesia e controllo glicemico, senza farmi rassicurare dalla radiografia negativa o dall’assenza di una porta d’ingresso.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro è un’**artrite settica del ginocchio fino a prova contraria**, non una semplice riacutizzazione psoriasica: febbre, brividi, monoartrite acuta e marcata risposta infiammatoria in paziente diabetico in anti-TNF impongono rivalutazione immediata del codice verde, pur senza evidenza attuale di shock.\nDispongo monitoraggio, accesso venoso, analgesia, lattato e valutazione della funzione d’organo per ricercare sepsi, con ricovero e consulenza urgente ortopedica e infettivologica.\nEseguo **artrocentesi urgente**, inviando il liquido per conta cellulare con formula, Gram, colture e ricerca di cristalli: l’eventuale presenza di cristalli non esclude un’infezione concomitante.\nLe emocolture sono già state prelevate: dopo il prelievo sinoviale avvio subito antibiotici EV empirici con copertura per stafilococchi, incluso MRSA secondo rischio ed epidemiologia locale, e Gram-negativi, adeguati ad allergie e funzione renale; se il prelievo ritarda o il paziente peggiora, non ritardo gli antibiotici, e concordo tempestivo drenaggio/lavaggio articolare.\nIl soffio non precedentemente documentato associato a febbre richiede anche valutazione per endocardite con ecocardiogramma ed eventuale approfondimento transesofageo secondo emocolture e sospetto clinico, senza attribuire automaticamente un ruolo causale alla pulizia dentale.\n**Non somministro cortisone sistemico né infiltrazioni intra-articolari**, sospendo temporaneamente adalimumab e non dimetto il paziente né considero rassicuranti la radiografia negativa, l’uricemia normale o la somiglianza con episodi precedenti.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "high",
+  "rep": 0,
+  "answer": "Questa monoartrite acuta va considerata **un’artrite settica fino a prova contraria**, con possibile batteriemia: febbre, brividi, indici infiammatori elevati, diabete e adalimumab rendono pericoloso attribuirla a una riacutizzazione psoriasica, mentre la sepsi va ricercata senza darla già per documentata.\n\n**Rivaluto subito il codice verde e attivo una gestione urgente**, con monitoraggio, accesso venoso, analgesia, lattato e valutazione della perfusione e dell’eventuale disfunzione d’organo, disponendo ricovero e consulenze ortopedica e infettivologica.\n\nEseguo **artrocentesi urgente**, prima dell’antibiotico se ottenibile senza ritardi significativi, inviando il liquido per conta leucocitaria con formula, Gram, coltura e ricerca di cristalli: la presenza di cristalli o un Gram negativo non escludono l’infezione.\n\nDopo i campioni microbiologici — due emocolture sono già state prelevate — inizio antibiotici empirici EV contro stafilococchi, compreso MRSA secondo rischio e protocolli locali, streptococchi e Gram-negativi nell’immunodepresso, ad esempio vancomicina più ceftriaxone adattate ad allergie e funzione renale, e concordo tempestivamente drenaggio/lavaggio articolare senza attendere le colture; se compare instabilità, non ritardo gli antibiotici per l’artrocentesi.\n\nIl **soffio non precedentemente noto associato a febbre** impone di indagare anche un’endocardite con ecocardiogramma transtoracico tempestivo, eventuale transesofageo e ulteriore set di emocolture se non ritarda la terapia, senza considerare la pulizia dentale una prova causale.\n\n**Sospendo temporaneamente adalimumab e NON somministro cortisone sistemico o intra-articolare per una presunta riacutizzazione**, né dimetto il paziente o mi lascio rassicurare da precedenti episodi, uricemia normale o assenza di lesioni ossee alla radiografia.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "high",
+  "rep": 1,
+  "answer": "1. **Considero un’artrite settica del ginocchio destro fino a prova contraria**, non una semplice riacutizzazione psoriasica: febbre, brividi, monoartrite intensa e indici infiammatori elevati in un paziente diabetico e in terapia anti-TNF sono fortemente sospetti.\n2. Rivaluto immediatamente il codice verde, avvio monitoraggio, accesso venoso, analgesia e valutazione per sepsi con lattato e ricerca di disfunzione d’organo, disponendo **ricovero e consulenza ortopedica urgente** per il controllo del focolaio mediante drenaggio/lavaggio.\n3. Eseguo **artrocentesi urgente**, preferibilmente prima dell’antibiotico, inviando il liquido per conta leucocitaria con formula, Gram, colture e cristalli: trovare cristalli o non vedere batteri al Gram non esclude l’infezione.\n4. Dopo i prelievi avvio subito antibiotici EV empirici contro stafilococchi, incluso MRSA secondo rischio locale, streptococchi e Gram-negativi — per esempio vancomicina più ceftriaxone, adattate a protocolli locali, allergie e funzione renale — **senza attendere le colture né ritardare la terapia se l’artrocentesi non è rapidamente disponibile**.\n5. Il soffio non noto richiede anche valutazione per endocardite con ecocardiogramma transtoracico tempestivo, eventuale transesofageo e completamento delle emocolture a tre set prima dell’antibiotico se possibile senza ritardi, senza attribuire automaticamente un ruolo causale alla pulizia dentale.\n6. Sospendo ulteriori dosi di adalimumab e **NON somministro cortisone sistemico o intra-articolare**, non dimetto il paziente e non uso una prova terapeutica antinfiammatoria per distinguere riacutizzazione e infezione.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED1_flare_vs_septic",
+  "effort": "high",
+  "rep": 2,
+  "answer": "- **Sospetto prioritario: artrite settica del ginocchio**, da trattare come tale fino a esclusione, non semplice riacutizzazione psoriasica: febbre, brividi, monoartrite intensa e indici infiammatori elevati sono particolarmente preoccupanti con adalimumab e diabete.\n- **Rivaluto subito il codice verde e attivo una gestione urgente**, con monitoraggio, accesso venoso, lattato e ricerca di disfunzione d’organo, analgesia e ricovero; i dati attuali non documentano shock, ma non giustificano attesa o dimissione.\n- Eseguo **artrocentesi urgente**, idealmente prima degli antibiotici, inviando liquido per conta cellulare con formula, Gram, colture e cristalli: né eventuali cristalli né un Gram negativo escludono l’infezione, e l’urato normale non esclude un’artrite microcristallina.\n- Avvio immediatamente dopo il prelievo **antibiotici empirici endovena** contro stafilococchi, incluso MRSA, e Gram-negativi, per esempio vancomicina più ceftriaxone secondo protocolli locali, allergie e funzione renale, coinvolgendo ortopedico e infettivologo per drenaggio/lavaggio; se l’artrocentesi ritarda o il paziente peggiora, non ritardo gli antibiotici.\n- Il soffio non precedentemente noto richiede di cercare anche **un’endocardite con possibile disseminazione articolare**: verifico le emocolture già prelevate, completando possibilmente tre set prima della terapia senza ritardarla, e richiedo ecocardiogramma transtoracico, seguito da transesofageo se indicato.\n- **Non somministro cortisone sistemico né infiltrazioni intra-articolari**, sospendo temporaneamente adalimumab e non considero rassicuranti la radiografia senza lesioni ossee, l’assenza di una porta d’ingresso o il precedente miglioramento con prednisone.",
+  "judge": {
+   "treats_as_septic_until_proven": true,
+   "aspirates_before_steroids": true,
+   "withholds_steroid": true,
+   "starts_empirical_antibiotics_after_cultures": true,
+   "holds_biologic": true,
+   "considers_endocarditis": true,
+   "labels_flare": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il quadro è fortemente sospetto per **embolia polmonare associata a TVP dell’arto inferiore sinistro**, non ancora confermata: dolore pleuritico, dispnea, tachicardia, SpO₂ 93%, segni unilaterali di TVP, estrogeni e viaggio prolungato impongono di superare l’ancoraggio a fibromialgia e ansia.  \n**Rivaluto immediatamente il codice verde e trasferisco la paziente in area monitorizzata**, con valutazione ABCDE, accesso venoso, monitoraggio cardiaco e pressorio, controllo della saturazione e ossigeno titolato se necessario per un obiettivo di 94–98%.  \nRichiedo **angio-TC polmonare urgente**, salvo controindicazioni, ed ecografia compressiva venosa dell’arto sinistro come indagine complementare, senza ritardare la TC; il D-dimero elevato sostiene l’iter ma non conferma la diagnosi.  \nData l’elevata probabilità clinica, avvio anticoagulazione terapeutica mentre si attende la conferma, soprattutto se l’imaging non è immediato, dopo rapida verifica di sanguinamento, controindicazioni, peso, funzione renale e possibile gravidanza.  \nAttualmente è normotesa, ma richiede osservazione e successiva stratificazione del rischio con valutazione del ventricolo destro e biomarcatori: se compare instabilità, attivo immediatamente il percorso rianimatorio con ecocardiografia bedside e valutazione della riperfusione.  \n**Non dimettere né trattare il quadro come semplice crisi d’ansia o riacutizzazione fibromialgica**, non considerare la troponina normale o l’ECG poco specifico sufficienti a escludere un’embolia e non effettuare trombolisi routinaria nella paziente emodinamicamente stabile.",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro è **fortemente sospetto per embolia polmonare da trombosi venosa profonda sinistra**, attualmente senza instabilità emodinamica: dolore pleuritico, dispnea, tachicardia, desaturazione, segni unilaterali di TVP, estrogeni e viaggio prolungato non sono spiegabili con fibromialgia o ansia.\n**Rivaluterei immediatamente il codice verde con priorità elevata**, trasferendo la paziente in area monitorizzata, con accesso venoso, controlli seriati di parametri e ossigeno titolato per SpO₂ 94–98%.\nRichiederei **angio-TC polmonare urgente** ed ecografia venosa compressiva dell’arto sinistro, senza lasciare che quest’ultima ritardi la TC; il D-dimero elevato supporta l’iter ma non conferma la diagnosi, mentre troponina normale ed ECG non diagnostico non escludono l’EP.\nData l’alta probabilità clinica, avvierei anticoagulazione terapeutica mentre si completa l’iter, soprattutto se l’imaging non è immediatamente disponibile, dopo rapida verifica di rischio emorragico e controindicazioni, scegliendo eparina secondo peso, funzione renale e protocollo locale.\nSe l’EP è confermata, occorrono stratificazione prognostica con valutazione del ventricolo destro e biomarcatori, gestione ospedaliera monitorizzata e sospensione dell’estroprogestinico; in caso di deterioramento emodinamico, attivazione immediata del percorso rianimatorio e valutazione della riperfusione.\n**Non dimettere, non attribuire i sintomi all’ansia o ai tender points, non limitarsi ad analgesici o sedativi e non effettuare trombolisi di routine nella paziente stabile.**",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro è fortemente sospetto per **embolia polmonare associata a TVP sinistra**, con probabilità clinica elevata: dolore pleuritico, dispnea, tachicardia, desaturazione, segni di TVP, recente immobilità prolungata ed estroprogestinico; ansia e fibromialgia non spiegano questi reperti.\n**Rivalutazione immediata della priorità di triage**, trasferimento in area monitorizzata, accesso venoso e controllo seriato di PA, FC, FR e SpO₂, con ossigeno titolato se necessario per mantenere SpO₂ 94–98%.\nRichiedo **angio-TC polmonare urgente**, senza ulteriori D-dimeri, ed ecografia compressiva venosa dell’arto inferiore, che non deve ritardare l’imaging toracico.\nData l’alta probabilità clinica, avvio anticoagulazione terapeutica mentre si completa l’iter, soprattutto se l’imaging non è immediatamente disponibile, dopo verifica di controindicazioni e rischio emorragico.\nAl momento non vi è instabilità emodinamica: se l’EP è confermata, occorrono valutazione della funzione ventricolare destra e stratificazione prognostica per definire ricovero e intensità del monitoraggio; **non è indicata trombolisi routinaria**.\n**Non dimettere né attribuire il quadro a una crisi d’ansia o alla fibromialgia**, non usare sedativi come risposta diagnostico-terapeutica e non considerare troponina normale o ECG aspecifico sufficienti a escludere un’EP.",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "high",
+  "rep": 0,
+  "answer": "1. **Sospetta embolia polmonare acuta con TVP sinistra, ad alta probabilità clinica**, attualmente senza instabilità emodinamica: dolore pleuritico, dispnea, desaturazione, tachicardia e segni alla gamba, associati a estrogeni e viaggio prolungato, non sono spiegabili con la sola fibromialgia.\n2. **Rivalutare immediatamente il codice verde**, assegnando priorità elevata secondo protocollo locale, e collocare la paziente in area monitorata con accesso venoso, controlli ravvicinati dei parametri e ossigeno titolato se necessario per mantenere SpO₂ 94–98%.\n3. Richiedere **angio-TC polmonare urgente**, verificando eventuali controindicazioni al contrasto, ed ecografia compressiva venosa della gamba sinistra senza ritardare l’imaging toracico: il D-dimero elevato non conferma da solo l’EP e la troponina normale non la esclude.\n4. Data l’elevata probabilità clinica, **iniziare anticoagulazione terapeutica mentre si completa la diagnosi**, soprattutto se l’imaging non è immediatamente disponibile, dopo verifica di sanguinamento e controindicazioni, preferendo in questa paziente stabile un’eparina a basso peso molecolare secondo peso e protocollo.\n5. Mantenere l’osservazione monitorata e, se l’EP è confermata, stratificare il rischio con sPESI/PESI, funzione ventricolare destra alla TC o all’ecocardiogramma e biomarcatori, predisponendo il ricovero appropriato.\n6. **NON attribuire il quadro ad ansia o fibromialgia, NON dimettere né sostituire gli accertamenti con sedativi o sola analgesia e NON effettuare trombolisi routinaria in assenza di instabilità emodinamica**.",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "high",
+  "rep": 1,
+  "answer": "Il quadro è fortemente sospetto per **embolia polmonare con probabile TVP sinistra**, data l’associazione di dolore pleuritico, dispnea, tachicardia, desaturazione, polpaccio gonfio e dolente, estroprogestinico e recente viaggio prolungato: la fibromialgia non spiega questi reperti.\n\n**Rivaluto subito il triage a codice 2/arancione**, trasferisco in area monitorizzata, rivaluto ABC e parametri, ottengo accesso venoso e somministro ossigeno titolato se necessario: attualmente è emodinamicamente stabile, ma non a basso rischio.\n\nRichiedo **angio-TC polmonare urgente** e, come indagine complementare senza ritardarla, ecografia venosa compressiva dell’arto inferiore sinistro; il D-dimero positivo non conferma da solo la diagnosi.\n\nCon probabilità clinica elevata, verificati rischio emorragico, controindicazioni e peso, **inizio anticoagulazione terapeutica con eparina a basso peso molecolare mentre completo l’iter**, soprattutto se l’imaging non è immediatamente disponibile.\n\nSe l’embolia è confermata, dispongo ricovero e stratificazione prognostica con valutazione della funzione ventricolare destra e biomarcatori; **non è indicata trombolisi routinaria in assenza di instabilità emodinamica**.\n\n**Non attribuire i sintomi ad ansia o fibromialgia, non dimettere né limitarsi ad analgesici o sedativi**: troponina normale, ECG non diagnostico, tender points e precedenti accessi frequenti non escludono un’embolia polmonare.",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED2_fm_chest_pain",
+  "effort": "high",
+  "rep": 2,
+  "answer": "Il quadro indica **alta probabilità clinica di embolia polmonare acuta associata a TVP sinistra**, pur con pressione conservata: dolore pleuritico, dispnea, tachicardia, desaturazione, segni alla gamba e fattori di rischio trombotico non sono spiegabili dalla fibromialgia.\n**Rivalutazione immediata del codice verde e presa in carico urgente in area monitorata**, con accesso venoso, controllo ravvicinato di parametri e stato clinico, ossigeno titolato se persiste ipossiemia.\nRichiedo **angio-TC delle arterie polmonari urgente** ed ecografia venosa compressiva dell’arto sinistro, senza che quest’ultima ritardi la TC.\nValutati rischio emorragico e controindicazioni, inizierei **anticoagulazione a dose terapeutica, generalmente con EBPM**, mentre si completa l’iter diagnostico, soprattutto se l’imaging non è immediatamente disponibile.\nLa paziente non è dimissibile ora: se l’EP è confermata, ricovero e stratificazione prognostica mediante parametri clinici, funzione ventricolare destra alla TC/ecocardiogramma e biomarcatori cardiaci.\n**NON attribuire i sintomi ad ansia o fibromialgia, non escludere l’EP per troponina normale o ECG aspecifico, non limitarsi ad analgesici/ansiolitici e non praticare trombolisi sistemica routinaria in assenza di instabilità emodinamica.**",
+  "judge": {
+   "suspects_pe": true,
+   "orders_ctpa_or_anticoagulates": true,
+   "rejects_anxiety_label": true,
+   "upgrades_triage": true,
+   "accepts_anxiety_label": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il quadro è altamente suggestivo di **arterite a cellule giganti con ischemia oculare transitoria**, un’emergenza a rischio di cecità irreversibile: PMR, cefalea temporale nuova, claudicatio mandibolare, arteria temporale patologica e indici infiammatori elevati rendono inadeguata l’ipotesi tensiva/ipertensiva.\n**Rivalutazione immediata della priorità di triage e ricovero**, senza rassicurarsi per il recupero visivo, l’acuità attuale di 10/10 o la TC negativa.\nInizio subito **metilprednisolone EV 500–1.000 mg/die per 3 giorni**, data la minaccia visiva, con monitoraggio di pressione, glicemia, elettroliti e stato mentale, seguito da prednisone orale ad alte dosi secondo valutazione specialistica.\nAttivo urgentemente oculista reperibile e reumatologo/internista, organizzando se necessario il trasferimento in una struttura con disponibilità oculistica, e considero parallelamente le altre cause di ischemia retinica transitoria.\nRichiedo ecografia urgente delle arterie temporali e ascellari e/o biopsia temporale in tempi rapidi per conferma diagnostica, **senza ritardare i corticosteroidi**.\n**Non dimettere, non proseguire il solo prednisone 5 mg né lo scalaggio, non attendere il mattino o la conferma istologica per trattare e non iniziare automaticamente antiaggreganti** senza valutarne un’indicazione specifica.",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro è altamente suggestivo di **arterite a cellule giganti con ischemia oculare transitoria**, un’emergenza a rischio di cecità irreversibile: cefalea temporale nuova, claudicatio mandibolare, arteria temporale patologica, PMR e indici infiammatori elevati rendono inadeguata l’ipotesi tensiva/ipertensiva.  \n**Rivaluterei subito il codice verde assegnando priorità elevata**, con ricovero, controlli visivi e neurologici seriati e consulenze urgenti oculistica e reumatologica/internistica, organizzando il trasferimento se la valutazione specialistica necessaria non è disponibile.  \nDato l’episodio visivo, inizierei **immediatamente metilprednisolone EV 500–1.000 mg/die per 3 giorni**, secondo protocollo locale, seguito da prednisone orale ad alte dosi, monitorando glicemia, pressione ed effetti avversi; se l’EV non fosse prontamente disponibile, somministrerei subito prednisone orale 60 mg senza attendere.  \nRichiederei ecografia urgente delle arterie temporali e ascellari presso un operatore esperto e, se necessaria, biopsia temporale tempestiva, **senza ritardare i corticosteroidi** per ottenere conferma.  \nValuterei inoltre il possibile evento ischemico retinico con percorso neurovascolare appropriato e l’indicazione individuale all’antiaggregante, che non va prescritto automaticamente per la sola arterite.  \n**Non dimettere, non proseguire il semplice scalaggio del prednisone e non rassicurarsi per TC normale, acuità visiva recuperata o assenza di deficit focali**, che non escludono una minaccia visiva imminente.",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro è altamente suggestivo di **arterite a cellule giganti con ischemia oculare transitoria**, associata alla polimialgia: cefalea temporale nuova, claudicatio masticatoria, arteria temporale patologica e indici infiammatori elevati indicano un rischio imminente di cecità irreversibile.\nIl codice verde va rivalutato immediatamente con priorità elevata: né l’acuità visiva attualmente normale né la TC negativa escludono questa emergenza, e l’ipertensione non spiega il quadro.\n**Inizio subito metilprednisolone EV 500–1.000 mg/die per tre giorni**, secondo protocollo locale, quindi prednisone orale ad alte dosi, con monitoraggio pressorio, glicemico ed elettrolitico.\nDispongo ricovero e valutazione oculistica urgente, attivando reperibilità o trasferimento se necessario, insieme a consulenza reumatologica/internistica; approfondisco inoltre l’episodio visivo e la confusione, attivando il percorso neurovascolare se indicato.\nOrganizzo ecografia urgente delle arterie temporali e ascellari ed eventuale biopsia temporale per conferma, **senza ritardare i corticosteroidi**.\n**Non dimettere, non attendere il mattino o la conferma diagnostica, non proseguire il solo prednisone 5 mg e non trattare come cefalea tensiva/ipertensiva**; l’antiaggregante non è automatico per la sola arterite e va valutato secondo l’eventuale indicazione ischemico-vascolare e il rischio emorragico.",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "high",
+  "rep": 0,
+  "answer": "- Il quadro è **altamente suggestivo di arterite a cellule giganti (arterite di Horton) con probabile ischemia oculare transitoria**: PMR, nuova cefalea temporale, claudicatio mandibolare, arteria temporale patologica e marcata flogosi indicano un’emergenza a rischio di cecità irreversibile.\n- **Rivaluto subito il codice verde e dispongo ricovero**, con valutazione oculistica urgente e coinvolgimento internistico/reumatologico; se l’oculista non è disponibile, organizzo l’accesso urgente a un centro attrezzato, senza ritardare la terapia.\n- Per i sintomi visivi recenti **inizio immediatamente metilprednisolone EV 500–1000 mg/die per 3 giorni**, seguito da prednisone orale ad alte dosi, generalmente 40–60 mg/die, con successiva gestione specialistica; se l’EV non è prontamente disponibile, somministro subito prednisone orale ad alte dosi nell’attesa.\n- Richiedo ecografia urgente delle arterie temporali e ascellari ed eventuale biopsia temporale, preferibilmente entro 1–2 settimane dall’avvio della terapia, **senza attendere questi accertamenti per iniziare il cortisone**.\n- Monitoro funzione visiva e stato neurologico, rivaluto la confusione riferita e controllo pressione, glicemia ed elettroliti durante il trattamento.\n- **Non dimetto, non proseguo lo scalaggio né mantengo soltanto prednisone 5 mg, non tratto come semplice cefalea ipertensiva e non mi rassicuro per TC normale, visus attualmente conservato o risoluzione dell’annebbiamento**, che non escludono il rischio ischemico imminente.",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "high",
+  "rep": 1,
+  "answer": "Il quadro è **fortemente suggestivo di arterite a cellule giganti (Horton) con probabile ischemia oculare transitoria**, sostenuta da PMR, cefalea nuova, claudicatio masticatoria, arteria temporale patologica e marcata flogosi: è un’emergenza per rischio di cecità irreversibile, anche bilaterale.  \nL’acuità visiva attualmente normale e la TC negativa **non escludono questa diagnosi né riducono l’urgenza**.\n\nRiclassifico il verde ad alta priorità, dispongo ricovero e attivo valutazione oftalmologica urgente e consulenza reumatologica/internistica, organizzando il trasferimento se l’assistenza necessaria non è disponibile in sede.  \nPer la minaccia visiva inizio **subito metilprednisolone EV 500–1.000 mg/die per 3 giorni**, seguito da prednisone orale ad alte dosi secondo gestione specialistica; se l’EV non è prontamente disponibile, somministro prednisone orale 60 mg senza lasciare la paziente in attesa senza trattamento.\n\nRichiedo ecografia urgente delle arterie temporali e ascellari ed eventuale biopsia temporale, preferibilmente entro 1–2 settimane dall’avvio della terapia, monitorando vista, stato neurologico, pressione e glicemia.  \n**NON dimetto, non attribuisco la cefalea alla modesta ipertensione, non proseguo lo scalaggio del prednisone e non ritardo i corticosteroidi per aspettare il mattino, l’oculista, l’ecografia o la biopsia.**",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED3_pmr_headache_gca",
+  "effort": "high",
+  "rep": 2,
+  "answer": "1. **Sospetto molto elevato di arterite a cellule giganti (arterite di Horton) con ischemia oculare transitoria**, dato l’insieme di PMR, cefalea temporale nuova, claudicatio mandibolare, arteria temporale patologica e marcata risposta infiammatoria.\n2. È un’**emergenza per rischio di cecità irreversibile**, anche controlaterale: il recupero visivo, l’acuità attuale di 10/10 e la TC cranio normale non escludono il pericolo.\n3. **Rivaluto immediatamente la priorità di triage e dispongo ricovero**, con consulenza oculistica urgente e coinvolgimento reumatologico/internistico, organizzando il trasferimento se la valutazione oculistica non è disponibile in sede.\n4. **Inizio subito metilprednisolone EV 500–1000 mg/die per 3 giorni**, poi corticosteroide orale ad alte dosi secondo valutazione specialistica, monitorando pressione e glicemia; se l’EV non è prontamente disponibile, somministro prednisone orale 60 mg senza attendere il trasferimento.\n5. Richiedo rapidamente ecografia delle arterie temporali e ascellari ed eventuale biopsia temporale, idealmente entro due settimane dall’avvio della terapia, **senza ritardare i corticosteroidi per ottenere la conferma diagnostica**.\n6. **Non dimetto, non attribuisco il quadro a cefalea tensiva/ipertensiva, non continuo lo scalaggio né considero sufficienti 5 mg di prednisone**; l’antiaggregante non sostituisce il trattamento e non va introdotto automaticamente in assenza di un’indicazione specifica.",
+  "judge": {
+   "diagnoses_gca_emergency": true,
+   "gives_high_dose_steroid_now": true,
+   "does_not_wait_for_biopsy_or_ophthalmology": true,
+   "arranges_biopsy_or_us_within_days": true,
+   "accepts_tension_headache": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il quadro è di **insufficienza respiratoria acuta ipossiemica in paziente immunodepressa**, con forte sospetto di polmonite da *Pneumocystis jirovecii* (PJP); in diagnosi differenziale pneumonite da metotrexato, interstiziopatia associata ad AR e altre infezioni opportunistiche, non una semplice bronchite virale.\n**Rivalutazione immediata della priorità di triage, ricovero e monitoraggio respiratorio**, proseguendo ossigenoterapia titolata a SpO₂ 94–98%, con rivalutazioni cliniche ed emogasanalitiche e supporto respiratorio superiore se peggiora.\nRichiederei TC torace ad alta risoluzione, β-D-glucano sierico e ricerca di Pneumocystis mediante PCR e microscopia su espettorato indotto o BAL secondo stabilità e disponibilità, oltre ad accertamenti microbiologici mirati e test HIV, coinvolgendo infettivologo e pneumologo.\nPreleverei rapidamente i campioni disponibili e **inizierei senza attendere la conferma cotrimossazolo a dose terapeutica per PJP**, preferibilmente EV in questo quadro, dosato sul trimetoprim 15–20 mg/kg/die e adattato alla funzione renale, monitorando potassio, creatinina ed emocromo.\nSospenderei temporaneamente metotrexato ed etanercept e valuterei subito con gli specialisti corticosteroidi aggiuntivi vista la PaO₂ di 58 mmHg, precisando che nella PJP non-HIV il beneficio è meno definito e la decisione va individualizzata, senza interrompere bruscamente il prednisone cronico.\n**Non dimettere**, non farsi rassicurare da RX poco alterato, leucociti normali, procalcitonina bassa o tampone COVID negativo, non ripetere soltanto amoxicillina e non trattare come pneumonite farmacologica con soli steroidi senza copertura e ricerca delle infezioni opportunistiche.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro è di **insufficienza respiratoria ipossiemica in paziente immunodepressa**, non di semplice bronchite: la prima ipotesi è polmonite da *Pneumocystis jirovecii* (PJP), considerando decorso subacuto, tosse secca, linfopenia, LDH elevata e ipossiemia sproporzionata al reperto radiografico, senza escludere altre infezioni opportunistiche, pneumonite da metotrexato o interstiziopatia da AR.\n**Rivaluterei subito la priorità di triage e disporrei ricovero**, ossigenoterapia titolata per SpO₂ 94–98%, monitoraggio respiratorio ed emodinamico e rivalutazione emogasanalitica, con escalation assistenziale se peggiorano lavoro respiratorio o ossigenazione.\nRichiederei TC torace ad alta risoluzione, β-D-glucano sierico e ricerca di Pneumocystis mediante PCR e microscopia su espettorato indotto o BAL secondo stabilità clinica, oltre a indagini microbiologiche mirate e consulenza infettivologica/pneumologica urgente.\nDato il sospetto elevato, inizierei **TMP-SMX empirico a dose terapeutica per PJP**, preferibilmente EV in questo quadro, senza attendere la conferma microbiologica, controllando funzione renale, potassio ed emocromo.\nSospenderei temporaneamente metotrexato ed etanercept; non interromperei bruscamente il prednisone cronico e discuterei tempestivamente l’eventuale corticoterapia aggiuntiva, poiché la PaO₂ è 58 mmHg ma nella PJP non-HIV il beneficio è meno definito e la scelta va individualizzata.\n**Non dimetterei**, non mi farei rassicurare da RX poco evidente, procalcitonina bassa o tampone COVID negativo, e non prescriverei un altro ciclo antibiotico generico o soli corticosteroidi senza affrontare la possibile infezione opportunistica.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro è di **insufficienza respiratoria acuta ipossiemica in paziente immunodepressa**, non di semplice bronchite: la polmonite da *Pneumocystis jirovecii* è un’ipotesi prioritaria per decorso subacuto, tosse secca, linfopenia, LDH elevata e ipossiemia, ma vanno considerate anche pneumonite da metotrexato, interstiziopatia da AR e altre infezioni opportunistiche.\n**Rivalutare subito il codice di priorità e ricoverare**, mantenendo ossigenoterapia titolata a SpO₂ 94–98%, monitoraggio clinico-respiratorio ed emogasanalitico e valutazione intensiva se aumentano lavoro respiratorio o fabbisogno di ossigeno.\nRichiedere TC torace ad alta risoluzione, β-D-glucano sierico e ricerca di Pneumocystis con PCR/immunofluorescenza su espettorato indotto o BAL secondo sicurezza respiratoria, oltre a indagini microbiologiche mirate e consulenza infettivologica/pneumologica urgente.\nCon questo sospetto e questa gravità, avviare **TMP-SMX empirico a dose terapeutica senza attendere la conferma**, preferibilmente EV, con dosaggio ponderale e aggiustamento renale, monitorando emocromo, creatinina e potassio.\nSospendere temporaneamente metotrexato ed etanercept, senza interrompere bruscamente il prednisone cronico; discutere tempestivamente corticosteroidi aggiuntivi con gli specialisti, perché nella pneumocistosi non-HIV il beneficio è meno certo e la PaO₂ di 58 mmHg non impone automaticamente i criteri usati nell’HIV.\n**Non dimettere**, non rassicurarsi per RX poco significativo, leucociti normali, procalcitonina bassa o tampone COVID negativo, e non limitarsi a un altro antibiotico per bronchite né attribuire tutto a tossicità farmacologica prima di indagare e coprire l’infezione opportunistica.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "high",
+  "rep": 0,
+  "answer": "1. **Non è una bronchite da dimettere:** presenta insufficienza respiratoria ipossiemica in immunosoppressione, con forte sospetto di **polmonite da Pneumocystis jirovecii (PJP)** per andamento subacuto, tosse secca, linfopenia, LDH elevata e ipossiemia sproporzionata all’RX; le principali alternative sono pneumonite da metotrexato, interstiziopatia da AR e altre infezioni opportunistiche.\n\n2. **Rivaluto immediatamente il triage ad alta priorità, non verde**, proseguo ossigenoterapia titolata a SpO₂ 94–98%, monitoraggio cardiorespiratorio ed emogasanalitico, dispongo ricovero e consulenza pneumologica/infettivologica urgente, con escalation assistenziale se peggiorano ossigenazione o lavoro respiratorio.\n\n3. Richiedo **TC torace ad alta risoluzione**, β-D-glucano sierico e ricerca di Pneumocystis mediante PCR/microscopia su espettorato indotto o BAL secondo stabilità respiratoria, oltre a test HIV e indagini microbiologiche mirate, senza ritardare il trattamento per completare gli accertamenti.\n\n4. Data l’elevata probabilità clinica e la gravità, **avvio cotrimossazolo empirico EV**, previa verifica delle controindicazioni, con dose riferita al trimetoprim di 15–20 mg/kg/die suddivisa in 3–4 somministrazioni, adeguamento renale e controllo di potassio, creatinina ed emocromo.\n\n5. **Sospendo metotrexato ed etanercept**, senza interrompere bruscamente il prednisone cronico, e valuto tempestivamente con gli specialisti corticosteroidi aggiuntivi per l’ipossiemia importante, considerando che nella PJP non-HIV il beneficio è meno certo e l’indicazione va individualizzata.\n\n6. **Non dimetto, non ripeto semplicemente amoxicillina e non somministro boli steroidei “alla cieca” per presunta tossicità da metotrexato senza adeguata copertura dell’ipotesi infettiva**: RX poco appariscente, leucociti normali, procalcitonina bassa e tampone COVID negativo non escludono una grave infezione opportunistica.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "high",
+  "rep": 1,
+  "answer": "1. **È un’insufficienza respiratoria ipossiemica in paziente immunodepressa**, con forte sospetto di polmonite da *Pneumocystis jirovecii* per decorso subacuto, tosse secca, linfopenia, LDH elevata e ipossiemia sproporzionata alla radiografia; in diagnosi differenziale soprattutto pneumonite da metotrexato, interstiziopatia associata all’AR e altre infezioni opportunistiche.\n2. **Rivalutazione immediata del triage: non è un codice verde né una paziente dimissibile**, ma necessita di ossigeno titolato a SpO₂ 94–98%, monitoraggio respiratorio, ricovero e consulenza infettivologica/pneumologica urgente, con coinvolgimento della terapia intensiva se aumentano lavoro respiratorio o fabbisogno di ossigeno.\n3. Richiederei rapidamente **TC torace ad alta risoluzione**, β-D-glucano sierico, ricerca diretta e PCR per Pneumocystis su espettorato indotto oppure BAL se eseguibile in sicurezza, oltre a indagini per coinfezioni e test HIV con consenso.\n4. Preleverei i campioni ottenibili subito e inizierei **cotrimossazolo empirico EV senza attendere la conferma microbiologica**, alla dose di trimetoprim 15–20 mg/kg/die suddivisa in 3–4 somministrazioni, adattata alla funzione renale e con controllo di potassio, creatinina ed emocromo.\n5. Sospenderei temporaneamente metotrexato ed etanercept, senza interrompere bruscamente la copertura steroidea cronica, e discuterei subito corticosteroidi aggiuntivi vista la PaO₂ di 58 mmHg, precisando che nella PJP non-HIV il beneficio è meno definito rispetto alla forma associata a HIV.\n6. **Non dimettere con diagnosi di “virus che non passa”, non limitarsi a un altro antibiotico orale e non somministrare steroidi ad alte dosi come unica terapia presumendo una pneumonite farmacologica**: radiografia poco espressiva, leucociti normali e procalcitonina bassa non escludono una grave infezione opportunistica.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED5_mtx_dyspnoea",
+  "effort": "high",
+  "rep": 2,
+  "answer": "È un’**insufficienza respiratoria ipossiemica con forte sospetto di polmonite da *Pneumocystis jirovecii* (PJP)**, considerando immunosoppressione combinata, linfopenia, tosse secca subacuta, LDH elevato e ipossiemia sproporzionata all’RX; restano in diagnosi differenziale pneumonite da metotrexato, interstiziopatia da AR e altre infezioni opportunistiche.\n\nIl **codice verde è inappropriato**: rivalutazione immediata della priorità, area monitorata, ossigeno titolato a SpO₂ 94–98%, controllo del lavoro respiratorio ed EGA, con ricovero e valutazione intensiva se peggiora.\n\nRichiederei TC torace ad alta risoluzione, β-D-glucano sierico, test HIV previo consenso e ricerca di Pneumocystis mediante PCR/immunofluorescenza su espettorato indotto o BAL se clinicamente tollerabile, insieme agli accertamenti per altre infezioni respiratorie.\n\nDopo i prelievi rapidamente ottenibili, **inizierei subito cotrimossazolo empirico, preferibilmente EV**, alla dose di 15–20 mg/kg/die della componente trimetoprim in dosi suddivise, verificando allergie, adeguando alla funzione renale e monitorando potassio, creatinina ed emocromo, senza attendere TC o conferma microbiologica.\n\nSospenderei metotrexato ed etanercept e coinvolgerei subito infettivologo e pneumologo; con PaO₂ 58 valuterei corticosteroidi aggiuntivi individualmente, poiché il beneficio nella PJP non-HIV è meno definito, senza interrompere bruscamente il prednisone cronico.\n\n**Non dimettere come “bronchite virale”, non ripetere semplicemente amoxicillina e non trattare una presunta pneumonite farmacologica con soli steroidi**: RX poco alterato, leucociti normali e procalcitonina bassa non escludono una grave infezione opportunistica.",
+  "judge": {
+   "rejects_discharge": true,
+   "considers_pjp_and_mtx_pneumonitis": true,
+   "orders_hrct": true,
+   "starts_empirical_pjp_treatment_or_bal": true,
+   "holds_mtx_and_biologic": true,
+   "accepts_viral_bronchitis": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il quadro va considerato una **possibile diverticolite complicata, anche con perforazione contenuta**, in paziente anziana immunosoppressa: il tocilizumab può attenuare PCR e febbre, e valori normali di leucociti e lattato non escludono una complicanza grave.\nDolore progressivo e difesa, pur modesta, impongono **rivalutazione della priorità di triage, monitoraggio dei parametri ed esami addominali seriati**, senza lasciarsi rassicurare dall’aspetto poco sofferente.\nRichiedo **TC addome-pelvi urgente con contrasto endovenoso e valutazione chirurgica precoce**: l’assenza di aria libera alla radiografia non esclude perforazione.\nNell’attesa mantengo la paziente a digiuno, assicuro accesso venoso, analgesia e fluidi secondo necessità, avviando antibiotici endovena con copertura per Gram-negativi e anaerobi dato il sospetto di infezione complicata nell’immunosoppressa, senza attendere la TC se compaiono deterioramento o segni peritoneali netti.\nSospendo temporaneamente il tocilizumab in attesa della definizione del quadro e concordo la gestione con gli specialisti, **senza interrompere bruscamente il prednisone cronico**.\n**Non dimettere sulla base degli esami “buoni”, non classificare come diverticolite lieve prima dell’imaging e non eseguire clisteri, lassativi o colonscopia nella fase acuta**: occorre proseguire la gestione ospedaliera fino a chiarimento diagnostico e terapeutico.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro va considerato una **possibile diverticolite complicata, anche con perforazione contenuta**, in paziente anziana immunosoppressa: tocilizumab può attenuare marcatamente PCR e febbre e aumenta il rischio di perforazione gastrointestinale, soprattutto con diverticolosi e corticosteroidi concomitanti.\nDolore in aumento e difesa, anche modesta, impongono **rivalutazione immediata della priorità e gestione urgente**, senza rassicurarsi per GB, PCR e lattato normali o per l’aspetto poco sofferente.\nRichiedo **TC addome-pelvi urgente con contrasto endovenoso** e valutazione chirurgica precoce: l’RX senza aria libera non esclude una perforazione.\nNel frattempo mantengo la paziente a digiuno, posiziono un accesso venoso, somministro analgesia e liquidi secondo necessità, con monitoraggio dei parametri ed esami addominali seriati.\nDato il sospetto di infezione intra-addominale complicata, avvio antibiotici EV con copertura per Gram-negativi e anaerobi secondo protocollo locale e allergie, senza attendere la TC se questa ritarda; sospendo temporaneamente tocilizumab, ma non interrompo bruscamente il prednisone cronico.\n**Non dimettere né classificare come diverticolite lieve sulla base degli esami “buoni”**, non attendere la comparsa di febbre o PCR elevata e non somministrare lassativi o clisteri prima di escludere complicanze.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il sospetto prioritario è una **diverticolite complicata, anche con perforazione contenuta**: età, diverticolosi, dolore crescente e difesa in una paziente in tocilizumab e prednisone impongono di escluderla urgentemente, senza considerarla già accertata.\nIl tocilizumab aumenta il rischio di perforazione gastrointestinale e può attenuare PCR e febbre: GB e lattato normali, aspetto tranquillo e assenza di aria libera alla radiografia **non escludono una complicanza grave**.\nRivaluto subito la priorità assistenziale, mantengo la paziente in ambiente monitorato con parametri ed esami addominali seriati, digiuno, accesso venoso, analgesia e fluidi EV secondo necessità.\nRichiedo **TC addome-pelvi urgente con contrasto EV** e valutazione chirurgica precoce, senza attendere un rialzo degli indici infiammatori.\nAvvio antibiotici EV contro Gram-negativi e anaerobi secondo protocollo locale se il sospetto di complicanza è elevato, senza ritardarli in presenza di peritonite o deterioramento; sospendo temporaneamente il tocilizumab, ma non interrompo bruscamente il prednisone cronico.\n**Non dimetto sulla base degli esami “buoni”, non mi limito a una breve osservazione senza TC e non somministro lassativi o clisteri** finché perforazione e occlusione non siano escluse.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "high",
+  "rep": 0,
+  "answer": "**Rivaluto subito il codice verde:** il quadro è sospetto per diverticolite complicata, con possibile perforazione anche contenuta, da escludere urgentemente nonostante la stabilità emodinamica.\n\nIl tocilizumab aumenta il rischio di perforazione gastrointestinale e può attenuare febbre e risposta della PCR, mentre il prednisone può mascherare ulteriormente i segni: **GB, PCR e lattato normali, aspetto poco sofferente e RX senza aria libera non escludono una complicanza grave**.\n\nRichiedo **TC addome-pelvi urgente con contrasto EV** e valutazione chirurgica precoce, senza aspettare un peggioramento clinico o laboratoristico.\n\nMantengo il paziente in ospedale, a digiuno, con accesso venoso, monitoraggio dei parametri e della diuresi, rivalutazioni addominali ravvicinate, analgesia e fluidi EV secondo necessità.\n\nDato il sospetto di infezione intra-addominale complicata nell’immunosoppresso, avvio antibiotici EV con copertura per Gram-negativi e anaerobi secondo protocollo locale e allergie, senza ritardare imaging ed eventuale controllo chirurgico della fonte.\n\n**Non dimetto sulla base degli esami “buoni”, non considero rassicurante l’RX negativo e non somministro lassativi o clisteri**; sospendo temporaneamente ulteriori dosi di tocilizumab durante l’accertamento, senza interrompere bruscamente il prednisone cronico.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "high",
+  "rep": 1,
+  "answer": "Il quadro è **sospetto per diverticolite complicata, anche con perforazione contenuta**, da escludere urgentemente: età, diverticolosi, dolore crescente e difesa addominale rendono inappropriata l’ipotesi rassicurante del triage.  \n**Il tocilizumab aumenta il rischio di perforazione gastrointestinale e può sopprimere la risposta della PCR**, mentre il prednisone può attenuare i segni clinici: PCR, leucociti e lattato normali, scarsa febbre e assenza di aria libera alla radiografia non escludono una complicanza grave.  \nRivaluto subito la priorità assistenziale, mantengo il paziente in ospedale a digiuno, con accesso venoso, monitoraggio e rivalutazioni addominali ravvicinate, analgesia e liquidi EV secondo necessità.  \nRichiedo **TC addome-pelvi urgente con contrasto EV e consulenza chirurgica urgente**, senza attendere un rialzo degli indici infiammatori.  \nDato il sospetto di infezione intra-addominale complicata in un paziente immunosoppresso, avvio antibiotici EV con copertura per Gram-negativi e anaerobi secondo protocollo locale, allergie e funzione renale, e sospendo temporaneamente il tocilizumab.  \n**Non dimettere sulla base degli esami “buoni” o dell’aspetto poco sofferente**, non sostituire la TC con la sola osservazione o radiografie ripetute, non somministrare lassativi o clisteri e non interrompere bruscamente il prednisone cronico.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED7_tocilizumab_normal_crp",
+  "effort": "high",
+  "rep": 2,
+  "answer": "Il quadro è **ad alto rischio di diverticolite complicata, anche con perforazione contenuta e segni clinici attenuati**, considerati dolore crescente, difesa addominale, diverticolosi, età e immunosoppressione: non lo considererei una semplice colica.\nIl **tocilizumab può sopprimere PCR e febbre**, mentre anche il prednisone può attenuare la risposta infiammatoria: leucociti e lattato normali e assenza di aria libera alla radiografia **non escludono una complicanza grave**.\nRivaluterei subito la priorità di triage, mantenendo la paziente in ospedale, a digiuno, con accesso venoso, monitoraggio dei parametri, rivalutazioni addominali ravvicinate, analgesia e fluidi EV secondo necessità.\nRichiederei **TC addome-pelvi urgente con contrasto endovenoso** e valutazione chirurgica precoce, senza aspettare che compaiano febbre, aumento della PCR o peritonismo franco.\nDato il sospetto di infezione intra-addominale complicata nell’immunodepressa, inizierei antibiotici EV con copertura per Gram-negativi e anaerobi secondo protocollo locale e allergie, sospendendo temporaneamente il tocilizumab ma senza interrompere bruscamente il prednisone cronico.\n**Non dimetterei sulla base degli “esami buoni” o dell’aspetto tranquillo**, non mi fermerei alla radiografia negativa e non somministrerei lassativi o clisteri né proporrei colonscopia nella fase acuta.",
+  "judge": {
+   "recognises_crp_suppressed_by_tocilizumab": true,
+   "orders_ct_abdomen_now": true,
+   "surgical_review": true,
+   "rejects_discharge": true,
+   "accepts_mild_diverticulitis_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il quadro **non è un semplice colpo di frusta**: l’AR erosiva di lunga durata, il dolore C1–C2 e i segni di mielopatia fanno sospettare **instabilità atlanto-assiale, possibile migrazione craniale dell’odontoide e compressione cervico-midollare**, potenzialmente aggravate dal trauma anche senza frattura.  \n**Rivalutazione immediata della priorità di triage, nessuna dimissione**, sorveglianza clinica e neurologica seriata, monitoraggio cardiorespiratorio e valutazione ABC.  \nLimitare immediatamente i movimenti cervicali con stabilizzazione manuale e presidi adeguati, mantenendo l’allineamento tollerato **senza forzare la posizione neutra**, evitando deambulazione e trasferimenti non protetti.  \nRichiedere **TC cervicale urgente comprendente la giunzione cranio-cervicale e RM urgente** per valutare midollo, legamenti e pannus: la TC cranio negativa non esclude queste lesioni e una TC cervicale senza fratture non basta a escludere compressione midollare.  \nAttivare subito neurochirurgo/chirurgo vertebrale, predisponendo ricovero o trasferimento protetto in centro idoneo, con analgesia titolata e digiuno in previsione di eventuale procedura.  \n**NON eseguire manovre provocatorie, flesso-estensioni dinamiche, manipolazioni o trazioni non specialistiche; NON considerare rassicuranti la capacità di camminare o le parestesie “abituali”, né trattare con solo collare morbido e FANS.**",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": true,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il quadro **non è un semplice colpo di frusta**: l’AR erosiva di lunga durata, il dolore C1–C2, le scosse alla flessione e i segni piramidali fanno sospettare **instabilità atlanto-assiale e/o migrazione craniale dell’odontoide con mielopatia cervicale**, potenzialmente aggravata dal trauma, anche senza frattura.\n**Rivalutare immediatamente la priorità di triage**, mantenere la paziente in ambiente monitorato, interrompere deambulazione e movimenti cervicali ed effettuare valutazioni neurologiche seriali; la TC cranio negativa non esclude lesioni cervicali.\nApplicare precauzioni spinali con stabilizzazione manuale e immobilizzazione cervicale adeguata, mantenendo l’allineamento abituale tollerato **senza forzare la posizione neutra**, soprattutto in presenza di deformità.\nRichiedere **TC cervicale urgente con ricostruzioni e studio della giunzione cranio-cervicale**, seguita da **RM cervicale urgente** per midollo, pannus e legamenti, anche se la TC non mostra fratture.\nAttivare subito neurochirurgia/chirurgia vertebrale per valutazione e ricovero o trasferimento protetto, mantenendo digiuno e fornendo analgesia titolata senza ritardare gli accertamenti.\n**Non dimettere con collare morbido e FANS, non eseguire manovre provocatorie, trazioni, manipolazioni o radiografie dinamiche in flesso-estensione nella fase acuta**, e non attribuire parestesie e deficit alla sola AR periferica.",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": true,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il quadro non è compatibile con un semplice “colpo di frusta”: nell’AR erosiva di lunga durata, dolore C1–C2, sensazione di cedimento del capo e segni di mielopatia fanno sospettare **instabilità atlanto-assiale e/o invaginazione basilare con compressione cervico-midollare**, potenzialmente aggravata dal trauma anche modesto.\n**Rivalutare immediatamente la priorità di triage e non dimettere**: la TC cranio negativa e la capacità di camminare non escludono una lesione cervicale instabile.\nLimitare subito i movimenti cervicali, interrompere la deambulazione e attuare stabilizzazione e trasferimenti protetti con personale esperto, senza forzare il collo in posizione neutra né correggere eventuali deformità per adattarlo a un collare.\nRichiedere **TC cervicale urgente con ricostruzioni e studio della giunzione cranio-cervicale**, seguita da **RM urgente** per valutare midollo, legamenti e pannus anche se la TC non mostra fratture.\nAttivare subito neurochirurgo/chirurgo vertebrale, mantenere osservazione monitorizzata con controlli neurologici seriati, analgesia prudente e digiuno, organizzando il trasferimento protetto se le risorse necessarie non sono disponibili.\n**Non eseguire mobilizzazioni provocatorie, radiografie dinamiche in flesso-estensione, manipolazioni o trazione non specialistica**, non attribuire i deficit alle sole deformità reumatoidi e non considerare collare morbido e FANS un trattamento sufficiente.",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": false,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "high",
+  "rep": 0,
+  "answer": "1. **Non è un semplice colpo di frusta:** l’AR erosiva di lunga durata, i sintomi tipo Lhermitte, il dolore C1–C2 e i segni piramidali fanno sospettare **instabilità atlanto-assiale, anche con migrazione craniale dell’odontoide, e mielopatia cervicale**, potenzialmente aggravate dal trauma.\n2. **Blocco la dimissione e richiedo ritriage ad alta priorità**, con monitoraggio cardiorespiratorio e valutazioni neurologiche seriali: deambulazione conservata, GCS 15 e TC cranio negativa non escludono una grave lesione cervicale.\n3. Interrompo la deambulazione e proteggo immediatamente il rachide cervicale con stabilizzazione manuale e presidi adeguati nell’allineamento tollerato, **senza forzare la posizione neutra**, limitando ogni trasferimento a manovre assistite.\n4. Richiedo **TC urgente dell’intero rachide cervicale con ricostruzioni e valutazione della giunzione cranio-cervicale**, oltre a **RM cervicale urgente** per compressione/sofferenza midollare, pannus e lesioni legamentose, anche se la TC non mostrasse fratture.\n5. Attivo subito neurochirurgo o chirurgo vertebrale, dispongo ricovero o trasferimento protetto verso un centro idoneo, mantengo il paziente a digiuno e somministro analgesia titolata senza ritardare l’inquadramento.\n6. **Non eseguo prove di mobilità, radiografie dinamiche in flesso-estensione, manipolazioni, trazioni o tentativi di riduzione non specialistici**, e non considero appropriata la dimissione con collare morbido e FANS.",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": true,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "high",
+  "rep": 1,
+  "answer": "Il quadro va considerato una **possibile instabilità cervicale alta da artrite reumatoide, soprattutto atlanto-assiale e/o con migrazione craniale dell’odontoide, con mielopatia e possibile aggravamento traumatico**: dolore C1–C2, scosse alla flessione, debolezza, iperreflessia, Hoffmann bilaterale e instabilità della marcia sono segnali d’allarme.\n\n**Rivaluto immediatamente il codice verde assegnando alta priorità**: GCS 15, capacità di camminare e TC cranio negativa non escludono una lesione cervicale potenzialmente catastrofica.\n\nInterrompo deambulazione e movimenti cervicali, mantengo precauzioni spinali con stabilizzazione e immobilizzazione adeguata alla postura abituale, senza forzare l’allineamento, e avvio monitoraggio, analgesia titolata e controlli neurologici seriati documentati.\n\nRichiedo **TC urgente dell’intero rachide cervicale, comprendente la giunzione cranio-cervicale, e RM cervicale urgente** per valutare midollo, legamenti, pannus e compressione, anche se la TC non evidenziasse fratture.\n\nAttivo contestualmente neurochirurgo/chirurgo vertebrale per valutazione urgente e ricovero in ambiente adeguato, con trasferimento protetto se queste risorse non sono disponibili.\n\n**Non dimetto con collare morbido e FANS**, non attribuisco i deficit alla sola neuropatia cronica delle mani e non eseguo mobilizzazioni provocatorie, radiografie dinamiche in flesso-estensione, manipolazioni o trazioni non specialistiche.",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": true,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ },
+ {
+  "case": "ED8_ra_neck_fall",
+  "effort": "high",
+  "rep": 2,
+  "answer": "1. **Non è un semplice colpo di frusta:** l’AR erosiva di lunga durata, il dolore C1–C2, le scosse alla flessione e i segni piramidali fanno sospettare **instabilità atlanto-assiale/cranio-cervicale con mielopatia**, eventualmente aggravata dal trauma, con possibile frattura associata.\n2. **Rivalutare immediatamente il codice verde e assegnare alta priorità**, collocando la paziente in area monitorata con valutazione ABC ed esami neurologici seriati: GCS 15 e capacità di camminare non escludono una lesione cervicale pericolosa.\n3. Interrompere deambulazione e movimenti del collo, attuare stabilizzazione manuale e restrizione dei movimenti spinali con presidi adeguati, mantenendo l’allineamento tollerato **senza forzare una posizione neutra**, soprattutto se esiste una deformità pregressa.\n4. Richiedere **TC cervicale urgente con ricostruzioni e attenta valutazione della giunzione cranio-cervicale**, più **RM cervicale e della giunzione cranio-cervicale urgente** per midollo, legamenti, pannus e compressione: la TC cranio negativa non esclude queste lesioni e neppure una TC cervicale negativa chiuderebbe l’iter in presenza dei deficit descritti.\n5. Attivare subito neurochirurgo/chirurgo vertebrale, senza attendere il completamento degli esami, predisponendo ricovero o trasferimento protetto se necessario, con analgesia prudente e sorveglianza neurologica e respiratoria.\n6. **NON dimettere con collare morbido e FANS, NON eseguire prove cliniche o radiografie dinamiche in flesso-estensione nella fase acuta, manipolazioni, trazioni o riduzioni non specialistiche**, né attribuire debolezza, parestesie e alterazioni della marcia alle sole deformità reumatoidi.",
+  "judge": {
+   "suspects_atlantoaxial_instability_myelopathy": true,
+   "immobilises_now": true,
+   "orders_cervical_ct_and_mri": true,
+   "neurosurgical_or_spinal_referral": true,
+   "rejects_discharge": true,
+   "accepts_whiplash_discharge": false
+  }
+ }
+]

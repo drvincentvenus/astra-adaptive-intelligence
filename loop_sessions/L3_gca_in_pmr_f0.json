@@ -1,0 +1,157 @@
+{
+ "case": "L3_gca_in_pmr",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi descriva il mal di testa: dove è localizzato, come è iniziato, e ha notato disturbi della vista (offuscamento, visione doppia, perdita transitoria della vista) o dolore alla mandibola quando mastica?"
+  },
+  {
+   "role": "assistant",
+   "content": "Mi fa male da quattro giorni su tutte e due le tempie, ed è iniziato senza che avessi mai sofferto di mal di testa prima. Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato; inoltre quando mastico mi fa male e mi si stanca la mascella."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Che dose di cortisone (prednisone) sta prendendo adesso e da quanto? Le è stata ridotta di recente, e i dolori alle spalle e alle anche della polimialgia sono tornati?"
+  },
+  {
+   "role": "assistant",
+   "content": "Adesso prendo 5 mg di prednisone da tre settimane, me l’hanno ridotto dai 15 mg. Da circa una settimana mi sono tornati la rigidità e i dolori alle spalle; alle anche no."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Palpo le arterie temporali bilateralmente: valuto polso, dolorabilità, ispessimento, noduli; e cerco dolorabilità del cuoio capelluto"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame oculistico al letto: acuità visiva per ciascun occhio, riflesso pupillare con ricerca del difetto pupillare afferente relativo, campo visivo per confronto e fundus oculi con oftalmoscopio (papilla, pallore, essudati)"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: acuità visiva 10/10 bilateralmente; riflessi pupillari normali, senza difetto afferente, e campi visivi conservati. Fundus non esplorabile stanotte; oftalmologo non disponibile."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame neurologico focale: nervi cranici, forza e sensibilità ai quattro arti, prova indice-naso, deambulazione, segni meningei, ricerca di deficit focali compatibili con ictus"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: esame neurologico senza deficit focali; nervi cranici, forza, sensibilità, coordinazione e deambulazione nella norma; assenti segni meningei."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Prelievo ematico urgente: emocromo con piastrine, PCR, VES, glicemia, creatinina, elettroliti, transaminasi, fibrinogeno, INR"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: GB 10,2×10⁹/L, Hb 11,4 g/dL, piastrine 480×10⁹/L; PCR 96 mg/L, VES 88 mm/h; glicemia 118 mg/dL, creatinina 0,9 mg/dL. Elettroliti, transaminasi, fibrinogeno e INR nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Decisione terapeutica immediata: avvio subito metilprednisolone 1 g endovena in infusione (arterite a cellule giganti con amaurosi transitoria = urgenza oftalmologica), senza attendere esami o imaging; monitoraggio glicemia e PA, protezione gastrica"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo ecografia color-Doppler delle arterie temporali e ascellari (segno dell'alone, compression sign) da eseguire entro 24-72 ore dall'avvio degli steroidi, fast-track; in alternativa programmazione biopsia dell'arteria temporale entro 1-2 settimane senza sospendere la terapia"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: ecografia color-Doppler delle arterie temporali e ascellari non disponibile stanotte; disponibile domattina in percorso fast-track."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Decisione: ricovero in area medica/reumatologia per proseguire metilprednisolone ev 1 g/die per 3 giorni e poi prednisone 1 mg/kg (60 mg/die), consulenza oftalmologica alla prima disponibilità in mattinata, consulenza reumatologica, monitoraggio visus ogni turno con istruzione a segnalare subito ogni nuovo calo visivo"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi descriva il mal di testa: dove è localizzato, come è iniziato, e ha notato disturbi della vista (offuscamento, visione doppia, perdita transitoria della vista) o dolore alla mandibola quando mastica?"
+  ],
+  [
+   "MONDO",
+   "Mi fa male da quattro giorni su tutte e due le tempie, ed è iniziato senza che avessi mai sofferto di mal di testa prima. Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato; inoltre quando mastico mi fa male e mi si stanca la mascella."
+  ],
+  [
+   "MEDICO",
+   "Che dose di cortisone (prednisone) sta prendendo adesso e da quanto? Le è stata ridotta di recente, e i dolori alle spalle e alle anche della polimialgia sono tornati?"
+  ],
+  [
+   "MONDO",
+   "Adesso prendo 5 mg di prednisone da tre settimane, me l’hanno ridotto dai 15 mg. Da circa una settimana mi sono tornati la rigidità e i dolori alle spalle; alle anche no."
+  ],
+  [
+   "MEDICO",
+   "Palpo le arterie temporali bilateralmente: valuto polso, dolorabilità, ispessimento, noduli; e cerco dolorabilità del cuoio capelluto"
+  ],
+  [
+   "MONDO",
+   "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+  ],
+  [
+   "MEDICO",
+   "Esame oculistico al letto: acuità visiva per ciascun occhio, riflesso pupillare con ricerca del difetto pupillare afferente relativo, campo visivo per confronto e fundus oculi con oftalmoscopio (papilla, pallore, essudati)"
+  ],
+  [
+   "MONDO",
+   "EO: acuità visiva 10/10 bilateralmente; riflessi pupillari normali, senza difetto afferente, e campi visivi conservati. Fundus non esplorabile stanotte; oftalmologo non disponibile."
+  ],
+  [
+   "MEDICO",
+   "Esame neurologico focale: nervi cranici, forza e sensibilità ai quattro arti, prova indice-naso, deambulazione, segni meningei, ricerca di deficit focali compatibili con ictus"
+  ],
+  [
+   "MONDO",
+   "EO: esame neurologico senza deficit focali; nervi cranici, forza, sensibilità, coordinazione e deambulazione nella norma; assenti segni meningei."
+  ],
+  [
+   "MEDICO",
+   "Prelievo ematico urgente: emocromo con piastrine, PCR, VES, glicemia, creatinina, elettroliti, transaminasi, fibrinogeno, INR"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: GB 10,2×10⁹/L, Hb 11,4 g/dL, piastrine 480×10⁹/L; PCR 96 mg/L, VES 88 mm/h; glicemia 118 mg/dL, creatinina 0,9 mg/dL. Elettroliti, transaminasi, fibrinogeno e INR nella norma."
+  ],
+  [
+   "MEDICO",
+   "Decisione terapeutica immediata: avvio subito metilprednisolone 1 g endovena in infusione (arterite a cellule giganti con amaurosi transitoria = urgenza oftalmologica), senza attendere esami o imaging; monitoraggio glicemia e PA, protezione gastrica"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Richiedo ecografia color-Doppler delle arterie temporali e ascellari (segno dell'alone, compression sign) da eseguire entro 24-72 ore dall'avvio degli steroidi, fast-track; in alternativa programmazione biopsia dell'arteria temporale entro 1-2 settimane senza sospendere la terapia"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: ecografia color-Doppler delle arterie temporali e ascellari non disponibile stanotte; disponibile domattina in percorso fast-track."
+  ],
+  [
+   "MEDICO",
+   "Decisione: ricovero in area medica/reumatologia per proseguire metilprednisolone ev 1 g/die per 3 giorni e poi prednisone 1 mg/kg (60 mg/die), consulenza oftalmologica alla prima disponibilità in mattinata, consulenza reumatologica, monitoraggio visus ogni turno con istruzione a segnalare subito ogni nuovo calo visivo"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: Arterite a cellule giganti craniale insorta durante la riduzione del prednisone a 5 mg in paziente con polimialgia reumatica in ricaduta (cefalea temporale bilaterale di nuova insorgenza, claudicatio mandibolare, amaurosi transitoria dell'occhio destro, arteria temporale destra ispessita ipopulsante e dolente, PCR 96 e VES 88, piastrinosi): emergenza oftalmologica con rischio imminente di cecità permanente. Ho già avviato metilprednisolone 1 g ev (da proseguire 3 giorni, poi prednisone 60 mg/die a scalare), ricovero, ecografia fast-track temporali/ascellari domattina, biopsia dell'arteria temporale entro 1-2 settimane senza sospendere gli steroidi, consulenza oftalmologica e reumatologica in mattinata, monitoraggio del visus, protezione gastrica, controllo di glicemia e PA, valutazione precoce di tocilizumab come risparmiatore di steroidi. NON attendere ecografia, biopsia o consulenze prima di trattare, NON riprendere semplicemente la dose precedente di 15 mg di prednisone, NON dimettere con codice verde né derubricare a semplice recidiva di polimialgia o cefalea tensiva, NON considerare rassicurante il visus 10/10 attuale (l'amaurosi fugace è il segnale d'allarme). Non è indicata TC cranio urgente in assenza di deficit focali e non va usata la neuroimaging per rimandare la terapia."
+  ]
+ ],
+ "final": "DECISIONE FINALE: Arterite a cellule giganti craniale insorta durante la riduzione del prednisone a 5 mg in paziente con polimialgia reumatica in ricaduta (cefalea temporale bilaterale di nuova insorgenza, claudicatio mandibolare, amaurosi transitoria dell'occhio destro, arteria temporale destra ispessita ipopulsante e dolente, PCR 96 e VES 88, piastrinosi): emergenza oftalmologica con rischio imminente di cecità permanente. Ho già avviato metilprednisolone 1 g ev (da proseguire 3 giorni, poi prednisone 60 mg/die a scalare), ricovero, ecografia fast-track temporali/ascellari domattina, biopsia dell'arteria temporale entro 1-2 settimane senza sospendere gli steroidi, consulenza oftalmologica e reumatologica in mattinata, monitoraggio del visus, protezione gastrica, controllo di glicemia e PA, valutazione precoce di tocilizumab come risparmiatore di steroidi. NON attendere ecografia, biopsia o consulenze prima di trattare, NON riprendere semplicemente la dose precedente di 15 mg di prednisone, NON dimettere con codice verde né derubricare a semplice recidiva di polimialgia o cefalea tensiva, NON considerare rassicurante il visus 10/10 attuale (l'amaurosi fugace è il segnale d'allarme). Non è indicata TC cranio urgente in assenza di deficit focali e non va usata la neuroimaging per rimandare la terapia."
+}

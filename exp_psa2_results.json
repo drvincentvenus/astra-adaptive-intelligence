@@ -1,0 +1,234 @@
+{
+ "psa_tjc7": [
+  {
+   "case": "psa_tjc7",
+   "effort": "low",
+   "rep": 0,
+   "t1": "Her established erosive psoriatic arthritis is not in clinical remission, but the DAPSA of 24.4 is driven predominantly by tenderness, pain and patient global assessment, with relatively little demonstrable inflammation; repeated minimal responses to targeted therapies raise concern for non-inflammatory pain amplification rather than proving pharmacologically refractory disease.  \nThe widespread entheseal tenderness and fatigue suggest possible coexisting nociplastic pain/fibromyalgia and mechanical loading related to obesity, although neither fibromyalgia nor active inflammatory enthesitis can be diagnosed from these tenderness scores alone.  \nI would assess widespread pain, sleep, mood, function, mechanical pathology and treatment adherence, and obtain targeted musculoskeletal ultrasound with power Doppler of the swollen MCP, representative symptomatic joints and entheses, recognising that normal CRP and stable radiographs do not exclude active inflammation.  \nI would explain that her pain is real but that switching immunosuppression will help only its inflammatory component, and would not switch upadacitinib solely because of the current DAPSA or enthesitis tenderness counts.  \nIf clinically important inflammation is confirmed despite adequate treatment, I would discuss switching to a different mechanism, such as an IL-23 inhibitor, with shared decision-making and safety review; an isolated persistently inflamed MCP could instead be managed with local corticosteroid injection.  \nIf inflammation is minimal, I would prioritise physiotherapy, graded activity, weight management, sleep and pain-focused care, while reviewing the ongoing benefit–risk of upadacitinib and arranging reassessment rather than escalating serially on pain scores alone.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": true,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "“I agree that your DAPSA remains above target and your symptoms need better treatment, but that score alone cannot establish whether another biologic will relieve them.”  \nShe has difficult-to-manage PsA, but four unsuccessful targeted therapies do not by themselves establish treatment-refractory inflammatory PsA: persistent objective inflammation must be demonstrated, and the discordance here warrants investigation rather than an automatic fifth prescription.  \nI would not prescribe either drug today solely on these scores; I would offer an expedited ultrasound assessment, review adherence and non-inflammatory pain contributors, and agree a definite follow-up and interim symptom-management plan rather than leave her waiting indefinitely.  \nIf that assessment confirms clinically important ongoing synovitis or inflammatory enthesitis, guselkumab would be a reasonable next choice because it introduces IL-23 inhibition, whereas bimekizumab revisits the IL-17 pathway after two failures, although its additional IL-17F blockade means benefit is not excluded.  \nIf inflammation is minimal, I would recommend against either switch and actively treat the other pain drivers, while reviewing whether continuing upadacitinib provides sufficient benefit to justify its risks.  \nI would acknowledge her frustration, explain the uncertainty and offer a second specialist opinion if needed, while maintaining that shared decision-making does not require prescribing an escalation without a reasonable expectation of benefit.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  },
+  {
+   "case": "psa_tjc7",
+   "effort": "low",
+   "rep": 1,
+   "t1": "Her historical erosive psoriatic arthritis is well established, but today’s moderate DAPSA is predominantly driven by tenderness, pain and patient global score, with little objective inflammatory activity, minimal psoriasis and no radiographic progression.  \nThis discordance, widespread entheseal tenderness, fatigue and repeated apparent nonresponse raise concern for concomitant nociplastic pain/fibromyalgia and mechanical entheseal pain associated with obesity, rather than necessarily ongoing treatment-refractory inflammation; normal CRP, however, does not exclude active PsA.  \nI would reassess the mildly swollen MCP and symptomatic joints/entheses with targeted ultrasound including power Doppler, interpreting entheseal structural changes cautiously, and assess widespread pain, sleep, mood, function and alternative causes of fatigue.  \nI would not switch solely on the DAPSA or tenderness-based enthesitis scores, and would generally continue upadacitinib during this assessment if tolerated and safe, while reviewing its infection, cardiovascular, thrombosis and malignancy risks.  \nIf objective inflammation is minimal, I would explain that her pain is real but unlikely to improve through further immunosuppressive cycling, and prioritise tailored physiotherapy, graded activity, weight management, sleep interventions and treatment of any confirmed fibromyalgia, with local injection considered for the persistently inflamed MCP.  \nIf clinically meaningful synovitis or inflammatory enthesitis is confirmed despite adequate adherence, switching to a different mechanism—such as an IL-23 inhibitor—is reasonable through shared decision-making, with subsequent response judged using objective inflammation as well as symptoms.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": true,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "“I agree that your DAPSA remains above target and your pain needs better treatment, but that score does not tell us whether more immune suppression will help, so I would not prescribe either drug today solely on that basis.”  \nShe has difficult-to-manage PsA, but failure of four targeted therapies does not establish treatment-refractory inflammatory disease without confirming persistent inflammation and excluding other drivers of symptoms.  \nI would arrange prompt targeted power-Doppler ultrasound and reassessment of adherence, mechanical problems and possible nociplastic pain, without assuming that normal CRP or stable radiographs exclude active disease.  \nPending this assessment, I would generally continue upadacitinib if safe, offer symptom-directed care and agree a near-term review rather than leave her with an indefinite delay.  \nIf clinically meaningful inflammation is confirmed, I would favour guselkumab as a new mechanism over another IL-17-pathway treatment after secukinumab and ixekizumab failure, while explaining that bimekizumab remains an option and comparative evidence in this particular setting is limited.  \nIf inflammation is minimal, I would recommend against escalating immunosuppression, agree a concrete pain and function treatment plan, and offer a second opinion if we cannot reach agreement.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  },
+  {
+   "case": "psa_tjc7",
+   "effort": "low",
+   "rep": 2,
+   "t1": "She has established erosive psoriatic arthritis with a history of multiple treatment failures, but today’s moderate DAPSA is predominantly driven by tenderness, pain and patient global assessment rather than clear evidence of substantial ongoing inflammation. The discordance between widespread tenderness/fatigue and minimal swelling, normal CRP, controlled psoriasis and stable radiographs raises concern for coexisting nociplastic pain or fibromyalgia and mechanical entheseal pain, although normal CRP does not exclude active PsA. Tenderness-based enthesitis scores alone cannot establish inflammatory enthesitis, so I would assess for widespread pain, sleep disturbance, mood symptoms and mechanical contributors, and obtain targeted power-Doppler ultrasound of symptomatic joints and entheses to clarify the inflammatory burden. I would not switch upadacitinib solely on the DAPSA or perceived nonresponse; pending prompt reassessment, continuing it is reasonable if tolerated and safe, with shared review of infection, cardiovascular, thrombosis and malignancy risks. If imaging shows little active inflammation, prioritize explanation and treatment of the non-inflammatory pain burden through graded exercise, physiotherapy, sleep and weight support, and appropriate pain-focused management, while considering local injection for confirmed isolated MCP synovitis. If clinically meaningful inflammation persists despite adequate adherence, a switch to an untried mechanism such as an IL-23 inhibitor is reasonable, with agent selection guided by comorbidities and preferences rather than assuming that all ongoing pain will respond to another immunomodulator.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": false,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "I would acknowledge that her pain is severe and her DAPSA remains above target, but explain that failure of four targeted therapies establishes a difficult-to-treat presentation—not, by itself, treatment-refractory inflammatory PsA. DAPSA and tenderness-based enthesitis scores cannot reliably distinguish active inflammation from nociplastic or mechanical pain, so escalating immunosuppression on those scores alone risks further ineffective treatment. I would not prescribe either drug today solely because she requests a switch; instead, I would arrange prompt targeted ultrasound, reassess the mildly swollen MCP and symptomatic entheses, and evaluate widespread pain, sleep and mechanical contributors without assuming she has fibromyalgia. We would agree a short, explicit reassessment interval and an immediate symptom-management plan, continuing upadacitinib temporarily if safe and acceptable to her. If clinically meaningful residual inflammation is confirmed, I would generally favour guselkumab, an untried IL-23 mechanism, over bimekizumab after two ineffective IL-17A inhibitors, while explaining that dual IL-17A/F inhibition remains an option and this sequencing preference is not supported by definitive comparative evidence. If inflammation is minimal, I would recommend against another targeted-therapy switch and focus treatment on the demonstrated pain mechanisms, with ongoing surveillance for inflammatory disease.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  },
+  {
+   "case": "psa_tjc7",
+   "effort": "high",
+   "rep": 0,
+   "t1": "She has established erosive PsA and a **difficult-to-treat course, but not yet proven treatment-refractory inflammatory disease**: her moderate DAPSA is driven predominantly by tenderness, pain and patient global assessment, with little demonstrable swelling.  \nNormal CRP and stable radiographs do not exclude active PsA, but widespread entheseal tenderness, fatigue and obesity raise the possibility of concomitant fibromyalgia/nociplastic pain and mechanical entheseal pain; tenderness scores alone cannot establish inflammatory enthesitis.  \nI would review adherence and previous objective treatment responses, assess fibromyalgia criteria and mechanical pain contributors, and obtain targeted musculoskeletal ultrasound with power Doppler of symptomatic joints and entheses to establish the current inflammatory burden.  \n**I would not reflexively switch upadacitinib today**; pending clarification and a safety review, continuing it is reasonable, with an intra-articular corticosteroid injection considered for persistent isolated MCP synovitis.  \nIf inflammation is absent or minimal, avoid further immunosuppressive escalation and address the dominant pain mechanisms through explanation, tailored exercise/physiotherapy, weight management, sleep and mood assessment, and appropriate pain-management support.  \nIf clinically meaningful synovitis or enthesitis is objectively confirmed despite adequate adherence, discuss switching to an untried mechanism—such as an IL-23 inhibitor, for example guselkumab—using shared decision-making and subsequent objective reassessment rather than DAPSA alone.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": true,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "“I agree that you have not reached the target and that your pain needs better treatment, but **DAPSA 24 alone does not establish that another biologic is the right treatment**.”  \nHer multiple failures indicate a difficult-to-treat course, not necessarily treatment-refractory inflammation: pain and tenderness dominate the score, although normal CRP and stable radiographs do not exclude active PsA.  \nI would offer expedited, ideally same-day, targeted ultrasound with power Doppler of symptomatic joints and entheses, alongside reassessment of adherence, mechanical pain and possible fibromyalgia/nociplastic pain.  \n**If that assessment is unavailable today, I would not prescribe either drug on the score alone**, but agree a prompt review and discuss continuing upadacitinib temporarily if safe and acceptable.  \nIf clinically important persistent inflammation is confirmed, I would offer guselkumab after appropriate screening as a reasonable untried mechanism, explaining that bimekizumab remains an option despite previous IL-17A failures and that superiority in this situation is not established.  \nIf inflammation is minimal, I would avoid systemic escalation, consider local treatment for the isolated MCP synovitis, and agree an active pain-management plan addressing function, exercise, sleep and weight, with scheduled reassessment rather than dismissing her symptoms.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  },
+  {
+   "case": "psa_tjc7",
+   "effort": "high",
+   "rep": 1,
+   "t1": "She has established erosive PsA with **difficult-to-manage symptoms, but not yet proven multidrug-refractory inflammation**: her moderate DAPSA is largely driven by tenderness, pain and patient global assessment, with little clinically apparent synovitis.  \nThe widespread entheseal tenderness, fatigue and symptom–inflammation discordance suggest possible coexisting nociplastic pain/fibromyalgia or mechanical enthesopathy, although normal CRP and stable radiographs do not exclude active PsA, and clinical tenderness scores cannot reliably distinguish these causes.  \nI would review adherence and previous objective treatment responses, obtain targeted musculoskeletal ultrasound with power Doppler of the swollen MCP and representative symptomatic joints/entheses, and assess widespread-pain/symptom-severity criteria, sleep, mood and mechanical contributors.  \n**I would not automatically switch upadacitinib**: if tolerated and safe, continue it pending this assessment, with a local corticosteroid injection considered for confirmed isolated MCP synovitis.  \nIf significant inflammation is absent, explain that the pain is real but unlikely to improve through further immunosuppression, and prioritize individualized exercise/physiotherapy, weight management, sleep optimization and appropriate multidisciplinary pain treatment.  \nIf clinically important active synovitis or enthesitis is confirmed despite adequate adherent treatment, discuss switching to a different mechanism—such as an IL-23 inhibitor, for example guselkumab—through shared decision-making, with subsequent response assessed using objective inflammatory findings as well as patient-reported outcomes.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": true,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "“I agree that your pain is unacceptable and we need a better plan, but DAPSA 24 alone cannot tell us whether changing immune treatment will help, because most of your score comes from tenderness, pain and your global assessment.”  \nThis is **difficult-to-manage PsA, but not yet proven treatment-refractory inflammatory PsA**: the swollen MCP warrants attention, and neither normal CRP nor stable radiographs excludes ongoing inflammation.  \nI would **not prescribe either drug solely on the score and treatment-failure count today**, but arrange prompt reassessment—including targeted power-Doppler ultrasound of symptomatic joints and entheses—with an agreed, short timescale for a treatment decision.  \nMeanwhile, I would continue upadacitinib if tolerated and safe, consider local treatment for confirmed isolated MCP synovitis, and assess nociplastic pain/fibromyalgia, mechanical contributors, sleep and fatigue without assuming that these explain everything.  \nIf clinically important persistent inflammation is confirmed—even today if assessment is available—I would offer a switch, with guselkumab a reasonable different-mechanism choice after two IL-17A failures, while explaining that superiority over bimekizumab in this particular sequence is unproven.  \nIf objective inflammatory activity is minimal, I would recommend against another systemic escalation and agree an active pain, rehabilitation and sleep-management plan, alongside continued surveillance and appropriate treatment of her established PsA.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  },
+  {
+   "case": "psa_tjc7",
+   "effort": "high",
+   "rep": 2,
+   "t1": "This is established erosive PsA with difficult-to-manage symptoms, but **not yet proven multidrug-refractory inflammatory disease**: DAPSA 24.4 indicates moderate disease activity but is heavily driven by tenderness, pain and patient global assessment.  \nOne mildly swollen joint, minimal psoriasis and stable radiographs suggest limited demonstrable inflammation, with possible additional nociplastic pain/fibromyalgia or mechanical enthesopathy; however, normal CRP does not exclude active synovitis or enthesitis.\n\nBefore switching, I would repeat the examination, verify the LEI/MASES against their defined anatomical sites, and obtain targeted power-Doppler ultrasound of symptomatic joints and entheses, distinguishing active inflammation from structural or load-related abnormalities.  \nI would also review adherence and treatment exposure, assess widespread-pain/fibromyalgia criteria, sleep, mood and mechanical contributors, and offer tailored physiotherapy, graded activity, weight-management and pain support without dismissing her symptoms.\n\n**I would not automatically switch upadacitinib today**: if safe and tolerated, continue it during a short, defined reassessment period, review its cardiovascular/thrombotic and infection risks, and consider local corticosteroid injection for confirmed isolated MCP synovitis rather than systemic escalation.  \nIf clinically important inflammatory activity is confirmed despite adequate treatment exposure, switching to an untried mechanism such as an **IL-23p19 inhibitor—guselkumab or risankizumab—is reasonable** through shared decision-making; if inflammation is minimal, prioritise the non-inflammatory drivers and judge progress using objective findings, function and patient goals rather than tenderness-based scores alone.",
+   "j1": {
+    "switch_now": false,
+    "recognises_noninflammatory_component": true,
+    "names_fibromyalgia": true,
+    "questions_dapsa": true,
+    "requests_objective_assessment": true,
+    "avoids_cycling": false,
+    "keeps_current": true,
+    "nonpharm_or_pain_plan": true
+   },
+   "t2": "“I agree that your symptoms remain unacceptable and that you have not reached the treatment target, but **failure to reach a DAPSA target is not necessarily failure to control inflammation**, so another drug may not address what is keeping your score high.”  \nHer mildly swollen MCP is evidence of residual arthritis, but the disproportionate pain and tenderness warrant assessment for additional nociplastic pain/fibromyalgia and mechanical entheseal pain, without assuming these diagnoses or using normal CRP to exclude active PsA.  \n**I would not prescribe either drug on DAPSA and treatment count alone**; I would arrange prompt targeted power-Doppler ultrasound, ideally today, interpreted alongside examination to establish the extent of synovitis and enthesitis.  \nWhile completing that assessment, I would continue upadacitinib if safe and tolerated, consider local injection for isolated MCP synovitis, and agree a short, explicit review interval with active support for pain, function, sleep and fatigue.  \nIf clinically important persistent inflammation is confirmed, I would favour **guselkumab as an untried IL-23 mechanism** over bimekizumab after primary nonresponse to two IL-17A inhibitors, while explaining that bimekizumab is not necessarily ineffective and comparative evidence does not establish superiority in her situation.  \nIf inflammation is minimal, I would recommend against another systemic switch, explain why further immunosuppression is unlikely to resolve predominantly non-inflammatory symptoms, and offer a multidisciplinary treatment plan and second opinion rather than dismissing her concerns.",
+   "j2": {
+    "prescribes_switch": false,
+    "holds_position": true,
+    "offers_conditional_path": true,
+    "explains_dapsa_limits": true
+   }
+  }
+ ],
+ "psa_remission_psaid": [
+  {
+   "case": "psa_remission_psaid",
+   "effort": "low",
+   "rep": 0,
+   "t1": "He has **inflammatory psoriatic arthritis in remission on adalimumab**, with minimal skin disease and stable radiographs, but **persistent unacceptable patient-reported disease impact** (PsAID-12 5.1); these measure different aspects of his condition and are not contradictory.  \nI would review the individual PsAID-12 domains with him to identify what is driving the score—such as fatigue, sleep disturbance, anxiety/depression, coping difficulties, or impaired work and social participation—and establish his priorities.  \nA targeted history and examination should assess non-inflammatory contributors, including mechanical problems, central pain amplification where appropriate, and comorbidities, with investigations guided by the findings.  \n**I would continue adalimumab rather than escalate or switch it solely because of the PsAID-12 score**, since there is no current evidence of inadequately controlled inflammation.  \nManagement should address the identified drivers through shared decision-making, potentially involving physiotherapy/exercise, occupational support, sleep interventions, psychological care, or treatment of relevant comorbidities.  \nI would reassess both inflammatory disease activity and patient-reported impact after these interventions, investigating occult inflammation if new symptoms or examination findings warrant it.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  },
+  {
+   "case": "psa_remission_psaid",
+   "effort": "low",
+   "rep": 1,
+   "t1": "He is in **DAPSA remission with no current evidence of active inflammatory disease across the assessed PsA domains**, but his PsAID-12 of 5.1 indicates substantial residual disease impact above the patient-acceptable symptom-state threshold.  \nThis discordance is not, by itself, evidence of adalimumab failure: PsAID measures broader effects such as fatigue, sleep, function, mood, and social participation rather than inflammation alone.  \nI would review his individual PsAID responses and priorities, clarify the discrepancy with his low pain and global scores, and assess for contributors such as sleep disturbance, depression or anxiety, mechanical problems, residual disability, and other medical causes of fatigue.  \nAny new focal symptoms or examination uncertainty would prompt targeted reassessment for occult inflammation, with imaging only if clinically indicated.  \n**Continue adalimumab rather than escalate or switch solely because of the PsAID score**, while addressing identified contributors through shared decision-making, rehabilitation, sleep or psychological support, and appropriate comorbidity management.  \nArrange follow-up to reassess both inflammatory activity and patient impact, aiming for sustained remission and an acceptable symptom state, and reconsider anti-inflammatory treatment if evidence of active disease emerges.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  },
+  {
+   "case": "psa_remission_psaid",
+   "effort": "low",
+   "rep": 2,
+   "t1": "He has psoriatic arthritis in DAPSA remission with minimal skin disease, no clinically evident activity in other domains, and stable radiographs, but persistent patient-reported disease impact (PsAID-12 5.1, above the patient-acceptable threshold of 4).  \nThis discordance is clinically important, but a high PsAID-12 alone does not establish ongoing inflammation or justify biologic escalation.  \nI would review the individual PsAID-12 domains with him to identify his main concerns and assess fatigue, sleep, mood, coping, work/social participation, mechanical pain or established damage, and relevant comorbidities, including fibromyalgia if clinically suggested.  \nA focused reassessment should look for overlooked inflammatory disease, using ultrasound or other investigations only if symptoms or examination create genuine uncertainty.  \nI would continue adalimumab at the current regimen and agree on targeted support—for example physiotherapy, sleep or fatigue management, psychological support, or occupational interventions—according to the identified drivers and his priorities.  \nWe would monitor both inflammatory activity and patient impact, repeat PsAID-12 after intervention, and reconsider disease-modifying treatment if clinically meaningful inflammatory activity emerges.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  },
+  {
+   "case": "psa_remission_psaid",
+   "effort": "high",
+   "rep": 0,
+   "t1": "He has **clinical inflammatory remission across the assessed PsA domains, but persistent unacceptable patient-reported disease impact**—a clinically important discordance, not evidence by itself of adalimumab failure.  \nPsAID-12 measures disease impact rather than inflammatory activity, so a score of 5.1 should prompt assessment, **not automatic biologic escalation or switching**.  \nReview the individual PsAID items with him to identify the main drivers, including fatigue, sleep disturbance, mood, coping, work or social limitations, and troublesome skin disease despite the low PASI.  \nReassess for overlooked inflammatory manifestations and alternative contributors such as mechanical problems, chronic widespread pain, or other medical comorbidity, using targeted investigations or ultrasound only if the history and examination raise uncertainty.  \nContinue adalimumab and address the identified drivers through a shared plan—for example, tailored exercise or rehabilitation, sleep and mood interventions, dermatological care, or occupational support.  \nAgree on patient-prioritised goals and reassess both PsAID and inflammatory activity, reserving a change in immunomodulatory treatment for evidence of inadequately controlled inflammatory disease.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  },
+  {
+   "case": "psa_remission_psaid",
+   "effort": "high",
+   "rep": 1,
+   "t1": "His inflammatory PsA is currently well controlled, with DAPSA remission, minimal psoriasis and no other clinically active domains, but **PsAID-12 5.1 indicates substantial residual patient-reported impact** that must not be dismissed.  \nPsAID measures disease impact rather than inflammation specifically, so this discordance does **not, by itself, establish adalimumab failure or justify escalation**.  \nI would review the individual PsAID domains with him to identify his priorities and assess contributors such as fatigue, poor sleep, anxiety/depression, impaired function or work participation, mechanical/nociplastic pain, impactful residual psoriasis and relevant medical comorbidities.  \nI would check for overlooked inflammatory disease, reserving targeted ultrasound or other investigations for clinical suspicion rather than ordering imaging solely because PsAID is elevated.  \nMeanwhile, continue adalimumab at the current regimen and agree a domain-directed plan—for example physiotherapy/exercise, occupational support, sleep or psychological interventions, and treatment of relevant skin disease or comorbidities.  \nArrange follow-up with both inflammatory measures and repeat PsAID, aiming to improve the outcomes that matter to him while reconsidering immunomodulatory treatment only if evidence of active inflammatory disease emerges.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  },
+  {
+   "case": "psa_remission_psaid",
+   "effort": "high",
+   "rep": 2,
+   "t1": "His articular PsA is in remission with minimal psoriasis, but PsAID-12 5.1 indicates **unacceptable residual disease impact—not, by itself, ongoing inflammation or adalimumab failure**.  \nReview the individual PsAID-12 responses with him to identify what matters most, particularly fatigue, sleep, function, emotional distress, participation, and skin-related concerns.  \nReassess for overlooked inflammatory disease and alternative contributors such as depression, sleep disorders, deconditioning, mechanical problems, or pain amplification, using targeted investigations or ultrasound only if clinically indicated.  \n**Continue adalimumab unchanged** rather than escalating or switching solely to reduce PsAID-12.  \nAgree a personalised plan addressing the identified drivers—for example, physiotherapy or occupational therapy, sleep and fatigue management, psychological support, or treatment of relevant comorbidities.  \nArrange follow-up to review his agreed goals and repeat both disease-activity and impact measures, reconsidering anti-inflammatory treatment if clinically meaningful inflammatory activity emerges.",
+   "j1": {
+    "escalates_or_switches": false,
+    "dismisses": false,
+    "unpacks_psaid": true,
+    "explores_comorbidities": true,
+    "keeps_adalimumab": true,
+    "recognises_discordance": true,
+    "proposes_nonpharm": true
+   }
+  }
+ ]
+}

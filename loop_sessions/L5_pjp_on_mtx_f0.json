@@ -1,0 +1,189 @@
+{
+ "case": "L5_pjp_on_mtx",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi dica esattamente la sua terapia per l'artrite: qual è la pastiglia settimanale e il dosaggio, che punture fa (nome del farmaco, ogni quanto, da quanto tempo), prende cortisone e a che dose, e fa una profilassi con Bactrim?"
+  },
+  {
+   "role": "assistant",
+   "content": "Il metotrexato non lo prendo in pastiglie: faccio una puntura da 20 mg una volta a settimana, insieme all’acido folico. Faccio anche etanercept 50 mg una volta a settimana da quattro anni e prendo prednisone 5 mg tutti i giorni; il Bactrim non lo prendo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Mi descriva la tosse e il fiatone: la tosse è secca o con catarro, il fiatone compare a riposo o sotto sforzo (riesce a fare le scale?), è peggiorato progressivamente in queste 3 settimane, ha avuto febbre serale, sudorazioni notturne, calo di peso, dolore toracico o emoftoe?"
+  },
+  {
+   "role": "assistant",
+   "content": "La tosse è secca da circa tre settimane; all’inizio avevo fiatone soprattutto facendo le scale, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche a riposo mentre parlo. La sera ho avuto 37,5-38; non ho dolore al petto né sangue con la tosse."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo toracico: auscultazione polmonare completa (crepitii, sibili, riduzione MV), ricerca di desaturazione da sforzo facendola camminare qualche passo con saturimetro, e ispezione del cavo orale per candidosi"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: crepitii fini bibasali."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Emogasanalisi arteriosa in aria ambiente (pH, PaO2, PaCO2, lattati, gradiente A-a)"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: EGA in aria ambiente: pH 7,46; PaO₂ 58 mmHg; PaCO₂ 33 mmHg; lattati 1,2 mmol/L; gradiente A-a circa 50 mmHg."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esami ematici urgenti: emocromo con formula e conta linfociti, PCR, procalcitonina, LDH, creatinina, transaminasi, elettroliti, beta-D-glucano, sierologia HIV, emocolture x2"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emocromo con formula: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: TC torace ad alta risoluzione senza mezzo di contrasto"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: LDH sierico"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: LDH 480 U/L."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Beta-D-glucano sierico (1,3)"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: beta-D-glucano sierico 380 pg/mL, positivo."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: PCR e procalcitonina"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: PCR 68 mg/L."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Decisione terapeutica immediata: ossigeno per SpO2 ≥92%, inizio subito trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi più prednisone 40 mg x2/die (PaO2 <70 mmHg), sospensione di metotrexato ed etanercept, ricovero"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale al 95%."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiesta espettorato indotto o broncoscopia con BAL per PCR/immunofluorescenza Pneumocystis jirovecii, PCR virus respiratori e CMV, esame batterioscopico e colturale inclusi micobatteri"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: broncoscopia con BAL prenotabile per domani; PCR per *Pneumocystis jirovecii* disponibile entro 24 ore."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi dica esattamente la sua terapia per l'artrite: qual è la pastiglia settimanale e il dosaggio, che punture fa (nome del farmaco, ogni quanto, da quanto tempo), prende cortisone e a che dose, e fa una profilassi con Bactrim?"
+  ],
+  [
+   "MONDO",
+   "Il metotrexato non lo prendo in pastiglie: faccio una puntura da 20 mg una volta a settimana, insieme all’acido folico. Faccio anche etanercept 50 mg una volta a settimana da quattro anni e prendo prednisone 5 mg tutti i giorni; il Bactrim non lo prendo."
+  ],
+  [
+   "MEDICO",
+   "Mi descriva la tosse e il fiatone: la tosse è secca o con catarro, il fiatone compare a riposo o sotto sforzo (riesce a fare le scale?), è peggiorato progressivamente in queste 3 settimane, ha avuto febbre serale, sudorazioni notturne, calo di peso, dolore toracico o emoftoe?"
+  ],
+  [
+   "MONDO",
+   "La tosse è secca da circa tre settimane; all’inizio avevo fiatone soprattutto facendo le scale, ma negli ultimi quattro giorni è peggiorato e ora mi manca il fiato anche a riposo mentre parlo. La sera ho avuto 37,5-38; non ho dolore al petto né sangue con la tosse."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo toracico: auscultazione polmonare completa (crepitii, sibili, riduzione MV), ricerca di desaturazione da sforzo facendola camminare qualche passo con saturimetro, e ispezione del cavo orale per candidosi"
+  ],
+  [
+   "MONDO",
+   "EO: crepitii fini bibasali."
+  ],
+  [
+   "MEDICO",
+   "Emogasanalisi arteriosa in aria ambiente (pH, PaO2, PaCO2, lattati, gradiente A-a)"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: EGA in aria ambiente: pH 7,46; PaO₂ 58 mmHg; PaCO₂ 33 mmHg; lattati 1,2 mmol/L; gradiente A-a circa 50 mmHg."
+  ],
+  [
+   "MEDICO",
+   "Esami ematici urgenti: emocromo con formula e conta linfociti, PCR, procalcitonina, LDH, creatinina, transaminasi, elettroliti, beta-D-glucano, sierologia HIV, emocolture x2"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emocromo con formula: GB 6,9 ×10⁹/L, linfociti 0,6 ×10⁹/L, Hb 12,8 g/dL, PLT 260 ×10⁹/L."
+  ],
+  [
+   "MEDICO",
+   "TC torace ad alta risoluzione senza mezzo di contrasto"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: vetro smerigliato diffuso bilaterale a distribuzione centrale, con risparmio subpleurico."
+  ],
+  [
+   "MEDICO",
+   "LDH sierico"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: LDH 480 U/L."
+  ],
+  [
+   "MEDICO",
+   "Beta-D-glucano sierico (1,3)"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: beta-D-glucano sierico 380 pg/mL, positivo."
+  ],
+  [
+   "MEDICO",
+   "PCR e procalcitonina"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: PCR 68 mg/L."
+  ],
+  [
+   "MEDICO",
+   "Decisione terapeutica immediata: ossigeno per SpO2 ≥92%, inizio subito trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi più prednisone 40 mg x2/die (PaO2 <70 mmHg), sospensione di metotrexato ed etanercept, ricovero"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO. Con ossigeno a 2 L/min la SpO₂ sale al 95%."
+  ],
+  [
+   "MEDICO",
+   "Richiesta espettorato indotto o broncoscopia con BAL per PCR/immunofluorescenza Pneumocystis jirovecii, PCR virus respiratori e CMV, esame batterioscopico e colturale inclusi micobatteri"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: broncoscopia con BAL prenotabile per domani; PCR per *Pneumocystis jirovecii* disponibile entro 24 ore."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: polmonite da Pneumocystis jirovecii in paziente con AR immunodepressa (metotrexato 20 mg sc + etanercept + prednisone 5 mg, senza profilassi): tosse secca subacuta 3 settimane, ipossiemia PaO2 58 con gradiente A-a 50, linfopenia 0,6, LDH 480, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico. Decisioni immediate: ricovero in area medica/subintensiva con ossigeno per SpO2 ≥92%, trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi per 21 giorni, prednisone 40 mg x2 per 5 giorni poi scalare (PaO2 <70), sospensione di metotrexato ed etanercept, mantenimento del prednisone senza sospensione brusca, monitoraggio di potassio, creatinina ed emocromo in corso di TMP-SMX. Conferma con BAL/espettorato indotto per PCR Pneumocystis entro 24 ore, con esclusione di micobatteri, CMV e virus respiratori, sierologia HIV e emocolture; considerare polmonite da metotrexato solo come diagnosi alternativa se PCR negativa. Cosa NON fare: non attendere la conferma microbiologica per iniziare TMP-SMX (il BAL resta positivo per giorni), non dimettere come virosi o trattare con sola antibioticoterapia standard per CAP, non sospendere il cortisone né dare steroidi senza copertura anti-Pneumocystis, non riprendere metotrexato ed etanercept fino a guarigione e avvio di profilassi. Alla dimissione: profilassi con TMP-SMX per tutta la durata dell'immunosoppressione e rivalutazione reumatologica della terapia."
+  ]
+ ],
+ "final": "DECISIONE FINALE: polmonite da Pneumocystis jirovecii in paziente con AR immunodepressa (metotrexato 20 mg sc + etanercept + prednisone 5 mg, senza profilassi): tosse secca subacuta 3 settimane, ipossiemia PaO2 58 con gradiente A-a 50, linfopenia 0,6, LDH 480, beta-D-glucano 380 positivo, HRCT con vetro smerigliato diffuso centrale a risparmio subpleurico. Decisioni immediate: ricovero in area medica/subintensiva con ossigeno per SpO2 ≥92%, trimetoprim-sulfametossazolo ev 15-20 mg/kg/die di TMP in 3-4 dosi per 21 giorni, prednisone 40 mg x2 per 5 giorni poi scalare (PaO2 <70), sospensione di metotrexato ed etanercept, mantenimento del prednisone senza sospensione brusca, monitoraggio di potassio, creatinina ed emocromo in corso di TMP-SMX. Conferma con BAL/espettorato indotto per PCR Pneumocystis entro 24 ore, con esclusione di micobatteri, CMV e virus respiratori, sierologia HIV e emocolture; considerare polmonite da metotrexato solo come diagnosi alternativa se PCR negativa. Cosa NON fare: non attendere la conferma microbiologica per iniziare TMP-SMX (il BAL resta positivo per giorni), non dimettere come virosi o trattare con sola antibioticoterapia standard per CAP, non sospendere il cortisone né dare steroidi senza copertura anti-Pneumocystis, non riprendere metotrexato ed etanercept fino a guarigione e avvio di profilassi. Alla dimissione: profilassi con TMP-SMX per tutta la durata dell'immunosoppressione e rivalutazione reumatologica della terapia."
+}

@@ -1,0 +1,350 @@
+[
+ {
+  "effort": "low",
+  "rep": 0,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "She has established erosive psoriatic arthritis, but today’s findings suggest that her high symptom burden may be driven predominantly by widespread nociplastic pain/possible concomitant fibromyalgia rather than uncontrolled inflammation; normal CRP and absent swelling support this interpretation but do not exclude active PsA.  \nHer DAPSA is dominated by tenderness, pain and patient global assessment, and universal entheseal tenderness is not proof of inflammatory enthesitis, particularly with poor sleep, fatigue and obesity.  \nI would not recommend another targeted-therapy switch solely on these scores: first reassess for synovitis and enthesitis, using targeted ultrasound with power Doppler at representative symptomatic sites, and assess fibromyalgia criteria, sleep disturbance including possible sleep apnoea, mood and mechanical contributors.  \nIf there is no convincing objective inflammation, I would provisionally maintain upadacitinib after reviewing its benefits and safety, explain that her pain is real but may require a different treatment approach, and offer graded exercise/physiotherapy, sleep management, weight support and appropriate psychological or pharmacological pain treatment rather than escalating immunosuppression.  \nIf active inflammation is confirmed despite adequate adherence, a switch to a different mechanism, such as an IL-23 inhibitor for peripheral arthritis/enthesitis, would be reasonable through shared decision-making, rather than another empiric IL-17 switch.  \nFollow-up should assess inflammatory disease activity and pain-related function separately, recognising that historical erosions establish prior inflammatory damage but do not demonstrate current treatment failure.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "I would **not switch again on the basis of DAPSA alone**: its persistent elevation is driven by tenderness and patient-reported symptoms, without current convincing evidence of uncontrolled inflammatory PsA.  \nThe pattern strongly suggests concomitant fibromyalgia/nociplastic pain, potentially with mechanical entheseal pain, rather than proving failure of another immunological mechanism; neither normal CRP nor absent swelling completely excludes inflammation.  \nIf not already performed, I would obtain targeted musculoskeletal ultrasound with power Doppler to look for synovitis and active enthesitis, interpret structural entheseal abnormalities cautiously given obesity, and formally assess widespread pain, sleep, fatigue, mood and function.  \nUnless objective inflammation is demonstrated, I would provisionally continue guselkumab if tolerated, review its ongoing indication and safety, and avoid escalating immunosuppression or using glucocorticoids to chase the DAPSA.  \nI would explain that “your pain is real, but switching immune treatments may not treat its main cause,” and agree a supported programme of tailored exercise, physiotherapy, sleep optimisation, weight management and appropriate multidisciplinary pain treatment.  \nFurther switching should require evidence of active inflammatory disease, with subsequent reviews tracking objective inflammation separately from pain and functional outcomes.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**Neither abatacept nor another TNF inhibitor is the appropriate next step without evidence of active inflammation**: this is established PsA with worsening widespread pain and disability, strongly suggestive of concomitant nociplastic pain/fibromyalgia rather than demonstrated multidrug-refractory inflammatory disease.  \nHer DAPSA is dominated by tenderness, pain and global assessment, and diffuse entheseal tenderness does not establish inflammatory enthesitis; normal CRP and absent swelling nevertheless cannot completely exclude inflammation.  \nI would halt score-driven switching, arrange a coordinated consultant-led review with her GP, and obtain targeted power-Doppler ultrasound if still outstanding, alongside assessment of fibromyalgia criteria, mechanical pain, mood and sleep disorders including sleep apnoea.  \nHer functional deterioration and tramadol use warrant prompt multidisciplinary pain and rehabilitation input, including a review of analgesic benefit and harms and, if ineffective, a supported gradual taper—not abrupt cessation—alongside sleep treatment, paced activity and vocational support.  \nI would provisionally maintain bimekizumab if tolerated while clarifying inflammatory activity, then review its ongoing benefit and safety rather than either escalating or withdrawing it reflexively.  \nI would explain that her pain is real and requires active treatment, but another immune-targeted switch should be considered only if objective inflammatory disease is demonstrated, with inflammation and pain-related disability monitored separately.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "“I believe your pain and the devastating effect it is having, but your examination and extensive ultrasound show no current evidence of active inflammatory arthritis or enthesitis: seven treatment courses without pain relief do not establish seven failures to control inflammation.”  \nShe has genuine historical erosive PsA, currently objectively quiescent, with a strong likelihood of concomitant fibromyalgia/nociplastic pain; I would confirm this clinically and assess sleep, mood, mechanical contributors and medication effects rather than label her as treatment-refractory inflammatory PsA.  \nI would explain that experimental immunosuppression is unlikely to address the apparent pain mechanism and carries avoidable risks, while offering a tertiary PsA second opinion to review this distinction—not a referral premised on eligibility for experimental treatment.  \nI would stop further score-driven switching and arrange a coordinated rheumatology–GP–pain rehabilitation plan, including urgent attention to sleep, functional restoration, vocational support and tramadol benefit and harms, with a supported gradual taper if ineffective.  \nCertolizumab’s ongoing indication and safety should be reviewed through shared decision-making: absent inflammation may reflect successful suppression, so neither escalation nor abrupt withdrawal is justified, although cautious tapering could be considered if sustained inflammatory remission is established.  \nWe should acknowledge that repeated switching has not addressed her worsening disability, agree clear clinical ownership, and monitor objective PsA activity separately from pain, sleep and function.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ },
+ {
+  "effort": "low",
+  "rep": 1,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "She has established erosive psoriatic arthritis, but her current presentation is more suggestive of **superimposed fibromyalgia/nociplastic pain than uncontrolled inflammatory PsA**, given widespread constant pain, fatigue, poor sleep, no swollen joints, normal CRP, minimal psoriasis and stable radiographs.  \nHer high DAPSA is driven by tenderness, pain and patient global assessment, while universally tender entheses and maximal clinical enthesitis scores do **not** establish active inflammatory enthesitis, particularly with obesity and widespread pain sensitisation.  \nNormal CRP and absent swelling do not exclude inflammation, so I would obtain targeted musculoskeletal ultrasound with power Doppler of representative symptomatic joints and entheses, interpreting structural entheseal changes cautiously rather than equating them with active disease.  \nI would also assess fibromyalgia using the widespread pain index and symptom severity scale, alongside mechanical pain, mood, sleep disturbance—including possible obstructive sleep apnoea—and functional impact.  \n**I would not switch targeted therapy solely because of this DAPSA**: pending reassessment, continuing upadacitinib is reasonable if tolerated and its individual safety profile remains acceptable, while explaining that genuine pain can persist despite inflammatory control and offering graded exercise, physiotherapy, sleep optimisation, weight management and appropriate pain-focused psychological or pharmacological support.  \nIf meaningful active inflammation is demonstrated, we should reassess adherence and prior responses and discuss a different mechanism, such as an IL-23 inhibitor for peripheral disease; if not, further immunosuppressive cycling is unlikely to relieve her dominant symptoms and adds avoidable risk.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "I would **not switch again on the basis of the DAPSA**: its persistent elevation remains driven by tenderness and patient-reported pain, without clinical or biochemical evidence of active inflammation, and does not establish guselkumab failure.  \nHer established PsA is not in doubt, but the dominant current problem is likely superimposed fibromyalgia/nociplastic pain; multiple apparent drug failures should not be labelled refractory inflammatory PsA without confirming ongoing inflammation.  \nIf not already performed, I would obtain targeted power-Doppler ultrasound of representative symptomatic joints and entheses, recognising that normal CRP and absent swelling alone cannot exclude active disease.  \nI would explain that her pain is real, but switching immune therapies repeatedly is unlikely to help pain arising predominantly from altered pain processing, and assess fibromyalgia, sleep apnoea, mood and mechanical contributors.  \nIf imaging supports inflammatory control, I would generally continue guselkumab if safe and tolerated, monitor objective PsA activity, and prioritise a shared rehabilitation plan incorporating paced exercise, sleep treatment, weight management and appropriate pain-focused therapies.  \nOnly convincing residual inflammatory activity would justify another targeted-therapy change, selected according to the active disease domain and her safety profile rather than the composite score alone.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**Neither abatacept nor another TNF inhibitor is the next step on these findings**: her worsening tenderness-driven DAPSA, without swollen joints or elevated CRP, does not demonstrate refractory inflammatory PsA.  \nThe longitudinal pattern strongly suggests dominant fibromyalgia/nociplastic pain with escalating sleep disturbance and disability, although her established erosive PsA still requires monitoring and normal CRP does not exclude inflammation.  \nI would review or obtain targeted power-Doppler ultrasound of symptomatic joints and entheses, formally assess fibromyalgia and mechanical contributors, and evaluate mood and obstructive sleep apnoea rather than count universal entheseal tenderness as inflammatory enthesitis.  \nIf objective inflammation remains absent, I would stop serial biologic switching—not automatically withdraw effective PsA suppression—and agree a consistent multidisciplinary plan with her GP and covering clinicians, generally maintaining bimekizumab if safe and tolerated pending that review.  \nHer tramadol needs prompt review for benefit, sedation, dependence and possible opioid-related pain amplification, with a supported gradual reduction if ineffective rather than escalation or abrupt cessation.  \nThe immediate priorities are restoring sleep and function through individually paced rehabilitation, pain-focused psychological support, weight and vocational support, and carefully selected non-opioid treatment, reserving another immunomodulator for demonstrable active inflammatory disease.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "“I believe your pain and the profound effect it has on your life, and your original psoriatic arthritis diagnosis is sound, but the examination and extensive ultrasound show **no current evidence of active inflammatory arthritis or enthesitis** to justify experimental immunosuppression.”  \nHer persistently high DAPSA reflects tenderness, pain and patient global scores rather than demonstrated inflammation: this is difficult-to-manage PsA with likely dominant fibromyalgia/nociplastic pain, not established treatment-refractory inflammatory PsA, and persistent pain does not prove that each targeted therapy failed to control inflammation.  \nI would offer a tertiary rheumatology second opinion for diagnostic and treatment reconciliation—not frame the referral as a request for experimental treatment—and explain that further immunosuppressive escalation currently offers little expected benefit with additional risk.  \nI would stop serial switching, review certolizumab’s safety and possible maintenance benefit through shared decision-making, and avoid automatically withdrawing PsA treatment simply because inflammation is currently controlled.  \nI would formally assess fibromyalgia, sleep disorders, mood and mechanical contributors, arrange coordinated multidisciplinary pain rehabilitation with functional and vocational goals, and review tramadol with her GP, considering a supported gradual taper if it provides no meaningful benefit.  \nFinally, I would agree a written plan across clinicians that tracks objective PsA activity separately from pain and disability, with escalation reconsidered only if convincing inflammatory activity emerges.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ },
+ {
+  "effort": "low",
+  "rep": 2,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "She has established erosive psoriatic arthritis, but today’s high DAPSA is driven by tenderness, pain and patient global assessment rather than demonstrable inflammatory activity; normal CRP does not exclude inflammation, but absent swelling, minimal psoriasis and stable radiographs argue against assuming refractory active PsA.  \nThe widespread constant pain, diffuse entheseal tenderness, fatigue and poor sleep strongly suggest concomitant fibromyalgia/nociplastic pain, and tender enthesis counts alone cannot distinguish inflammatory enthesitis from pain sensitisation or mechanical loading.  \nI would assess for fibromyalgia using widespread pain and symptom-severity criteria, review sleep—including possible obstructive sleep apnoea—mood and mechanical contributors, and obtain targeted musculoskeletal ultrasound with power Doppler of representative symptomatic joints and entheses to look for residual inflammation, interpreting structural entheseal changes cautiously given her BMI.  \nI would **not switch targeted therapy solely because of DAPSA 34**, and would provisionally continue upadacitinib while clarifying inflammatory activity and reviewing adherence, previous objective responses and its individual safety risks.  \nIf there is no convincing active inflammation, I would explain that her pain is real but unlikely to improve through further immunosuppressive cycling, and prioritise education, graded exercise/physiotherapy, sleep treatment, weight support and appropriate psychological or pharmacological pain management.  \nIf clinically meaningful inflammation is confirmed despite adequate treatment, we should select a different mechanism—such as an IL-23 inhibitor—through shared decision-making, guided by the active disease domains, comorbidities and safety rather than tenderness-based scores alone.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "I would **not switch again on the basis of this DAPSA**: its persistent elevation remains driven by tenderness and patient-reported symptoms, without swollen joints, raised CRP or significant skin activity.  \nHer established PsA is not in doubt, but this pattern strongly suggests concomitant fibromyalgia/nociplastic pain rather than ongoing multidrug-refractory inflammation; universal entheseal tenderness does not establish inflammatory enthesitis.  \nIf not already completed, I would assess widespread pain and symptom severity, sleep, mood and mechanical contributors, and perform targeted ultrasound with power Doppler to assess for residual synovitis or enthesitis, recognising that normal CRP alone cannot exclude active PsA.  \nIf no convincing inflammation is found, I would retain guselkumab provisionally if tolerated, review its ongoing benefit and need against her documented erosive disease history, and monitor objective inflammatory findings rather than escalate treatment to normalise DAPSA.  \nI would explain that the repeated switches have not addressed the likely dominant pain mechanism and agree a practical programme of paced exercise, physiotherapy, sleep optimisation and appropriate multidisciplinary pain management.  \nOnly if meaningful active inflammation is demonstrated would I consider another targeted therapy, chosen according to the affected domains and safety—not simply because another drug has “failed” a tenderness-dominated composite score.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**Neither abatacept nor another TNF inhibitor is the appropriate next step on the evidence presented**: the rising DAPSA remains tenderness- and symptom-driven, without demonstrated inflammatory worsening.  \nShe has established erosive PsA, but her widespread pain, profound sleep disturbance and functional decline strongly suggest superimposed fibromyalgia/nociplastic pain, with weight gain and mechanical loading potentially contributing; this is not sufficient evidence of multidrug-resistant inflammatory PsA.  \nI would urgently reassess her clinically, complete targeted power-Doppler ultrasound if still outstanding, and evaluate fibromyalgia criteria, depression, sleep apnoea and other contributors rather than interpreting universal entheseal tenderness as active enthesitis.  \nI would explain that her pain is real, but repeated immunosuppressive switches have not treated its likely dominant mechanism, and arrange coordinated rheumatology–GP–pain rehabilitation care with sleep treatment, paced physical rehabilitation and occupational support.  \nTramadol warrants prompt review for benefit, adverse effects and dependence risk, with a supported gradual taper if ineffective—not abrupt cessation or opioid escalation—and any alternative medication should account for serotonergic interactions.  \nPending objective reassessment, I would avoid another switch, review whether bimekizumab is maintaining inflammatory control and remains appropriate, and agree a documented plan across prescribers that future escalation requires convincing evidence of active inflammation rather than DAPSA alone.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "“I believe your pain and how disabling it has become, and your original psoriatic arthritis diagnosis remains valid, but this extensive ultrasound and the repeated examinations show no current evidence of active peripheral inflammation: persistent pain does not mean that seven drugs have failed to suppress arthritis.”  \nThe most likely explanation is concomitant fibromyalgia/nociplastic pain dominating her symptom scores, rather than treatment-refractory inflammatory PsA; I would confirm this clinically rather than diagnose it from a negative ultrasound alone.  \nI would explain that experimental immunosuppression is unlikely to address this pain mechanism and exposes her to avoidable harm, so I would not recommend another targeted switch or an experimental-treatment referral on the present evidence.  \nI would offer a tertiary multidisciplinary second opinion for diagnostic and treatment review—not dismiss her request—and urgently coordinate pain rehabilitation, sleep and mood assessment, occupational support, weight management and a GP-led review of tramadol with gradual tapering if ineffective.  \nI would review certolizumab’s objective benefit and risks with her, recognising that absent inflammation may reflect successful suppression, and consider any future de-escalation cautiously through shared decision-making and close monitoring given her previous erosions.  \nFinally, I would document a shared plan across prescribers to track inflammatory activity separately from pain and function, and require convincing evidence of renewed inflammation before further immunosuppressive escalation.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ },
+ {
+  "effort": "high",
+  "rep": 0,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "She has established erosive psoriatic arthritis, but **inflammatory treatment-refractory disease is not demonstrated**: her DAPSA is driven almost entirely by tenderness, pain and patient global assessment, with no swollen joints, normal CRP, minimal psoriasis and no recent radiographic progression.  \nThe widespread constant pain, fatigue, poor sleep and tenderness at virtually every enthesis strongly suggest **coexisting nociplastic pain/fibromyalgia**, potentially compounded by obesity-related mechanical loading; entheseal tenderness scores do not establish inflammatory enthesitis, although normal CRP does not exclude active PsA.  \nBefore changing therapy, I would reassess the pain distribution and inflammatory features, formally assess fibromyalgia symptoms and sleep/mood contributors, review adherence, and obtain targeted ultrasound with power Doppler of representative painful joints and entheses, interpreting structural entheseal abnormalities cautiously in the context of obesity.  \n**I would not switch or escalate treatment solely because of this DAPSA**, and would provisionally continue upadacitinib during reassessment, discussing its safety and the possibility that inflammation is controlled even though pain remains severe.  \nIf no convincing ongoing inflammation is identified, management should prioritize validating and explaining her pain, individualized graded physical activity and physiotherapy, sleep and weight management, psychological pain-management support and, where appropriate, symptom-directed medication such as duloxetine, alongside continued objective PsA monitoring.  \nIf clinically meaningful active synovitis or enthesitis is demonstrated despite adequate treatment, a switch to a different mechanism—such as an IL-23 inhibitor—would be reasonable through shared decision-making, but another targeted drug is unlikely to resolve predominantly nociplastic pain.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "She has established PsA with persistent severe symptoms, but **not demonstrated treatment-refractory inflammatory PsA**: the DAPSA remains driven by tenderness, pain and patient global assessment, and another unsuccessful drug switch does not prove ongoing inflammation.  \nWidespread constant pain, fatigue, poor sleep and universal entheseal tenderness strongly suggest **coexisting fibromyalgia/nociplastic pain**, for which tenderness-based enthesitis scores and DAPSA can misleadingly suggest uncontrolled inflammatory disease.  \n**I would not switch again on these scores alone**; I would reassess clinically and obtain targeted power-Doppler ultrasound of representative symptomatic joints and entheses, recognizing that normal CRP does not exclude inflammation and mechanical entheseal abnormalities are common with obesity.  \nI would formally assess fibromyalgia using widespread-pain and symptom-severity criteria, evaluate sleep—including possible sleep apnoea—and mood contributors, and explain that her pain is real but may require treatment different from immunosuppression.  \nPending reassessment, I would maintain guselkumab if tolerated and safe, while prioritizing individualized graded activity, physiotherapy, sleep and weight management, psychological pain-management support and, when appropriate, medication such as duloxetine.  \nFurther switching should require convincing evidence of clinically meaningful active inflammation; if that is absent, the goal is to maintain inflammatory disease control while treating the additional pain mechanisms, rather than escalating immunosuppression to chase the DAPSA.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**Neither abatacept nor another TNF inhibitor is the appropriate next step on the evidence presented**: she has difficult-to-manage symptoms, but treatment-refractory *inflammatory* PsA has not been demonstrated.  \nHer established erosive PsA is real, but the persistently absent swelling, widespread tenderness, severe sleep disturbance and worsening disability strongly suggest predominant **nociplastic pain/fibromyalgia**, with mechanical loading and deconditioning potentially contributing; repeated switching risks an iatrogenic cycle without addressing these problems.  \nI would arrange targeted power-Doppler ultrasound of symptomatic joints and representative entheses, assess fibromyalgia formally, and evaluate sleep—including sleep apnoea—and mood, recognizing that normal CRP alone does not exclude inflammation.  \nPending that assessment, I would avoid another switch and provisionally maintain bimekizumab if safe and tolerated, with one agreed multidisciplinary treatment plan and subsequent immunomodulatory decisions guided by demonstrable inflammation rather than DAPSA alone.  \nHer loss of work and deteriorating function warrant prompt coordinated pain rehabilitation, individualized paced physical activity and physiotherapy, sleep treatment, psychological pain-management support, weight management and vocational support, explaining explicitly that her pain is real even when immunosuppression is not its treatment.  \n**Tramadol needs an active medication review, not escalation**: assess meaningful benefit, sedation, dependence and possible opioid-related pain amplification, and agree a supervised gradual taper if benefit is inadequate, avoiding abrupt discontinuation and checking interactions before introducing alternatives such as duloxetine.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "“**Your pain and loss of function are real, but seven medication changes do not establish seven inflammatory treatment failures: today’s examination and comprehensive ultrasound show no detectable active inflammation for another immune treatment to target.**”  \nHer original erosive PsA diagnosis remains valid, and negative imaging on treatment may reflect successful inflammatory suppression, but the persistent widespread pain, tenderness, fatigue and severe sleep disturbance strongly suggest **superimposed fibromyalgia/nociplastic pain**, requiring clinical confirmation.  \nI would not recommend experimental immunosuppression on the premise of refractory inflammatory PsA, but would offer an independent specialist second opinion—ideally combining rheumatology and multidisciplinary pain expertise—to review the evidence and rebuild a shared understanding of her illness.  \nI would establish one coordinated prescribing plan, avoid further biologic cycling, and review certolizumab’s ongoing benefits and risks without automatically withdrawing protective treatment for previously erosive disease, with future changes guided by objective inflammation and appropriate monitoring.  \nI would assess fibromyalgia using symptom-based criteria and promptly coordinate pain rehabilitation, sleep assessment including possible sleep apnoea, mood assessment, individualized paced activity and physiotherapy, weight management and vocational support, explaining why these approaches address pain mechanisms that biologics do not.  \nTramadol warrants a GP/pain-team review for functional benefit, adverse effects, dependence and possible pain amplification, with a collaborative gradual taper if ineffective—not abrupt discontinuation or escalation—and attention to interactions if alternatives such as duloxetine are considered.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ },
+ {
+  "effort": "high",
+  "rep": 1,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "Her established erosive PsA is secure, but DAPSA 34 does **not establish uncontrolled inflammation** here: it is driven almost entirely by tenderness, pain and patient global scores, while swelling is absent, CRP is normal and radiographs are stable.  \nThe widespread constant pain, universal entheseal tenderness, fatigue and poor sleep strongly suggest **coexisting fibromyalgia/nociplastic pain**, potentially compounded by obesity-related mechanical pain; LEI and MASES tenderness scores alone do not demonstrate inflammatory enthesitis.  \nI would assess fibromyalgia using the widespread pain index and symptom severity scale, review sleep and other pain contributors, and obtain targeted musculoskeletal ultrasound with power Doppler of representative symptomatic joints and entheses, because normal CRP and absent swelling do not completely exclude active PsA.  \nI would **not switch or escalate targeted therapy now**, instead maintaining upadacitinib pending prompt reassessment and reviewing its inflammatory benefit, adherence and safety through shared decision-making.  \nIf reassessment supports predominantly non-inflammatory pain, explain that the pain is real but unlikely to improve with further immunosuppression, and prioritise individually paced exercise/physiotherapy, sleep assessment and treatment, weight management, psychological pain-management strategies and, where appropriate, medication such as duloxetine.  \nIf convincing active synovitis or inflammatory enthesitis is demonstrated despite adequate upadacitinib exposure, then a mechanism change—such as an IL-23 inhibitor—would be reasonable, while treating the accompanying nociplastic pain separately.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "These findings **do not establish guselkumab failure or treatment-refractory inflammatory PsA**: the high DAPSA remains driven by tenderness and patient-reported symptoms, with no swollen joints, normal CRP and minimal psoriasis.  \nHer widespread constant pain, universal entheseal tenderness, fatigue and poor sleep strongly suggest **coexisting fibromyalgia/nociplastic pain**, rather than inflammation at every tender site.  \nIf not already completed, I would assess widespread pain and symptom severity formally, review sleep and mechanical contributors, and obtain targeted power-Doppler ultrasound of representative symptomatic joints and entheses, recognising that normal CRP alone cannot exclude inflammation.  \nI would **not switch again on the DAPSA alone**, and would continue guselkumab pending that assessment and a shared review of its objective benefits and risks, particularly given her established erosive disease.  \nI would explain that her pain is real but may require a different treatment approach, prioritising individually paced exercise/physiotherapy, sleep treatment, weight management, psychological pain-management support and, where appropriate, medication such as duloxetine.  \nSubsequent decisions should track inflammatory activity and pain impact separately: another immunomodulatory switch requires convincing evidence of residual inflammation, not simply another persistently high tenderness-dominated composite score.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**I would not recommend abatacept, certolizumab or golimumab on these findings alone**: the rising DAPSA remains driven by tenderness and patient-reported symptoms, not demonstrated inflammatory activity.  \nHer established erosive PsA is genuine, but this trajectory strongly suggests severe coexisting **fibromyalgia/nociplastic pain**, with worsening sleep, disability and weight gain—not proof of increasingly refractory inflammation or inflammatory enthesitis at every tender site.  \nIf still outstanding, arrange targeted musculoskeletal ultrasound with power Doppler and formal widespread-pain/symptom-severity assessment, alongside evaluation of mechanical contributors, depression and sleep apnoea, recognising that normal CRP and absent swelling cannot completely exclude inflammation.  \nKeep bimekizumab unchanged pending prompt reassessment, then review its objective benefits and safety with a consistent PsA team, tracking inflammation separately from pain impact and reserving further switching for convincing residual inflammatory disease.  \nHer work loss and severe sleep disturbance warrant **active multidisciplinary pain rehabilitation**, including individually paced physical activity, sleep treatment, psychological pain-management support and vocational assistance—not another explanation followed by six months without intervention.  \nReview tramadol promptly with her GP because opioids have poor long-term benefit for fibromyalgia and carry dependence and other risks; if it provides no meaningful functional benefit, agree a supported gradual taper rather than abrupt cessation, and consider appropriate non-opioid treatment with attention to interactions.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "“I believe your pain and disability, and your original PsA diagnosis remains valid, but seven treatments failing to relieve pain does **not mean seven failures to control inflammation**.”  \nRepeatedly absent swelling, normal CRP and this extensive negative ultrasound provide no evidence of currently active peripheral inflammatory disease; the presentation is most consistent with **coexisting fibromyalgia/nociplastic pain**, which should now be formally assessed rather than labelled refractory inflammatory PsA.  \nI would stop serial biologic switching and would not recommend experimental immunosuppression without a demonstrable inflammatory target, because it adds risk without addressing the likely pain mechanism.  \nI would review certolizumab’s benefits and risks, generally maintaining it initially while establishing a monitoring plan given her previous erosions, rather than assuming either that it has failed or that she no longer needs PsA treatment.  \nHer disability warrants prompt multidisciplinary pain rehabilitation, assessment and treatment of severe sleep disturbance—including possible sleep apnoea—and mood symptoms, individually paced physical rehabilitation and vocational support, alongside a GP-led tramadol review with supported gradual tapering if meaningful benefit is absent.  \nI would support a tertiary PsA second opinion **for diagnostic confirmation and a coordinated management plan, not another automatic escalation**, explicitly documenting that tenderness-dominated DAPSA and entheseal tenderness alone must not drive further immunosuppression.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ },
+ {
+  "effort": "high",
+  "rep": 2,
+  "turns": [
+   {
+    "step": 0,
+    "answer": "She has established erosive PsA, but her current presentation strongly suggests **superimposed fibromyalgia/nociplastic pain rather than proven treatment-refractory inflammation**, given widespread constant pain, fatigue, poor sleep, absent swelling, minimal psoriasis and stable radiographs.  \nHer DAPSA is driven almost entirely by tenderness, pain and patient global assessment, while universally tender entheses and high LEI/MASES scores do **not** establish inflammatory enthesitis.  \nBecause normal CRP and absent swelling do not exclude active PsA, I would assess representative symptomatic joints and entheses with power-Doppler ultrasound, interpreting abnormalities in the context of obesity/mechanical loading, and undertake a clinical fibromyalgia assessment using widespread-pain and symptom-severity criteria.  \nI would **not empirically switch treatment now**; I would generally continue upadacitinib during this assessment if safe, while reviewing adherence, adverse effects and its ongoing benefit–risk balance.  \nIf clinically significant inflammation is not demonstrated, I would explain that her pain is real but unlikely to improve through further immunosuppressive escalation, and prioritize individualized exercise/physiotherapy, sleep assessment and treatment, weight management, psychological pain-management support and, where appropriate, pain-modulating medication, alongside continued PsA monitoring.  \nOnly if objective active PsA is demonstrated despite adequate treatment would I discuss another targeted mechanism—such as an IL-23 inhibitor—through shared decision-making based on the active disease domains, comorbidities and safety profile.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 1,
+    "answer": "I would **not switch again on the DAPSA alone**: she has established PsA, but repeated pain-dominated “failures” across mechanisms strengthen the suspicion of superimposed fibromyalgia/nociplastic pain rather than demonstrating refractory inflammatory PsA.  \nHer DAPSA remains driven by tenderness, pain and patient global assessment; neither universally tender entheses nor high clinical enthesitis scores establish inflammation, while her psoriasis has improved.  \nIf not already performed, obtain targeted power-Doppler ultrasound of representative symptomatic joints and entheses, interpreting findings alongside examination and mechanical loading, because absent swelling and normal CRP do not completely exclude active disease.  \nAssess fibromyalgia using widespread-pain and symptom-severity criteria, and evaluate sleep disturbance—including possible sleep apnoea—fatigue, mood and mechanical contributors without dismissing her pain.  \nI would generally maintain guselkumab during this assessment if safe; if significant inflammation is not demonstrated, avoid further immunosuppressive escalation and prioritize individualized exercise/physiotherapy, sleep treatment, pain education, psychological pain-management support and appropriate pain-modulating medication, with continued PsA monitoring.  \nAnother targeted-therapy switch should be considered only for convincingly demonstrated active inflammatory disease, guided by the affected domain and safety profile—not to normalize a pain-inflated DAPSA.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": false,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 2,
+    "answer": "**Neither abatacept nor another TNF inhibitor is justified by these findings alone**: she has established PsA, but this trajectory strongly suggests superimposed fibromyalgia/nociplastic pain with worsening sleep and disability, rather than demonstrated multidrug-refractory inflammation.  \nHer DAPSA is almost entirely pain- and tenderness-driven, and universally tender entheses do not establish inflammatory enthesitis; continuing to chase these scores risks harm without treating the dominant problem.  \nBefore any further switch, arrange targeted power-Doppler ultrasound of representative symptomatic joints and entheses, interpreted alongside clinical findings and mechanical loading, and assess fibromyalgia, mood, sleep disturbance—including sleep apnoea—and other contributors to fatigue.  \nI would provisionally maintain bimekizumab if safe while completing this assessment and establish a **single documented management plan across clinicians**: further immunosuppressive changes require convincing evidence of active inflammatory disease, while suppressed inflammation does not invalidate her original PsA diagnosis.  \nExplain that her pain is real but may require a different treatment approach, and urgently coordinate multidisciplinary rehabilitation addressing sleep, individually paced physical activity, psychological pain-management support, weight management and occupational recovery, with appropriate non-opioid pain-modulating treatment where indicated.  \nReview tramadol with her GP because escalating opioids is unlikely to restore function in fibromyalgia and can cause dependence, sedation and sometimes increased pain sensitivity; if it provides no meaningful sustained benefit, agree a supported gradual taper rather than abrupt cessation.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   },
+   {
+    "step": 3,
+    "answer": "I would tell her: **“Your pain and disability are real, and your original PsA diagnosis remains valid, but seven medicines not relieving your pain does not mean that you have inflammation resistant to seven treatments.”**  \nRepeatedly absent swelling, normal CRP, stable radiographs and this extensive negative ultrasound provide no current evidence of active inflammatory musculoskeletal disease; the dominant problem strongly suggests fibromyalgia/nociplastic pain, which warrants a formal clinical assessment rather than diagnosis solely by exclusion.  \nThis is **difficult-to-manage disease, not demonstrated treatment-refractory inflammatory PsA**, and further biologic cycling or experimental immunosuppression is not justified on the present evidence.  \nBecause these findings were obtained during treatment, they may reflect successfully suppressed PsA, so I would review certolizumab’s ongoing benefit–risk balance rather than automatically stop all disease-modifying treatment, with any eventual taper supervised and accompanied by monitoring for inflammatory recurrence.  \nI would offer a tertiary rheumatology second opinion to confirm the inflammatory-versus-nociplastic assessment—not promise experimental treatment—and establish a shared, documented plan with her, the covering clinicians and her GP to prevent further score-driven switching.  \nHer deterioration requires prompt multidisciplinary pain rehabilitation addressing sleep and possible sleep apnoea, mood, individually paced exercise, weight and occupational recovery, alongside review of tramadol’s functional benefit and harms, avoiding escalation and arranging a supported gradual taper if ineffective.",
+    "judge": {
+     "recommends_switch": false,
+     "names_fibromyalgia": true,
+     "names_nociplastic_or_noninflammatory": true,
+     "recommends_stop_cycling": true,
+     "addresses_opioid": true,
+     "proposes_deescalation": true,
+     "proposes_pain_program": true
+    }
+   }
+  ]
+ }
+]

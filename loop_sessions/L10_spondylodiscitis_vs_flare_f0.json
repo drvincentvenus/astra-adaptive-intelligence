@@ -1,0 +1,205 @@
+{
+ "case": "L10_spondylodiscitis_vs_flare",
+ "run": "f0",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Mi descriva questo dolore: da quanti giorni è iniziato, è diverso dalle sue solite riacutizzazioni? È costante anche a riposo e di notte, migliora con il movimento come al solito, e l'antinfiammatorio che prende normalmente ha fatto effetto?"
+  },
+  {
+   "role": "assistant",
+   "content": "È iniziato 12 giorni fa ed è diverso dal solito: normalmente al mattino sono rigido e camminando mi passa, stavolta invece è continuo, peggiora se mi muovo e mi sveglia anche di notte senza trovare posizione. L’ibuprofene non mi ha fatto niente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Che terapia fa per la spondilite: prende un biologico (anti-TNF o altro), cortisone, o altri immunosoppressori? Ha altre malattie come diabete, e negli ultimi 2 mesi ha avuto infezioni (urinarie, cutanee, dentarie), procedure invasive, infiltrazioni, o usa droghe per via endovenosa?"
+  },
+  {
+   "role": "assistant",
+   "content": "Faccio l’adalimumab dal 2019, l’ultima dose l’ho fatta nove giorni fa. Non prendo cortisone o altri immunosoppressori."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: In questi 12 giorni ha avuto febbre o brividi a casa, sudorazioni notturne, perdita di peso o di appetito?"
+  },
+  {
+   "role": "assistant",
+   "content": "Da circa una settimana la sera ho 37,5-37,8 e di notte sudo parecchio, ma non ho avuto brividi. Nell’ultimo mese ho perso circa 3 chili; dell’appetito non ho notato grandi cambiamenti."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ha notato debolezza o formicolii alle gambe, difficoltà a camminare, o problemi a urinare o trattenere feci/urine?"
+  },
+  {
+   "role": "assistant",
+   "content": "Non sento debolezza, però da due giorni ho un po’ di formicolio sulla coscia destra. Non ho problemi a urinare né a trattenere urine o feci."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo del rachide: percussione e palpazione dei processi spinosi vertebra per vertebra da cervicale a sacro per cercare dolorabilità elettiva localizzata, contrattura paravertebrale e limitazione antalgica"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: dolore elettivo alla percussione e palpazione delle spinose L3-L4, contrattura paravertebrale lombare e flessione lombare limitatissima dal dolore."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame neurologico arti inferiori: forza segmentaria (flessione anca, estensione ginocchio, dorsi/plantiflessione), sensibilità per dermatomeri L1-S1, riflessi rotulei e achillei, Lasègue e Wassermann bilaterali, tono sfinterico anale e sensibilità perineale"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: forza 5/5 in tutti i distretti degli arti inferiori; lieve ipoestesia alla faccia anteriore della coscia destra, restante sensibilità normale. Riflessi rotulei e achillei normali, Lasègue e Wassermann negativi bilateralmente; tono sfinterico e sensibilità perineale normali."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo esami ematici urgenti: emocromo con formula, PCR, VES, procalcitonina, creatinina, elettroliti, glicemia, transaminasi, esame urine"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: GB 11,6×10⁹/L (neutrofili 82%), Hb 12,9 g/dL, PLT 390×10⁹/L; PCR 84 mg/L, VES 71 mm/h, procalcitonina 0,6 ng/mL; creatinina 1,0 mg/dL, glicemia 246 mg/dL. Elettroliti e transaminasi nella norma; esame urine nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Prelievo di 2-3 set di emocolture da siti diversi PRIMA di qualsiasi antibiotico, con il paziente febbricitante"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emocolture prelevate da due siti diversi prima dell’antibiotico; esito in corso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo RM urgente del rachide in toto (dorsale e lombosacrale in particolare) con mezzo di contrasto gadolinio, quesito: spondilodiscite, ascesso epidurale o paravertebrale"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: RM con mdc: discite L3-L4 con edema delle limitanti, raccolta epidurale anteriore di 6 mm che impronta il sacco durale e ascesso dello psoas destro di 3 cm. Restante rachide nella norma."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Consulenza neurochirurgica/spinale urgente in PS stanotte per ascesso epidurale L3-L4 con impronta sul sacco durale in paziente con deficit sensitivo iniziale, per decidere decompressione chirurgica vs trattamento conservativo con monitoraggio neurologico stretto"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: consulenza neurochirurgica/spinale urgente richiesta; valutazione in corso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo drenaggio/aspirazione TC-guidata urgente dell'ascesso dello psoas destro con invio del materiale per esame colturale aerobi/anaerobi, Gram, ricerca micobatteri (microscopia, PCR e coltura) e esame istologico"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO. Aspirazione TC-guidata dell’ascesso dello psoas destro; materiale inviato per gli esami richiesti, risultati in corso."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ricovero e inizio subito, emocolture già prelevate, di terapia antibiotica empirica endovena ad alte dosi: vancomicina (dose carico 25-30 mg/kg) più ceftriaxone 2 g; sospendo adalimumab; niente FANS a dose piena né cortisone/infiltrazione; analgesia con paracetamolo ev e oppioide; insulina per la glicemia 246 e richiedo HbA1c"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Mi descriva questo dolore: da quanti giorni è iniziato, è diverso dalle sue solite riacutizzazioni? È costante anche a riposo e di notte, migliora con il movimento come al solito, e l'antinfiammatorio che prende normalmente ha fatto effetto?"
+  ],
+  [
+   "MONDO",
+   "È iniziato 12 giorni fa ed è diverso dal solito: normalmente al mattino sono rigido e camminando mi passa, stavolta invece è continuo, peggiora se mi muovo e mi sveglia anche di notte senza trovare posizione. L’ibuprofene non mi ha fatto niente."
+  ],
+  [
+   "MEDICO",
+   "Che terapia fa per la spondilite: prende un biologico (anti-TNF o altro), cortisone, o altri immunosoppressori? Ha altre malattie come diabete, e negli ultimi 2 mesi ha avuto infezioni (urinarie, cutanee, dentarie), procedure invasive, infiltrazioni, o usa droghe per via endovenosa?"
+  ],
+  [
+   "MONDO",
+   "Faccio l’adalimumab dal 2019, l’ultima dose l’ho fatta nove giorni fa. Non prendo cortisone o altri immunosoppressori."
+  ],
+  [
+   "MEDICO",
+   "In questi 12 giorni ha avuto febbre o brividi a casa, sudorazioni notturne, perdita di peso o di appetito?"
+  ],
+  [
+   "MONDO",
+   "Da circa una settimana la sera ho 37,5-37,8 e di notte sudo parecchio, ma non ho avuto brividi. Nell’ultimo mese ho perso circa 3 chili; dell’appetito non ho notato grandi cambiamenti."
+  ],
+  [
+   "MEDICO",
+   "Ha notato debolezza o formicolii alle gambe, difficoltà a camminare, o problemi a urinare o trattenere feci/urine?"
+  ],
+  [
+   "MONDO",
+   "Non sento debolezza, però da due giorni ho un po’ di formicolio sulla coscia destra. Non ho problemi a urinare né a trattenere urine o feci."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo del rachide: percussione e palpazione dei processi spinosi vertebra per vertebra da cervicale a sacro per cercare dolorabilità elettiva localizzata, contrattura paravertebrale e limitazione antalgica"
+  ],
+  [
+   "MONDO",
+   "EO: dolore elettivo alla percussione e palpazione delle spinose L3-L4, contrattura paravertebrale lombare e flessione lombare limitatissima dal dolore."
+  ],
+  [
+   "MEDICO",
+   "Esame neurologico arti inferiori: forza segmentaria (flessione anca, estensione ginocchio, dorsi/plantiflessione), sensibilità per dermatomeri L1-S1, riflessi rotulei e achillei, Lasègue e Wassermann bilaterali, tono sfinterico anale e sensibilità perineale"
+  ],
+  [
+   "MONDO",
+   "EO: forza 5/5 in tutti i distretti degli arti inferiori; lieve ipoestesia alla faccia anteriore della coscia destra, restante sensibilità normale. Riflessi rotulei e achillei normali, Lasègue e Wassermann negativi bilateralmente; tono sfinterico e sensibilità perineale normali."
+  ],
+  [
+   "MEDICO",
+   "Richiedo esami ematici urgenti: emocromo con formula, PCR, VES, procalcitonina, creatinina, elettroliti, glicemia, transaminasi, esame urine"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: GB 11,6×10⁹/L (neutrofili 82%), Hb 12,9 g/dL, PLT 390×10⁹/L; PCR 84 mg/L, VES 71 mm/h, procalcitonina 0,6 ng/mL; creatinina 1,0 mg/dL, glicemia 246 mg/dL. Elettroliti e transaminasi nella norma; esame urine nella norma."
+  ],
+  [
+   "MEDICO",
+   "Prelievo di 2-3 set di emocolture da siti diversi PRIMA di qualsiasi antibiotico, con il paziente febbricitante"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emocolture prelevate da due siti diversi prima dell’antibiotico; esito in corso."
+  ],
+  [
+   "MEDICO",
+   "Richiedo RM urgente del rachide in toto (dorsale e lombosacrale in particolare) con mezzo di contrasto gadolinio, quesito: spondilodiscite, ascesso epidurale o paravertebrale"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: RM con mdc: discite L3-L4 con edema delle limitanti, raccolta epidurale anteriore di 6 mm che impronta il sacco durale e ascesso dello psoas destro di 3 cm. Restante rachide nella norma."
+  ],
+  [
+   "MEDICO",
+   "Consulenza neurochirurgica/spinale urgente in PS stanotte per ascesso epidurale L3-L4 con impronta sul sacco durale in paziente con deficit sensitivo iniziale, per decidere decompressione chirurgica vs trattamento conservativo con monitoraggio neurologico stretto"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: consulenza neurochirurgica/spinale urgente richiesta; valutazione in corso."
+  ],
+  [
+   "MEDICO",
+   "Richiedo drenaggio/aspirazione TC-guidata urgente dell'ascesso dello psoas destro con invio del materiale per esame colturale aerobi/anaerobi, Gram, ricerca micobatteri (microscopia, PCR e coltura) e esame istologico"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO. Aspirazione TC-guidata dell’ascesso dello psoas destro; materiale inviato per gli esami richiesti, risultati in corso."
+  ],
+  [
+   "MEDICO",
+   "Ricovero e inizio subito, emocolture già prelevate, di terapia antibiotica empirica endovena ad alte dosi: vancomicina (dose carico 25-30 mg/kg) più ceftriaxone 2 g; sospendo adalimumab; niente FANS a dose piena né cortisone/infiltrazione; analgesia con paracetamolo ev e oppioide; insulina per la glicemia 246 e richiedo HbA1c"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: non è una riacutizzazione di spondilite ma una spondilodiscite infettiva L3-L4 con ascesso epidurale anteriore (6 mm, impronta il sacco durale) e ascesso dello psoas destro di 3 cm, in paziente immunodepresso da adalimumab con iperglicemia (246 mg/dL, probabile diabete misconosciuto) e iniziale deficit sensitivo L2-L3 destro. Decisioni immediate: ricovero, emocolture x2 e aspirato TC-guidato dello psoas già prelevati (colturale, Gram, micobatteri PCR/coltura, istologia), antibiotico empirico ev già avviato (vancomicina + ceftriaxone) da mirare sull'antibiogramma per 6+ settimane, consulenza neurochirurgica urgente in corso per decompressione vs conservativo con esame neurologico seriato ogni 4-6 ore, insulina e HbA1c, sospensione di adalimumab. Cosa NON fare: nessuna infiltrazione di cortisone né steroide sistemico, nessun FANS ad alte dosi come 'antinfiammatorio forte', nessuna dimissione con etichetta di riacutizzazione, nessun rinvio degli antibiotici in attesa delle colture data la raccolta epidurale con segno neurologico. Da chiarire in reparto: pregresso screening TB/IGRA e stato immunitario, rivalutazione con reumatologo per ripresa del biologico solo a infezione risolta."
+  ]
+ ],
+ "final": "DECISIONE FINALE: non è una riacutizzazione di spondilite ma una spondilodiscite infettiva L3-L4 con ascesso epidurale anteriore (6 mm, impronta il sacco durale) e ascesso dello psoas destro di 3 cm, in paziente immunodepresso da adalimumab con iperglicemia (246 mg/dL, probabile diabete misconosciuto) e iniziale deficit sensitivo L2-L3 destro. Decisioni immediate: ricovero, emocolture x2 e aspirato TC-guidato dello psoas già prelevati (colturale, Gram, micobatteri PCR/coltura, istologia), antibiotico empirico ev già avviato (vancomicina + ceftriaxone) da mirare sull'antibiogramma per 6+ settimane, consulenza neurochirurgica urgente in corso per decompressione vs conservativo con esame neurologico seriato ogni 4-6 ore, insulina e HbA1c, sospensione di adalimumab. Cosa NON fare: nessuna infiltrazione di cortisone né steroide sistemico, nessun FANS ad alte dosi come 'antinfiammatorio forte', nessuna dimissione con etichetta di riacutizzazione, nessun rinvio degli antibiotici in attesa delle colture data la raccolta epidurale con segno neurologico. Da chiarire in reparto: pregresso screening TB/IGRA e stato immunitario, rivalutazione con reumatologo per ripresa del biologico solo a infezione risolta."
+}

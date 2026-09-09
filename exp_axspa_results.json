@@ -1,0 +1,650 @@
+[
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "low",
+  "rep": 0,
+  "t1": "The most likely working diagnosis is **fibromyalgia with coexisting mechanical low-back pain related to scoliosis and loading**, while **early axial spondyloarthritis remains possible but is not established**.  \nHer widespread pain index of 11 and symptom severity score of 8 support fibromyalgia, provided generalized pain involves at least four of five body regions and symptoms have persisted for at least three months; HLA-B27 positivity and inflammatory-sounding back symptoms warrant follow-up but are not independently diagnostic.  \nThe small, isolated sacroiliac bone-marrow oedema foci without structural lesions are nonspecific and may reflect mechanical stress, so I would obtain expert musculoskeletal radiology review rather than label this definite inflammatory sacroiliitis; normal inflammatory markers do not exclude axial spondyloarthritis.  \nManagement should prioritize education, individualized graded aerobic and strengthening exercise, physiotherapy for spinal mechanics, supported weight management, sleep assessment—including possible obstructive sleep apnoea—and psychological pain-management strategies, with duloxetine or low-dose amitriptyline considered if appropriate and a short NSAID trial for back pain if safe, avoiding opioids.  \nI would reassess longitudinally for persistent inflammatory symptoms or new spondyloarthritis features, reserve repeat imaging for a clinically meaningful change or continuing diagnostic uncertainty, and **not initiate biologic therapy on the current evidence**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not escalate to a biologic simply because two adequate NSAID trials have failed:** axial spondyloarthritis remains unconfirmed, and fibromyalgia can substantially inflate BASDAI and the patient-reported components of ASDAS.  \nI would review the original sacroiliac MRI with an expert musculoskeletal radiologist, reassess the inflammatory history and examination, and look for alternative mechanical pain generators rather than interpret the minimal oedema as definitive sacroiliitis.  \nGiven no benefit, I would discontinue regular NSAIDs unless there is another indication and intensify fibromyalgia and mechanical-back-pain care with individualized exercise/physiotherapy, sleep assessment, supported weight management, and psychological pain-management strategies, considering duloxetine if appropriate.  \nRepeat MRI is not automatically indicated at 10 weeks; I would reserve it for persistent substantial diagnostic suspicion or evolving clinical features and arrange longitudinal rheumatology reassessment.  \nIf subsequent assessment establishes axial spondyloarthritis with convincing objective inflammation and persistently active disease despite these NSAID trials, targeted therapy could then be considered through shared decision-making.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not prescribe a “stronger” drug or switch biologics solely because her symptom scores remain high:** she has had no clinically meaningful symptomatic response to adalimumab, and there is currently no objective evidence of active inflammation.  \nResolution of the minimal marrow oedema does not retrospectively establish axial spondyloarthritis or prove a treatment effect, because these nonspecific lesions can fluctuate spontaneously.  \nI would reassess the original diagnosis and imaging, adherence, and any new spondyloarthritis features, distinguishing possible controlled inflammation from persistent fibromyalgia and mechanical pain.  \nGiven the weak original evidence for axial spondyloarthritis and absent clinical benefit after 16 weeks, I would discuss stopping adalimumab with planned rheumatology follow-up rather than escalating immunosuppression; if review instead establishes genuine inflammatory disease, its ongoing treatment should be considered separately from her widespread pain.  \nI would explain that her pain is real but may not be inflammation-driven, and prioritize individualized rehabilitation, sleep assessment, psychological pain-management support, and appropriate fibromyalgia medication, monitoring for objective inflammatory recurrence.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "low",
+  "rep": 1,
+  "t1": "The most likely formulation is **fibromyalgia with coexisting mechanical low-back pain associated with scoliosis and loading**, while **non-radiographic axial spondyloarthritis remains possible but unconfirmed** given her inflammatory-type symptoms and HLA-B27 positivity.  \nHer widespread pain index of 11 and symptom severity score of 8 support fibromyalgia if generalized symptoms have persisted for at least three months; this can coexist with inflammatory disease rather than exclude it.  \nThe small isolated sacroiliac marrow-oedema foci are nonspecific and may reflect mechanical stress, so neither these nor HLA-B27 positivity establish axial spondyloarthritis, and normal inflammatory markers do not exclude it.  \nI would obtain expert musculoskeletal radiology review of the MRI, assess additional clinical context including family history, pregnancy/postpartum status and physical loading, and arrange longitudinal rheumatology reassessment rather than label definite axial spondyloarthritis or start biologic treatment.  \nManagement should emphasize education, individually paced aerobic and strengthening exercise, physiotherapy addressing spinal mechanics, sleep and psychological support, and supported weight management, with a short NSAID trial if safe for back pain and consideration of duloxetine or low-dose amitriptyline for persistent fibromyalgia symptoms, avoiding opioids and repeating imaging only if evolving clinical findings justify it.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not escalate to a biologic or JAK inhibitor at this stage:** failure of two adequate NSAID trials does not establish axial spondyloarthritis, and the diagnosis and objective evidence of inflammation remain uncertain.  \nAlthough ASDAS-CRP 2.8 exceeds the usual high-disease-activity threshold, both ASDAS and BASDAI can be elevated by fibromyalgia and mechanical pain and should not independently drive escalation.  \nI would review the original MRI with an experienced musculoskeletal radiologist to determine whether the lesions are genuinely highly suggestive of inflammatory sacroiliitis rather than nonspecific loading-related changes; repeat MRI is not automatic at ten weeks.  \nStop ineffective NSAIDs unless there is another clear benefit, and actively treat fibromyalgia and mechanical back pain through tailored physiotherapy, graded exercise, sleep interventions, psychological support and, where appropriate, symptom-directed medication.  \nContinue rheumatology follow-up, reconsidering targeted therapy only if a confident axial spondyloarthritis diagnosis and convincing objective inflammation emerge alongside persistently active disease despite appropriate conventional management.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not prescribe a “stronger” drug or switch biologic classes on these findings:** after 16 weeks there is no meaningful clinical response to adalimumab, and her ongoing symptom burden is most consistent with fibromyalgia and mechanical back pain rather than demonstrably active inflammation.  \nResolution of the small, nonspecific marrow-oedema lesions does not retrospectively establish axial spondyloarthritis or prove that inflammation caused her pain.  \nI would revisit the original diagnosis and imaging with expert review and, if there remains no convincing evidence of axial spondyloarthritis, agree to discontinue adalimumab with planned rheumatology monitoring rather than continue ineffective immunosuppression.  \nIf review instead confirms genuine inflammatory disease now controlled by treatment, persistent pain alone should not trigger escalation, and continuation versus withdrawal requires a separate shared decision.  \nI would explain that her pain is real but needs a different treatment approach, prioritizing individualized exercise and scoliosis-focused physiotherapy, sleep assessment—including possible obstructive sleep apnoea—psychological pain-management support, and appropriate fibromyalgia medication.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "low",
+  "rep": 2,
+  "t1": "The most likely working diagnosis is **fibromyalgia with coexisting mechanical low-back pain**, contributed to by scoliosis and obesity; her widespread pain and symptom scores support fibromyalgia, provided generalized symptoms have persisted for at least three months.  \nHer inflammatory-pattern back symptoms and HLA-B27 positivity warrant continued assessment for axial spondyloarthritis, but **do not establish it**, and isolated small sacroiliac bone-marrow oedema foci without structural lesions are nonspecific and may reflect mechanical loading.  \nI would seek expert musculoskeletal radiology review of the MRI and complete the clinical assessment, including family history, pregnancy/postpartum history and physical loading, while recognizing that normal inflammatory markers do not exclude axial spondyloarthritis and that it can coexist with fibromyalgia.  \nManagement should emphasize education, individualized physiotherapy with graded aerobic and strengthening exercise, scoliosis-informed rehabilitation, weight-management support, sleep assessment and psychological pain-management strategies, with duloxetine or low-dose amitriptyline considered for persistent symptoms and avoidance of opioids.  \nA short NSAID trial is reasonable for back pain if safe, but response is not diagnostic; I would not initiate biologic therapy on these findings and would arrange rheumatology reassessment, reserving repeat imaging for persistent diagnostic uncertainty or evolving clinical features.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not escalate to a biologic simply because two NSAIDs have failed:** axial spondyloarthritis remains unconfirmed, and fibromyalgia can substantially inflate BASDAI and the symptom components of ASDAS despite a normal CRP.  \nI would obtain expert review of the original sacroiliac MRI if not already done, specifically assessing whether the oedema is genuinely characteristic of inflammatory sacroiliitis rather than mechanical stress; HLA-B27 positivity and these minimal MRI findings alone are insufficient to justify escalation.  \nWith unchanged symptoms and no new objective findings, I would prioritize fibromyalgia and mechanical-back-pain treatment through individualized graded exercise, scoliosis-informed physiotherapy, sleep and mood assessment, and pain-management support, considering duloxetine or low-dose amitriptyline where appropriate.  \nI would stop ineffective regular NSAIDs rather than continue their gastrointestinal, renal and cardiovascular risks, and arrange clinical follow-up rather than immediate repeat MRI.  \nIf reassessment establishes axial spondyloarthritis with convincing objective inflammation and persistent high disease activity despite these NSAID trials, targeted therapy would then be appropriate to discuss; NSAID nonresponse neither proves nor excludes the diagnosis.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate or switch to a “stronger” biologic:** after 16 weeks there is no meaningful clinical response, and her persistent symptoms are more consistent with fibromyalgia and mechanical pain than ongoing inflammatory disease.  \nResolution of the minimal MRI oedema does not retrospectively prove axial spondyloarthritis or establish that inflammation caused her pain, because nonspecific oedema can also resolve.  \nI would review the original diagnosis and imaging with an expert musculoskeletal radiologist and, if convincing evidence of axial spondyloarthritis remains absent, recommend stopping adalimumab through shared decision-making with planned monitoring.  \nIf axial spondyloarthritis is independently confirmed, I would distinguish controlled inflammation from coexisting non-inflammatory pain rather than use the persistently elevated symptom scores alone to justify switching therapy.  \nI would explain that more immunosuppression is unlikely to improve her current symptoms and intensify individualized rehabilitation, fibromyalgia education, sleep assessment—including possible obstructive sleep apnoea—weight-management support and appropriate centrally acting pain treatment.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "high",
+  "rep": 0,
+  "t1": "The most likely working diagnosis is **fibromyalgia with coexisting mechanical low-back pain**, associated with scoliosis and mechanical loading; WPI 11 and symptom severity score 8 support fibromyalgia provided the generalized symptoms have persisted for at least three months.  \n**Axial spondyloarthritis remains possible but is not established**: HLA-B27 positivity is not diagnostic, isolated sacroiliac bone marrow oedema can reflect mechanical stress, and normal inflammatory markers do not exclude inflammatory disease.  \nI would obtain expert musculoskeletal radiology review of the MRI, clarify relevant strain-related or postpartum factors, and arrange rheumatology reassessment, reserving repeat imaging for persistent or evolving clinical suspicion.  \nManagement should prioritise education about nociplastic and mechanical pain, individually paced aerobic and strengthening exercise, spine-focused physiotherapy, supported weight reduction, sleep optimisation, and cognitive-behavioural pain-management strategies where appropriate.  \nConsider duloxetine for persistent disabling widespread pain and a short NSAID trial for back pain if safe, but avoid opioids and do not initiate biologic or other immunosuppressive treatment on the current evidence.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not start a biologic at this point:** two adequate NSAID failures and high BASDAI/ASDAS scores do not establish active axial spondyloarthritis, and fibromyalgia can substantially elevate these scores.  \nReassess the diagnosis—including expert musculoskeletal radiology review of the original MRI—because the isolated oedema foci are nonspecific and do not, as described, convincingly establish inflammatory sacroiliitis.  \nWith **fibromyalgia and mechanical back pain remaining the leading working diagnoses**, stop ineffective NSAIDs and prioritise individually paced exercise, scoliosis-informed physiotherapy, sleep assessment and optimisation, supported weight management, and psychological pain-management strategies where appropriate.  \nConsider duloxetine for persistent disabling widespread pain after discussing benefits, adverse effects and contraindications, and assess progress through function, sleep and pain interference rather than inflammatory-disease scores alone.  \nMaintain rheumatology follow-up, since neither normal CRP nor NSAID nonresponse excludes axial spondyloarthritis, reserving repeat imaging or targeted treatment escalation for persistent diagnostic uncertainty or new, convincing evidence of inflammatory disease.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not switch to a “stronger” biologic**: there has been no meaningful clinical improvement, and there is no current objective evidence that uncontrolled inflammation explains her symptoms.  \nResolution of the initially small, nonspecific marrow-oedema foci could reflect treatment or natural fluctuation; it neither retrospectively confirms axial spondyloarthritis nor establishes that the persistent pain is treatment-resistant inflammatory disease.  \nI would reassess the original diagnosis with expert imaging review and, **if axial spondyloarthritis remains unconfirmed**, discuss supervised discontinuation of adalimumab with monitoring for emerging objective inflammation; if it is independently confirmed, MRI improvement still argues against escalating treatment solely for these symptom scores.  \nExplain that her ongoing symptoms are most consistent with **fibromyalgia/nociplastic pain plus mechanical back pain**, which are real but unlikely to improve with additional immunosuppression.  \nPrioritise individually paced exercise, scoliosis-informed physiotherapy, sleep assessment—including possible obstructive sleep apnoea—weight-management support, psychological pain-management strategies and, where appropriate, duloxetine, measuring progress through function, sleep and pain interference rather than BASDAI alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "high",
+  "rep": 1,
+  "t1": "The working diagnosis is **fibromyalgia with coexisting mechanical low-back pain** associated with scoliosis and increased loading; the WPI/SS scores support fibromyalgia once generalized pain distribution and symptoms lasting at least three months are confirmed, while axial spondyloarthritis remains a differential rather than an established diagnosis.  \nHLA-B27 positivity and inflammatory-sounding symptoms raise suspicion, but these small isolated sacroiliac oedema foci are nonspecific and insufficient by themselves to diagnose inflammatory sacroiliitis; normal CRP/ESR do not exclude axial spondyloarthritis.  \nI would obtain expert musculoskeletal radiology review of the MRI, clarify mechanical loading and pregnancy/postpartum history, and arrange rheumatology follow-up, with repeat imaging only if clinical suspicion persists or new features emerge.  \nManagement should emphasize education about fibromyalgia, individually paced aerobic and strengthening exercise, physiotherapy addressing scoliosis and spinal mechanics, weight management, sleep assessment and psychological pain-management strategies, with a short NSAID trial for back pain if safe and consideration of duloxetine or low-dose amitriptyline for persistent fibromyalgia symptoms.  \n**Biologic therapy is not justified on the current evidence**; avoid opioids and systemic corticosteroids, and reassess rather than attributing all symptoms either to inflammation or to fibromyalgia.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **not escalate to a biologic or JAK inhibitor**: failure of two NSAIDs and persistently high BASDAI/ASDAS scores do not, by themselves, justify treatment escalation when axial spondyloarthritis remains unconfirmed.  \nThe leading explanation remains **fibromyalgia with mechanical back pain**, which can inflate both activity scores, although NSAID nonresponse does not exclude axial spondyloarthritis.  \nI would reassess the diagnosis and obtain expert musculoskeletal radiology review of the sacroiliac MRI, considering loading and pregnancy/postpartum history rather than accepting the minimal oedema as definitive inflammatory sacroiliitis.  \nStop ineffective regular NSAIDs and prioritize individualized exercise, physiotherapy addressing spinal mechanics, sleep assessment, weight management and psychological pain-management strategies, considering duloxetine or low-dose amitriptyline if needed.  \nMaintain rheumatology follow-up, reserving repeat MRI for persistent substantial suspicion or evolving features, and reconsider targeted therapy only if a convincing diagnosis with objective inflammation and persistent inflammatory disease activity is established.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not prescribe a “stronger” drug**: after 16 weeks there is no clinically meaningful response, and the current findings do not support ongoing inflammatory activity as the principal cause of her symptoms.  \nResolution of the MRI oedema could reflect an anti-inflammatory effect or fluctuation of nonspecific lesions; it neither confirms the original axial spondyloarthritis diagnosis nor makes persistent pain evidence of biologic-resistant disease.  \nI would reassess the original diagnosis with expert review of the baseline MRI and, if it remains unsupported, discuss **supervised discontinuation of adalimumab rather than escalation or switching**, with rheumatology monitoring; if axial spondyloarthritis is convincingly established, distinguish controlled inflammation with residual non-inflammatory pain from treatment failure.  \nHer unchanged widespread pain, fatigue and unrefreshing sleep strongly support **fibromyalgia with coexisting mechanical back pain**, and BASDAI/ASDAS should not drive immunosuppression in isolation.  \nManagement should focus on explaining this distinction, individualized exercise and physiotherapy, sleep assessment including possible obstructive sleep apnoea, weight management and psychological pain-management strategies, with duloxetine or low-dose amitriptyline considered according to symptoms and contraindications.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": true,
+  "effort": "high",
+  "rep": 2,
+  "t1": "The most likely diagnosis is **fibromyalgia with concomitant mechanical low back pain** associated with scoliosis and increased loading; her symptom scores support fibromyalgia, provided generalized pain has persisted for at least three months.  \nHLA-B27 positivity and inflammatory-sounding symptoms warrant consideration of **axial spondyloarthritis**, but isolated small sacroiliac marrow-oedema foci can reflect mechanical stress and do not establish that diagnosis, while normal CRP/ESR do not exclude it.  \nI would obtain expert musculoskeletal radiology review of the MRI and arrange clinical follow-up, considering repeat imaging only if clinical suspicion remains substantial or new spondyloarthritis features emerge, since fibromyalgia and inflammatory disease can coexist.  \nManagement should prioritize education, graded aerobic and strengthening exercise, individualized physiotherapy addressing spinal mechanics, weight management, sleep optimization, and CBT or multidisciplinary pain-management support.  \nA short NSAID trial may help localized back pain if safe, and duloxetine or low-dose amitriptyline can be considered for persistent fibromyalgia symptoms; **avoid opioids and do not initiate DMARDs or biologics on the current evidence**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than escalate to a biologic:** failure of two adequate NSAID trials and persistently high BASDAI/ASDAS scores do not establish active axial spondyloarthritis, particularly when fibromyalgia can substantially inflate symptom-based measures.  \nFibromyalgia with mechanical back pain remains the leading explanation, although neither NSAID nonresponse nor normal inflammatory markers excludes coexisting axial spondyloarthritis.  \nObtain expert musculoskeletal radiology review of the original MRI to determine whether the oedema is genuinely characteristic of inflammatory sacroiliitis rather than mechanical loading, alongside a renewed clinical assessment.  \nStop ineffective regular NSAIDs and intensify fibromyalgia and mechanical-pain management with individualized physiotherapy, graded exercise, sleep assessment, weight-management support and, if appropriate, duloxetine or low-dose amitriptyline.  \nContinue rheumatology follow-up, reserving repeat imaging for a persisting or evolving clinical suspicion and considering biologic treatment only if active axial spondyloarthritis is confidently established with convincing disease-attributable objective findings.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate or switch biologics:** there has been no meaningful clinical response after 16 weeks, and fibromyalgia can keep BASDAI and ASDAS elevated despite little or no inflammatory activity.  \nResolution of the MRI oedema does not retrospectively establish axial spondyloarthritis—nonspecific lesions can fluctuate, while genuine inflammation could also have been suppressed without affecting coexisting non-inflammatory pain.  \nI would review the original diagnosis and imaging with an expert and, **unless convincing evidence supports axial spondyloarthritis, recommend supervised discontinuation of adalimumab**, with follow-up for objective inflammatory recurrence; if genuine disease is confirmed and controlled, persistent pain alone is not a reason to intensify immunosuppression.  \nHer continuing symptoms are most consistent with fibromyalgia and mechanical back pain, so management should prioritize education, individualized physiotherapy, graded exercise, psychological pain-management support, weight management, and assessment of sleep disturbance, including possible sleep apnoea.  \nConsider duloxetine or low-dose amitriptyline according to symptoms and contraindications, avoid opioids, and assess progress through function, sleep and participation rather than inflammatory disease scores alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "low",
+  "rep": 0,
+  "t1": "My working diagnosis is **possible non-radiographic axial spondyloarthritis (axSpA), not yet confirmed**: her inflammatory-pattern back pain and HLA-B27 positivity raise suspicion, but neither establishes the diagnosis, and normal CRP/ESR do not exclude it.  \nA single small focus of sacroiliac bone marrow oedema on each side, without structural lesions, is **nonspecific** and insufficient by itself to establish inflammatory sacroiliitis; mechanical loading, athletic activity and pregnancy/postpartum changes should be considered.  \nI would review those potential contributors and obtain expert musculoskeletal radiology review of the MRI, interpreting the distribution and extent of oedema in clinical context rather than using classification criteria as diagnostic rules.  \nInitial treatment would be education, regular exercise and physiotherapy, plus an adequate NSAID trial if safe, with reassessment of symptoms, function and treatment response.  \nI would not start a biologic on the current evidence; arrange rheumatology follow-up and consider further imaging only if persistent symptoms or evolving clinical findings would make it diagnostically useful.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than escalate automatically to a biologic:** failure of two adequate NSAID trials and high symptom scores do not establish active axial spondyloarthritis.  \nI would obtain expert review of the original MRI if not already done, revisit mechanical/loading and pregnancy-related explanations, and reassess for alternative causes of persistent back pain; the information given does not justify labelling this fibromyalgia.  \nIf the MRI remains equivocal, I would retain a provisional diagnosis, continue tailored exercise/physiotherapy, and stop ineffective NSAIDs rather than maintain full-dose exposure.  \nRepeat dedicated sacroiliac MRI can be considered selectively if ongoing clinical suspicion is substantial and the result would change management, but is not automatically indicated at 10 weeks.  \nIf specialist assessment confirms axSpA **and convincing objective inflammation** on MRI or elevated CRP, her persistent activity despite two NSAIDs would support discussing a TNF or IL-17 inhibitor; the current scant, nonspecific oedema is not sufficient justification.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not prescribe a “stronger” drug or switch biologics on these findings:** after 16 weeks, there is no meaningful clinical response to adalimumab, and no current objective evidence of active inflammation to explain her persistent pain.  \nResolution of the small MRI lesions does not retrospectively confirm axSpA or establish that inflammation caused her symptoms, since nonspecific marrow oedema can also resolve.  \nI would revisit the original diagnosis with expert review of both scans and reassess lumbar, hip and mechanical sources of pain, without assuming fibromyalgia or central sensitisation from treatment failure alone.  \nGiven the uncertain diagnosis and absent clinical benefit, I would discuss stopping adalimumab with planned clinical follow-up, rather than escalating immunosuppression.  \nI would validate her pain, explain why more immunosuppression is unlikely to help on the current evidence, and offer targeted rehabilitation and individualised non-inflammatory pain management while monitoring for convincing inflammatory features.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "low",
+  "rep": 1,
+  "t1": "My working diagnosis is **inflammatory-pattern back pain with possible early axial spondyloarthritis (axSpA), not yet a confirmed diagnosis**: HLA-B27 positivity increases suspicion, but normal inflammatory markers do not exclude axSpA and small isolated foci of sacroiliac bone marrow oedema are nonspecific.  \nThe MRI description alone is insufficient to establish inflammatory sacroiliitis; I would request expert musculoskeletal radiology review of lesion extent, location and sequences, and ask about pregnancy/postpartum status, mechanical loading, family history and prior NSAID response.  \nInitial management would be education, regular exercise and physiotherapy targeting spinal mobility and strength, plus a monitored therapeutic trial of an NSAID if there are no contraindications.  \nI would reassess symptoms and function after approximately 6–12 weeks, reviewing alternative causes and repeating inflammatory markers or imaging only if persistent symptoms or evolving features make this clinically useful.  \n**I would not start a biologic or conventional DMARD now**: the diagnosis and objective inflammatory activity remain insufficiently established, and conventional DMARDs do not treat isolated axial disease.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than escalate automatically to a biologic**: failure of two adequate NSAID trials and high symptom scores do not establish axSpA or prove active inflammation.  \nI would obtain expert review of the original MRI, specifically whether the lesions are genuinely highly suggestive of inflammatory sacroiliitis, and revisit mechanical loading, pregnancy/postpartum history, family history and alternative spinal or sacroiliac causes.  \nIf the MRI remains equivocal, I would retain “possible axSpA,” stop ineffective NSAIDs, continue tailored physiotherapy and arrange follow-up, with repeat MRI only if the subsequent clinical course warrants it.  \nThere is no basis here to label her symptoms fibromyalgia or central sensitisation solely because treatment failed.  \nIf specialist review instead confirms axSpA with unequivocal inflammatory MRI findings, her persistent high disease activity despite two NSAIDs would justify discussing a TNF or IL-17 inhibitor, following appropriate safety screening and local eligibility criteria.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate to a “stronger” drug:** after 16 weeks, adalimumab has produced no clinically meaningful benefit, and there is no current objective evidence of active inflammation to explain her persistent pain.  \nResolution of the small MRI lesions could reflect treatment or natural fluctuation; it neither confirms the original axSpA diagnosis nor proves that her pain was inflammatory.  \nI would review the original imaging and diagnosis, assess for mechanical spinal or sacroiliac pain and other contributors, and avoid diagnosing fibromyalgia or central sensitisation without supporting clinical features.  \nGiven the uncertain diagnosis and absent symptomatic response, I would discuss stopping adalimumab with planned monitoring, rather than switching biologics solely on the basis of high symptom scores.  \nManagement would focus on tailored rehabilitation and appropriate symptom relief, with reassessment for inflammatory recurrence; if axSpA is subsequently convincingly established with persistent active disease, an alternative targeted treatment could then be considered.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "low",
+  "rep": 2,
+  "t1": "My working diagnosis is **inflammatory-pattern back pain with possible early axial spondyloarthritis (axSpA), not yet a confirmed diagnosis**: HLA-B27 positivity increases suspicion, but small isolated foci of sacroiliac bone marrow oedema are nonspecific and do not establish inflammatory sacroiliitis.  \nNormal CRP and ESR do not exclude axSpA, but the absence of structural MRI lesions or other spondyloarthritis features makes diagnostic caution appropriate; classification criteria should not substitute for clinical diagnosis.  \nI would clarify family history, NSAID response, pregnancy/postpartum history and exercise or mechanical loading, and obtain expert musculoskeletal radiology review of the MRI, including lesion extent, distribution and imaging quality.  \nInitial management would be education, regular exercise and physiotherapy, plus a therapeutic NSAID trial if safe, with reassessment of pain, function and evolving clinical features.  \nI would **not start a biologic on this evidence alone**, and would arrange rheumatology follow-up, reserving repeat imaging for persistent diagnostic uncertainty when it could change management.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **reassess the diagnosis rather than automatically escalate to a biologic**: failure of two adequate NSAID trials supports escalation only when axSpA is confidently diagnosed, and high BASDAI/ASDAS scores do not themselves establish inflammatory disease.  \nThe key next step is expert review of the original sacroiliac MRI to determine whether the oedema is genuinely highly suggestive of axSpA or represents nonspecific mechanical change, alongside reassessment for mechanical and other causes of back pain.  \nIf that review confirms convincing inflammatory sacroiliitis and the overall clinical assessment supports axSpA, her persistently high disease activity despite two NSAIDs would justify discussing a TNF or IL-17 inhibitor after appropriate infection screening and shared decision-making.  \nIf the MRI remains equivocal, I would defer biologic treatment, discontinue ineffective NSAIDs, continue tailored physiotherapy and symptom management, and maintain rheumatology follow-up, with repeat imaging only if likely to resolve uncertainty or alter treatment.  \nNeither NSAID nonresponse nor normal inflammatory markers excludes axSpA, but neither warrants labelling her pain as fibromyalgia in the absence of its clinical features.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not escalate to a “stronger” drug or automatically switch biologics**: after 16 weeks, there is no meaningful clinical response, and the resolved MRI oedema provides no current evidence that uncontrolled sacroiliac inflammation explains her persistent pain.  \nMRI improvement alone neither validates the original axSpA diagnosis nor establishes clinical benefit, particularly given the minimal, nonspecific baseline lesions.  \nI would revisit the original imaging and diagnosis, reassess for mechanical or other non-inflammatory pain sources, and avoid diagnosing fibromyalgia solely because treatment failed.  \nGiven the uncertain diagnosis and absent symptomatic benefit, I would discuss **stopping adalimumab with planned monitoring**, rather than escalating immunosuppression, while arranging targeted rehabilitation and appropriate symptom management.  \nIf subsequent assessment establishes convincing axSpA with persistent or recurrent inflammatory activity, an alternative targeted therapy could then be considered through shared decision-making.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "high",
+  "rep": 0,
+  "t1": "My working diagnosis is **chronic back pain with inflammatory features and possible non-radiographic axial spondyloarthritis**, but the information given does not establish that diagnosis confidently.  \nHLA-B27 positivity increases suspicion, but isolated small sacroiliac bone-marrow oedema foci can occur with mechanical loading and are not diagnostic; conversely, normal CRP and ESR do not exclude axial spondyloarthritis.  \nI would request expert musculoskeletal radiology review of the MRI and clarify family history, exercise-related loading, pregnancy/postpartum history, and other potential mechanical causes.  \nInitial management would be education, regular exercise and physiotherapy, plus an adequate NSAID trial if safe, with gastrointestinal, renal and cardiovascular risks considered.  \nI would reassess pain, stiffness, function and treatment response after 6–12 weeks, reserving repeat imaging for persistent or evolving diagnostic uncertainty, and **would not start biologics or conventional DMARDs at this stage**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than automatically escalate to a biologic:** failure of two NSAIDs and persistently high BASDAI/ASDAS scores do not establish that the pain is inflammatory.  \nThe next step is expert musculoskeletal radiology review of the actual MRI, alongside reassessment for mechanical loading, pregnancy/postpartum changes and other back-pain causes, because these small isolated oedema foci may be nonspecific.  \nNormal inflammatory markers and NSAID nonresponse do not exclude axial spondyloarthritis, but there is also insufficient evidence here to label her symptoms as fibromyalgia.  \nI would stop ineffective NSAIDs, continue individualised exercise/physiotherapy and arrange clinical follow-up, considering repeat MRI selectively if diagnostic uncertainty persists and the result would change treatment.  \n**If specialist assessment establishes axial spondyloarthritis with unequivocal MRI inflammation attributable to it**, her persistent activity despite two NSAIDs would support discussing a TNF or IL-17 inhibitor after appropriate screening; otherwise, I would not initiate biologic therapy or conventional DMARDs.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate to a “stronger” drug on these scores alone**: there has been no clinically meaningful symptomatic response after 16 weeks, despite disappearance of the MRI oedema.  \nMRI normalisation on adalimumab neither retrospectively validates the initially equivocal diagnosis nor excludes treated axial spondyloarthritis, so I would review the original imaging and reassess whether her pain is inflammatory, mechanical or nociplastic—without automatically labelling it fibromyalgia.  \nGiven the uncertain diagnosis and lack of clinical benefit, I would discuss **supervised withdrawal of adalimumab rather than an automatic biologic switch**, with planned follow-up for symptom evolution and objective evidence of inflammation.  \nMeanwhile, I would provide targeted physiotherapy, graded activity and an individualised pain-management plan based on that reassessment.  \nA different biologic would be considered only if reassessment supports established axial spondyloarthritis with ongoing inflammatory activity, rather than persistent symptom scores alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "high",
+  "rep": 1,
+  "t1": "My working diagnosis is **possible non-radiographic axial spondyloarthritis (axSpA), not yet confirmed**, given the inflammatory-pattern back pain and HLA-B27 positivity.  \nNormal CRP/ESR do not exclude axSpA, but isolated small sacroiliac marrow-oedema foci without structural lesions are nonspecific and do not, by themselves, establish inflammatory sacroiliitis.  \nI would clarify family history, occupational/sporting loading and pregnancy/postpartum history, and obtain expert musculoskeletal-radiology review of the MRI for a genuinely characteristic inflammatory pattern.  \nManagement initially would be education, regular exercise and physiotherapy, plus an adequate NSAID trial if safe, with reassessment of symptoms and function in 6–12 weeks.  \n**I would not start biologic therapy now**; repeat MRI is selective rather than routine, and escalation requires a secure diagnosis with persistently active disease despite standard treatment and convincing objective evidence of inflammation.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **reassess the diagnosis before starting a biologic**: two adequate NSAID failures and persistently high BASDAI/ASDAS establish ongoing symptoms, but do not prove those symptoms reflect active axial inflammation.  \nObtain expert musculoskeletal-radiology review of the MRI, because small isolated bilateral marrow-oedema foci without structural lesions may be mechanical or incidental rather than inflammatory sacroiliitis.  \nRevisit mechanical loading, pregnancy/postpartum history and alternative back-pain causes; neither normal CRP nor NSAID nonresponse excludes axSpA, and there is insufficient evidence here to diagnose fibromyalgia.  \nStop ineffective NSAIDs, optimise targeted physiotherapy and exercise, and maintain follow-up, reserving repeat MRI for persistent diagnostic uncertainty when its result would change management.  \n**If expert review confirms convincing inflammatory sacroiliitis and a secure diagnosis of active non-radiographic axSpA**, her persistent ASDAS ≥2.1 despite two NSAIDs would support discussing a TNF or IL-17 inhibitor after appropriate screening; otherwise, defer biologic therapy.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not offer a “stronger” drug now:** after 16 weeks, she has no clinically meaningful response to adalimumab, despite resolution of the MRI oedema.  \nThis discordance warrants reassessment rather than automatic biologic switching: disappearance of initially nonspecific oedema neither confirms the original axSpA diagnosis nor proves that her persisting pain is inflammatory.  \nI would review the original imaging and diagnosis, assess mechanical back-pain sources and possible nociplastic pain, but would not diagnose fibromyalgia without supporting clinical features.  \nGiven the uncertain diagnosis and absent clinical benefit, I would discuss **stopping adalimumab under rheumatology supervision**, with planned monitoring for recurrent objective inflammation rather than escalating immunosuppression.  \nManagement should focus on an individualised rehabilitation and pain-management programme, with reconsideration of targeted therapy only if reassessment establishes genuinely active axSpA.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "F",
+  "fm": false,
+  "effort": "high",
+  "rep": 2,
+  "t1": "My working diagnosis is **chronic inflammatory-pattern back pain with possible early axial spondyloarthritis**, but the evidence is insufficient to diagnose definite non-radiographic axial spondyloarthritis.  \nHLA-B27 increases suspicion, but these small isolated marrow-oedema foci are nonspecific and can occur with mechanical loading; normal inflammatory markers do not exclude axial spondyloarthritis, and classification criteria should not substitute for clinical diagnosis.  \nI would arrange expert musculoskeletal radiology review of the MRI and clarify family history, pregnancy/postpartum history, exercise or occupational loading, and previous NSAID response.  \nInitial treatment would be regular exercise and physiotherapy, maintaining normal activity, and a therapeutic-dose NSAID trial if safe, with appropriate gastrointestinal, renal and cardiovascular risk assessment.  \nReview in approximately 3 months to assess symptoms, function and evolving spondyloarthritis features, reserving repeat imaging for persistent diagnostic uncertainty or clinical change; **biologic therapy is not justified on the current evidence**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **reassess the diagnosis rather than automatically start a biologic**: high BASDAI/ASDAS scores and failure of two NSAIDs do not establish that her pain reflects active axial spondyloarthritis.  \nObtain expert musculoskeletal radiology review of the MRI, because the described small, isolated oedema foci without structural lesions are nonspecific, and revisit mechanical/loading-related causes, pregnancy history and other relevant differentials.  \nNormal CRP does not exclude axial spondyloarthritis, but neither HLA-B27 positivity nor these symptom scores resolve the diagnostic uncertainty; there is also insufficient evidence here to label her symptoms fibromyalgia.  \nStop ineffective NSAIDs, optimise individualised physiotherapy and exercise, and arrange longitudinal reassessment, with repeat MRI considered selectively if persistent suspicion or evolving features would change management.  \n**If specialist reassessment confirms axial spondyloarthritis with convincing attributable MRI inflammation or elevated CRP**, her persistent high activity despite two adequate NSAID trials would support discussing a TNF or IL-17 inhibitor after appropriate safety screening; the current findings alone do not justify that escalation.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not escalate to a “stronger” drug**: she has had no meaningful clinical response after 16 weeks, and elevated symptom scores alone do not establish ongoing inflammatory disease.  \nI would revisit the original diagnosis with expert review of the baseline MRI; resolution of oedema may reflect adalimumab’s effect, but does not establish that the original nonspecific lesions explained her pain, nor does a normal on-treatment MRI exclude axial spondyloarthritis.  \nGiven the uncertain diagnosis and absent symptomatic benefit, I would discuss **supervised discontinuation of adalimumab with planned follow-up**, rather than automatically switching biologics.  \nReassess for mechanical spinal, hip or sacroiliac pain and other clinically suggested causes, without diagnosing fibromyalgia or nociplastic pain solely from treatment failure—neither is established by this history.  \nContinue individualised exercise and physiotherapy, agree a symptom-management plan, and reconsider targeted treatment only if reassessment provides convincing evidence of clinically active axial spondyloarthritis.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "low",
+  "rep": 0,
+  "t1": "The most likely working diagnosis is **fibromyalgia/nociplastic pain with coexisting mechanical low-back pain**, contributed to by scoliosis and obesity; his widespread pain index and symptom severity score meet the numerical fibromyalgia criteria, provided these symptoms have persisted for at least three months and involve at least four of five body regions.  \n**Axial spondyloarthritis remains possible but is not established**: his inflammatory-type symptoms and HLA-B27 positivity warrant attention, but small isolated sacroiliac bone-marrow oedema foci without structural lesions are nonspecific and can reflect mechanical loading, while normal inflammatory markers do not exclude disease.  \nI would review the MRI with an experienced musculoskeletal radiologist, clarify family history and other spondyloarthritis features, and assess sleep disturbance—including obstructive sleep apnoea risk—mood and alternative contributors to widespread pain.  \nManagement should prioritise education, individually paced aerobic and strengthening exercise, physiotherapy addressing spinal mechanics, weight management and sleep optimisation, with CBT or a similar pain-management approach and, if needed, a symptom-targeted medication such as duloxetine; a short NSAID trial may help back pain if safe, but opioids should be avoided.  \nI would **not start biologic therapy on these findings**, but arrange rheumatology follow-up and consider repeat imaging only if persistent or evolving clinical features justify it, recognising that fibromyalgia can coexist with axial spondyloarthritis and inflate symptom-based disease-activity scores.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not escalate to a biologic simply because two adequate NSAID trials have failed:** axial spondyloarthritis is still unconfirmed, and fibromyalgia/mechanical pain can drive high BASDAI and ASDAS scores despite little objective inflammation.  \nThe next step is expert musculoskeletal radiology review of the original sacroiliac MRI to determine whether its distribution and extent are genuinely highly suggestive of inflammatory sacroiliitis rather than nonspecific loading-related oedema; HLA-B27 positivity alone does not establish the diagnosis.  \nIf that review remains equivocal, I would retain fibromyalgia with mechanical back pain as the working diagnosis, stop ineffective regular NSAIDs, and intensify individualised rehabilitation, sleep/OSA assessment, weight management and multidisciplinary pain treatment, with symptom-targeted medication where appropriate.  \nI would maintain rheumatology follow-up, reserving repeat MRI for persistent strong clinical suspicion or evolving features rather than ordering it automatically at ten weeks.  \nIf reassessment instead establishes axial spondyloarthritis with convincing objective inflammation and persistently active inflammatory symptoms, his adequate NSAID failures would support discussing a TNF or IL-17 inhibitor, while explaining that this would not treat the coexisting nociplastic pain.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not increase adalimumab or switch to a “stronger” drug on the basis of these symptom scores:** there has been no clinically meaningful improvement after 16 weeks, and there is currently no objective evidence of active sacroiliac inflammation.  \nResolution of the tiny baseline oedema foci does not retrospectively confirm axial spondyloarthritis or prove a treatment effect, because nonspecific oedema can fluctuate or resolve spontaneously.  \nI would reassess the original diagnosis, including expert review of both MRIs, and—unless convincing independent evidence of axial spondyloarthritis emerges—recommend stopping adalimumab through shared decision-making, with follow-up for new inflammatory features.  \nIf axial spondyloarthritis is independently confirmed, I would distinguish controlled inflammation with residual fibromyalgia/mechanical pain from genuinely active disease before deciding whether to continue treatment; persistent pain alone is not a reason to switch biologics.  \nI would explain that his pain is real but currently appears predominantly nociplastic and mechanical, and prioritise tailored rehabilitation, sleep and sleep-apnoea assessment, weight management, psychological pain-management support and, where appropriate, a medication such as duloxetine.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "low",
+  "rep": 1,
+  "t1": "The most likely working diagnosis is **fibromyalgia with coexisting mechanical low back pain**, influenced by scoliosis and obesity; his widespread pain and symptom scores support fibromyalgia, provided generalized symptoms have persisted for at least three months.  \n**Axial spondyloarthritis remains possible but is not established**: inflammatory-pattern symptoms and HLA-B27 warrant consideration, but isolated small sacroiliac marrow-oedema foci without structural lesions are nonspecific and may reflect mechanical loading, while normal inflammatory markers do not exclude disease.  \nI would obtain expert musculoskeletal radiology review of the MRI, clarify symptom duration and distribution, family history and NSAID response, and assess sleep apnoea, mood and other clinically indicated contributors to fatigue.  \nManagement should emphasize education, individually paced aerobic and strengthening exercise, physiotherapy addressing spinal mechanics, weight management, sleep optimization and cognitive behavioural approaches, with a short NSAID trial if safe for the back pain and consideration of duloxetine for persistent widespread pain; avoid opioids.  \nI would **not initiate biologic therapy on these findings**, but arrange rheumatology follow-up to reassess for evolving spondyloarthritis, reserving repeat imaging for persistent diagnostic uncertainty or new clinical evidence rather than performing it routinely.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not escalate to a biologic simply because two NSAIDs have failed:** axial spondyloarthritis remains unconfirmed, and fibromyalgia can substantially inflate BASDAI and the patient-reported components of ASDAS.  \nObtain expert review of the original sacroiliac MRI if not already done, since these limited marrow-oedema findings do not reliably establish inflammatory sacroiliitis, and reassess for new spondyloarthritis features or alternative causes of back pain.  \nStop ineffective regular NSAIDs and prioritize structured fibromyalgia and mechanical-back-pain management through graded exercise, targeted physiotherapy, sleep-apnoea assessment, weight management and psychological support, considering duloxetine if appropriate.  \nContinue rheumatology follow-up, with repeat MRI only if persistent clinical suspicion or evolving findings make it likely to clarify the diagnosis.  \nIf a confident diagnosis of active axial spondyloarthritis is subsequently established with convincing objective inflammation, his adequate NSAID trials would support consideration of targeted therapy, but the current symptom scores alone do not justify it.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not prescribe a “stronger” drug or switch biologics on the basis of these symptom scores:** after 16 weeks there is no meaningful clinical response, and no current objective evidence of ongoing axial inflammation.  \nMRI normalization may reflect an anti-inflammatory effect or spontaneous resolution of nonspecific oedema; it neither retrospectively confirms axial spondyloarthritis nor proves that his persistent pain is inflammatory.  \nI would revisit the original diagnosis with expert imaging review and, given the weak initial evidence and absent clinical benefit, discuss stopping adalimumab with planned rheumatology monitoring rather than escalating immunosuppression.  \nHis persistent symptoms are most consistent with fibromyalgia and mechanical back pain, so I would intensify individualized exercise and scoliosis-directed physiotherapy, address sleep—including possible obstructive sleep apnoea—and consider duloxetine alongside pain education and psychological support.  \nIf convincing inflammatory features recur after withdrawal, reassess promptly and reconsider targeted treatment based on a secure diagnosis and demonstrable inflammatory activity, not BASDAI alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "low",
+  "rep": 2,
+  "t1": "The most likely working diagnosis is **fibromyalgia/nociplastic pain with coexisting mechanical low-back pain**, contributed to by scoliosis and obesity; his WPI of 11 and symptom severity score of 8 support fibromyalgia, provided the widespread symptoms have persisted for at least three months.  \n**Non-radiographic axial spondyloarthritis remains a possibility, but is not established**: the inflammatory-pattern symptoms and HLA-B27 positivity warrant attention, whereas isolated small sacroiliac oedema foci without structural lesions are nonspecific and can reflect mechanical loading; normal inflammatory markers do not exclude it.  \nI would review the MRI with an experienced musculoskeletal radiologist, clarify the symptom history and family history, and reassess longitudinally rather than equating HLA-B27 positivity or minimal marrow oedema with a diagnosis.  \nInitial treatment should combine explanation and reassurance, individually paced aerobic and strengthening exercise, physiotherapy addressing scoliosis and spinal mechanics, weight management, and sleep assessment—including obstructive sleep apnoea given his obesity and fatigue—with psychological pain-management support and, if needed, duloxetine or low-dose amitriptyline tailored to symptoms and risks.  \nA monitored NSAID trial is reasonable for back pain if safe, but I would avoid opioids, systemic corticosteroids and biologic therapy at this stage, reserving repeat imaging or escalation for persistent clinical suspicion or evolving objective evidence of axial inflammation.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **not escalate to a biologic simply because two NSAIDs have failed**: axial spondyloarthritis remains unconfirmed, and fibromyalgia can substantially inflate BASDAI and the patient-reported components of ASDAS.  \nThe next step is diagnostic reassessment, including expert review of the original sacroiliac MRI for whether the oedema is genuinely characteristic of inflammatory sacroiliitis rather than mechanical stress, and review for any new spondyloarthritis features.  \nIf there is still no convincing inflammatory evidence, I would stop ineffective regular NSAIDs and prioritise structured treatment of nociplastic and mechanical pain, including graded rehabilitation, sleep/apnoea assessment, weight management, psychological pain-management support and symptom-directed medication.  \nRepeat MRI is not automatic at ten weeks but may be appropriate later if clinical suspicion remains substantial or new inflammatory features emerge.  \nIf reassessment instead establishes axial spondyloarthritis with convincing objective inflammation, persistent high activity despite these adequate NSAID trials would support discussing a TNF or IL-17 inhibitor, while treating the coexisting fibromyalgia in parallel.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not increase adalimumab or switch to a “stronger” biologic**: after 16 weeks there is no clinically meaningful symptomatic response, and there is no current objective evidence of active inflammation to justify escalation.  \nResolution of the small, nonspecific marrow oedema foci does not retrospectively prove axial spondyloarthritis or establish that inflammation caused his pain; fibromyalgia and mechanical pain remain the likely dominant drivers of his symptoms and elevated activity scores.  \nI would revisit the original diagnosis and imaging with an expert musculoskeletal radiologist and, if axial spondyloarthritis remains unsupported, discuss discontinuing adalimumab with planned clinical follow-up.  \nIf convincing inflammatory disease had been established before treatment, the MRI could instead indicate inflammatory suppression, so continuation versus withdrawal requires an individualised discussion rather than assuming either ongoing inflammation or diagnostic exclusion.  \nI would explain that greater immunosuppression is unlikely to improve nociplastic pain and prioritise multidisciplinary rehabilitation, scoliosis-directed physiotherapy, sleep/apnoea assessment, weight management, psychological pain-management strategies and appropriately selected fibromyalgia medication.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "high",
+  "rep": 0,
+  "t1": "The working diagnosis is **fibromyalgia/nociplastic pain with coexisting mechanical low-back pain** associated with scoliosis and increased loading; non-radiographic axial spondyloarthritis remains possible, including as a coexisting condition, but is not established.\n\nWPI 11 and symptom severity 8 meet fibromyalgia scoring thresholds, provided generalized pain involves at least four of five regions and symptoms have persisted for at least three months.\n\nNeither HLA-B27 positivity nor these small, isolated marrow-oedema foci establish inflammatory sacroiliitis—such lesions can reflect mechanical stress—although normal CRP and ESR do not exclude axial spondyloarthritis.\n\nManagement should prioritize education, graded aerobic and strengthening exercise, individualized physiotherapy, weight management, and sleep assessment—including possible obstructive sleep apnoea—with CBT and, if needed, duloxetine or low-dose amitriptyline for persistent fibromyalgia symptoms.\n\nI would obtain expert musculoskeletal-radiology review of the MRI, offer a time-limited NSAID trial for the back pain if safe, and arrange clinical follow-up with repeat imaging only if suspicion persists or evolves; **avoid opioids and do not initiate biologic or other disease-modifying treatment on these findings alone**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **not start a biologic on the basis of two failed NSAID trials and elevated BASDAI/ASDAS alone**: these scores measure symptom burden in established axial spondyloarthritis and can be inflated by fibromyalgia, particularly without convincing objective inflammation.  \nThe working diagnosis remains **fibromyalgia/nociplastic pain with mechanical low-back pain**, while keeping axial spondyloarthritis under review, since neither NSAID nonresponse nor normal inflammatory markers excludes it.  \nReassess for new spondyloarthritis features and obtain expert review of the existing sacroiliac MRI if not already performed; the described small, isolated oedema foci should not automatically be labelled inflammatory sacroiliitis, and routine short-interval repeat MRI is unlikely to clarify matters.  \nStop ineffective NSAIDs and actively treat the dominant pain mechanisms with individualized physiotherapy, graded exercise, weight management, sleep-apnoea assessment, pain-focused psychological support, and consideration of duloxetine for persistent widespread pain.  \nArrange follow-up, reserving repeat investigations for persistent or evolving inflammatory suspicion and biologic therapy for a confirmed diagnosis of active axial spondyloarthritis with convincing treatment-qualifying objective evidence.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not escalate or switch biologics simply because the symptom scores remain high**: there has been no meaningful clinical response after 16 weeks, and the persistent widespread pain, fatigue and poor sleep strongly suggest predominantly nociplastic and mechanical pain.  \nResolution of marrow oedema could reflect adalimumab’s anti-inflammatory effect or fluctuation of nonspecific lesions; it neither retrospectively proves axial spondyloarthritis nor establishes that inflammation is driving his current symptoms.  \nI would review the original diagnosis and MRI with an expert musculoskeletal radiologist and, **if convincing evidence of axial spondyloarthritis remains absent, discuss stopping adalimumab with monitored follow-up**, rather than pursuing “stronger” immunosuppression.  \nManagement should now actively target fibromyalgia and mechanical back pain through individualized physiotherapy, graded exercise, sleep-apnoea assessment, weight management, psychological pain-management support, and consideration of duloxetine.  \nIf review does establish genuine axial spondyloarthritis, distinguish controlled inflammation from residual non-inflammatory pain before deciding whether to maintain treatment, and reassess promptly if inflammatory features emerge after withdrawal.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "high",
+  "rep": 1,
+  "t1": "The leading working diagnosis is **fibromyalgia with coexisting mechanical low-back pain**, potentially aggravated by scoliosis and obesity; axial spondyloarthritis remains possible but is not established.  \nHLA-B27 positivity and inflammatory-sounding symptoms warrant attention, but tiny isolated sacroiliac marrow-oedema foci can reflect mechanical loading and are not diagnostic of sacroiliitis, while normal CRP/ESR do not exclude axial spondyloarthritis.  \nI would confirm fibromyalgia’s generalized pain distribution and ≥3-month symptom duration, obtain expert musculoskeletal-radiology review of the MRI, and reassess clinically for additional spondyloarthritis features.  \nManagement should prioritize education about pain amplification, individualized graded aerobic and strengthening exercise, scoliosis-directed physiotherapy, weight management, and sleep assessment—including obstructive sleep apnoea—with CBT and/or duloxetine considered for persistent disabling symptoms.  \nA short NSAID trial for the back pain is reasonable if safe, but **biologic therapy is not justified on the current evidence**; avoid opioids and arrange rheumatology follow-up, reserving repeat imaging for persistent or increasing clinical suspicion.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "The working diagnosis remains **fibromyalgia with mechanical back pain**: failure of two adequate NSAID trials neither confirms nor excludes axial spondyloarthritis, and fibromyalgia can substantially inflate BASDAI and ASDAS scores.  \nI would reassess for spondyloarthritis features and obtain expert musculoskeletal-radiology review of the original MRI, because the reported minimal oedema is not, by itself, convincing inflammatory sacroiliitis.  \n**Do not escalate automatically to a biologic**; discontinue ineffective regular NSAIDs rather than continuing their gastrointestinal, cardiovascular and renal risks.  \nActively address fibromyalgia and mechanical contributors through tailored graded exercise, physiotherapy, weight management, sleep assessment—including possible sleep apnoea—and psychological pain-management strategies, considering duloxetine for persistent disabling symptoms.  \nContinue rheumatology follow-up, reserving repeat imaging for sustained or increasing diagnostic suspicion; if axial spondyloarthritis is subsequently established with convincing attributable objective inflammation and persistently active disease, his adequate NSAID failures would support considering a TNF or IL-17 inhibitor.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not escalate to a “stronger” drug**: the persistent symptoms are most consistent with fibromyalgia and mechanical back pain, rather than demonstrably active axial inflammation.  \nThere has been no clinically important ASDAS improvement at 16 weeks, and resolution of the tiny MRI lesions neither retrospectively confirms axial spondyloarthritis nor proves that those lesions caused his pain.  \nI would revisit the diagnosis, including expert review of the baseline MRI, and **discontinue adalimumab with shared decision-making and planned monitoring if axial spondyloarthritis remains unsubstantiated**.  \nIf axial spondyloarthritis is convincingly established, inflammation may now be controlled; biologic continuation should be assessed individually, but elevated symptom scores alone should not trigger switching when fibromyalgia is a major contributor.  \nThe immediate treatment priority is a coordinated fibromyalgia/mechanical-pain programme—tailored exercise and physiotherapy, sleep-apnoea assessment, weight management, psychological pain-management strategies and consideration of duloxetine—with follow-up for any new objective inflammatory features.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": true,
+  "effort": "high",
+  "rep": 2,
+  "t1": "My working diagnosis is **fibromyalgia with coexisting mechanical low-back pain**, associated with scoliosis and increased mechanical loading; the WPI and symptom-severity scores support fibromyalgia, provided generalized pain has persisted for at least three months.  \n**Axial spondyloarthritis remains possible but is not established**: inflammatory-pattern symptoms and HLA-B27 warrant attention, but minimal isolated sacroiliac marrow oedema is nonspecific and can reflect mechanical stress, while normal CRP/ESR do not exclude inflammatory disease.  \nI would request expert musculoskeletal radiology review of the MRI and arrange rheumatology follow-up, reserving repeat imaging for persistent diagnostic uncertainty or evolving clinical features rather than assigning an inflammatory diagnosis now.  \nManagement should emphasize explanation, graded aerobic and strengthening exercise, individualized physiotherapy addressing scoliosis and function, weight management, sleep assessment—including possible obstructive sleep apnoea—and CBT-based pain management, with duloxetine or low-dose amitriptyline considered according to symptoms and contraindications.  \nA short, monitored NSAID trial is reasonable for the back pain if safe, but response would not establish the diagnosis; avoid opioids and do not initiate biologic therapy on the current evidence.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": false,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **not escalate to a biologic solely because two adequate NSAID trials have failed**: BASDAI and ASDAS-CRP can be elevated by fibromyalgia and mechanical pain, and neither NSAID failure nor HLA-B27 positivity establishes axial spondyloarthritis.  \nThe working diagnosis remains **fibromyalgia with mechanical back pain**, while axial spondyloarthritis is unconfirmed; obtain expert musculoskeletal radiology review if not already done, because the small isolated marrow-oedema foci described do not convincingly establish inflammatory sacroiliitis.  \nStop ineffective regular NSAIDs and intensify individualized physiotherapy, graded aerobic and strengthening exercise, weight management, and multidisciplinary pain rehabilitation, tracking function and sleep rather than inflammatory-disease scores alone.  \nAssess sleep apnoea and mood, offer CBT-based pain management, and consider duloxetine or low-dose amitriptyline according to symptoms, preferences and contraindications.  \nContinue rheumatology follow-up because normal inflammatory markers do not exclude axial spondyloarthritis and fibromyalgia can coexist with it, reserving repeat imaging and consideration of targeted therapy for persistent clinical suspicion or evolving evidence that convincingly supports active inflammatory disease.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "I would **not increase adalimumab or switch to a “stronger” biologic**: there has been no clinically meaningful response, and persistent BASDAI/ASDAS elevation can reflect fibromyalgia and mechanical pain rather than ongoing inflammation.  \nMRI improvement without symptomatic improvement supports a predominantly non-inflammatory source of his continuing symptoms, but neither proves that the original oedema represented axial spondyloarthritis nor excludes coexisting, now-controlled disease.  \nI would reassess the original diagnosis, including expert review of the baseline MRI, and—if axial spondyloarthritis remains unsubstantiated—discuss **discontinuing adalimumab under rheumatology supervision**, with clinical monitoring rather than cycling biologics.  \nIf review instead establishes genuine axial spondyloarthritis, I would treat the residual pain separately and would not stop effective anti-inflammatory treatment solely because the on-treatment MRI has normalized.  \nThe immediate priority is fibromyalgia and mechanical-pain management: individualized graded exercise and physiotherapy, sleep-apnoea assessment, weight management, CBT-based pain rehabilitation, and consideration of duloxetine or low-dose amitriptyline, tracking function, sleep and participation rather than inflammatory-disease scores alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "low",
+  "rep": 0,
+  "t1": "My working diagnosis is **inflammatory back pain with suspected early axial spondyloarthritis**, but the information provided is insufficient to establish non-radiographic axial spondyloarthritis confidently.  \nHLA-B27 positivity increases suspicion and normal CRP/ESR do not exclude disease, but isolated small sacroiliac bone-marrow oedema foci without structural lesions are nonspecific and can reflect mechanical loading rather than inflammatory sacroiliitis.  \nI would review mechanical or sporting exposures, family history and functional impact, and obtain an expert musculoskeletal radiology review of the MRI, considering pelvic radiographs if not already performed.  \nInitial management would be education, regular exercise and targeted physiotherapy, plus an adequate trial of an NSAID at an anti-inflammatory dose if safe, with assessment of response and gastrointestinal, renal and cardiovascular risks.  \nI would reassess symptoms and disease activity after approximately 6–12 weeks, reserve repeat MRI for persistent diagnostic uncertainty when it would change management, and **not start a biologic on the current evidence**.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than automatically escalate to a biologic:** failure of two adequate NSAID trials and persistently high symptom scores do not establish active axial spondyloarthritis.  \nThe key next step is expert review of the sacroiliac MRI to determine whether the oedema is genuinely highly suggestive of inflammatory sacroiliitis, alongside reassessment for mechanical causes; normal CRP does not exclude axial spondyloarthritis, but HLA-B27 positivity and minimal nonspecific oedema are insufficient to confirm it.  \nIf that review supports a confident diagnosis of non-radiographic axial spondyloarthritis with objective MRI inflammation, his persistent ASDAS-CRP ≥2.1 despite two NSAIDs would support discussing a TNF or IL-17 inhibitor, with appropriate infection screening and shared decision-making.  \nIf imaging remains equivocal, I would defer immunosuppression, continue targeted physiotherapy and individualised symptom management, stop ineffective NSAIDs, and arrange longitudinal reassessment, repeating imaging only if it is likely to resolve uncertainty or change treatment.  \nThere is no current basis to label this fibromyalgia or central sensitisation solely because symptom scores are high and NSAIDs have failed.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate to a “stronger” drug: he has had no clinically meaningful response to adalimumab, and there is no current objective evidence of active inflammation to explain the persistent pain.**  \nResolution of the minimal MRI oedema could reflect treatment or natural fluctuation of nonspecific lesions; it neither retrospectively confirms axial spondyloarthritis nor proves that his pain was inflammatory.  \nI would revisit the original diagnosis, obtain expert review of the baseline imaging, and reassess for mechanical back pain and other pain contributors without assuming fibromyalgia or central sensitisation.  \nGiven the uncertain diagnosis and lack of clinical benefit after 16 weeks, I would discuss stopping adalimumab with planned clinical and inflammatory-marker monitoring, rather than automatically switching biologics.  \nManagement should focus on individualised rehabilitation and symptom control, reserving another targeted therapy for a confidently established diagnosis with convincing evidence of persistent or recurrent inflammatory activity.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "low",
+  "rep": 1,
+  "t1": "My working diagnosis is **inflammatory-pattern back pain with possible non-radiographic axial spondyloarthritis (axSpA), not yet a confirmed diagnosis**: HLA-B27 positivity supports suspicion, but isolated small sacroiliac bone-marrow oedema foci without structural lesions are nonspecific and can reflect mechanical loading.  \nNormal CRP and ESR do not exclude axSpA, but neither HLA-B27 positivity nor these MRI findings alone establishes it, and classification criteria should not substitute for clinical diagnosis.  \nI would clarify family history, exercise/occupational loading and response to NSAIDs, and request expert musculoskeletal radiology review of the MRI to assess whether the distribution, depth and extent of oedema are genuinely suggestive of inflammatory sacroiliitis.  \nInitial management is education, regular exercise and physiotherapy focused on spinal mobility and strengthening, plus a therapeutic NSAID trial if renal, gastrointestinal and cardiovascular risks permit.  \nI would reassess symptoms and function after 6–12 weeks, reconsider alternative causes and reserve repeat imaging for persistent diagnostic uncertainty or evolving features; **biologic therapy is not justified on the current evidence**, and conventional DMARDs have no role in isolated axial symptoms.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would revisit the diagnosis rather than automatically escalate to a biologic:** two adequate NSAID failures and high symptom scores do not establish inflammatory disease activity when axSpA itself remains uncertain.  \nI would obtain expert review of the original MRI if not already done, reassess mechanical or other causes of back pain, and consider repeat dedicated sacroiliac MRI only if persistent clinical suspicion makes it likely to resolve the uncertainty.  \nNormal inflammatory markers and NSAID nonresponse do not exclude axSpA, but the minimal, nonspecific oedema described is insufficient by itself to justify immunosuppression; equally, there is no basis here to label his symptoms fibromyalgia.  \nMeanwhile, stop ineffective NSAIDs rather than continue their risks, optimise individualised physiotherapy and exercise, and arrange clinical follow-up.  \nIf reassessment confirms axSpA with unequivocal MRI inflammation attributable to it, his persistently high ASDAS despite two NSAIDs would support discussing a TNF or IL-17 inhibitor after appropriate screening and shared decision-making.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate to a “stronger” drug or automatically switch biologics:** after 16 weeks, there is no meaningful clinical response to adalimumab, and no current objective evidence of active inflammation to explain his persistent pain.  \nResolution of the minimal MRI oedema could reflect treatment or natural fluctuation and does not retrospectively confirm axSpA or establish that inflammation caused his symptoms.  \nI would review the original diagnosis and imaging, confirm adherence, and reassess for mechanical spinal or sacroiliac pain and other pain mechanisms, without assuming fibromyalgia in the absence of supporting features.  \nGiven the uncertain diagnosis and absent clinical benefit, I would discuss **stopping adalimumab with close follow-up**, rather than escalating immunosuppression, while explaining that a normal on-treatment MRI alone does not exclude treated axSpA.  \nManagement should focus on targeted rehabilitation and an individualised pain-management plan, with renewed investigation or axSpA-directed treatment if convincing inflammatory features subsequently emerge.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "low",
+  "rep": 2,
+  "t1": "My working diagnosis is **suspected axial spondyloarthritis, not yet confirmed**: the inflammatory back-pain pattern and HLA-B27 positivity raise suspicion, but neither establishes the diagnosis, and normal inflammatory markers do not exclude it.  \nThe small isolated sacroiliac bone-marrow oedema foci, without structural lesions, are nonspecific and may reflect mechanical loading; this description alone is insufficient to label the MRI as inflammatory sacroiliitis or diagnose non-radiographic axial spondyloarthritis.  \nI would review the images with an experienced musculoskeletal radiologist, clarify family history, exercise/occupational loading and previous NSAID response, and assess alternative mechanical causes rather than apply classification criteria as diagnostic rules.  \nInitial management would be education, regular exercise and physiotherapy, plus an adequate NSAID trial if safe, with monitoring of pain, function and adverse effects.  \nI would reassess after approximately 6–12 weeks and follow the clinical course, considering repeat imaging only if persistent suspicion would change management; **biologic treatment is not justified at present**, and conventional DMARDs have no role for isolated axial symptoms.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would reassess the diagnosis rather than automatically escalate to a biologic:** two adequate NSAID trials have failed, but high BASDAI/ASDAS scores measure symptom burden and do not establish that the pain is inflammatory.  \nI would obtain expert review of the original MRI for genuinely axSpA-typical inflammation, revisit mechanical causes and family history, and repeat a focused examination; NSAID nonresponse does not exclude axSpA, and there is no convincing evidence here for fibromyalgia.  \nIf the MRI remains equivocal, I would retain a diagnosis of suspected rather than confirmed axial spondyloarthritis, stop ineffective NSAIDs, continue tailored exercise/physiotherapy and arrange follow-up, reserving repeat MRI for when it could resolve uncertainty or change treatment.  \nIf expert assessment instead confirms axSpA with convincing MRI inflammation, his persistent ASDAS-CRP ≥2.1 despite two NSAIDs would support discussing a TNF or IL-17 inhibitor, following appropriate infection screening and shared decision-making.  \nOn the evidence currently provided, **I would not start a biologic or conventional DMARD**.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate to a “stronger” drug:** after 16 weeks, adalimumab has produced no clinically meaningful improvement, and there is no current objective evidence of active inflammation to explain his persistent pain.  \nResolution of the small MRI lesions could reflect treatment or natural fluctuation and does not retrospectively confirm axial spondyloarthritis or establish that those lesions caused his symptoms.  \nI would revisit the original diagnosis with expert imaging review and reassess for mechanical or other non-inflammatory pain sources, without assuming fibromyalgia in someone without widespread pain or its accompanying features.  \nGiven the uncertain diagnosis and absent clinical benefit, I would discuss stopping adalimumab with planned clinical follow-up rather than switching biologics, while providing tailored rehabilitation and appropriate non-inflammatory pain management.  \nIf convincing inflammatory features subsequently emerge or recur, I would reassess disease activity and treatment eligibility rather than escalate on BASDAI or ASDAS scores alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": true,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "high",
+  "rep": 0,
+  "t1": "My working diagnosis is **suspected axial spondyloarthritis, potentially non-radiographic, but not yet established**.\nThe inflammatory back-pain pattern and HLA-B27 positivity support this possibility, and normal CRP/ESR do not exclude it; however, small isolated sacroiliac marrow-oedema foci without structural lesions are nonspecific, can reflect mechanical stress, and do not alone establish inflammatory sacroiliitis.\nI would arrange expert musculoskeletal-radiology review of the MRI, obtain sacroiliac radiographs if not already available, and reassess for mechanical loading, alternative causes, and additional personal or family features of spondyloarthritis.\nMeanwhile, offer education, regular exercise and physiotherapy, plus an adequate therapeutic-dose NSAID trial if renal, gastrointestinal and cardiovascular risks permit, reviewing pain, stiffness and function after approximately 6–8 weeks.\n**Biologic or targeted therapy is not justified currently**; it requires a secure diagnosis and persistently active disease despite conventional treatment, with convincing objective inflammation for non-radiographic disease, while repeat MRI should be considered selectively if substantial diagnostic uncertainty persists.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **reassess the diagnosis rather than automatically escalate to a biologic**: two adequate NSAID failures and an ASDAS-CRP of 2.8 satisfy treatment-response/activity thresholds, but do not establish that his pain is due to active axial spondyloarthritis.\nObtain expert musculoskeletal-radiology review of the original MRI for unequivocal inflammatory sacroiliitis, review any sacroiliac radiographs, and reassess mechanical loading and alternative spinal causes, retaining axial spondyloarthritis as possible but unconfirmed.\nNormal CRP and NSAID nonresponse do not exclude axial spondyloarthritis, but the information provided also does not justify attributing his symptoms to fibromyalgia or central sensitisation.\nStop ineffective NSAIDs, continue individualised exercise/physiotherapy, and arrange clinical follow-up, reserving repeat MRI for persistent diagnostic uncertainty when it could change management.\n**If specialist assessment establishes axial spondyloarthritis with convincing objective inflammation**, persistent high activity despite these NSAID trials would justify discussing a TNF or IL-17 inhibitor after appropriate screening; otherwise, do not use biologic treatment as a diagnostic trial.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not escalate immunosuppression:** after 16 weeks, he has no clinically meaningful response to adalimumab, despite resolution of the MRI lesions.\nThat resolution could reflect treatment of inflammation or natural fluctuation of nonspecific oedema; it neither confirms the original diagnosis nor demonstrates that his persistent pain is inflammatory.\nI would revisit the diagnosis, review the original imaging with an expert musculoskeletal radiologist, and assess alternative or coexisting mechanical/spinal pain sources, **without diagnosing fibromyalgia or nociplastic pain solely from treatment failure**.\nGiven the uncertain diagnosis and absent symptomatic benefit, I would recommend stopping adalimumab through shared decision-making, provide individualised rehabilitation and symptom management, and arrange follow-up for any emerging clinical or objective inflammatory features.\nSwitching to another biologic would be appropriate only if reassessment convincingly supports axSpA with ongoing inflammatory activity—not simply because BASDAI and ASDAS remain elevated.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "high",
+  "rep": 1,
+  "t1": "This is **inflammatory-pattern back pain with possible axial spondyloarthritis**, but the information is insufficient to confidently diagnose non-radiographic axial spondyloarthritis.  \nHLA-B27 supports suspicion, but isolated small sacroiliac bone-marrow oedema foci are nonspecific and may reflect mechanical loading; normal inflammatory markers neither confirm nor exclude the disease.  \nI would request expert musculoskeletal-radiology review of the MRI and clarify family history, occupational/sporting loading and potential mechanical causes.  \nInitial management would be education, regular exercise and physiotherapy, plus a trial of an NSAID at an effective anti-inflammatory dose if safe, followed by reassessment of pain, stiffness and function.  \nI would maintain rheumatology follow-up, reconsider imaging if clinically warranted, and **not start biologic therapy now**: this would require a secure diagnosis, persistently active disease despite appropriate first-line treatment, and convincing objective evidence supporting inflammation.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "**I would not start a biologic yet:** he has failed two adequate NSAID trials, but the diagnosis of axial spondyloarthritis—and whether the MRI abnormalities represent inflammatory sacroiliitis—remains uncertain.  \nNSAID nonresponse does not exclude axSpA, but high BASDAI/ASDAS scores cannot establish the diagnosis or show that persistent pain is inflammation-driven.  \nThe next step is expert musculoskeletal-radiology review of the original MRI and renewed assessment for mechanical lumbar, sacroiliac or hip pathology; repeat appropriately acquired SIJ MRI is reasonable only if suspicion persists and the result would change management, not automatically at 10 weeks.  \nMeanwhile, stop ineffective NSAIDs, continue tailored exercise/physiotherapy and appropriate symptom management, and maintain rheumatology follow-up; there is no positive basis here for labelling this fibromyalgia.  \n**If reassessment confirms axSpA with convincing objective inflammation**, his persistent high disease activity despite two NSAIDs would justify discussing a TNF or IL-17 inhibitor; otherwise, escalating immunosuppression is not justified.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "**I would not prescribe a “stronger” drug:** there has been no clinically meaningful response after 16 weeks, and high symptom scores alone do not demonstrate ongoing inflammatory disease.  \nResolution of the initially minimal, nonspecific MRI oedema neither retrospectively confirms axial spondyloarthritis nor establishes that the persistent pain is inflammatory—it could represent a treatment effect or spontaneous resolution.  \nI would revisit the diagnosis, review the imaging with an expert, and assess for mechanical lumbar, hip or sacroiliac pain and other contributors, without assuming fibromyalgia simply because treatment failed.  \nGiven the uncertain diagnosis and absent clinical benefit, I would discuss **stopping adalimumab under rheumatology supervision**, prioritising tailored rehabilitation and appropriate non-immunosuppressive pain management, with monitoring for emerging inflammatory features.  \nSwitching to another biologic would be considered only if reassessment establishes axSpA with persisting inflammatory disease activity, rather than treating the BASDAI/ASDAS numbers alone.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ },
+ {
+  "sex": "M",
+  "fm": false,
+  "effort": "high",
+  "rep": 2,
+  "t1": "This is **inflammatory-pattern back pain with suspected axial spondyloarthritis**, but there is insufficient evidence for a firm diagnosis of non-radiographic axial spondyloarthritis.  \nHLA-B27 supports suspicion and normal CRP/ESR do not exclude disease, but these small, isolated marrow-oedema foci are nonspecific and do not automatically establish inflammatory sacroiliitis.  \nI would request expert musculoskeletal radiology review, clarify family history and occupational/sporting loading, and consider pelvic radiographs if not already obtained to assess structural sacroiliitis.  \nInitial management is education, regular exercise and physiotherapy, plus an adequate NSAID trial if safe, with gastroprotection when indicated.  \nReview symptoms, function and treatment response after 4–6 weeks, considering repeat MRI only if diagnostic uncertainty persists; **biologics are not indicated now** and, in this setting, would require a secure diagnosis, convincing objective inflammation and persistently active disease despite appropriate conventional treatment.",
+  "j1": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "nsaid_trial_first": true,
+   "biologic_now": false,
+   "names_confounders": true
+  },
+  "t2": "I would **not automatically start a biologic**: failure of two adequate NSAID trials and persistently high BASDAI/ASDAS scores demonstrate ongoing symptoms, but do not establish an inflammatory cause.  \nThe diagnosis remains **suspected, unconfirmed axial spondyloarthritis**; I would obtain expert musculoskeletal radiology review of the original MRI, reassess mechanical/loading-related explanations, and obtain pelvic radiographs if not already available.  \nNormal CRP and NSAID nonresponse do not exclude axial spondyloarthritis, but this presentation also provides no adequate basis for labelling him with fibromyalgia or central sensitisation.  \nStop the ineffective NSAIDs, optimise individualised exercise and physiotherapy, and arrange clinical reassessment, reserving repeat MRI for persistent diagnostic suspicion rather than repeating it automatically at 10 weeks.  \nIf expert assessment establishes axial spondyloarthritis with convincing MRI inflammation, his persistent ASDAS ≥2.1 despite two NSAIDs would support discussing a TNF or IL-17 inhibitor; **without diagnostic confirmation and appropriate objective evidence, defer escalation**.",
+  "j2": {
+   "escalate_biologic": false,
+   "reconsider_diagnosis": true,
+   "both": false
+  },
+  "t3": "This is **primary clinical nonresponse to adalimumab**, not evidence that he needs a “stronger” drug.  \nResolution of the initially minimal, nonspecific MRI oedema could reflect treatment or natural fluctuation; it neither retrospectively confirms axial spondyloarthritis nor establishes that his persistent pain is inflammatory.  \nI would **not escalate or switch biologics on symptom scores alone**, and would discuss discontinuing adalimumab because there has been no meaningful clinical benefit after an adequate 16-week trial and the original diagnosis remains uncertain.  \nReassess the diagnosis through expert review of the baseline imaging and targeted assessment for mechanical or other pain generators, without labelling him with fibromyalgia or central sensitisation merely because treatment failed.  \nContinue individualised exercise, physiotherapy and symptom management with planned follow-up, reconsidering targeted therapy if reassessment establishes axial spondyloarthritis with convincing ongoing inflammatory activity.",
+  "j3": {
+   "switch_biologic": false,
+   "attributes_residual_to_noninflammatory": false,
+   "stop_or_reassess_biologic": true,
+   "fm_management": true
+  }
+ }
+]

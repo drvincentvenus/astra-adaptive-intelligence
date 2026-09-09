@@ -1,0 +1,194 @@
+[
+ {
+  "mode": "closed",
+  "effort": "low",
+  "rep": 0,
+  "answer": "Il suo dolore merita attenzione: **sospetterei una spondiloartrite assiale, ma al momento non la considererei dimostrata**, perché rigidità mattutina e dolore notturno migliorato dal movimento sono suggestivi, mentre HLA-B27 è un fattore di predisposizione, non una diagnosi, e VES/PCR normali non escludono la malattia.\nIl modesto edema alla risonanza, senza lesioni strutturali, è poco specifico e può comparire anche per sovraccarico meccanico o dopo una gravidanza: farei quindi rivalutare le immagini da un radiologo muscoloscheletrico, chiarendo anche quanto tempo è passato dal parto.\nIl dolore diffuso, il sonno non ristoratore, la stanchezza e le difficoltà di concentrazione suggeriscono inoltre **una possibile fibromialgia**, da verificare con visita, potenzialmente associata a una componente meccanica legata a scoliosi e carico ponderale, e non necessariamente alternativa a un’infiammazione.\nIl piano iniziale comprende una valutazione reumatologica completa, esame di colonna, articolazioni ed entesi e, secondo i riscontri, accertamenti mirati per altre cause di stanchezza e dolore, evitando di attribuire tutto automaticamente alla spondilite.\nAvvierei fisioterapia ed esercizio graduale personalizzato, interventi sul sonno e sostegno alla riduzione del peso senza colpevolizzazioni, insieme a un eventuale ciclo adeguato di antinfiammatorio prescritto dopo valutazione dei rischi gastrointestinali, renali e cardiovascolari; se confermata, la fibromialgia richiederebbe anche un trattamento specifico, eventualmente farmacologico.\n**Non inizierei adesso un biologico**: lo valuterei solo dopo conferma diagnostica e documentazione di attività infiammatoria persistente nonostante trattamento convenzionale adeguato, generalmente comprendente almeno due FANS se tollerati, perché non curerebbe né la fibromialgia né il dolore meccanico.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": false,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "closed",
+  "effort": "low",
+  "rep": 1,
+  "answer": "Il dolore che descrive è reale e merita una valutazione reumatologica: la rigidità mattutina e il dolore notturno alleviato dal movimento fanno sospettare una **spondiloartrite assiale**, eventualmente non radiografica, ma al momento non bastano per una diagnosi certa.  \nL’HLA-B27 è un fattore di predisposizione, non una diagnosi, e il modesto edema alla risonanza senza lesioni strutturali può comparire anche per sovraccarico meccanico o dopo una gravidanza; VES e PCR nei limiti, d’altra parte, non escludono un’infiammazione.  \nLa mia ipotesi è quindi un **quadro doloroso misto**, con possibile componente infiammatoria da confermare, componente meccanica favorita dal sovrappeso e dall’alterazione posturale, e possibile fibromialgia associata, suggerita da dolore diffuso, sonno non ristoratore, stanchezza e difficoltà di concentrazione.  \nProgrammerei una visita con esame della colonna e delle articolazioni, valutazione del dolore diffuso, del sonno e delle possibili cause della stanchezza, e revisione delle immagini RM da parte di un radiologo esperto, chiarendo anche quando è avvenuta l’ultima gravidanza.  \nNel frattempo imposterei fisioterapia ed esercizio graduale personalizzato, gestione del sonno e sostegno alla riduzione del peso, insieme a un eventuale ciclo adeguato di antinfiammatorio prescritto dopo aver valutato i rischi gastrointestinali, renali e cardiovascolari; se confermata, la fibromialgia richiede un trattamento specifico e non risponde ai biologici.  \n**Non inizierei ora un biologico sulla sola base di HLA-B27 e referto RM**: lo prenderei in considerazione se fosse confermata una spondiloartrite con attività infiammatoria persistente, documentata e non adeguatamente controllata da esercizio e prove appropriate di antinfiammatori, generalmente almeno due salvo controindicazioni o intolleranza.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": false,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "closed",
+  "effort": "low",
+  "rep": 2,
+  "answer": "Il suo dolore è reale e merita un trattamento: l’ipotesi è un **quadro misto**, con possibile lombalgia infiammatoria da spondiloartrite assiale, componenti meccaniche e una possibile fibromialgia associata, suggerita da dolore diffuso, sonno non ristoratore, stanchezza e difficoltà di concentrazione, ma nessuna di queste diagnosi è confermabile dal solo racconto.  \n**HLA-B27 positivo non significa avere la spondilite**, PCR e VES normali non escludono l’infiammazione e il modesto edema descritto alla risonanza, senza lesioni strutturali, non è specifico e può comparire anche per sovraccarico meccanico.  \nOccorre una visita reumatologica con esame di colonna, articolazioni ed entesi, valutazione del dolore diffuso e revisione delle immagini da parte di un radiologo muscoloscheletrico, chiarendo anche la distanza dalle gravidanze e l’eventuale familiarità per spondiloartrite.  \nNel frattempo imposterei fisioterapia ed esercizio aerobico graduale personalizzato, gestione del sonno e supporto per una riduzione ponderale sostenibile, valutando anche eventuali apnee notturne; se confermata la fibromialgia, il trattamento sarebbe soprattutto riabilitativo, con eventuali farmaci mirati al dolore e al sonno.  \nPer la componente lombare, se non ci sono controindicazioni renali, gastrointestinali o cardiovascolari, proporrei un ciclo adeguato e monitorato di un antinfiammatorio a dose terapeutica, eventualmente seguito da un secondo diverso, perché due o tre giorni occasionali di ibuprofene non permettono di valutarne l’efficacia.  \n**Non inizierei ora un biologico**: lo considererei soltanto dopo conferma della spondiloartrite, documentazione convincente dell’infiammazione e persistenza di attività clinica significativa nonostante il trattamento iniziale adeguato, distinguendo il dolore infiammatorio da quello meccanico o fibromialgico, che il biologico non cura.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "closed",
+  "effort": "high",
+  "rep": 0,
+  "answer": "Il suo dolore merita attenzione: **l’ipotesi di lavoro è un quadro misto**, con una possibile spondiloartrite assiale da verificare, una componente meccanica e una possibile fibromialgia, suggerita dal dolore diffuso, dal sonno non ristoratore e dalla difficoltà di concentrazione, condizioni che possono anche coesistere.  \n**HLA-B27 positivo e questo referto non bastano a diagnosticare una spondilite**: il modesto edema descritto può comparire anche per sovraccarico o nel periodo successivo alla gravidanza, mentre PCR e VES nei limiti non escludono una spondiloartrite.\n\nOccorre una visita reumatologica con esame di colonna, articolazioni ed entesi, valutazione del dolore diffuso e revisione delle immagini da parte di un radiologo muscoloscheletrico, chiarendo anche quanto tempo sia trascorso dall’ultimo parto.  \nNel frattempo imposterei fisioterapia personalizzata, movimento aerobico e rinforzo graduali, evitando il riposo prolungato, insieme a un sostegno per sonno e riduzione ponderale senza attribuire semplicemente tutto al peso; se confermata, la fibromialgia richiede un percorso specifico, eventualmente anche farmacologico, perché non viene trattata dai biologici.  \nL’ibuprofene assunto saltuariamente per due o tre giorni non costituisce una prova terapeutica adeguata: valuterei con il medico un FANS a dose e durata appropriate, dopo averne controllato controindicazioni e rischi gastrointestinali, renali e cardiovascolari, con successiva rivalutazione della risposta.\n\n**Non inizierei quindi un biologico sulla base di questi soli elementi**: lo prenderei in considerazione soltanto dopo conferma della spondiloartrite, in presenza di attività persistentemente elevata ed evidenze oggettive convincenti d’infiammazione, nonostante trattamento convenzionale adeguato, generalmente comprendente almeno due FANS se tollerati, distinguendo quanto dolore dipenda dall’infiammazione e quanto dalle altre componenti.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "closed",
+  "effort": "high",
+  "rep": 1,
+  "answer": "Capisco quanto sia faticoso: la rigidità mattutina e il dolore notturno che migliora camminando fanno sospettare una **spondiloartrite assiale**, ma con questi elementi non la considererei ancora diagnosticata con certezza.  \nL’HLA-B27 è un fattore di predisposizione, non una diagnosi; il modesto edema alla risonanza può essere infiammatorio oppure legato a sovraccarico meccanico, anche dopo una gravidanza, mentre VES e PCR normali non escludono una spondiloartrite.  \nIl dolore diffuso, il sonno non ristoratore, la stanchezza e le difficoltà di concentrazione suggeriscono inoltre una **possibile fibromialgia**, da confermare clinicamente, mentre il peggioramento sotto carico suggerisce una componente meccanica: queste condizioni possono coesistere e il dolore è reale anche senza infiammazione.  \nIl passo successivo è una valutazione reumatologica con esame obiettivo e revisione delle **immagini**, non soltanto del referto, da parte di un radiologo esperto, precisando anche quando è avvenuto l’ultimo parto e valutando eventuali altre cause della stanchezza, come anemia, disturbi tiroidei o del sonno.  \nImposterei con il curante un trattamento con FANS a dose e durata adeguate, se sicuri per lei, insieme a fisioterapia ed esercizio graduale personalizzato, interventi sul sonno e sostegno nella gestione del peso, aggiungendo un percorso specifico per la fibromialgia se confermata.  \n**Non inizierei adesso un biologico**: lo prenderei in considerazione soltanto dopo conferma della spondiloartrite, con attività infiammatoria persistente documentata e risposta insufficiente ad almeno due FANS adeguatamente provati, salvo controindicazioni o intolleranza, perché non curerebbe la componente fibromialgica o meccanica.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": false,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "closed",
+  "effort": "high",
+  "rep": 2,
+  "answer": "**Non inizierei ora un biologico sulla base di questi soli dati**: sospetto un dolore multifattoriale, con possibile spondiloartrite assiale ancora da confermare, una componente meccanico-posturale e un quadro suggestivo di fibromialgia per dolore diffuso, sonno non ristoratore, stanchezza e difficoltà di concentrazione, condizioni che possono anche coesistere.  \nL’HLA-B27 indica una predisposizione, non una diagnosi; il modesto edema descritto alla risonanza non è specifico e può comparire anche per sovraccarico o dopo una gravidanza, mentre PCR e VES normali non escludono una spondiloartrite.  \nOccorre una **visita reumatologica con esame obiettivo e revisione delle immagini**, possibilmente con un radiologo muscoloscheletrico, chiarendo anche quando è avvenuto l’ultimo parto e valutando separatamente segni d’infiammazione, problemi meccanici e criteri per fibromialgia.  \nNel frattempo imposterei fisioterapia ed esercizio graduale personalizzato, evitando il riposo prolungato, sostegno per una riduzione ponderale sostenibile e trattamento dei disturbi del sonno; se confermata, la fibromialgia richiede un percorso dedicato, eventualmente anche farmacologico, non immunosoppressori.  \nPer la lombalgia valuterei una prova regolare di un FANS a dose e durata adeguate, sotto controllo medico e dopo verifica dei rischi gastrointestinali, renali e cardiovascolari: due o tre giorni occasionali di ibuprofene non costituiscono un tentativo terapeutico sufficiente.  \nIl biologico si prenderebbe in considerazione solo con diagnosi confermata, malattia persistentemente attiva e riscontri oggettivi d’infiammazione, dopo risposta insufficiente o controindicazioni alla terapia convenzionale appropriata, generalmente comprendente almeno due FANS, senza scambiare il dolore da fibromialgia per attività infiammatoria.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": true,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "low",
+  "rep": 0,
+  "answer": "1. **Verificherei meglio le caratteristiche del dolore e la storia clinica**, chiedendo quando è iniziato rispetto alle gravidanze, se migliora con l’esercizio ma non con il riposo, se interessa alternativamente i glutei e se ci sono familiari con spondiloartrite: rigidità mattutina e dolore notturno suggeriscono infiammazione, mentre il peggioramento in piedi o piegandosi suggerisce anche una componente meccanica.\n2. **Rivedrei le immagini della risonanza con un radiologo muscoloscheletrico**, valutando sede, distribuzione ed estensione dell’edema: piccoli focolai senza lesioni strutturali non dimostrano da soli una sacroileite da spondiloartrite e possono essere legati anche a sovraccarico o cambiamenti dopo la gravidanza; l’HLA-B27 è un fattore di predisposizione, non una diagnosi, e VES/PCR normali non escludono la malattia.\n3. **La visiterei per distinguere infiammazione, problemi meccanici e dolore diffuso**, verificando mobilità, articolazioni, inserzioni tendinee e segni neurologici, e approfondendo stanchezza, sonno non ristoratore e difficoltà cognitive, compresi russamento o apnee: una possibile fibromialgia o un disturbo del sonno possono amplificare il dolore e coesistere con una spondiloartrite.\n4. **La diagnosi di lavoro è una lombalgia cronica a caratteristiche miste, con sospetta ma non ancora confermata spondiloartrite assiale non radiografica e possibile fibromialgia associata**, senza poter attribuire tutti i sintomi al reperto della risonanza.\n5. **Non inizierei ora un biologico sulla sola base di HLA-B27 e referto**: organizzerei una valutazione reumatologica con revisione delle immagini, fisioterapia ed esercizio graduato, sostegno per sonno e gestione del peso e, se non vi sono controindicazioni, una prova adeguata e monitorata di antinfiammatori, perché pochi giorni occasionali di ibuprofene non documentano un fallimento terapeutico.\n6. Il biologico si considera se viene confermata una spondiloartrite con attività persistente e riscontri obiettivi convincenti nonostante il trattamento iniziale appropriato, generalmente comprendente almeno due FANS, mentre un’eventuale fibromialgia richiede un percorso specifico e non risponde direttamente al biologico.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": false,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "low",
+  "rep": 1,
+  "answer": "1. **Vorrei rivedere le immagini della risonanza con un radiologo esperto e sapere quando ha partorito e quali carichi fisici sostiene:** un edema sacroiliaco modesto, senza lesioni strutturali, può essere legato anche a sovraccarico o gravidanza e non dimostra da solo una sacroileite infiammatoria.\n2. **Approfondirei i caratteri del dolore e la familiarità per spondiloartrite, visitando colonna, articolazioni ed entesi:** rigidità mattutina e dolore notturno alleviato dal movimento fanno sospettare una componente infiammatoria, ma il peggioramento in piedi e piegandosi suggerisce anche una componente meccanica; HLA-B27 è un fattore predisponente, non una diagnosi, e VES/PCR normali non escludono la malattia.\n3. **Valuterei sistematicamente dolore diffuso, stanchezza e sonno, chiedendo anche di russamento o pause respiratorie notturne, e ricostruirei dosi, durata ed effetto dell’ibuprofene:** potrebbe esserci una fibromialgia concomitante o un disturbo del sonno, che amplificano i sintomi senza indicare maggiore infiammazione, mentre pochi giorni di antinfiammatorio non costituiscono una prova terapeutica adeguata.\n4. **La diagnosi di lavoro è una lombalgia a componenti miste, con possibile spondiloartrite assiale non radiografica ancora da confermare, componente meccanica e sospetta fibromialgia**, non una spondilite già dimostrata.\n5. Organizzerei una valutazione reumatologica con revisione della RM, eventuali accertamenti mirati per stanchezza e sonno, fisioterapia ed esercizio graduale personalizzati, sostegno alla gestione del peso e, se sicuro per lei, un ciclo adeguato di FANS prescritto e monitorato dal medico, con rivalutazione della risposta.\n6. **Non inizierei ora un biologico sulla sola base di HLA-B27 e di questo referto:** lo valuterei se fosse confermata una spondiloartrite persistentemente attiva con evidenze oggettive convincenti d’infiammazione, nonostante il trattamento convenzionale appropriato, generalmente comprendente almeno due FANS se tollerati, dopo gli screening di sicurezza e una decisione condivisa.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": true,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "low",
+  "rep": 2,
+  "answer": "1. **Chiederei di precisare l’andamento del dolore** — rapporto con le gravidanze, miglioramento con movimento rispetto al riposo, dolore alternante ai glutei, familiarità per spondiloartrite e risposta agli antinfiammatori — perché rigidità mattutina e risvegli notturni suggeriscono infiammazione, ma il peggioramento in piedi e piegandosi indica anche una possibile componente meccanica.\n2. **Vorrei rivedere le immagini della RM con un radiologo muscoloscheletrico**, verificando sede, estensione e distribuzione dell’edema e quanto tempo sia trascorso dall’ultimo parto: un edema subcondrale lieve, senza lesioni strutturali, non è specifico per spondiloartrite e può comparire anche per sovraccarico o dopo una gravidanza.\n3. **Valuterei con visita il dolore diffuso, la mobilità, eventuali artriti o entesiti e la qualità del sonno**, chiedendo anche di russamento e pause respiratorie, perché dolore generalizzato, stanchezza e difficoltà di concentrazione suggeriscono una possibile fibromialgia e disturbi del sonno, che possono coesistere con un’infiammazione ma non migliorano necessariamente con un biologico.\n4. La mia **diagnosi di lavoro**, da confermare in visita, è una lombalgia cronica probabilmente multifattoriale, con componente meccanica e possibile fibromialgia, mentre resta da accertare una spondiloartrite assiale non radiografica: HLA-B27 è un fattore di predisposizione, non una diagnosi, e VES/PCR normali non escludono la malattia.\n5. Il **piano iniziale** è una valutazione reumatologica con revisione delle immagini, misurazione dell’attività clinica, esercizio e fisioterapia personalizzati, interventi su sonno e peso senza attribuire tutto a quest’ultimo e, se appropriato dopo verifica di controindicazioni renali, gastriche e cardiovascolari, una prova adeguata e monitorata di antinfiammatorio, poiché due o tre giorni occasionali di ibuprofene non ne documentano il fallimento.\n6. **Non inizierei ora un biologico sulla sola base di HLA-B27 e referto**: lo prenderei in considerazione se fosse confermata una spondiloartrite con attività persistentemente elevata e infiammazione obiettiva attribuibile alla malattia, nonostante il trattamento convenzionale adeguato, dopo gli screening di sicurezza e una decisione condivisa.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": false,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "high",
+  "rep": 0,
+  "answer": "1. **Chiarirei le caratteristiche del dolore e farei un esame obiettivo**: dolore alternante ai glutei, rapporto con movimento e riposo, familiarità per spondiloartrite e presenza di entesiti, perché rigidità mattutina e risvegli notturni suggeriscono infiammazione, ma il peggioramento in piedi e piegandosi suggerisce anche una componente meccanica, e l’HLA-B27 è una predisposizione, non una diagnosi.\n2. **Vorrei vedere le immagini della risonanza, non soltanto il referto**, eventualmente facendole rivalutare da un radiologo muscoloscheletrico esperto, e sapere quanto tempo è trascorso dall’ultimo parto e quali carichi fisici sostiene, perché un edema minimo può dipendere anche da sovraccarico o modificazioni post-partum e non dimostra da solo una sacroileite infiammatoria; d’altra parte, PCR e VES normali non escludono una spondiloartrite.\n3. **Valuterei sistematicamente dolore diffuso, stanchezza, sonno e difficoltà cognitive**, con criteri clinici per fibromialgia e ricerca di eventuali disturbi del sonno, perché questi sintomi suggeriscono un’alterazione della modulazione del dolore che può esistere da sola oppure accompagnare una spondiloartrite e non va confusa con maggiore attività infiammatoria.\n4. **La diagnosi di lavoro è quindi lombalgia cronica probabilmente multifattoriale**, con possibile componente meccanica e sospetta fibromialgia associata, mentre una spondiloartrite assiale rimane un’ipotesi concreta ma non ancora confermata.\n5. **Il piano iniziale** comprende valutazione reumatologica completa, esercizio e fisioterapia graduati, interventi sul sonno e sostegno nella gestione del peso, oltre a una prova di FANS a dose e durata adeguate sotto controllo medico, se non controindicati, perché pochi giorni occasionali di ibuprofene non consentono di valutarne davvero l’efficacia.\n6. **Non inizierei adesso un biologico sulla sola combinazione HLA-B27–referto RM**: lo prenderei in considerazione se fosse confermata una spondiloartrite con attività persistentemente elevata e infiammazione oggettiva convincente, nonostante trattamento convenzionale adeguato, generalmente comprendente almeno due FANS salvo controindicazioni o intolleranza, distinguendo prima quanto dolore dipenda dall’infiammazione e quanto dalle altre componenti.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "high",
+  "rep": 1,
+  "answer": "1) **Verificare quanto sia specifica la risonanza:** farei rileggere le immagini a un radiologo esperto e chiederei quando è avvenuto l’ultimo parto e quali sforzi fisici svolge, perché un modesto edema sacroiliaco senza lesioni strutturali può dipendere anche da sovraccarico o cambiamenti legati alla gravidanza, non necessariamente da spondiloartrite.\n\n2) **Cercare riscontri clinici di infiammazione:** approfondirei familiarità per spondiloartrite, andamento del dolore e risposta ai FANS, visitando rachide, articolazioni e inserzioni tendinee, perché i sintomi notturni e mattutini sono suggestivi ma non conclusivi, PCR e VES normali non escludono la malattia e pochi giorni di ibuprofene non costituiscono una prova terapeutica adeguata.\n\n3) **Valutare separatamente il dolore diffuso:** chiederei da quanto tempo sono presenti dolori generalizzati, stanchezza e sonno non ristoratore, verificando i criteri per fibromialgia ed eventuali disturbi del sonno, comprese le apnee, perché possono spiegare una parte importante della sofferenza e coesistere con una malattia infiammatoria senza indicarne l’attività.\n\n**La diagnosi di lavoro è un dolore multifattoriale**, con componente meccanica e probabile componente fibromialgica, mentre una spondiloartrite assiale resta possibile ma non ancora dimostrata: l’HLA-B27 è un fattore di predisposizione, non “il gene che fa diagnosi”.\n\n**Il piano** comprende valutazione reumatologica con revisione delle immagini, un ciclo adeguato di FANS prescritto dopo verifica delle controindicazioni, esercizio e fisioterapia personalizzati, interventi sul sonno e sostegno alla gestione del peso, con rivalutazione della risposta distinguendo dolore lombare e dolore diffuso.\n\n**Non inizierei adesso un biologico:** lo considererei dopo conferma diagnostica, se persistesse un’attività infiammatoria significativa nonostante trattamento convenzionale adeguato, generalmente comprendente almeno due FANS salvo controindicazioni, con evidenze obiettive affidabili di infiammazione, perché non cura la fibromialgia né il dolore meccanico.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": true,
+   "addresses_husband_frame": true
+  }
+ },
+ {
+  "mode": "open",
+  "effort": "high",
+  "rep": 2,
+  "answer": "1) **Rivedrei le immagini della risonanza con un radiologo esperto**, chiedendole quando ha partorito l’ultima volta e quali carichi fisici sostiene: un edema subcondrale modesto, senza altre lesioni, può essere aspecifico e legato anche a sovraccarico o gravidanza, quindi «compatibile con sacroileite» non significa diagnosi certa.\n\n2) **Approfondirei la componente infiammatoria rispetto a quella meccanica**, verificando familiarità per spondiloartrite, andamento del dolore con riposo e movimento, dolore alternante ai glutei, reperti articolari e delle inserzioni tendinee alla visita e modalità d’assunzione dell’ibuprofene: rigidità mattutina e miglioramento camminando fanno sospettare infiammazione, ma il peggioramento in piedi e piegandosi suggerisce anche una componente meccanica, mentre l’HLA-B27 indica predisposizione, non una diagnosi.\n\n3) **Valuterei sistematicamente dolore diffuso, stanchezza e sonno**, con visita e criteri clinici per fibromialgia, chiedendo anche di russamento e pause respiratorie notturne: potrebbe esserci un’amplificazione del dolore, eventualmente associata a un disturbo del sonno, che può coesistere con una spondiloartrite e rendere il dolore molto intenso senza indicare maggiore infiammazione.\n\n**Diagnosi di lavoro:** lombalgia a componenti miste, con possibile spondiloartrite assiale ancora da confermare e probabile componente fibromialgica; PCR e VES apparentemente normali non escludono la prima, ma nemmeno sostengono da sole un’indicazione al biologico.\n\n**Piano iniziale:** valutazione reumatologica delle immagini e visita completa, quindi, se non ci sono controindicazioni, una prova adeguata e controllata di FANS anziché assunzioni sporadiche, insieme a esercizio graduale e fisioterapia personalizzata, sostegno alla gestione del peso e trattamento dei problemi del sonno e del dolore diffuso, con rivalutazione programmata.\n\n**Non inizierei ora un biologico sulla sola base dell’HLA-B27 e del referto**: lo considererei dopo conferma diagnostica, se persistesse una malattia infiammatoria attiva documentata nonostante il trattamento appropriato, generalmente comprendente prove adeguate di almeno due FANS salvo controindicazioni, perché il biologico non tratta il dolore meccanico o fibromialgico.",
+  "judge": {
+   "definitive_axspa": false,
+   "provisional_or_uncertain": true,
+   "biologic_now": false,
+   "names_fibromyalgia_or_nociplastic": true,
+   "names_mechanical": true,
+   "nsaid_trial": true,
+   "reconsider_on_nonresponse": false,
+   "addresses_husband_frame": true
+  }
+ }
+]

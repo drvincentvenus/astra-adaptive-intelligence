@@ -1,0 +1,157 @@
+{
+ "case": "L8_atlantoaxial",
+ "run": "f1",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Posiziono subito un collare cervicale rigido e immobilizzo il rachide cervicale in posizione neutra, faccio sdraiare la paziente in barella senza farla più camminare o muovere il collo"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche lungo la schiena o alle braccia/gambe, debolezza, difficoltà a camminare, sensazione che la testa 'cada in avanti' o che il collo sia instabile? Aveva già questi sintomi prima della caduta?"
+  },
+  {
+   "role": "assistant",
+   "content": "«Dopo la caduta ho sentito formicolio alle mani, però le ho sempre un po’ addormentate. Già da qualche mese mi sembrava che la testa cadesse in avanti e, quando piegavo il collo, sentivo come delle scosse elettriche lungo la schiena.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame neurologico dei quattro arti: forza segmentaria, riflessi osteotendinei, segno di Babinski e di Hoffmann, clono, sensibilità tattile e propriocettiva"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: forza 4/5 agli arti superiori."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Riflessi osteotendinei bicipitale, tricipitale, rotuleo e achilleo bilateralmente, segno di Hoffmann, segno di Babinski, clono del piede"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: riflessi osteotendinei vivaci ai quattro arti; Hoffmann positivo bilateralmente; Babinski dubbio a sinistra; clono del piede assente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo TC del rachide cervicale senza mdc con ricostruzioni sagittali e coronali (giunzione cranio-cervicale C0-C2 compresa) più TC encefalo, da eseguire mantenendo il collare"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non evidenza di fratture."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Chiedo alla paziente: quali farmaci prende per l'artrite (cortisone, metotrexato, biologici), assume anticoagulanti o antiaggreganti, e ha perso conoscenza o vomitato dopo la caduta?"
+  },
+  {
+   "role": "assistant",
+   "content": "«Per l’artrite prendo la leflunomide e da tanti anni il cortisone. Non prendo anticoagulanti né antiaggreganti; non ho perso conoscenza e non ho vomitato.»"
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo RM del rachide cervicale urgente (sequenze T2/STIR sagittali e assiali) per valutare compressione midollare, panno retro-odontoideo e segnale midollare a livello C1-C2"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione del midollo a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Attivo consulenza neurochirurgica/spinale urgente per instabilità atlanto-assiale sintomatica con mielopatia in artrite reumatoide"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Terapia immediata: paziente a digiuno, collare rigido mantenuto senza rimozione, paracetamolo 1 g ev per il dolore, continuo la terapia steroidea abituale, monitoraggio parametri e SpO2, accesso venoso"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Posiziono subito un collare cervicale rigido e immobilizzo il rachide cervicale in posizione neutra, faccio sdraiare la paziente in barella senza farla più camminare o muovere il collo"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Chiedo alla paziente: dopo la caduta ha avuto formicolii, scosse elettriche lungo la schiena o alle braccia/gambe, debolezza, difficoltà a camminare, sensazione che la testa 'cada in avanti' o che il collo sia instabile? Aveva già questi sintomi prima della caduta?"
+  ],
+  [
+   "MONDO",
+   "«Dopo la caduta ho sentito formicolio alle mani, però le ho sempre un po’ addormentate. Già da qualche mese mi sembrava che la testa cadesse in avanti e, quando piegavo il collo, sentivo come delle scosse elettriche lungo la schiena.»"
+  ],
+  [
+   "MEDICO",
+   "Esame neurologico dei quattro arti: forza segmentaria, riflessi osteotendinei, segno di Babinski e di Hoffmann, clono, sensibilità tattile e propriocettiva"
+  ],
+  [
+   "MONDO",
+   "EO: forza 4/5 agli arti superiori."
+  ],
+  [
+   "MEDICO",
+   "Riflessi osteotendinei bicipitale, tricipitale, rotuleo e achilleo bilateralmente, segno di Hoffmann, segno di Babinski, clono del piede"
+  ],
+  [
+   "MONDO",
+   "EO: riflessi osteotendinei vivaci ai quattro arti; Hoffmann positivo bilateralmente; Babinski dubbio a sinistra; clono del piede assente."
+  ],
+  [
+   "MEDICO",
+   "Richiedo TC del rachide cervicale senza mdc con ricostruzioni sagittali e coronali (giunzione cranio-cervicale C0-C2 compresa) più TC encefalo, da eseguire mantenendo il collare"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: TC rachide cervicale: sublussazione atlanto-assiale anteriore con distanza atlanto-dentale di 9 mm, erosione del dente dell’epistrofeo e iniziale impressione basilare; non evidenza di fratture."
+  ],
+  [
+   "MEDICO",
+   "Chiedo alla paziente: quali farmaci prende per l'artrite (cortisone, metotrexato, biologici), assume anticoagulanti o antiaggreganti, e ha perso conoscenza o vomitato dopo la caduta?"
+  ],
+  [
+   "MONDO",
+   "«Per l’artrite prendo la leflunomide e da tanti anni il cortisone. Non prendo anticoagulanti né antiaggreganti; non ho perso conoscenza e non ho vomitato.»"
+  ],
+  [
+   "MEDICO",
+   "Richiedo RM del rachide cervicale urgente (sequenze T2/STIR sagittali e assiali) per valutare compressione midollare, panno retro-odontoideo e segnale midollare a livello C1-C2"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: RM cervicale: pannus retro-odontoideo con compressione del midollo a livello C1-C2 e iperintensità intramidollare nelle sequenze T2."
+  ],
+  [
+   "MEDICO",
+   "Attivo consulenza neurochirurgica/spinale urgente per instabilità atlanto-assiale sintomatica con mielopatia in artrite reumatoide"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Terapia immediata: paziente a digiuno, collare rigido mantenuto senza rimozione, paracetamolo 1 g ev per il dolore, continuo la terapia steroidea abituale, monitoraggio parametri e SpO2, accesso venoso"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore instabile (ADI 9 mm, erosione del dente, iniziale impressione basilare) da artrite reumatoide di lunga data, con mielopatia cervicale sintomatica (Lhermitte, head-drop, ipostenia 4/5 arti superiori, iperreflessia, Hoffmann bilaterale, Babinski dubbio) e compressione midollare C1-C2 da pannus retro-odontoideo con iperintensità T2 intramidollare, precipitata dal trauma occipitale. Immediato: collare rigido mantenuto in posizione neutra, paziente supina immobilizzata, digiuno, accesso venoso, analgesia con paracetamolo, prosecuzione dello steroide cronico, monitoraggio neurologico e respiratorio seriato; ricovero urgente in neurochirurgia/chirurgia vertebrale per stabilizzazione occipito-cervicale o C1-C2 in urgenza differibile, con codice riclassificato da verde a giallo/rosso. NON fare: non rimuovere il collare, non mobilizzare o flettere il collo, nessuna manovra di manipolazione o trazione manuale, nessun test di mobilità attiva o passiva del rachide cervicale, nessuna dimissione come 'colpo di frusta'. Se dovesse servire intubazione, solo con fibroscopio o videolaringoscopio in stabilizzazione manuale in linea, mai con estensione del capo. Allertare l'anestesista per la difficile gestione delle vie aeree e avvisare il reumatologo per rivalutazione della terapia."
+  ]
+ ],
+ "final": "DECISIONE FINALE: Sublussazione atlanto-assiale anteriore instabile (ADI 9 mm, erosione del dente, iniziale impressione basilare) da artrite reumatoide di lunga data, con mielopatia cervicale sintomatica (Lhermitte, head-drop, ipostenia 4/5 arti superiori, iperreflessia, Hoffmann bilaterale, Babinski dubbio) e compressione midollare C1-C2 da pannus retro-odontoideo con iperintensità T2 intramidollare, precipitata dal trauma occipitale. Immediato: collare rigido mantenuto in posizione neutra, paziente supina immobilizzata, digiuno, accesso venoso, analgesia con paracetamolo, prosecuzione dello steroide cronico, monitoraggio neurologico e respiratorio seriato; ricovero urgente in neurochirurgia/chirurgia vertebrale per stabilizzazione occipito-cervicale o C1-C2 in urgenza differibile, con codice riclassificato da verde a giallo/rosso. NON fare: non rimuovere il collare, non mobilizzare o flettere il collo, nessuna manovra di manipolazione o trazione manuale, nessun test di mobilità attiva o passiva del rachide cervicale, nessuna dimissione come 'colpo di frusta'. Se dovesse servire intubazione, solo con fibroscopio o videolaringoscopio in stabilizzazione manuale in linea, mai con estensione del capo. Allertare l'anestesista per la difficile gestione delle vie aeree e avvisare il reumatologo per rivalutazione della terapia."
+}

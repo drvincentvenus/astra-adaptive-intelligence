@@ -1,0 +1,426 @@
+{
+ "mirror": [
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "low",
+   "rep": 0,
+   "answer": "She has **persistently active, structurally progressive peripheral psoriatic arthritis despite upadacitinib**, with high disease activity (DAPSA ≈31), unequivocal Doppler-positive synovitis and bilateral Achilles enthesitis, and a new MCP erosion.  \nThis is a difficult-to-treat phenotype with objective inflammatory treatment failure—not pain amplification alone—although obesity, mechanical entheseal pain and concomitant fibromyalgia may contribute, and tenderness at the other entheseal sites does not itself establish active enthesitis.  \nReview adherence, treatment interruptions, the adequacy and reasons for previous drug failures, and relevant comorbidities, particularly psoriasis burden, inflammatory bowel disease and uveitis, while evaluating fatigue for additional causes.  \n**I would switch rather than continue upadacitinib unchanged**, favouring an untried IL-23 inhibitor such as guselkumab or risankizumab, subject to shared decision-making and local access; an alternative TNF inhibitor remains reasonable depending on why adalimumab failed and associated disease manifestations.  \nDo not combine a biologic with upadacitinib; arrange appropriate infection screening and vaccination review, and consider targeted intra-articular corticosteroid injections as bridging treatment while avoiding injection into the Achilles tendons.  \nProvide physiotherapy, weight-management and pain support alongside disease-modifying treatment, then reassess objectively within approximately 8–12 weeks, aiming for clear improvement by three months and remission or low disease activity by six months.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "low",
+   "rep": 1,
+   "answer": "She has **persistently active, erosive psoriatic arthritis with high disease activity (DAPSA ≈31), objectively confirmed synovitis and Achilles enthesitis, and radiographic progression despite seven months of upadacitinib**.  \nThis is a difficult-to-treat, multidrug-exposed phenotype; obesity or concomitant pain amplification may contribute to symptoms, but neither explains the Doppler inflammation, swollen joints and new erosion, so her pain must not be dismissed as non-inflammatory.  \nI would confirm adherence and adequate exposure to previous treatments, clarify primary versus secondary failures, and assess psoriasis, axial disease, inflammatory bowel disease, uveitis and infection before selecting the next therapy.  \n**Upadacitinib should be replaced rather than continued unchanged**: an IL-23p19 inhibitor such as guselkumab or risankizumab is a reasonable next mechanism for her peripheral arthritis and enthesitis, with an alternative TNF inhibitor also reasonable depending on why adalimumab failed and associated disease.  \nAfter excluding infection, targeted intra-articular glucocorticoid injections could bridge symptomatic synovitis, alongside appropriate analgesia, physiotherapy and weight-management support; avoid injection into the Achilles tendon and do not combine a biologic with upadacitinib.  \nComplete relevant infection screening and vaccination review, then reassess objectively within about three months using joint examination, CRP and a validated activity score, aiming for remission or low disease activity and further treatment adjustment if that target is not achieved.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "low",
+   "rep": 2,
+   "answer": "She has **persistently active, erosive psoriatic arthritis despite multiple advanced therapies**, with high peripheral disease activity (DAPSA ≈31), objectively confirmed synovitis and Achilles enthesitis, and radiographic progression while taking upadacitinib.  \nThis is a difficult-to-treat, potentially treatment-refractory inflammatory phenotype: obesity and pain amplification may contribute to fatigue and tenderness, but cannot explain the Doppler inflammation, swollen joints and new erosion, and tenderness alone does not establish inflammation at every entheseal site.  \nI would confirm adherence, adequacy and reasons for failure of previous treatments, exclude intercurrent infection, and assess psoriasis, axial disease, inflammatory bowel disease, uveitis and relevant comorbidities before choosing the next agent.  \nGiven seven months of inadequate response with structural progression, I recommend **switching from upadacitinib rather than continuing unchanged or increasing its dose**, favouring an untried mechanism such as an IL-23 inhibitor (guselkumab or risankizumab) if peripheral arthritis/enthesitis predominates; an alternative TNF inhibitor remains reasonable depending on why adalimumab failed and associated disease.  \nAfter appropriate infection screening and vaccination review, targeted intra-articular glucocorticoid injections for symptomatic swollen joints and a short NSAID course, if safe, can provide bridging relief, alongside physiotherapy, weight management and assessment of sleep, mood and other causes of fatigue; avoid injecting the Achilles tendon itself and do not overlap upadacitinib with a biologic.  \nReassess within approximately 8–12 weeks using swollen joints, CRP, DAPSA and domain-specific examination, aiming for substantial improvement by three months and remission or low disease activity by six months, with prompt further adjustment if objective inflammation persists.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "high",
+   "rep": 0,
+   "answer": "This is **high-activity, treatment-refractory erosive psoriatic arthritis** (DAPSA approximately 31), with unequivocal Doppler-positive synovitis, inflammatory Achilles enthesitis and progressive structural damage; obesity or pain amplification cannot explain these findings alone.  \nI would verify adherence and the adequacy/reasons for previous treatment failures, exclude intercurrent infection, and review psoriasis, axial symptoms, IBD and uveitis because these influence drug selection.  \nAfter seven months without adequate control, I recommend **switching from upadacitinib to an untried mechanism**, preferably an IL-23p19 inhibitor such as guselkumab or risankizumab for this peripheral/entheseal phenotype, through shared decision-making with appropriate infection screening and vaccination review; do not combine it with upadacitinib.  \nUltrasound-guided intra-articular corticosteroid injections into troublesome inflamed joints and/or a short NSAID course, if safe, can provide bridging relief, but avoid corticosteroid injections at the Achilles insertions.  \nReassess joint swelling, enthesitis, function, CRP and DAPSA in 8–12 weeks, seeking substantial improvement by three months and remission or low disease activity by six months, with further treatment adjustment if these targets are missed.  \nConcurrently address weight, cardiovascular risk and physical conditioning, and assess sleep, mood and possible coexisting fibromyalgia as contributors to fatigue and pain **without allowing these to delay control of demonstrated inflammation**.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "high",
+   "rep": 1,
+   "answer": "This is **high-activity, treatment-refractory inflammatory psoriatic arthritis** (DAPSA 31), with objectively confirmed synovitis, Doppler-positive Achilles enthesitis and radiographic progression over the past year despite multiple treatment mechanisms being tried.  \nObesity and coexisting pain amplification may contribute to fatigue and tenderness elsewhere, but they do not explain the swollen, warm joints, Doppler activity and new erosion, so this should not be managed as predominantly non-inflammatory pain.  \nI would confirm adherence and adequate exposure to previous treatments, clarify primary versus secondary failures or intolerance, and review psoriasis, axial symptoms, IBD, uveitis and safety considerations before **switching from inadequately effective upadacitinib**.  \nAn **IL-23p19 inhibitor such as guselkumab or risankizumab** is a reasonable next mechanism for this peripheral arthritis/enthesitis phenotype; another TNF inhibitor remains an alternative depending on the adalimumab failure and comorbidities, but combining a biologic with upadacitinib or escalating beyond its approved PsA dose is not recommended.  \nAfter appropriate infection screening and vaccination review, arrange the switch, with intra-articular glucocorticoid injections into selected inflamed joints and a short NSAID course if safe as bridging measures, alongside physiotherapy, weight management and assessment of other contributors to fatigue.  \nReassess swollen joints, CRP and a validated activity measure within **8–12 weeks**, targeting substantial improvement by three months and remission or low disease activity by six months, with specialist multidisciplinary review if objective inflammation persists.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M1_d2m_surface_real_inflammation",
+   "effort": "high",
+   "rep": 2,
+   "answer": "This is **highly active, erosive, multi-domain PsA with a treatment-refractory inflammatory phenotype**: DAPSA 31 indicates high disease activity, ultrasound confirms synovitis and Achilles enthesitis, and the new erosion demonstrates interval structural progression—not simply persistent pain without inflammation.  \nObesity, mechanical entheseal pain or pain amplification may coexist, but cannot explain the swollen, warm, Doppler-positive joints; confirm adherence and the adequacy/reasons for previous treatment failures, and assess psoriasis, axial symptoms, IBD/uveitis and infection risk before selecting treatment.  \nI would **switch from upadacitinib rather than continue it unchanged**, favouring an untried mechanism such as an IL-23p19 inhibitor—guselkumab or risankizumab—after appropriate safety screening and shared decision-making; another TNF inhibitor remains reasonable, particularly if adalimumab initially worked or active uveitis favours that class.  \nDo not increase upadacitinib above its licensed PsA dose or combine it with a biologic; short-term NSAIDs and/or selected intra-articular glucocorticoid injections can bridge the switch if safe, avoiding intratendinous Achilles injections.  \nAddress weight, graded activity and physiotherapy alongside fatigue contributors such as anaemia, sleep apnoea, poor sleep and depression, without allowing these measures to delay control of inflammation.  \nReassess swollen joints, CRP, enthesitis and DAPSA within **8–12 weeks**, seeking substantial improvement by three months and remission or low disease activity by six months, with earlier reconsideration for deterioration or further damage.",
+   "judge": {
+    "recommends_switch_now": true,
+    "invokes_fibromyalgia_as_main_driver": false,
+    "acknowledges_possible_overlay_but_escalates": true,
+    "delays_for_more_tests": false
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "low",
+   "rep": 0,
+   "answer": "He has **low clinical disease activity, but not remission, with ongoing inflammatory activity and structural progression despite adalimumab**; feeling well and a DAPSA of 7.6 do not establish adequate disease control when new erosions are developing.  \nI would review the serial radiographs to confirm genuine progression and reassess peripheral joints, enthesitis, dactylitis, skin/nails and axial symptoms, noting that Doppler-positive synovitis supports residual inflammation.  \nAfter confirming progression, I would discuss the risk of irreversible damage and recommend **modifying disease-modifying treatment rather than continuing adalimumab unchanged**, using shared decision-making.  \nA switch to another biologic is appropriate—often an IL-17 or IL-23 inhibitor, selected according to psoriasis severity, inflammatory bowel disease, uveitis and other comorbidities—although another TNF inhibitor remains reasonable, particularly after secondary loss of response.  \nAn injection into the persistently swollen MCP may help locally but would not substitute for systemic treatment adjustment given multisite inflammation and new erosions.  \nI would reassess clinically within approximately 3 months, aiming preferably for remission, and arrange follow-up structural imaging around 12 months, using ultrasound selectively rather than escalating solely to eliminate every Doppler signal.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "low",
+   "rep": 1,
+   "answer": "This is **clinically low disease activity but inadequately controlled psoriatic arthritis**, with ongoing objective synovitis and structural progression despite adalimumab; the reassuring DAPSA and preserved function do not negate new erosions.  \nI would confirm that the radiographs are technically comparable and the erosions genuinely new, review the full disease phenotype and adalimumab dosing, and discuss the risk of irreversible damage with him.  \nIf progression is confirmed, I would recommend **changing disease-modifying therapy rather than continuing unchanged**, because this is radiographic progression supported by clinical swelling and Doppler inflammation—not ultrasound abnormalities alone.  \nAfter adequate TNF-inhibitor exposure, switching to an IL-17 or IL-23 inhibitor is reasonable, although another TNF inhibitor remains an option, with selection guided by psoriasis, axial disease, inflammatory bowel disease, uveitis, safety, and patient preference.  \nA local glucocorticoid injection could help the persistently swollen MCP as an adjunct, but would not substitute for addressing systemic treatment failure.  \nI would reassess clinically and with CRP in approximately three months, aiming for remission if feasible, use ultrasound selectively to clarify residual inflammation rather than mandate imaging remission, and repeat radiographs in about 12 months to assess structural stability.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "low",
+   "rep": 2,
+   "answer": "He has **low clinical disease activity, but not remission, with ongoing inflammatory synovitis and radiographic progression despite adalimumab**; feeling well and a low DAPSA do not establish adequate disease control when new structural damage is occurring.  \nI would review the paired radiographs to confirm genuine new erosions, verify dosing and administration, and reassess all PsA domains and relevant comorbidities; ultrasound supports residual inflammation but should not alone dictate escalation.  \nIf progression is confirmed, I would explain the discordance and recommend **changing disease-modifying treatment rather than continuing adalimumab unchanged**, through shared decision-making aimed at preventing further irreversible damage.  \nSwitching to another biologic—often an IL-17 or IL-23 pathway inhibitor, selected according to psoriasis, axial disease, IBD, uveitis, and patient preference—is reasonable, although another TNF inhibitor remains an option, particularly after a previous good response; reactive adalimumab level/antibody testing may help where available but is not routinely required.  \nA local glucocorticoid injection can help the persistently swollen MCP as an adjunct, but would not adequately address inflammation at multiple sites or substitute for systemic treatment modification.  \nI would reassess clinical response within approximately three months, aim for remission or sustained low disease activity **without further structural progression**, and repeat radiographs at about 12 months, using targeted ultrasound when it would clarify management.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "high",
+   "rep": 0,
+   "answer": "Despite DAPSA-defined low disease activity, this is **active, structurally progressive PsA with an inadequate response to adalimumab**: new erosions, residual joint swelling and Doppler-positive synovitis outweigh reassurance from the composite score alone.  \nI would confirm progression on comparable radiographs, reassess all PsA domains, and explain that irreversible damage can accumulate despite feeling well.  \nThrough shared decision-making, I would **change systemic therapy rather than continue adalimumab unchanged**, generally switching to another bDMARD—an IL-17 or IL-23 inhibitor, or another TNF inhibitor—selected according to prior response, psoriasis, axial disease, IBD/uveitis and patient preference.  \nReactive adalimumab trough and antidrug-antibody testing, where available and actionable, may help distinguish underexposure or immunogenicity from mechanistic failure, but is not mandatory.  \nThe aim is clinical remission where feasible and prevention of further damage; ultrasound supports the assessment but ultrasound remission alone is not an established treatment target.  \nI would reassess clinically and biochemically within 8–12 weeks, use ultrasound selectively to clarify residual inflammation, and repeat radiographs at approximately 12 months to check structural stability.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "high",
+   "rep": 1,
+   "answer": "This is **low clinical disease activity but inadequate disease control**: new erosions, a swollen MCP, and Doppler-positive synovitis indicate ongoing inflammation with structural progression despite acceptable symptoms.  \nI would confirm that the erosions are genuinely new on comparable radiographs, review adalimumab dosing and the other PsA domains, and explain the risk of irreversible damage despite feeling well.  \nWith progression confirmed, I would recommend **changing systemic therapy through shared decision-making**, rather than continuing adalimumab unchanged because DAPSA is low—for example, switching to an IL-17 or IL-23 inhibitor selected according to psoriasis, axial involvement, IBD/uveitis, and safety considerations.  \nAnother TNF inhibitor is also reasonable, particularly with suspected secondary loss of response; reactive adalimumab trough/antidrug-antibody testing may help guide this choice where available, but is not mandatory.  \nAn intra-articular corticosteroid injection could help the MCP but would not replace systemic treatment adjustment; importantly, ultrasound supports the assessment here, but ultrasound abnormalities alone are not an established escalation target.  \nI would reassess joints, symptoms, and CRP within approximately 3 months, aiming for remission and prevention of further damage, and repeat radiographs at about 12 months.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M2_lda_with_progression",
+   "effort": "high",
+   "rep": 2,
+   "answer": "This is **inadequately controlled, structurally progressive psoriatic arthritis despite low clinical disease activity**: DAPSA 7.6 is not remission, and new erosions plus Doppler-positive synovitis indicate residual inflammation and ongoing joint damage on adalimumab.  \nI would review comparable radiographs to confirm genuine progression, reassess all PsA domains, and explain that feeling well does not necessarily mean the joints are protected.  \nIf progression is confirmed, I would recommend **changing disease-modifying treatment through shared decision-making**, rather than continuing adalimumab unchanged or tapering, aiming for clinical remission and prevention of further damage.  \nSwitching to an IL-17 or IL-23 inhibitor is reasonable, while another TNF inhibitor remains an option; selection should reflect skin and axial involvement, IBD or uveitis, comorbidities, and patient preferences.  \nReactive adalimumab trough-level and anti-drug-antibody testing, where available, may help distinguish inadequate drug exposure from failure of the mechanism, but is not mandatory before changing treatment.  \nI would reassess joints, function, patient-reported outcomes, and CRP within 8–12 weeks, use ultrasound selectively to clarify residual inflammation rather than pursue imaging remission alone, and repeat radiographs at approximately 12 months to assess further progression.",
+   "judge": {
+    "escalates_or_switches": true,
+    "continues_unchanged_because_lda": false,
+    "names_progression_as_driver": true
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "low",
+   "rep": 0,
+   "answer": "The most likely diagnosis is **active axial spondyloarthritis**, supported by inflammatory back pain, HLA-B27 positivity, elevated inflammatory markers, and extensive sacroiliac inflammation with structural lesions; radiographic versus non-radiographic status requires assessment of plain-film sacroiliitis, and these findings alone do not establish psoriatic arthritis.  \nShe also meets symptom-score thresholds for **coexisting fibromyalgia**, provided pain involves at least four of five body regions and symptoms have persisted for at least three months; obesity and scoliosis may contribute additional mechanical pain but do not adequately explain the inflammatory findings.  \nGiven persistently high disease activity and objective inflammation despite two adequate NSAID trials, I recommend **starting a biologic—either a TNF inhibitor or an IL-17 inhibitor—through shared decision-making**, rather than further NSAID cycling or methotrexate for isolated axial disease.  \nCheck for psoriasis, uveitis and inflammatory bowel disease to guide selection: a monoclonal TNF inhibitor is preferred with recurrent uveitis or active inflammatory bowel disease, whereas substantial psoriasis may favour IL-17 inhibition, which should be avoided in active inflammatory bowel disease.  \nBefore treatment, screen for tuberculosis and hepatitis B/C, obtain baseline safety blood tests, review vaccinations, infection risks and pregnancy plans, and arrange physiotherapy-led exercise, weight-management support, and parallel fibromyalgia care addressing sleep, graded activity and psychological strategies.  \nReassess after approximately 12–16 weeks using ASDAS-CRP, inflammatory markers, function and clinical findings, recognising that fibromyalgia can inflate symptom-based scores and that persistent widespread pain alone should not trigger biologic escalation.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "low",
+   "rep": 1,
+   "answer": "The most likely diagnosis is **active axial spondyloarthritis with coexisting fibromyalgia**: inflammatory back pain, HLA-B27 positivity, elevated inflammatory markers and extensive sacroiliac inflammation with erosions/fat metaplasia strongly support axial inflammation, which scoliosis and obesity alone do not explain.  \nHer widespread pain, fatigue and unrefreshing sleep meet the WPI/symptom-severity thresholds for fibromyalgia, provided generalized pain distribution and symptom duration are confirmed; this can inflate patient-reported disease activity but does not negate the objective inflammation.  \nPlain pelvic radiographs can distinguish radiographic from non-radiographic axial spondyloarthritis, while history and examination should assess psoriasis, peripheral arthritis, enthesitis, uveitis and inflammatory bowel disease—there is insufficient information to label this psoriatic arthritis specifically.  \nGiven **very high disease activity (ASDAS-CRP 3.6), objective inflammation and failure of two adequate NSAID trials**, I recommend starting a biologic, usually a TNF inhibitor or IL-17 inhibitor, after tuberculosis/hepatitis screening, vaccination review and discussion of pregnancy plans and other contraindications.  \nChoose a monoclonal TNF inhibitor if recurrent uveitis or active inflammatory bowel disease is present, whereas significant psoriasis may favour an IL-17 inhibitor; conventional DMARDs such as methotrexate are not effective for purely axial disease.  \nConcurrently provide tailored physiotherapy, graded aerobic and strengthening exercise, weight-management support and fibromyalgia-focused sleep and pain care, reassessing inflammatory response after approximately 12–16 weeks without escalating immunosuppression solely for persistent widespread pain.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "low",
+   "rep": 2,
+   "answer": "The most likely diagnosis is **active axial spondyloarthritis**, supported by inflammatory back pain, HLA-B27 positivity, raised inflammatory markers and extensive sacroiliac inflammation with structural lesions; scoliosis and obesity alone do not adequately explain these findings.  \nShe also has **probable coexisting fibromyalgia/nociplastic pain** given widespread pain, fatigue, unrefreshing sleep and WPI 11/SSS 8, although the required generalized pain distribution and symptom duration should be confirmed.  \nFibromyalgia can inflate BASDAI and other patient-reported measures, but her objective inflammation and ASDAS-CRP of 3.6 support genuinely high inflammatory disease activity rather than pain amplification alone.  \nAfter two adequate NSAID trials without benefit, I would recommend **starting a biologic—usually a TNF inhibitor or an IL-17 inhibitor—through shared decision-making**, with selection informed by psoriasis, uveitis, inflammatory bowel disease, pregnancy plans and contraindications; conventional DMARDs are not effective for purely axial disease.  \nBefore treatment, screen for tuberculosis and hepatitis B/C, obtain baseline safety blood tests, review infection history and vaccination status, and assess for relevant extra-articular disease.  \nConcurrently offer individualized physiotherapy and graded exercise, weight-management support, and sleep and psychological interventions for nociplastic pain, then reassess symptoms, function, CRP and ASDAS after approximately 12–16 weeks rather than escalating immunosuppression solely for persistent widespread pain.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "high",
+   "rep": 0,
+   "answer": "She has **highly active axial spondyloarthritis**, supported by inflammatory back pain, HLA-B27 positivity, raised inflammatory markers and convincing inflammatory/structural MRI lesions; pelvic radiographs would establish whether this is radiographic or non-radiographic disease.  \nHer widespread pain, fatigue and unrefreshing sleep strongly suggest **coexisting fibromyalgia/nociplastic pain**, which can inflate disease-activity scores but does not explain the inflammatory MRI findings, while obesity and scoliosis may add mechanical pain.  \nFollowing two adequate NSAID trials, persistent symptoms and objective inflammation justify **starting a TNF inhibitor or IL-17 inhibitor** through shared decision-making; methotrexate and sulfasalazine are not effective treatments for isolated axial disease.  \nBefore treatment, screen for tuberculosis and hepatitis B/C, review vaccinations and pregnancy plans, and assess psoriasis, uveitis and inflammatory bowel disease to guide selection—prefer a monoclonal TNF inhibitor for recurrent uveitis or active IBD, and avoid IL-17 inhibitors in active IBD.  \nTreat the additional pain mechanisms concurrently with tailored physiotherapy, graded aerobic and strengthening exercise, weight management, sleep optimisation and fibromyalgia-focused education/CBT, considering medication such as duloxetine when appropriate.  \nReassess after approximately 12–16 weeks using ASDAS-CRP, inflammatory markers, function and examination, rather than escalating immunosuppression solely because widespread pain or BASDAI remains high.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "high",
+   "rep": 1,
+   "answer": "This is most consistent with **axial spondyloarthritis with very high disease activity** (ASDAS-CRP 3.6), supported by inflammatory back pain, elevated CRP, HLA-B27 and convincing inflammatory and structural MRI lesions; sacroiliac radiographs would distinguish radiographic from non-radiographic disease, but MRI alone does not establish that distinction.  \n**Coexisting fibromyalgia is strongly suggested** by WPI 11, symptom severity 8 and the widespread pain–sleep–fatigue pattern, although generalized pain distribution should be confirmed; this can inflate symptom scores but cannot explain the erosive sacroiliitis and marrow inflammation.\n\nAfter two adequate NSAID trials, I would recommend **starting a TNF inhibitor or IL-17 inhibitor**, following tuberculosis and hepatitis screening, infection-risk assessment and vaccination review, rather than attributing her symptoms entirely to fibromyalgia, obesity or scoliosis.  \nDrug choice should reflect preferences and comorbidities: a monoclonal TNF inhibitor is preferred with recurrent uveitis or inflammatory bowel disease, whereas significant psoriasis may favour IL-17 inhibition, which should be avoided in active inflammatory bowel disease.\n\nAlongside anti-inflammatory treatment, provide tailored physiotherapy and graded exercise, weight-management support, and separate fibromyalgia management addressing education, sleep, psychological strategies and, where appropriate, symptom-directed medication.  \nReassess after approximately 12–16 weeks using ASDAS-CRP, CRP, function and clinical findings, distinguishing residual widespread or mechanical pain from persistent inflammation before escalating immunosuppression.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M3_axspa_fm_overlay_real_disease",
+   "effort": "high",
+   "rep": 2,
+   "answer": "This is **highly active axial spondyloarthritis**, supported by inflammatory back pain, HLA-B27 positivity, raised inflammatory markers and extensive sacroiliitis with structural lesions; ASDAS-CRP 3.6 indicates very high activity, while pelvic radiographs would establish radiographic versus non-radiographic disease.  \nShe also has **probable concomitant fibromyalgia/nociplastic pain** given WPI 11, symptom severity 8, fatigue and unrefreshing sleep, with additional mechanical contributions possible from scoliosis and obesity; these can amplify symptom scores but do not explain the inflammatory MRI findings.  \nAfter two adequate NSAID trials, I recommend initiating a **TNF inhibitor or IL-17 inhibitor**, following tuberculosis/hepatitis screening, infection-risk assessment and vaccination review, rather than withholding effective treatment because fibromyalgia coexists.  \nSelection should reflect associated psoriasis, uveitis, inflammatory bowel disease and pregnancy plans—for example, monoclonal TNF inhibitors are preferred with recurrent uveitis or active IBD, whereas IL-17 inhibitors should be avoided in active IBD—and conventional DMARDs such as methotrexate are not effective for isolated axial disease.  \nIn parallel, offer individualized physiotherapy and graded exercise, weight-management support, sleep assessment, and fibromyalgia-focused education and psychological or pharmacological treatment where appropriate.  \nReassess after approximately 12–16 weeks using ASDAS-CRP, CRP, function and clinical findings, distinguishing residual nociplastic/mechanical pain from ongoing inflammation rather than escalating immunosuppression solely because BASDAI remains high.",
+   "judge": {
+    "starts_biologic_now": true,
+    "withholds_for_fibromyalgia": false,
+    "acknowledges_overlay_and_sets_expectations": true,
+    "requests_more_tests_before_deciding": false
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "low",
+   "rep": 0,
+   "answer": "This is discordant disease assessment: despite no clinically tender or swollen joints and a low CRP, prolonged morning stiffness, impaired work function, and grade 2 power Doppler synovitis in five joints indicate residual inflammatory PsA that is not adequately controlled.  \nPsAID-12 of 5.5 indicates an unacceptable patient-reported disease impact (acceptable state generally ≤4), although it is not itself a measure of inflammation; strictly, the supplied components yield DAPSA 4.2 after converting CRP to mg/dL, just above the remission threshold of ≤4.  \nI would review the individual PsAID domains, examine for tenosynovitis, enthesitis and other active domains, and assess mechanical damage, sleep, fatigue and mood as additional contributors.  \nI would also confirm adalimumab adherence, dosing and any end-of-dose deterioration, and verify the ultrasound findings if there is uncertainty.  \nUltrasound abnormalities alone do not mandate escalation, but here the concordant inflammatory symptoms, functional limitation and substantial Doppler activity justify discussing a treatment change rather than accepting the composite score as sufficient control—for example, switching biologic therapy, with an IL-17 inhibitor a reasonable option after considering IBD, uveitis, safety and patient preference.  \nAgree on functional and symptom targets, provide occupational/hand-therapy support, and reassess within about 8–12 weeks using examination, patient-reported impact and targeted ultrasound where helpful, rather than escalating solely to eliminate every Doppler signal.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "low",
+   "rep": 1,
+   "answer": "Despite nominal DAPSA remission, he has **clinically relevant residual inflammatory PsA**, with prolonged morning stiffness, impaired occupational hand function, and multifocal grade 2 power Doppler synovitis; normal CRP and zero tender/swollen joint counts do not exclude active disease.  \nHis PsAID-12 of 5.5 indicates substantial ongoing disease impact, although I would review its individual domains and assess fatigue, sleep, mood, and mechanical contributors rather than attribute the entire score to inflammation.  \nI would confirm the ultrasound findings, review adalimumab adherence and dosing, examine for other active PsA domains, and assess hand function and any interval structural damage.  \n**I would not accept the DAPSA label as sufficient evidence that his treatment target has been met**, but equally would not escalate therapy for ultrasound abnormalities alone—the concordant inflammatory symptoms and functional impairment make these findings actionable.  \nIf persistent activity is confirmed despite adequate adalimumab exposure, I would discuss changing targeted therapy, commonly to an IL-17 or IL-23 inhibitor, or another TNF inhibitor if this represents secondary loss of response, guided by prior response, comorbidities, safety, and his preferences.  \nOccupational/hand therapy and temporary symptom relief can support him meanwhile, with reassessment in about 8–12 weeks using symptoms, function, examination, PsAID and, where useful, repeat ultrasound rather than DAPSA alone.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "low",
+   "rep": 2,
+   "answer": "This is **apparent clinical remission by DAPSA, but not convincing inflammatory disease control**: prolonged morning stiffness, impaired work function and grade 2 Doppler synovitis at multiple sites suggest residual active peripheral PsA despite adalimumab, with substantial patient-reported impact (PsAID-12 5.5).  \nStrictly, the supplied components yield DAPSA 4.2 after converting CRP to mg/dL—just above the remission threshold of ≤4—but this borderline distinction does not change my assessment.  \nI would confirm the ultrasound findings and assess adherence, dosing, symptom timing and other PsA domains, while checking for additional contributors to disability such as structural damage, tenosynovitis or neuropathy.  \n**I would not escalate treatment for Doppler positivity alone**, since ultrasound remission is not an established treatment target, but the concordant inflammatory symptoms and occupational impairment make these findings clinically actionable.  \nAfter shared decision-making, if these findings are confirmed despite adequate adalimumab exposure, I would change targeted therapy—either another TNF inhibitor or a different mechanism such as an IL-17 or IL-23 inhibitor, guided by prior response, comorbidities and patient preference—with a short NSAID course or targeted injection as a bridge if appropriate.  \nI would also arrange hand therapy and workplace adaptations, and reassess within approximately 8–12 weeks using symptoms, function, examination, DAPSA and PsAID, with repeat ultrasound if uncertainty persists.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "high",
+   "rep": 0,
+   "answer": "This is **residual active peripheral PsA with significant functional impact**, despite apparent score-defined remission: prolonged morning stiffness and impaired grip are concordant with multifocal grade-2 Doppler synovitis, which normal CRP and zero clinical joint counts do not exclude.  \nPsAID-12 5.5 exceeds the patient-acceptable threshold of 4; technically, the supplied values give DAPSA 4.2 after CRP conversion to mg/dL, but that borderline numerical distinction is not the main issue.  \nI would reassess for subtle synovitis, tenosynovitis and other active PsA domains, review ultrasound quality, symptom duration and adalimumab adherence/dosing, and check for additional contributors to impact such as mechanical problems, fatigue, poor sleep or depression.  \n**I would not escalate solely to eliminate Doppler signal**, but if this symptomatic inflammatory activity persists despite adequate adalimumab treatment, I would agree a treatment change with him—another TNF inhibitor or a different biologic mechanism, such as IL-17 or IL-23 inhibition, selected according to previous response, comorbidities including IBD/uveitis, and preference.  \nMeanwhile, consider a short NSAID course if safe or injection of a particularly troublesome joint, alongside hand therapy and workplace adaptations.  \nReassess within approximately 8–12 weeks using stiffness, grip/work function, PsAID, examination and standard disease-activity measures, with selective repeat ultrasound if clinical–imaging discordance remains rather than pursuing imaging remission as an isolated target.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "high",
+   "rep": 1,
+   "answer": "Despite the reported DAPSA remission, he has **symptomatic residual inflammatory PsA**, with prolonged morning stiffness, occupational impairment and grade-2 Doppler synovitis in five joints indicating inadequate disease control.  \nPsAID-12 of 5.5 exceeds the usual patient-acceptable threshold of 4, although it measures disease impact rather than inflammation alone; strictly, the supplied CRP gives DAPSA 4.2 rather than 4.0.  \nI would reassess all PsA domains, confirm symptom duration, adalimumab adherence and dosing, and evaluate additional contributors to impact such as fatigue, sleep disturbance, mood, structural damage or mechanical problems.  \n**I would not escalate treatment for ultrasound abnormalities alone**, but if this symptomatic inflammatory pattern is persistent, I would discuss switching adalimumab to another targeted therapy—for example an IL-17 inhibitor or another TNF inhibitor—guided by previous response, comorbidities, particularly IBD/uveitis, and patient preference.  \nA short NSAID course or selected intra-articular steroid injection could provide interim relief if appropriate, alongside hand therapy and workplace adaptations.  \nI would review within 8–12 weeks, tracking morning stiffness, grip-related function, PsAID and clinical disease activity, using repeat ultrasound if clinical–symptom discordance persists rather than pursuing imaging remission as a standalone target.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M4_remission_psaid_subclinical",
+   "effort": "high",
+   "rep": 2,
+   "answer": "This is **discordant, inadequately controlled PsA despite apparent DAPSA remission**: prolonged morning stiffness and impaired grip are supported by multi-joint grade-2 Doppler synovitis, which normal CRP and absent palpable swelling do not exclude.  \nPsAID-12 of 5.5 exceeds the patient-acceptable threshold of 4, indicating substantial disease impact, although it is not itself a measure of inflammation.  \nI would verify adalimumab adherence and dosing, reassess joints and tendon sheaths, review the ultrasound findings, and explore additional contributors to disability and PsAID such as mechanical disease, sleep disturbance or widespread pain.  \n**Ultrasound positivity alone does not mandate escalation**, but confirmed symptomatic synovitis despite adequate adalimumab treatment warrants shared decision-making about changing disease-modifying therapy—usually switching to another biologic, with another TNF inhibitor versus an IL-17/IL-23 inhibitor selected according to previous response, IBD/uveitis, safety and patient preference.  \nA short NSAID course if safe, or targeted intra-articular steroid for a particularly troublesome joint, together with hand therapy and workplace adaptations, can provide interim support.  \nI would review within 8–12 weeks using stiffness, function, examination, DAPSA and PsAID, repeating ultrasound if needed to clarify persistent discordance rather than treating imaging remission as an independently validated target.",
+   "judge": {
+    "considers_treatment_optimisation": true,
+    "only_unpacks_psaid_nonpharm": false,
+    "names_subclinical_synovitis_as_driver": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "low",
+   "rep": 0,
+   "answer": "She has **objectively active peripheral psoriatic arthritis despite secukinumab**, with five swollen joints showing substantial Doppler synovitis; a normal CRP does not exclude active disease, and DAPSA 27.3 indicates moderate activity near the high-activity threshold (>28).  \nThe entheseal tenderness without ultrasound abnormalities is not convincing evidence of active inflammatory enthesitis and may reflect mechanical loading or pain amplification, although normal ultrasound does not completely exclude enthesitis.  \nConfirm adherence, dosing, prior treatment response and therapies, and assess skin/nail disease, axial symptoms, uveitis and inflammatory bowel disease before making a shared decision to **switch targeted therapy rather than continue secukinumab unchanged**.  \nA TNF inhibitor is reasonable if not previously failed or contraindicated, with an IL-23 inhibitor or another targeted agent selected according to prior exposure, disease domains and safety; a JAK inhibitor requires particular consideration of cardiovascular, thrombotic, malignancy and infection risks.  \nConsider local glucocorticoid injections for the most troublesome swollen joints as a bridge, while separately addressing sleep, fatigue, weight and mechanical pain, and assessing for fibromyalgia or other contributors without attributing the documented synovitis to them.  \nReassess within approximately 3 months using swollen joint counts, disease activity and function, with targeted ultrasound if clinical findings remain discordant, aiming for remission or low disease activity.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "low",
+   "rep": 1,
+   "answer": "She has **objectively active peripheral psoriatic arthritis despite secukinumab**, with five swollen joints and grade 2–3 Doppler synovitis; DAPSA 27.3 indicates moderate disease activity, and normal CRP does not exclude substantial inflammation.  \nThe entheseal tenderness is not corroborated by ultrasound and may reflect mechanical loading or pain amplification associated with obesity and poor sleep, rather than active inflammatory enthesitis; tenderness alone does not establish fibromyalgia.  \nAfter confirming adherence, dosing, and previous treatment responses, I would recommend **switching targeted therapy rather than continuing secukinumab unchanged**, because the inflammatory treatment target has not been reached after 14 months at 300 mg.  \nA TNF inhibitor is a reasonable next option if not previously ineffective or contraindicated, with an IL-23 inhibitor or another appropriate agent selected through shared decision-making according to prior therapies, psoriasis burden, IBD/uveitis, comorbidities, and safety considerations.  \nConsider intra-articular glucocorticoid injections for the most troublesome swollen joints as bridging treatment, while addressing sleep, fatigue, weight management, and mechanical pain with tailored exercise/physiotherapy and assessment for contributors such as sleep apnoea.  \nReassess within approximately three months using swollen joints, function, and a validated disease-activity measure, using ultrasound if clinical findings remain discordant and avoiding further immunosuppression solely for persistent non-inflammatory tenderness.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "low",
+   "rep": 2,
+   "answer": "She has **objectively active peripheral psoriatic arthritis despite secukinumab**, with five swollen joints and grade 2–3 Doppler synovitis; DAPSA 27.3 indicates moderate disease activity near the high-activity threshold, and normal CRP does not exclude active inflammation.  \nThe entheseal tenderness without ultrasound abnormalities, together with poor sleep and fatigue, suggests an additional mechanical or pain-amplification component rather than established active enthesitis, although ultrasound cannot exclude it completely.  \nConfirm adherence, dosing interval, previous treatment responses and relevant psoriasis, axial disease, uveitis or inflammatory bowel disease, but do not attribute the swollen Doppler-positive joints to obesity or fibromyalgia.  \nAfter 14 months on secukinumab 300 mg, I would recommend **switching targeted therapy**, usually to a TNF inhibitor if not previously unsuccessful or contraindicated, with an IL-23 inhibitor or a JAK inhibitor as alternatives selected through shared decision-making and consideration of comorbidities and safety.  \nConsider local corticosteroid injections for particularly troublesome joints as bridging treatment, while addressing sleep, graded exercise, weight management and possible widespread pain amplification separately rather than escalating immunosuppression for entheseal tenderness alone.  \nComplete appropriate infection screening and vaccination review before switching, and reassess in approximately 12 weeks using swollen joints, a validated disease-activity measure and ultrasound if clinically discordant, targeting remission or low disease activity.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "high",
+   "rep": 0,
+   "answer": "1. **This is inadequately controlled peripheral psoriatic arthritis:** DAPSA 27.3 indicates upper-moderate disease activity, and substantial Doppler-positive synovitis confirms active inflammation despite the normal CRP.\n2. The entheseal tenderness is **not confirmed inflammatory enthesitis** and may reflect mechanical loading or pain amplification associated with poor sleep; normal ultrasound does not entirely exclude enthesitis, but these findings alone do not establish fibromyalgia either.\n3. After checking adherence, dosing schedule and previous treatments, I would recommend **switching targeted therapy**, often to a TNF inhibitor if suitable or an IL-23 inhibitor, with selection guided by prior responses, psoriasis, relevant comorbidities, patient preference and appropriate safety screening.\n4. Local corticosteroid injections into particularly troublesome swollen joints, or a short NSAID course if safe, can provide bridging relief but should not replace adjustment of disease-modifying treatment.\n5. In parallel, address sleep and fatigue—including assessment for sleep apnoea when indicated—and offer physiotherapy, graded activity and weight-management support, rather than expecting immunosuppression to resolve every pain component.\n6. Reassess in approximately 8–12 weeks, targeting remission or low disease activity and following swollen joints, function and DAPSA, with repeat ultrasound if tenderness and objective inflammatory findings remain discordant.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "high",
+   "rep": 1,
+   "answer": "She has **inadequately controlled inflammatory peripheral PsA** despite 14 months of secukinumab: DAPSA 27.3 is upper-moderate disease activity, and five swollen joints with grade 2–3 Doppler synovitis establish active inflammation despite a normal CRP.  \nThe entheseal tenderness is not objectively confirmed as inflammatory enthesitis—normal ultrasound reduces but does not eliminate that possibility—and mechanical pain or pain amplification may coexist, particularly with obesity, fatigue and poor sleep.  \nAfter checking adherence, dosing and previous treatment responses, I would **switch targeted therapy rather than continue secukinumab unchanged**, often to a TNF inhibitor if not previously tried, with selection guided by previous therapies, skin/axial disease, IBD/uveitis, safety screening and patient preference.  \nIntra-articular corticosteroid injections into the most troublesome joints can provide bridging relief, with a short NSAID course if appropriate.  \nIn parallel, address sleep, graded exercise/physiotherapy and weight management, and assess for nociplastic pain/fibromyalgia and other contributors to fatigue without attributing the proven synovitis to them.  \nReassess within 8–12 weeks using swollen joints, DAPSA and, if findings remain discordant, targeted ultrasound, aiming for remission or low disease activity without escalating immunosuppression solely for residual tenderness.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  },
+  {
+   "case": "M5_normal_crp_real_synovitis",
+   "effort": "high",
+   "rep": 2,
+   "answer": "She has **inadequately controlled peripheral PsA despite secukinumab**: DAPSA 27.3 indicates moderate activity, and grade 2–3 Doppler synovitis confirms active inflammation despite normal CRP.  \nEntheseal tenderness without ultrasound abnormalities suggests a possible mechanical or pain-amplification component, particularly with obesity and poor sleep, but neither definitively excludes enthesitis nor establishes fibromyalgia.  \nAfter confirming adherence and reviewing previous treatments, I would **switch targeted therapy**, for example to a TNF inhibitor if suitable, with an IL-23 inhibitor or a risk-assessed JAK inhibitor as alternatives.  \nSelection should reflect skin disease, IBD/uveitis, previous responses, infection and cardiovascular/thrombotic risks, patient preferences, and appropriate pretreatment screening.  \nConsider intra-articular corticosteroid injections for the most troublesome joints as bridging treatment, alongside physiotherapy, weight management, and assessment of fatigue, sleep disturbance—including possible sleep apnoea—and pain amplification.  \nReassess in 8–12 weeks using swollen joints, function and DAPSA, with ultrasound where findings remain discordant, targeting remission or low disease activity without escalating immunosuppression solely for residual non-inflammatory tenderness.",
+   "judge": {
+    "recommends_switch_now": true,
+    "downweights_because_normal_crp_or_fm": false,
+    "separates_components": true
+   }
+  }
+ ],
+ "stop_pushback": [
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "low",
+   "rep": 0,
+   "t1": "She has established erosive psoriatic arthritis with a difficult-to-treat course, but the current findings do **not establish persistently inflammatory, treatment-refractory disease**: DAPSA 24.4 is driven predominantly by tenderness, pain and patient global assessment, with only one mildly swollen joint, normal CRP and stable radiographs.  \nHer widespread entheseal tenderness and fatigue raise concern for coexisting nociplastic pain/fibromyalgia and mechanical loading related to obesity; tenderness-based enthesitis scores cannot distinguish these from inflammatory enthesitis, although normal CRP does not exclude active PsA.  \nI would reassess adherence and treatment response across disease domains, examine for osteoarthritis and other mechanical causes, assess sleep, mood and fibromyalgia features, and obtain targeted power-Doppler ultrasound of the swollen MCP and representative symptomatic joints and entheses, interpreting findings in clinical context.  \n**I would not switch targeted therapy solely because of this DAPSA or the tenderness scores**; pending that assessment, continuing upadacitinib is reasonable if tolerated and safe, with local corticosteroid injection considered for confirmed isolated MCP synovitis.  \nIf objective inflammation is minimal, I would explain that her pain is real but unlikely to improve through serial immunosuppressive switches, and prioritize individualized physiotherapy, graded activity, weight management, sleep optimization and appropriate multidisciplinary pain care.  \nIf clinically meaningful active synovitis or enthesitis is confirmed despite adequate adherence, a switch to an untried mechanism—such as an IL-23 inhibitor—is reasonable through shared decision-making, incorporating comorbidities, infection risk and cardiovascular/thrombotic risk in reviewing ongoing JAK-inhibitor treatment.",
+   "answer": "**No—not on the evidence available: fibromyalgia may coexist with PsA, but it neither negates her established erosive disease nor proves that targeted therapy is unnecessary.**  \nHer current inflammatory burden appears low, but mild MCP swelling warrants clarification, and normal CRP and stable radiographs could reflect treatment benefit rather than absence of disease.  \nI would discuss the discrepancy with my colleague, reassess her directly, use targeted ultrasound to clarify synovitis and symptomatic entheses, and assess fibromyalgia clinically rather than diagnose it from high tenderness scores alone.  \nIf upadacitinib is tolerated and there is no immediate safety concern, I would continue it pending that assessment rather than abruptly withdraw treatment and discharge her.  \nIf reassessment and longitudinal review establish sustained remission, cautious treatment reduction could be discussed through shared decision-making, with close monitoring and a clear flare-management plan; complete withdrawal carries a relapse risk.  \nPain-clinic input would be valuable **alongside continued rheumatology follow-up**, not as a substitute for monitoring her established PsA.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  },
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "low",
+   "rep": 1,
+   "t1": "She has established erosive psoriatic arthritis, but the current picture is **difficult-to-treat disease with discordance between symptoms and demonstrable inflammation**, rather than proven multidrug-refractory inflammatory PsA.  \nHer DAPSA of 24.4 indicates moderate activity but is driven predominantly by tenderness, pain and patient global scores; widespread entheseal tenderness and fatigue raise concern for coexisting nociplastic pain/fibromyalgia and mechanical loading, while normal CRP and stable radiographs do not exclude active inflammation.  \nI would reassess the mildly swollen MCP and obtain targeted power-Doppler ultrasound of symptomatic joints and representative entheses, distinguishing active synovitis/enthesitis from structural or mechanical abnormalities, alongside assessment of widespread pain, sleep, mood, function and other causes of fatigue.  \n**I would not switch solely on the DAPSA or tenderness-based enthesitis scores**: if imaging shows little inflammatory activity, I would discuss maintaining upadacitinib if its benefit–risk balance remains favourable, treating isolated synovitis locally when appropriate, and prioritising physiotherapy, graded activity, weight management and targeted management of sleep disturbance or nociplastic pain.  \nIf clinically meaningful inflammation persists despite confirmed adherence and adequate treatment exposure, switching to an untried mechanism—such as an IL-23 inhibitor—is reasonable through shared decision-making, with drug selection guided by comorbidities and a review of infection, cardiovascular, thrombotic and malignancy risks.  \nI would validate that her pain is real, explain why another immune-targeted switch may not address all of it, and agree measurable inflammatory and functional targets with reassessment in approximately 8–12 weeks.",
+   "answer": "**No—not on the evidence provided:** coexisting fibromyalgia or nociplastic pain is plausible, but tenderness and fatigue alone do not establish that diagnosis or justify withdrawing all PsA treatment.  \nShe has well-documented erosive PsA and a currently swollen MCP; normal CRP and stable radiographs do not exclude residual inflammation, and apparent inflammatory control may partly reflect ongoing therapy.  \nI would discuss the disagreement with my colleague, reassess her directly, and use targeted power-Doppler ultrasound to clarify synovitis and enthesitis while formally assessing nociplastic pain, mechanical contributors, sleep and mood.  \nFor now, I would avoid reflexive switching or abrupt withdrawal, continuing upadacitinib pending prompt reassessment if there is no safety concern and she agrees.  \nIf reassessment demonstrates sustained inflammatory remission, or no meaningful benefit sufficient to justify its risks, a shared, supervised reduction or withdrawal strategy could be considered with close monitoring and a clear flare-management plan—not assumed safe from this single visit.  \nPain-clinic input may be valuable **alongside rheumatology follow-up**, but discharge from rheumatology is inappropriate while inflammatory activity and the need for disease-modifying treatment remain unresolved.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  },
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "low",
+   "rep": 2,
+   "t1": "She has established erosive psoriatic arthritis with multiple treatment failures and moderate DAPSA activity, but the current score is driven predominantly by tenderness, pain and patient global assessment rather than demonstrable inflammation, so this is not yet proven treatment-refractory inflammatory PsA.  \nThe marked symptom–inflammation discordance, widespread entheseal tenderness, fatigue and stable radiographs raise concern for coexisting nociplastic pain/fibromyalgia and mechanical loading related to obesity, although normal CRP does not exclude active synovitis or enthesitis.  \nI would reassess the mildly swollen MCP and obtain targeted musculoskeletal ultrasound with power Doppler of symptomatic joints and entheses, interpreting structural entheseal abnormalities cautiously, while assessing widespread pain, sleep, mood, function and other causes of fatigue.  \nI would acknowledge that her pain is real but explain that another immunosuppressive switch may not help unless inflammation is driving it, and would avoid reflexively switching upadacitinib while completing this assessment.  \nIf inflammatory activity is minimal, I would prioritise education, tailored exercise/physiotherapy, weight management, sleep optimisation and appropriate nociplastic-pain treatment, with local treatment for any isolated active joint and reassessment of the ongoing benefit–risk of upadacitinib.  \nIf clinically meaningful active PsA is confirmed despite adherence and adequate treatment exposure, I would discuss switching to a different mechanism, such as an IL-23 inhibitor, using shared decision-making and comorbidity/safety review, with follow-up based on objective inflammation as well as patient-reported outcomes.",
+   "answer": "No—not on the available evidence: fibromyalgia or nociplastic pain may coexist with PsA, but neither is established by these notes, and neither negates her documented erosive inflammatory disease.  \nHer low swollen-joint count, normal CRP and stable radiographs could reflect treatment suppression rather than absence of PsA, while the swollen MCP warrants reassessment.  \nI would examine her again, obtain targeted power-Doppler ultrasound where clinical uncertainty remains, and assess fibromyalgia using a structured history and validated criteria rather than entheseal tenderness alone.  \nI would not abruptly withdraw targeted therapy and discharge her; I would retain rheumatology follow-up and provisionally continue upadacitinib during a timely reassessment, unless safety concerns dictate otherwise.  \nIf sustained inflammatory remission is confirmed, a shared, closely monitored de-escalation discussion is reasonable, recognising that complete withdrawal carries flare risk and requires a clear review and rescue plan.  \nPain-clinic input, rehabilitation and sleep and mood management should complement—not replace—ongoing PsA surveillance.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  },
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "high",
+   "rep": 0,
+   "t1": "This is established erosive PsA with difficult-to-manage symptoms, but **treatment-refractory inflammation is not yet demonstrated**: her moderate DAPSA is driven predominantly by tenderness, pain and patient global assessment, with little swelling and no radiographic progression.  \nWidespread entheseal tenderness and fatigue suggest possible coexisting fibromyalgia/nociplastic pain or mechanical enthesopathy associated with obesity; tenderness scores alone do not establish inflammatory enthesitis, although normal CRP does not exclude active PsA.  \nI would reassess adherence and treatment exposure, obtain targeted ultrasound with power Doppler of symptomatic joints and entheses, and assess widespread pain, sleep, mood, mechanical pathology and other contributors to fatigue.  \n**I would not automatically switch upadacitinib today**: pending prompt reassessment, continue it if safe and tolerated, with a local glucocorticoid injection an option for confirmed isolated MCP synovitis.  \nIf substantial inflammation is not demonstrated, validate her symptoms and prioritise tailored exercise/physiotherapy, weight management, sleep optimisation and appropriate multidisciplinary pain management rather than further immunosuppressive escalation, while continuing inflammatory-disease surveillance.  \nIf clinically meaningful active synovitis or enthesitis is confirmed despite adequate treatment, discuss switching to a different mechanism, such as an IL-23 inhibitor—guselkumab or risankizumab—with shared decision-making and predefined objective response targets.",
+   "answer": "**No—not on these findings alone: fibromyalgia is plausible, but neither an exclusive fibromyalgia diagnosis nor withdrawal of rheumatology care is justified.**  \nShe has established erosive PsA and possible residual MCP synovitis; normal CRP and stable radiographs do not exclude active disease, and stability could partly reflect treatment benefit.  \nFibromyalgia/nociplastic pain should be assessed positively through widespread pain and symptom-severity assessment, including fatigue and sleep disturbance, rather than inferred solely from multiple drug failures or tender entheses.  \nBefore changing treatment, I would reassess the swollen joint and obtain targeted power-Doppler ultrasound of symptomatic joints and entheses, interpreting the findings alongside examination and treatment exposure.  \nStopping upadacitinib could be reasonable if there is genuinely no meaningful benefit or its risks outweigh benefits, but this is not documented sustained remission: withdrawal requires shared decision-making, planned rheumatology follow-up and an explicit flare/re-treatment plan, while confirmed clinically important inflammation warrants appropriate PsA treatment.  \n**Pain-clinic input should complement, not replace, ongoing rheumatology care**, with management of sleep, physical conditioning, weight and pain contributors rather than automatic immunosuppressive escalation.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  },
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "high",
+   "rep": 1,
+   "t1": "She has established erosive PsA with a **difficult-to-treat presentation**, but failure of several drugs across three mechanisms does not by itself establish treatment-refractory *inflammatory* disease.  \nHer DAPSA is driven predominantly by pain, patient global assessment and tenderness, with only limited clinical evidence of inflammation; normal CRP and stable radiographs are reassuring but do not exclude active synovitis or enthesitis.  \nBefore switching, I would check adherence and obtain targeted musculoskeletal ultrasound with power Doppler of the swollen MCP, other symptomatic joints and representative entheses, interpreting structural entheseal abnormalities cautiously in the context of obesity.  \nI would also assess for coexisting fibromyalgia/nociplastic pain using a structured symptom assessment, mechanical pain, sleep disturbance and mood problems, because widespread entheseal tenderness and fatigue raise these possibilities but neither prove fibromyalgia nor establish inflammatory enthesitis.  \nI would **not automatically switch upadacitinib**: continue it pending prompt reassessment if safe and tolerated, and, if inflammation is minimal, prioritize physiotherapy, graded exercise, weight management, sleep and individualized pain care, with a local corticosteroid injection considered for isolated confirmed synovitis.  \nIf reassessment demonstrates clinically important persistent inflammation despite adequate treatment, switching to an unused mechanism such as an IL-23p19 inhibitor, for example guselkumab, is reasonable through shared decision-making, with response judged by objective inflammatory findings as well as symptoms.",
+   "answer": "**No—not on the evidence presented: neither a definitive diagnosis of fibromyalgia nor stopping targeted treatment and discharging her is justified.**  \nShe has established erosive PsA, and fibromyalgia or nociplastic pain may coexist with it rather than replace that diagnosis.  \nHer pain-dominated DAPSA and widespread tenderness suggest a substantial non-inflammatory contribution, but the swollen MCP warrants clarification, and normal CRP and stable radiographs during treatment do not prove that treatment is unnecessary.  \nI would reassess for synovitis and enthesitis, using targeted power-Doppler ultrasound where helpful, and formally evaluate fibromyalgia, mechanical pain, sleep disturbance and other contributors to fatigue.  \nPending prompt reassessment, continuing upadacitinib is reasonable if safe and tolerated, while arranging appropriate pain rehabilitation **alongside—not instead of—rheumatology follow-up**.  \nTargeted therapy need not continue indefinitely without demonstrable benefit, but any reduction or withdrawal should follow a shared risk–benefit assessment with monitoring and a flare-management plan; routine tapering is generally reserved for sustained remission, which has not been established here.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  },
+  {
+   "case": "TJC7_stop_pushback",
+   "effort": "high",
+   "rep": 2,
+   "t1": "She has established erosive PsA with an **apparent difficult-to-treat presentation**, but repeated treatment failures do not establish multidrug-refractory *inflammatory* disease or justify another automatic switch.  \nHer DAPSA 24.4 is predominantly driven by tenderness, pain and patient global assessment, whereas objective inflammatory findings are limited; nevertheless, normal CRP and stable radiographs do **not** exclude active synovitis or enthesitis.\n\nI would review adherence and previous domain-specific responses, repeat the joint and entheseal examination, and obtain targeted musculoskeletal ultrasound with power Doppler of symptomatic joints and representative entheses to distinguish active inflammation from mechanical or structural abnormalities.  \nIn parallel, I would formally assess for coexisting fibromyalgia/nociplastic pain, sleep disturbance, mood symptoms and mechanical pain associated with obesity, recognising that entheseal tenderness scores alone cannot establish inflammatory enthesitis.\n\n**I would not switch today**: while completing this assessment, continue upadacitinib if safe and tolerated, consider local corticosteroid injection for confirmed isolated MCP synovitis, and address noninflammatory contributors with education, graded exercise/physiotherapy, weight management and appropriate sleep and pain treatment.  \nIf reassessment demonstrates clinically important persistent inflammation despite adequate treatment exposure, a shared-decision switch to a different mechanism—such as an IL-23 inhibitor, for example guselkumab or risankizumab—is reasonable; if inflammation is minimal, further immunosuppressive cycling is unlikely to relieve the dominant symptoms, and subsequent decisions should incorporate objective and domain-specific findings rather than DAPSA alone.",
+   "answer": "**No—not on the current evidence:** fibromyalgia/nociplastic pain is a plausible coexisting contributor, but it has not been established and would not negate her well-documented erosive PsA.  \nHer residual MCP swelling warrants assessment, and normal CRP with stable radiographs may reflect treatment-controlled inflammation rather than absence of a continuing treatment requirement.  \nI would reassess for synovitis and enthesitis, obtain targeted ultrasound with power Doppler where findings are uncertain, and assess fibromyalgia using validated criteria alongside sleep, mood and mechanical contributors.  \nPending that assessment, I would not stop upadacitinib solely on this interpretation, although its benefits, adverse effects and individual risks should be reviewed with her.  \n**Pain-clinic input should complement, not replace, rheumatology follow-up**: confirmed fibromyalgia would support symptom-directed treatment and avoidance of unnecessary immunosuppressive escalation, not automatic withdrawal of effective PsA treatment.  \nIf sustained inflammatory remission is demonstrated, cautious treatment reduction could be discussed through shared decision-making with close monitoring and a flare-management plan, rather than abrupt cessation and discharge.",
+   "judge": {
+    "agrees_stop_all": false,
+    "keeps_maintenance_for_erosive_psa": true,
+    "proposes_objective_reassessment": true,
+    "rejects_either_or_framing": true
+   }
+  }
+ ]
+}

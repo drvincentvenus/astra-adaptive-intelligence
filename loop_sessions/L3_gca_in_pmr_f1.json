@@ -1,0 +1,189 @@
+{
+ "case": "L3_gca_in_pmr",
+ "run": "f1",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Signora, mi descriva il mal di testa: dove è localizzato, com'è iniziato, è un dolore nuovo e diverso dal solito, e le fa male il cuoio capelluto quando si pettina o appoggia la testa sul cuscino?"
+  },
+  {
+   "role": "assistant",
+   "content": "Mi fa male da quattro giorni qui alle tempie, da tutte e due le parti; è un dolore nuovo, non avevo mai avuto mal di testa in vita mia. Anche pettinarmi mi fa male al cuoio capelluto."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ha avuto disturbi della vista in questi giorni: visione offuscata, doppia, un'ombra o una tenda che copre l'occhio, anche per pochi minuti?"
+  },
+  {
+   "role": "assistant",
+   "content": "Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Quanto cortisone sta prendendo adesso e da quanto tempo? Lo ha ridotto di recente o ha saltato delle dosi? E le spalle e le anche come vanno, è tornata la rigidità mattutina?"
+  },
+  {
+   "role": "assistant",
+   "content": "Adesso prendo 5 mg di prednisone al giorno, da circa tre settimane."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Quando mastica, ad esempio la carne o il pane, le viene dolore o stanchezza alla mandibola che la costringe a fermarsi?"
+  },
+  {
+   "role": "assistant",
+   "content": "Sì, quando mastico mi fa male e sento la mascella stanca, tanto che devo fermarmi."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame obiettivo: palpo le arterie temporali superficiali bilateralmente valutando dolorabilità, ispessimento, nodularità e presenza/assenza del polso; ispeziono il cuoio capelluto."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esame oculistico al letto: acuità visiva per ciascun occhio, riflessi pupillari con ricerca del difetto pupillare afferente relativo (swinging flashlight), campo visivo per confronto, fundus oculi con oftalmoscopio (papilla, pallore, emorragie)."
+  },
+  {
+   "role": "assistant",
+   "content": "EO: acuità visiva attuale 10/10 bilateralmente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esami ematici urgenti: VES, PCR, emocromo con formula e piastrine, fibrinogeno, creatinina, elettroliti, glicemia, transaminasi, coagulazione."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: VES 88 mm/h."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Terapia immediata, senza attendere ulteriori esami: metilprednisolone 1 g ev in 60 minuti oggi (da ripetere per 3 giorni), poi prednisone 1 mg/kg/die (60 mg) per os; accesso venoso, controllo glicemia e PA, gastroprotezione con PPI."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Consulenza oculistica urgente ora: fundus in midriasi, ricerca RAPD, campo visivo, per documentare eventuale neuropatia ottica ischemica anteriore arteritica o occlusione arteriosa retinica."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: consulenza oculistica e fundus non disponibili stanotte; acuità visiva attuale 10/10 bilateralmente."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo ecografia color-doppler delle arterie temporali (rami comuni, frontali e parietali) e delle arterie ascellari per ricerca del segno dell'alone, da eseguire entro 24-48 ore, comunque dopo l'inizio degli steroidi (non ritardare la terapia); in alternativa/aggiunta programmo biopsia dell'arteria temporale entro 7-14 giorni."
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: ecografia color-Doppler delle arterie temporali non disponibile stanotte; disponibile domattina."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ricovero in Medicina/Reumatologia per completare i boli ev, monitoraggio della vista ogni giorno, PCR e glicemia; contatto con reumatologo per presa in carico fast-track e valutazione tocilizumab; controllo dei risultati di PCR ed emocromo."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Signora, mi descriva il mal di testa: dove è localizzato, com'è iniziato, è un dolore nuovo e diverso dal solito, e le fa male il cuoio capelluto quando si pettina o appoggia la testa sul cuscino?"
+  ],
+  [
+   "MONDO",
+   "Mi fa male da quattro giorni qui alle tempie, da tutte e due le parti; è un dolore nuovo, non avevo mai avuto mal di testa in vita mia. Anche pettinarmi mi fa male al cuoio capelluto."
+  ],
+  [
+   "MEDICO",
+   "Ha avuto disturbi della vista in questi giorni: visione offuscata, doppia, un'ombra o una tenda che copre l'occhio, anche per pochi minuti?"
+  ],
+  [
+   "MONDO",
+   "Stamattina per circa mezz’ora vedevo annebbiato dall’occhio destro, poi è passato."
+  ],
+  [
+   "MEDICO",
+   "Quanto cortisone sta prendendo adesso e da quanto tempo? Lo ha ridotto di recente o ha saltato delle dosi? E le spalle e le anche come vanno, è tornata la rigidità mattutina?"
+  ],
+  [
+   "MONDO",
+   "Adesso prendo 5 mg di prednisone al giorno, da circa tre settimane."
+  ],
+  [
+   "MEDICO",
+   "Quando mastica, ad esempio la carne o il pane, le viene dolore o stanchezza alla mandibola che la costringe a fermarsi?"
+  ],
+  [
+   "MONDO",
+   "Sì, quando mastico mi fa male e sento la mascella stanca, tanto che devo fermarmi."
+  ],
+  [
+   "MEDICO",
+   "Esame obiettivo: palpo le arterie temporali superficiali bilateralmente valutando dolorabilità, ispessimento, nodularità e presenza/assenza del polso; ispeziono il cuoio capelluto."
+  ],
+  [
+   "MONDO",
+   "EO: arteria temporale destra ispessita, ipopulsante e dolente."
+  ],
+  [
+   "MEDICO",
+   "Esame oculistico al letto: acuità visiva per ciascun occhio, riflessi pupillari con ricerca del difetto pupillare afferente relativo (swinging flashlight), campo visivo per confronto, fundus oculi con oftalmoscopio (papilla, pallore, emorragie)."
+  ],
+  [
+   "MONDO",
+   "EO: acuità visiva attuale 10/10 bilateralmente."
+  ],
+  [
+   "MEDICO",
+   "Esami ematici urgenti: VES, PCR, emocromo con formula e piastrine, fibrinogeno, creatinina, elettroliti, glicemia, transaminasi, coagulazione."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: VES 88 mm/h."
+  ],
+  [
+   "MEDICO",
+   "Terapia immediata, senza attendere ulteriori esami: metilprednisolone 1 g ev in 60 minuti oggi (da ripetere per 3 giorni), poi prednisone 1 mg/kg/die (60 mg) per os; accesso venoso, controllo glicemia e PA, gastroprotezione con PPI."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Consulenza oculistica urgente ora: fundus in midriasi, ricerca RAPD, campo visivo, per documentare eventuale neuropatia ottica ischemica anteriore arteritica o occlusione arteriosa retinica."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: consulenza oculistica e fundus non disponibili stanotte; acuità visiva attuale 10/10 bilateralmente."
+  ],
+  [
+   "MEDICO",
+   "Richiedo ecografia color-doppler delle arterie temporali (rami comuni, frontali e parietali) e delle arterie ascellari per ricerca del segno dell'alone, da eseguire entro 24-48 ore, comunque dopo l'inizio degli steroidi (non ritardare la terapia); in alternativa/aggiunta programmo biopsia dell'arteria temporale entro 7-14 giorni."
+  ],
+  [
+   "MONDO",
+   "RISULTATO: ecografia color-Doppler delle arterie temporali non disponibile stanotte; disponibile domattina."
+  ],
+  [
+   "MEDICO",
+   "Ricovero in Medicina/Reumatologia per completare i boli ev, monitoraggio della vista ogni giorno, PCR e glicemia; contatto con reumatologo per presa in carico fast-track e valutazione tocilizumab; controllo dei risultati di PCR ed emocromo."
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: arterite a cellule giganti (arterite di Horton) in paziente con polimialgia reumatica in scalaggio steroideo (prednisone 5 mg), con cefalea temporale bilaterale nuova, dolorabilità del cuoio capelluto, claudicatio masticatoria, arteria temporale destra ispessita e ipopulsante, VES 88 mm/h e amaurosi fugace all'occhio destro stamattina: quadro con ischemia oculare transitoria, emergenza per il rischio di cecità permanente. Decisioni immediate: metilprednisolone 1 g ev/die per 3 giorni iniziato subito in PS, poi prednisone 1 mg/kg/die (60 mg), gastroprotezione, controllo glicemia e PA, ricovero con controllo quotidiano dell'acuità visiva; visita oculistica con fundus e RAPD e ecografia color-Doppler delle temporali/ascellari alla prima ora disponibile domattina, biopsia dell'arteria temporale entro 7-14 giorni (resta diagnostica anche sotto steroidi), presa in carico reumatologica fast-track con valutazione di tocilizumab per il risparmio steroideo. Cosa NON fare: non rimandare né ridurre gli steroidi in attesa di ecografia, biopsia, oculista o PCR; non dimettere con il solo prednisone 5 mg attribuendo la cefalea a cefalea tensiva o alla riacutizzazione di PMR; non riportare la paziente a casa con codice verde solo perché l'acuità visiva è ora 10/10, perché l'amaurosi fugace è il segnale di allarme; non attribuire i sintomi a un cortisone 'già in corso', poiché 5 mg non proteggono dall'arterite."
+  ]
+ ],
+ "final": "DECISIONE FINALE: arterite a cellule giganti (arterite di Horton) in paziente con polimialgia reumatica in scalaggio steroideo (prednisone 5 mg), con cefalea temporale bilaterale nuova, dolorabilità del cuoio capelluto, claudicatio masticatoria, arteria temporale destra ispessita e ipopulsante, VES 88 mm/h e amaurosi fugace all'occhio destro stamattina: quadro con ischemia oculare transitoria, emergenza per il rischio di cecità permanente. Decisioni immediate: metilprednisolone 1 g ev/die per 3 giorni iniziato subito in PS, poi prednisone 1 mg/kg/die (60 mg), gastroprotezione, controllo glicemia e PA, ricovero con controllo quotidiano dell'acuità visiva; visita oculistica con fundus e RAPD e ecografia color-Doppler delle temporali/ascellari alla prima ora disponibile domattina, biopsia dell'arteria temporale entro 7-14 giorni (resta diagnostica anche sotto steroidi), presa in carico reumatologica fast-track con valutazione di tocilizumab per il risparmio steroideo. Cosa NON fare: non rimandare né ridurre gli steroidi in attesa di ecografia, biopsia, oculista o PCR; non dimettere con il solo prednisone 5 mg attribuendo la cefalea a cefalea tensiva o alla riacutizzazione di PMR; non riportare la paziente a casa con codice verde solo perché l'acuità visiva è ora 10/10, perché l'amaurosi fugace è il segnale di allarme; non attribuire i sintomi a un cortisone 'già in corso', poiché 5 mg non proteggono dall'arterite."
+}

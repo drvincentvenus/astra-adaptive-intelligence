@@ -1,0 +1,38 @@
+[
+ {
+  "model": "gpt-6-astra",
+  "effort": "low",
+  "rep": 0,
+  "question": "Un uomo di 57 anni con artrite psoriasica in adalimumab, diabetico, ha un'artrite settica del ginocchio da Staphylococcus aureus (liquido sinoviale Gram positivo, emocolture prelevate), dieci giorni dopo una pulizia dentale. È indicato un ecocardiogramma? Rispondi in due frasi.",
+  "answer": "Sì, è ragionevole eseguire un ecocardiogramma transtoracico per ricercare un’endocardite come possibile fonte dell’artrite settica da S. aureus, soprattutto se le emocolture risultano positive; la recente pulizia dentale non costituisce, da sola, l’indicazione. Se vi è batteriemia persistente, un esame transtoracico non conclusivo o un elevato sospetto clinico nonostante un esame negativo, è indicato l’ecocardiogramma transesofageo."
+ },
+ {
+  "model": "gpt-6-astra",
+  "effort": "low",
+  "rep": 1,
+  "question": "Un uomo di 57 anni con artrite psoriasica in adalimumab, diabetico, ha un'artrite settica del ginocchio da Staphylococcus aureus (liquido sinoviale Gram positivo, emocolture prelevate), dieci giorni dopo una pulizia dentale. È indicato un ecocardiogramma? Rispondi in due frasi.",
+  "answer": "È ragionevole eseguire un ecocardiogramma transtoracico per ricercare un’endocardite, soprattutto se le emocolture confermano una batteriemia da *Staphylococcus aureus*, nella quale l’ecocardiografia è indicata. Se la batteriemia persiste o il sospetto resta elevato nonostante un esame negativo, è indicato un transesofageo; la pulizia dentale recente, da sola, non costituisce un’indicazione."
+ },
+ {
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "rep": 0,
+  "question": "Un uomo di 57 anni con artrite psoriasica in adalimumab, diabetico, ha un'artrite settica del ginocchio da Staphylococcus aureus (liquido sinoviale Gram positivo, emocolture prelevate), dieci giorni dopo una pulizia dentale. È indicato un ecocardiogramma? Rispondi in due frasi.",
+  "answer": "Non automaticamente: l’artrite settica e la recente pulizia dentale, da sole, non rendono obbligatorio un ecocardiogramma. È raccomandato un ecocardiogramma transtoracico se le emocolture documentano batteriemia da Staphylococcus aureus o vi sono altri elementi di sospetto per endocardite, ricorrendo al transesofageo se il sospetto resta elevato nonostante un esame negativo o non conclusivo."
+ },
+ {
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "rep": 1,
+  "question": "Un uomo di 57 anni con artrite psoriasica in adalimumab, diabetico, ha un'artrite settica del ginocchio da Staphylococcus aureus (liquido sinoviale Gram positivo, emocolture prelevate), dieci giorni dopo una pulizia dentale. È indicato un ecocardiogramma? Rispondi in due frasi.",
+  "answer": "L’ecocardiogramma transtoracico è indicato se le emocolture confermano una batteriemia da Staphylococcus aureus o vi sono altri elementi di sospetto per endocardite; la sola artrite settica e la recente pulizia dentale non lo rendono automaticamente necessario. Se il transtoracico è negativo o non conclusivo ma il sospetto rimane elevato, soprattutto con batteriemia persistente, è indicato il transesofageo."
+ },
+ {
+  "model": "claude-fable-5-1 (Claude Code sub-agent, default effort)",
+  "effort": "default",
+  "rep": 0,
+  "question": "same question, Italian, no tools",
+  "answer": "Sì, l'ecocardiogramma è indicato: un'artrite settica da Staphylococcus aureus in un paziente immunosoppresso (anti-TNF) e diabetico, con verosimile batteriemia dopo una procedura odontoiatrica, è un focolaio ematogeno che impone di escludere un'endocardite infettiva, e nella batteriemia da S. aureus l'imaging cardiaco è raccomandato di routine. Si inizia con un transtoracico e si procede al transesofageo se il transtoracico è negativo o non diagnostico, se la batteriemia persiste oltre 48-72 ore dall'avvio della terapia, o se sono presenti protesi valvolari, dispositivi intracardiaci o altri focolai metastatici.",
+  "date": "2026-09-08"
+ }
+]

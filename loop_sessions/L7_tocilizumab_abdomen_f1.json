@@ -1,0 +1,173 @@
+{
+ "case": "L7_tocilizumab_abdomen",
+ "run": "f1",
+ "sim_hist": [
+  {
+   "role": "user",
+   "content": "MEDICO: Che farmaci prende per l'artrite reumatoide (biologici, cortisone, metotrexato, FANS) e quando ha fatto l'ultima somministrazione?"
+  },
+  {
+   "role": "assistant",
+   "content": "Faccio da tre anni una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg tutti i giorni. Non ricordo con precisione quando ho fatto l’ultima puntura."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Mi descriva il dolore: dove è localizzato, come è iniziato, è continuo, peggiora con i movimenti o la tosse? Ha avuto nausea, vomito, ha evacuato ed emesso gas negli ultimi due giorni?"
+  },
+  {
+   "role": "assistant",
+   "content": "Il dolore è iniziato due giorni fa sul lato sinistro della pancia; è continuo e sta aumentando. Adesso lo sento soprattutto in basso a sinistra e verso il centro."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Palpazione addominale: cerco difesa, contrattura, dolore di rimbalzo (Blumberg) e segni di peritonismo, soprattutto in fossa iliaca sinistra"
+  },
+  {
+   "role": "assistant",
+   "content": "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; Blumberg dubbio."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Ha avuto nausea o vomito? Quando ha evacuato l'ultima volta ed emette gas? Ha mai avuto diverticoli o episodi simili in passato?"
+  },
+  {
+   "role": "assistant",
+   "content": "Ho vomitato una volta."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (sospetta diverticolite complicata/perforazione in paziente immunosoppresso)"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Esami ematici urgenti: emocromo, PCR, procalcitonina, creatinina, elettroliti, lattati, coagulazione, emocolture x2 (sapendo che tocilizumab sopprime PCR e febbre)"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: emocromo: GB 7,8 ×10³/µL (neutrofili 72%), Hb 12,9 g/dL, piastrine 210 ×10³/µL."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Avvio subito piperacillina-tazobactam 4,5 g ev, idratazione ev, digiuno, accesso venoso, analgesia con paracetamolo ev; sospendo il biologico"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Consulenza chirurgica urgente per diverticolite perforata coperta con ascesso 3,5 cm in paziente immunosoppresso: valutare drenaggio percutaneo vs chirurgia"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Risultato di lattati, creatinina, PCR e procalcitonina; rivaluto i parametri vitali (PA, FC, diuresi) per segni di sepsi occulta"
+  },
+  {
+   "role": "assistant",
+   "content": "RISULTATO: lattato 1,4 mmol/L, creatinina 0,9 mg/dL, PCR 4 mg/L, procalcitonina 0,08 ng/mL."
+  },
+  {
+   "role": "user",
+   "content": "MEDICO: Somministro idrocortisone 100 mg ev come stress dose (prednisone cronico da anni, rischio insufficienza surrenalica relativa in sepsi/chirurgia) e ricovero in chirurgia con monitoraggio"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEGUITO."
+  }
+ ],
+ "transcript": [
+  [
+   "MEDICO",
+   "Che farmaci prende per l'artrite reumatoide (biologici, cortisone, metotrexato, FANS) e quando ha fatto l'ultima somministrazione?"
+  ],
+  [
+   "MONDO",
+   "Faccio da tre anni una puntura settimanale per l’artrite, quella che comincia con la “t”, e prendo prednisone 4 mg tutti i giorni. Non ricordo con precisione quando ho fatto l’ultima puntura."
+  ],
+  [
+   "MEDICO",
+   "Mi descriva il dolore: dove è localizzato, come è iniziato, è continuo, peggiora con i movimenti o la tosse? Ha avuto nausea, vomito, ha evacuato ed emesso gas negli ultimi due giorni?"
+  ],
+  [
+   "MONDO",
+   "Il dolore è iniziato due giorni fa sul lato sinistro della pancia; è continuo e sta aumentando. Adesso lo sento soprattutto in basso a sinistra e verso il centro."
+  ],
+  [
+   "MEDICO",
+   "Palpazione addominale: cerco difesa, contrattura, dolore di rimbalzo (Blumberg) e segni di peritonismo, soprattutto in fossa iliaca sinistra"
+  ],
+  [
+   "MONDO",
+   "EO: addome trattabile ma dolente in fossa iliaca sinistra, con modesta reazione di difesa; Blumberg dubbio."
+  ],
+  [
+   "MEDICO",
+   "Ha avuto nausea o vomito? Quando ha evacuato l'ultima volta ed emette gas? Ha mai avuto diverticoli o episodi simili in passato?"
+  ],
+  [
+   "MONDO",
+   "Ho vomitato una volta."
+  ],
+  [
+   "MEDICO",
+   "Richiedo TC addome-pelvi con mezzo di contrasto in urgenza (sospetta diverticolite complicata/perforazione in paziente immunosoppresso)"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: diverticolite del sigma con perforazione coperta, ascesso pericolico di 3,5 cm e bolle di aria extraluminale."
+  ],
+  [
+   "MEDICO",
+   "Esami ematici urgenti: emocromo, PCR, procalcitonina, creatinina, elettroliti, lattati, coagulazione, emocolture x2 (sapendo che tocilizumab sopprime PCR e febbre)"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: emocromo: GB 7,8 ×10³/µL (neutrofili 72%), Hb 12,9 g/dL, piastrine 210 ×10³/µL."
+  ],
+  [
+   "MEDICO",
+   "Avvio subito piperacillina-tazobactam 4,5 g ev, idratazione ev, digiuno, accesso venoso, analgesia con paracetamolo ev; sospendo il biologico"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Consulenza chirurgica urgente per diverticolite perforata coperta con ascesso 3,5 cm in paziente immunosoppresso: valutare drenaggio percutaneo vs chirurgia"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "Risultato di lattati, creatinina, PCR e procalcitonina; rivaluto i parametri vitali (PA, FC, diuresi) per segni di sepsi occulta"
+  ],
+  [
+   "MONDO",
+   "RISULTATO: lattato 1,4 mmol/L, creatinina 0,9 mg/dL, PCR 4 mg/L, procalcitonina 0,08 ng/mL."
+  ],
+  [
+   "MEDICO",
+   "Somministro idrocortisone 100 mg ev come stress dose (prednisone cronico da anni, rischio insufficienza surrenalica relativa in sepsi/chirurgia) e ricovero in chirurgia con monitoraggio"
+  ],
+  [
+   "MONDO",
+   "ESEGUITO."
+  ],
+  [
+   "MEDICO",
+   "DECISIONE FINALE: diverticolite del sigma perforata coperta con ascesso pericolico 3,5 cm e aria extraluminale in paziente immunosoppresso (tocilizumab + prednisone cronico), con PCR, leucociti e febbre falsamente normali per l'effetto del tocilizumab; il codice verde e gli esami 'buoni' di ieri sono un'illusione farmacologica. Immediato: digiuno, fluidi ev, piperacillina-tazobactam ev già avviata dopo emocolture, idrocortisone stress dose, sospensione del tocilizumab, ricovero chirurgico con monitoraggio stretto (PA, FC, lattati, diuresi) e decisione chirurgica urgente su drenaggio percutaneo TC-guidato dell'ascesso vs intervento (Hartmann/resezione) se peritonite, instabilità o mancata risposta, con soglia chirurgica bassa data l'immunosoppressione. NON fare: dimettere o osservare a casa, non fidarsi di PCR/GB/temperatura normali, non trattare come diverticolite non complicata con antibiotici orali, non dare FANS, non sospendere bruscamente il prednisone, non ritardare la TC o la consulenza chirurgica per l'aspetto 'benessere' del paziente."
+  ]
+ ],
+ "final": "DECISIONE FINALE: diverticolite del sigma perforata coperta con ascesso pericolico 3,5 cm e aria extraluminale in paziente immunosoppresso (tocilizumab + prednisone cronico), con PCR, leucociti e febbre falsamente normali per l'effetto del tocilizumab; il codice verde e gli esami 'buoni' di ieri sono un'illusione farmacologica. Immediato: digiuno, fluidi ev, piperacillina-tazobactam ev già avviata dopo emocolture, idrocortisone stress dose, sospensione del tocilizumab, ricovero chirurgico con monitoraggio stretto (PA, FC, lattati, diuresi) e decisione chirurgica urgente su drenaggio percutaneo TC-guidato dell'ascesso vs intervento (Hartmann/resezione) se peritonite, instabilità o mancata risposta, con soglia chirurgica bassa data l'immunosoppressione. NON fare: dimettere o osservare a casa, non fidarsi di PCR/GB/temperatura normali, non trattare come diverticolite non complicata con antibiotici orali, non dare FANS, non sospendere bruscamente il prednisone, non ritardare la TC o la consulenza chirurgica per l'aspetto 'benessere' del paziente."
+}
