@@ -4,7 +4,7 @@ import json, os, glob
 from openai import OpenAI
 SRC=[("exp_loop_results.json","Astra"),("exp_loop_L9_astra.json","Astra"),("exp_loop_L10v2_astra.json","Astra"),("exp_loop_fable_results.json","Fable 5.1"),("exp_loop_L10_fable_results.json","Fable 5.1")]
 if __name__=="__main__":
-    c=OpenAI(); os.makedirs("transcripts_en",exist_ok=True); md=["# Loop transcripts, machine translation (gpt-5.6-sol)\n\nItalian originals in `loop_sessions/` and the `*_results.json` files are the data of record. DOCTOR = the tested model; WORLD = the simulator (patient, examination findings, results).\n"]
+    c=OpenAI(); os.makedirs("transcripts_en",exist_ok=True); md=["# Loop transcripts\n\nRendered for reading; the records in `loop_sessions/` and the `*_results.json` files are the data of record. DOCTOR = the tested model; WORLD = the simulator (patient, examination findings, results).\n"]
     for f,label in SRC:
         rows=json.load(open(f)); out=[]
         for r in rows:

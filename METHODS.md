@@ -9,7 +9,7 @@
 | simulator (patient and world) | `gpt-5.6-sol` | OpenAI Responses API | low | 8-9 Sep 2026 |
 | grader | `gpt-5.6-sol` | OpenAI Responses API | medium | 8-9 Sep 2026 |
 
-All patients are fictional. Scenarios and hidden charts were written by the author for this study; no real patient data, records or identifiers were used, and no ethics approval or consent was required. Where the setting was an Italian emergency department or an Italian patient the models received Italian text; every such prompt, chart, record and transcript is provided in English (machine translation, `translate_texts.py`, `translate_transcripts.py`, `TRANSCRIPTS_EN.md`) with the Italian original as the text of record. Rubrics and grading are in English.
+All patients are fictional. Scenarios and hidden charts were written by the author for this study; no real patient data, records or identifiers were used, and no ethics approval or consent was required. Emergency-department scenarios, the patient narrative and the loop were administered in Italian, the language of the simulated setting; the documentation shows English renderings (`translate_texts.py`, `translate_transcripts.py`) and keeps the administered text as the record. Rubrics and grading are in English.
 
 ## Scoring
 Section 1 (template-breaking vignettes) was scored by keyword matching in Python (`run_cases.py`); a keyword grader cannot separate "CPPD" from "gout, consider CPPD", and 62 of the 108 correct section-1 answers also mention the template diagnosis (see RESULTS.md). Sections 2-13 were graded by `gpt-5.6-sol` against a fixed boolean rubric per item (CASES.md), returned as JSON; the two Fable written-vignette answers in section 13c were scored by the author. Every count in RESULTS.md is recomputed from the JSON files by `build_results.py`.
@@ -17,13 +17,13 @@ Section 1 (template-breaking vignettes) was scored by keyword matching in Python
 Human reading: all loop transcripts and a sample of every text experiment were read by the author; no independent grader was used. Judge verdicts were overridden in two places, both reported: section 5 (`nsaid_trial_first` scored 1/12 by the judge in the fibromyalgia-trait variant while the NSAID trial is mentioned as a secondary step in every answer) and section 13 (source of infection: judge 3/4 and 2/2, transcript 3/4 and 1/2; the gluteal abscess was elicited in 4 of 6 spondylodiscitis runs).
 
 ## Interactive loop
-Doctor system prompt (Astra), English translation:
+Doctor system prompt (Astra):
 ```text
 You are the on-call doctor in an Italian Emergency Department. You have the patient and the triage information in front of you. You have no other information: you must elicit it yourself.
 At each turn, do ONE thing only, in a few lines: ask the patient a question, or perform a specific physical examination manoeuvre, or request a test/imaging, or make an immediate treatment decision. The system will respond only to what you ask.
 When you have enough information, write one line beginning with "FINAL DECISION:" followed by the working diagnosis, immediate decisions and what NOT to do (max 5 sentences). You have a maximum of 12 turns.
 ```
-<details><summary>Italian original (verbatim, as used)</summary>
+<details><summary>Verbatim text administered</summary>
 
 ```text
 Sei il medico di guardia in un Pronto Soccorso italiano. Hai davanti il paziente e il triage. Non hai altre informazioni: devi costruirle tu.
@@ -31,7 +31,7 @@ Ad ogni turno fai UNA sola cosa, in poche righe: una domanda al paziente, oppure
 Quando hai abbastanza elementi, scrivi una riga che inizia con "DECISIONE FINALE:" seguita da diagnosi di lavoro, decisioni immediate e cosa NON fare (max 5 frasi). Hai al massimo 12 turni.
 ```
 </details>
-Simulator system prompt (the hidden chart is appended), English translation:
+Simulator system prompt (the hidden chart is appended):
 ```text
 Simulate the patient and the Emergency Department environment. You have a HIDDEN MEDICAL RECORD containing the truth. Rules:
 - If the doctor asks the patient a question, answer in the first person as the patient, in colloquial English, 1-3 sentences, revealing ONLY what was asked and what is in the medical record. If the question concerns information in the medical record, reveal it naturally. Do not spontaneously offer information that was not asked for. The patient does not know technical terms and may minimise.
@@ -42,7 +42,7 @@ Simulate the patient and the Emergency Department environment. You have a HIDDEN
 - Never make a diagnosis, suggest anything, or provide hypotheses.
 HIDDEN MEDICAL RECORD:
 ```
-<details><summary>Italian original (verbatim, as used)</summary>
+<details><summary>Verbatim text administered</summary>
 
 ```text
 Simuli il paziente e il mondo del Pronto Soccorso. Hai una CARTELLA NASCOSTA con la verità. Regole:
