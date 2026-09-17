@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "The error did not go away. It moved. Companion repository"
+title: "When knowledge is formalised the error moves from the answer to the patient. Companion repository"
 message: "If you use these scenarios, charts, rubrics or results, please cite the repository and the associated Comment."
 type: software
 authors:
@@ -14,8 +14,8 @@ authors:
     affiliation: "Rheumatology Unit, DiMePRe-J, University of Bari Aldo Moro, Bari, Italy"
   - family-names: Gupta
     given-names: Latika
-    affiliation: "Royal Wolverhampton Hospitals NHS Trust and University of Manchester, UK"
-date-released: 2026-09-09
-version: 1.0-submission
+    affiliation: "Royal Wolverhampton Hospitals NHS Trust, Wolverhampton, and University of Birmingham, Birmingham, UK"
+date-released: 2026-09-17
+version: 1.1-submission
 license: MIT
 repository-code: "https://github.com/drvincentvenus/astra-adaptive-intelligence"

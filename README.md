@@ -1,4 +1,4 @@
-# The error did not go away. It moved.
+# When knowledge is formalised the error moves from the answer to the patient
 ### Two frontier models, a hidden chart, and the examination that never happened
 
 **The experiment.** A language model plays the emergency physician. It sees one triage line and nothing else. It must ask the patient, name each examination manoeuvre, and order each test; a simulator with a hidden chart answers only what is asked. Two of the eight charts contain a second disease that the leading diagnosis does not predict: a *Staphylococcus aureus* endocarditis with a new aortic murmur, behind a septic knee and behind a spondylodiscitis, in a patient on a TNF inhibitor with a recent portal of entry.
@@ -26,7 +26,7 @@
 
 *Figure 1. Given a written record, the answer is correct and the second disease is found. Given only a triage line, the model builds the account of the patient itself, secures the primary diagnosis, and stops before the heart is examined.*
 
-Companion repository for the Nature Medicine Comment (Venerito, 2026). Canonical location: https://github.com/drvincentvenus/astra-adaptive-intelligence. Everything reported can be regenerated from this folder with an OpenAI API key. All patients are fictional (`LICENSE-DATA`).
+Companion repository for the Comment "When knowledge is formalised the error moves from the answer to the patient" (Venerito, Lopalco, Iannone and Gupta, 2026). Canonical location: https://github.com/drvincentvenus/astra-adaptive-intelligence. Everything reported can be regenerated from this folder with an OpenAI API key. All patients are fictional (`LICENSE-DATA`).
 
 | document | what it contains |
 |---|---|

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate Figure 1 in Nature Medicine schematic style: 180 mm double column, Helvetica/Arial 7-8 pt, bold lowercase panel letters, flat muted fills, thin outlines, no commentary text inside the figure (metric and numbers belong in the legend). Outputs PNG 600 dpi, PDF and SVG."""
+"""Regenerate Figure 1 in journal schematic style: 180 mm double column, Helvetica/Arial 7-8 pt, bold lowercase panel letters, flat muted fills, thin outlines, no commentary text inside the figure (metric and numbers belong in the legend). Outputs PNG 600 dpi, PDF and SVG."""
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle, FancyArrowPatch
