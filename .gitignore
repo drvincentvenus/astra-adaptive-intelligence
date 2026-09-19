@@ -6,9 +6,6 @@ __pycache__/
 ref_comments/*.html
 ref_comments/*.pdf
 SUPERSEDED_*
-muller_lyer_screenshot.jpeg
-# third-party / copyrighted material
-muller_lyer_stimulus.png
 ref_comments/
 # manuscript drafts, letters and office files stay out of the code repository
 NM_comment_*.md
